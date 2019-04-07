@@ -90,7 +90,7 @@ class featureSelector():
         weights = weights.append([weights] * (df.shape[0] - 1), ignore_index=False)
         weights.index = df.index
         res = weights * df
-        return res,weights
+        return res,weights.iloc[0].values
     
     
     def relief(self, df, measures=measures.default):
@@ -116,8 +116,8 @@ class featureSelector():
 #            print(hits)
 #            import pdb
 #            pdb.set_trace()
-            t1 = np.sum(np.abs(hits - selected_row), axis=0) / (hits.shape[0] * m)
-            t2 = np.sum(np.abs(miss - selected_row), axis=0) / (miss.shape[0] * m)
+            t1 = np.sum(np.abs(hits.astype(np.float32) - selected_row.astype(np.float32)), axis=0) / (hits.shape[0] * m)
+            t2 = np.sum(np.abs(miss.astype(np.float32) - selected_row.astype(np.float32)), axis=0) / (miss.shape[0] * m)
             
             weights = weights - t1 + t2
             df.drop(['d_'], axis=1, inplace=True)  # clear the distance
@@ -127,7 +127,7 @@ class featureSelector():
         weights = weights.append([weights] * (df.shape[0] - 1), ignore_index=True)
         weights.index = df.index
     
-        return weights * df,weights
+        return weights * df,weights.iloc[0].values
     
     def consistency_subset(self, df):
         """
@@ -178,7 +178,13 @@ class featureSelector():
                 lst_improve_at = time.time()
     
         selected_features = best[1] + [target]
-        return df[selected_features],selected_features
+        selected_features_list = []
+        for feature in features:
+            if feature in selected_features:
+                selected_features_list.append(1)
+            else:
+                selected_features_list.append(0)
+        return df[selected_features],selected_features_list
     
     
     def cfs(self,df):
@@ -240,8 +246,13 @@ class featureSelector():
                 lst_improve_at = time.time()
     
         selected_features = best[1] + [target]
-    
-        return df[selected_features],selected_features
+        selected_features_list = []
+        for feature in features:
+            if feature in selected_features:
+                selected_features_list.append(1)
+            else:
+                selected_features_list.append(0)
+        return df[selected_features],selected_features_list
 
 
     def tfs(self,df,n_estimators=50):
@@ -258,7 +269,7 @@ class featureSelector():
         y = df[target]
         clf = ExtraTreesClassifier(n_estimators=n_estimators)
         clf.fit(X,y)
-        return clf.feature_importances_
+        return 0,clf.feature_importances_
 
     
     def l1(self,df,C=0.01,dual=False):
@@ -270,10 +281,18 @@ class featureSelector():
             :param df:
             :return:
         """
+        features = df.columns[:-1]
         target = df.columns[-1]
         X = df.drop(labels = [target], axis=1)
         y = df[target]
         clf = LinearSVC(C=C, penalty="l1", dual=dual)
         clf.fit(X, y)
         model = SelectFromModel(clf, prefit=True)
-        return model.get_support(indices=False)
+        selected_features = model.get_support(indices=False)
+        selected_features_list = []
+        for i in range(len(features)):
+            if selected_features[i] == True:
+                selected_features_list.append(1)
+            else:
+                selected_features_list.append(0)
+        return 0,selected_features_list
