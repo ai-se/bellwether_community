@@ -16,6 +16,9 @@ import measures
 import time
 import random
 from sklearn import preprocessing
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.svm import LinearSVC
+from sklearn.feature_selection import SelectFromModel
 
 class featureSelector():
     
@@ -239,5 +242,38 @@ class featureSelector():
         selected_features = best[1] + [target]
     
         return df[selected_features],selected_features
+
+
+    def tfs(self,df,n_estimators=50):
+        """
+            - tfs = Tree-based feature selection
+            - reference: 
+            - Tree-based estimators (see the sklearn.tree module and forest of trees in the sklearn.ensemble module)
+            used to compute feature importances.
+            :param df:
+            :return:
+        """
+        target = df.columns[-1]
+        X = df.drop(labels = [target], axis=1)
+        y = df[target]
+        clf = ExtraTreesClassifier(n_estimators=n_estimators)
+        clf.fit(X,y)
+        return clf.feature_importances_
+
     
-    
+    def l1(self,df,C=0.01,dual=False):
+        """
+            - tfs = l1 regularization based feature selector
+            - reference: 
+            - Tree-based estimators (see the sklearn.tree module and forest of trees in the sklearn.ensemble module)
+            used to compute feature importances.
+            :param df:
+            :return:
+        """
+        target = df.columns[-1]
+        X = df.drop(labels = [target], axis=1)
+        y = df[target]
+        clf = LinearSVC(C=C, penalty="l1", dual=dual)
+        clf.fit(X, y)
+        model = SelectFromModel(clf, prefit=True)
+        return model.get_support(indices=False)
