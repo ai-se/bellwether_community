@@ -104,13 +104,15 @@ venv.bak/
 .mypy_cache/
 
 #CSV
-.csv
-*.csv
-/*.csv
+# .csv
+# *.csv
+# /*.csv
 
 #gz
 .gz
 *.gz
 
-#Data
-data/
+# Data
+data/plato
+data/git_mine
+data/commits_labelled
