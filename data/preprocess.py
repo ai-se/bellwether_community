@@ -70,8 +70,7 @@ def preprocess_data_main() -> NoReturn:
         proj_clean_buggy_pairs = get_buggy_clean_pairs(data_pkl)
         # -- Save Results --
         clean_and_buggy[proj_name] = proj_clean_buggy_pairs
-
-    set_trace()
+        set_trace()
 
 
 if __name__ == "__main__":
