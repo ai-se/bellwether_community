@@ -15,7 +15,8 @@ class birch(object):
         self.threshold = threshold
         self.branching_factor = branching_factor
         self.n_clusters = n_clusters
-        self.Birch_clusterer = Birch(threshold=self.threshold, branching_factor=self.branching_factor,n_clusters=self.n_clusters)
+        self.Birch_clusterer = Birch(threshold=self.threshold, branching_factor=self.branching_factor,
+                                            n_clusters=self.n_clusters,compute_sample_indices=True)
     
     def fit(self,data):
         self.data = data
