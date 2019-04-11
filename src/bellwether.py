@@ -48,20 +48,7 @@ class bellwether(object):
                 destination_df = pd.read_csv(d_project)
                 test_X, test_y = self.get_data(destination_df)
 
-    def get_features(self):
-        fs = feature_selector.featureSelector()
-        selected_features = []
-        for s_project in self.projects:
-            try:
-                source_df = pd.read_csv(s_project)
-                columns_names = source_df.columns
-                columns_names =  columns_names[1:len(columns_names)]
-                selected_features.append(fs.l1(source_df)[1])
-            except:
-                print(s_project)
-                continue
-        selected_features_df = pd.DataFrame(selected_features,columns = columns_names)
-        selected_features_df.to_csv('data/features.csv')
+
 
 
     def model_selector(self):

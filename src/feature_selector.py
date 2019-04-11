@@ -90,6 +90,8 @@ class featureSelector():
         weights = weights.append([weights] * (df.shape[0] - 1), ignore_index=False)
         weights.index = df.index
         res = weights * df
+        print(weights.iloc[0].values)
+        print(res)
         return res,weights.iloc[0].values
     
     
