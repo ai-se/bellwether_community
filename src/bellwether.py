@@ -13,6 +13,7 @@ import sys
 import os
 import copy
 import feature_selector
+from sklearn import metrics
 import warnings
 
 root = os.path.join(os.getcwd().split('src')[0], 'src')
@@ -38,18 +39,35 @@ class bellwether(object):
 
     def run_bellwether(self):
         model = self.model_selector()
+        final_score = []
         for s_project in self.projects:
-            source_df = pd.read_csv(s_project)
-            train_X, train_y = self.get_data(source_df)
-            #clf = model.fit(train_X,train_y) # Create the model seletor and initializer
-            destination_projects = copy.deepcopy(self.projects)
-            destination_projects.remove(s_project)
-            for d_project in destination_projects:
-                destination_df = pd.read_csv(d_project)
-                test_X, test_y = self.get_data(destination_df)
-
+            try:
+                project_score = []
+                project_score.insert(0,s_project)
+                source_df = pd.read_csv(s_project)
+                train_X, train_y = self.get_data(source_df)
+                clf = model.fit(train_X,train_y) # Create the model seletor and initializer
+                destination_projects = copy.deepcopy(self.projects)
+                #destination_projects.remove(s_project)
+                for d_project in destination_projects:
+                    try:
+                        destination_df = pd.read_csv(d_project)
+                        test_X, test_y = self.get_data(destination_df)
+                        predicted = clf.predict(test_X)
+                        score = metrics.roc_auc_score(test_y,predicted,average='weighted')
+                        project_score.append(score)
+                    except:
+                        print(s_project,d_project)
+                        continue
+                final_score.append(project_score)
+            except:
+                print(s_project)
+                continue
+        df = pd.DataFrame(final_score)
+        df.to_csv('data/bellwether.csv')
 
 
 
     def model_selector(self):
-        return 0
+        clf = DecisionTreeClassifier(criterion='entropy')
+        return clf
