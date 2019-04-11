@@ -1,3 +1,14 @@
 ipdb
-virtualenv
+nose
+glob2
+scipy
+pandas
+PTable
+sklearn
+xgboost
+imblearn
 coveralls
+virtualenv
+matplotlib
+imbalanced-learn
+python-coveralls
