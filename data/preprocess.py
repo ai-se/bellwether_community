@@ -176,7 +176,7 @@ class Preprocess:
             dataset.drop(labels=['Unnamed: 0'], axis=1, inplace=True)
             # -- Save Dataset --
             save_name = Path.cwd().parent.joinpath(
-                'src', 'data', proj_name).with_suffix('.csv')
+                'src', 'datasets', proj_name).with_suffix('.csv')
             dataset.to_csv(save_name, index=False)
 
 

@@ -7,9 +7,9 @@ import pandas as pd
 from pdb import set_trace
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.svm import LinearSVC
+from sklearn.svm import SVC
 from xgboost import XGBClassifier
-from imblearn.over_sampling import SMOTE
+from imblearn.under_sampling import ClusterCentroids
 from pathlib import Path
 from typing import Tuple
 
@@ -26,7 +26,8 @@ class PredictionModel:
 
     def _set_classifier(self, classifier: str) -> None:
         if classifier == "SVC":
-            self.clf = LinearSVC(C=1, dual=False)
+            # , penalty='l1', loss='hinge')
+            self.clf = SVC(kernel='poly', degree=3, C=1)
         elif classifier == "RF":
             self.clf = RandomForestClassifier()
         elif classifier == "XGBoost":
@@ -87,8 +88,8 @@ class PredictionModel:
 
         if oversample:
             k = min(2, sum(y_train) - 1)
-            sm = SMOTE(kind='regular', k_neighbors=k)
-            x_train, y_train = sm.fit_sample(x_train, y_train)
+            cc = ClusterCentroids(random_state=0)
+            x_train, y_train = cc.fit_sample(x_train, y_train)
 
         self.clf.fit(x_train, y_train)
         actual = test[test.columns[-1]].values.astype(int)

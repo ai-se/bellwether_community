@@ -59,7 +59,7 @@ class ABCD:
 
         return pd, pf
 
-    def get_g_score(self, beta: int = 2) -> int:
+    def get_g_score(self, beta: int = 0.5) -> int:
         """
         Obtain G score
 
@@ -81,7 +81,7 @@ class ABCD:
         except ZeroDivisionError:
             return 0
 
-    def get_f_score(self, beta: int = 2) -> Tuple[int, int]:
+    def get_f_score(self, beta: int = 0.5) -> Tuple[int, int]:
         """
         Obtain F scores
 
