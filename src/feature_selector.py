@@ -252,7 +252,85 @@ class featureSelector():
                 selected_features_list.append(1)
             else:
                 selected_features_list.append(0)
-        return df[selected_features],selected_features_list
+        return df[selected_features],selected_features_list,selected_features
+
+    
+    def cfs_bfs(self,df):
+        """
+        - CFS = Correlation-based Feature Selection
+        - reference: sect 2.4 of hall et al. "Benchmarking Attribute Selection Techniques for Discrete Class Data Mining"
+        reference2: Hall et al. "Correlation-based Feature Selection for Discrete and Numeric Class Machine Learning"
+        - Good feature subsets contain features highly corrleated with the calss, yet uncorrelated with each other.
+        - random_config search is applied for figure out best feature subsets
+        :param df:
+        :return:
+        """
+    
+        features = df.columns[:-1]
+        target = df.columns[-1]
+        cf = pd.DataFrame(data=np.zeros([1, df.shape[1] - 1]), columns=features, index=df.columns[-1:])
+        ff = pd.DataFrame(data=np.zeros([len(features), len(features)]), index=features, columns=features)
+        # fill in cf
+        for attr in cf.columns:
+            cf.loc[target, attr] = abs(df[attr].corr(df[target], method='pearson'))
+    
+        # fill in ff
+        for attr1 in ff.index:
+            for attr2 in ff.columns:
+                if attr1 == attr2: continue
+                if ff.loc[attr1, attr2]: continue
+                corr = abs(df[attr1].corr(df[attr2], method='pearson'))
+                ff.loc[attr1, attr2] = corr
+                ff.loc[attr2, attr1] = corr
+    
+        def merit_S(fs, cf, ff):
+            """
+            Calculate the heuristic (to maximize) according to Ghiselli 1964. eq1 in ref2
+            :param ff:
+            :param cf:
+            :param fs: feature_subset names
+            :return:
+            """
+            r_cf = cf[fs].mean().mean()
+            r_ff = ff.loc[fs, fs].mean().mean()
+            k = len(fs)
+            return round(k * r_cf / math.sqrt(k + (k - 1) * r_ff),2)
+    
+        # use stochastic search algorithm to figure out best subsets
+        # features subsets are encoded as [0/1]^F
+    
+        F = []
+        # M stores the merit values
+        M = []
+        while True:
+            score = -100000000000
+            idx = -1
+            for i in features:
+                if i not in F:
+                    F.append(i)
+                    # calculate the merit of current selected features
+                    t = merit_S(F,cf,ff)
+                    if t > score:
+                        score = t
+                        idx = i
+                    F.pop()
+            F.append(idx)
+            M.append(score)
+            if len(M) > 5:
+                if score <= M[len(M)-2]:
+                    if score <= M[len(M)-3]:
+                        if score <= M[len(M)-4]:
+                            if score <= M[len(M)-5]:
+                                break
+        F = F[0:len(M)-4]
+        selected_features = F + [target]
+        selected_features_list = []
+        for feature in features:
+            if feature in selected_features:
+                selected_features_list.append(1)
+            else:
+                selected_features_list.append(0)
+        return df[selected_features],selected_features_list,selected_features
 
 
     def tfs(self,df,n_estimators=50):

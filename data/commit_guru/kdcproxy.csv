@@ -1,0 +1,178 @@
+commit_hash,author_name,author_date_unix_timestamp,author_email,author_date,commit_message,fix,classification,linked,contains_bug,fixes,ns,nd,nf,entropy,la,ld,fileschanged,lt,ndev,age,nuc,exp,rexp,sexp,glm_probability,rf_probability,repository_id,issue_id,issue_date,issue_type
+58b36765a325859d5dfc670dcecb802bf8cab7b8,Robbie Harwood,1549901496,rharwood@redhat.com,Mon Feb 11 11:11:36 2019 -0500,Release 0.4.1 ,False,None,False,False,,1.0,1.0,1.0,0.0,1.0,1.0,"setup.py,CAS_DELIMITER",75.0,3.0,0.15912037037037038,1.0,13.0,1.3113888888888887,9.0,0.16213895148526714,0.298,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+7c2e45e4f63cc5adad43b6a11765c42f805bdd16,Christian Heimes,1549887748,cheimes@redhat.com,Mon Feb 11 13:22:28 2019 +0100,"Use dnspython package on Python 3 The dnspython3 package is obsolete and superseded by dnspython. The dnspython
+package supports Python 2 and Python 3.
+
+The change also fixes a problem with Fedora 30's new Python dependency
+generator. The python3-dnspython package does not provide dnspython3
+distribution:
+
+nothing provides python3.7dist(dnspython3) needed by python3-kdcproxy-0.4-4.fc30.noarch
+
+See: https://pypi.org/project/dnspython3/
+Signed-off-by: Christian Heimes <cheimes@redhat.com>
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,1.0,16.0,"setup.py,CAS_DELIMITER",90.0,3.0,185.71755787037037,1.0,35.0,0.23728434611893262,22.0,0.1797450444482402,0.128,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+c5f3bdbfa3eadd548c31a3ed6974ea6dd58f8d1a,Robbie Harwood,1548969505,rharwood@redhat.com,Thu Jan 31 16:18:25 2019 -0500,[CI] Pass pep8 again and bump Travis ,False,None,False,False,,2.0,2.0,3.0,0.8683927290103626,19.0,13.0,".travis.yml,CAS_DELIMITER,kdcproxy/__init__.py,CAS_DELIMITER,tox.ini,CAS_DELIMITER",125.66666666666667,5.0,432.3500887345679,2.0,12.0,0.32268262007546145,6.0,0.34479656040536494,0.574,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+0dc6bc8b7128777d89e261354a9c59314244e447,Robbie Harwood,1533841751,rharwood@redhat.com,Thu Aug 9 15:09:11 2018 -0400,"Fix pep8 problem on line length for authors Four is too many people for pep8
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,9.0,2.0,"setup.py,CAS_DELIMITER",83.0,3.0,0.891875,1.0,11.0,4.375,7.0,0.2798682158981504,0.422,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+c0bee88c60deb176d420d90447d24c370d70727a,Robbie Harwood,1533841076,rharwood@redhat.com,Thu Aug 9 14:57:56 2018 -0400,"Make webtest an optional dependency Resolves: #38
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,6.0,1.0,"tests.py,CAS_DELIMITER",328.0,2.0,367.3810648148148,1.0,10.0,2.375,6.0,0.8789872366913832,0.49,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+898760d01a3bdb3de2c6862cf6ed285790bae1cd,Robbie Harwood,1533764693,rharwood@redhat.com,Wed Aug 8 17:44:53 2018 -0400,Release 0.4 ,False,None,False,True,"[""0dc6bc8b7128777d89e261354a9c59314244e447""]",1.0,1.0,1.0,0.0,3.0,3.0,"setup.py,CAS_DELIMITER",83.0,3.0,366.49700231481484,1.0,9.0,0.375,5.0,7.04931980971509e-05,0.17,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+074fda5394b5ae201da1ceb6d61ad55f8557db50,Robbie Harwood,1530644668,rharwood@redhat.com,Tue Jul 3 15:04:28 2018 -0400,"Downgrade socket problems to warnings Previously, these were logged at exception - which logs at ERROR and
+prints a traceback.  This led to two problems: first, that they're not
+kdcproxy errors (rather problems with the other end); and second, that
+the traceback is quite noisy.  Log a simplified version of the
+exception instead of the traceback.
+
+In the process, correct the sendall() error message to refer to
+sendall(), not recv().
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,4.0,4.0,"kdcproxy/__init__.py,CAS_DELIMITER",285.0,5.0,545.1048263888889,1.0,8.0,0.046511627906976744,3.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+bb1b3411ae3c54ef4db5ebf12d4e7d2222c59201,Robbie Harwood,1504893728,rharwood@redhat.com,Fri Sep 8 14:02:08 2017 -0400,"Fix usages of ""retval"" instead of ""restype"" Closes: #32
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,2.0,2.0,"kdcproxy/config/mit.py,CAS_DELIMITER",295.0,2.0,247.17753472222222,1.0,7.0,0.0,2.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+5df7db400767dccce10820f5ceaa117fd9f79bf3,Christian Heimes,1502099352,cheimes@redhat.com,Mon Aug 7 11:49:12 2017 +0200,"Add asn1crypto support Closes: #33
+Signed-off-by: Christian Heimes <cheimes@redhat.com>
+",False,Feature Addition,False,False,,2.0,2.0,9.0,2.6209336553080558,296.0,74.0,".gitignore,CAS_DELIMITER,.travis.yml,CAS_DELIMITER,kdcproxy/codec.py,CAS_DELIMITER,kdcproxy/exceptions.py,CAS_DELIMITER,kdcproxy/parse_asn1crypto.py,CAS_DELIMITER,kdcproxy/parse_pyasn1.py,CAS_DELIMITER,setup.py,CAS_DELIMITER,tests.py,CAS_DELIMITER,tox.ini,CAS_DELIMITER",77.11111111111111,3.0,208.23786779835393,6.0,34.0,0.568301809124946,17.5,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+d2a2e11a09584f4e8df60b3ca69c2d161565a547,Christian Heimes,1484830858,cheimes@redhat.com,Thu Jan 19 14:00:58 2017 +0100,"typo, I forgot a trailing comma Signed-off-by: Christian Heimes <cheimes@redhat.com>
+",False,None,False,False,,1.0,1.0,1.0,0.0,1.0,1.0,"setup.py,CAS_DELIMITER",83.0,3.0,0.028402777777777777,1.0,33.0,4.894803651929404,20.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+881e3ec170661e15870984dbe89460912a3124c5,Christian Heimes,1484828404,cheimes@redhat.com,Thu Jan 19 13:20:04 2017 +0100,"Prepare 0.3.3 kdcproxy is now official stable and supports 3.5 and 3.6.
+
+Signed-off-by: Christian Heimes <cheimes@redhat.com>
+",False,None,False,False,,1.0,1.0,1.0,0.0,4.0,2.0,"setup.py,CAS_DELIMITER",81.0,3.0,14.930717592592593,1.0,32.0,2.8948036519294047,19.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+55034d6bd396b00fb5f68edf6e5fec75acffa845,Nathaniel McCallum,1483547611,npmccallum@redhat.com,Wed Jan 4 11:33:31 2017 -0500,"Fix some pep8 issues Signed-off-by: Nathaniel McCallum <npmccallum@redhat.com>
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,4.0,4.0,"kdcproxy/__init__.py,CAS_DELIMITER",285.0,5.0,420.56035879629627,1.0,65.0,0.5444041158911168,38.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+07f5204aa29c3fa0aa5500158e0d00cb9916c1a8,Christian Heimes,1483539328,cheimes@redhat.com,Wed Jan 4 15:15:28 2017 +0100,"Add Travis CI configuration Signed-off-by: Christian Heimes <cheimes@redhat.com>
+",False,Feature Addition,False,False,,1.0,1.0,1.0,0.0,29.0,0.0,".travis.yml,CAS_DELIMITER",0.0,2.0,1.1574074074074073e-05,1.0,31.0,6.234012552420653,18.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+d9923b582a31cafce75ddd3a97857fa1794e22ca,Christian Heimes,1483538520,cheimes@redhat.com,Wed Jan 4 15:02:00 2017 +0100,"Fix tests Python 2's mock is no longer compatible to more recent versions of
+Python's socket module. Tests are still fine without the autospec
+feature.
+
+More recent versions of pytests refuse to load tests because pytest
+considers webtest.TestApp as a test class with a non-trival __init__.
+
+Signed-off-by: Christian Heimes <cheimes@redhat.com>
+",True,Corrective,True,True,"[""c0bee88c60deb176d420d90447d24c370d70727a""]",1.0,1.0,1.0,0.0,4.0,4.0,"tests.py,CAS_DELIMITER",308.0,2.0,602.2871296296296,1.0,28.0,2.2340125524206536,16.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+84a832974fac35394979e710faea6de4457882f7,Christian Heimes,1483538390,cheimes@redhat.com,Wed Jan 4 14:59:50 2017 +0100,"Port setup.py and tox to setuptools Let's use setuptools to build and distribute kdcproxy. This gives us
+wheel packages and nicer dependency management. The special case for
+setuptools < 18.0 is required for old installations.
+
+Signed-off-by: Christian Heimes <cheimes@redhat.com>
+",False,None,False,True,"[""7c2e45e4f63cc5adad43b6a11765c42f805bdd16""]",1.0,1.0,5.0,1.7111890838847112,55.0,29.0,".gitignore,CAS_DELIMITER,MANIFEST.in,CAS_DELIMITER,setup.cfg,CAS_DELIMITER,setup.py,CAS_DELIMITER,tox.ini,CAS_DELIMITER",25.6,3.0,552.1616805555556,5.0,30.0,2.234012552420654,17.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+5ed2ab9d724c84ce1b50cde73f59b0e36659c2ed,Christian Heimes,1483537589,cheimes@redhat.com,Wed Jan 4 14:46:29 2017 +0100,"Fix PEP8 violations Recent versions of flake8 became more strict.
+
+Signed-off-by: Christian Heimes <cheimes@redhat.com>
+",True,Corrective,True,False,,1.0,2.0,2.0,0.9544340029249649,6.0,2.0,"kdcproxy/__init__.py,CAS_DELIMITER,kdcproxy/config/mit.py,CAS_DELIMITER",288.0,5.0,559.9712615740741,2.0,29.0,0.23401255242065339,13.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+483c00d0bdf96848bffcc20f8b23ca0c9761497a,Mark Schreiber,1447211196,mark7@maginatics.com,Tue Nov 10 19:06:36 2015 -0800,"Eliminate import error message Avoid logging an error message due to a failing import.  Key the
+attempted import off the Python version rather than trying, failing, and
+falling back.
+",True,Corrective,True,True,"[""55034d6bd396b00fb5f68edf6e5fec75acffa845""]",1.0,1.0,1.0,0.0,2.0,2.0,"kdcproxy/__init__.py,CAS_DELIMITER",285.0,5.0,1.1574074074074073e-05,1.0,1.0,0.0,0.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+5edbbeb7f950ed9db60b11f0fdce1ec96194f761,Nathaniel McCallum,1438635134,npmccallum@redhat.com,Mon Aug 3 16:52:14 2015 -0400,Properly handle missing Content-Length ,False,None,False,False,,1.0,1.0,1.0,0.0,5.0,2.0,"kdcproxy/__init__.py,CAS_DELIMITER",281.0,5.0,0.09265046296296296,1.0,64.0,8.741689581120477,37.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+24b8f54699b0b1c07aa2e2e3b9e2aa7c131df78c,Nathaniel McCallum,1438628117,npmccallum@redhat.com,Mon Aug 3 14:55:17 2015 -0400,"Revert ""Document LimitRequestBody stanza"" This reverts commit e4a71193099cd395578bcf32f4eb8beaa7da3e43.
+",False,Non Functional,False,False,,1.0,1.0,1.0,0.0,0.0,3.0,"README,CAS_DELIMITER",165.0,2.0,12.08894675925926,1.0,62.0,5.742924149021713,29.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+f32c13314edd9bfb45df7aadcb482ee8c1d360e3,Nathaniel McCallum,1438628073,npmccallum@redhat.com,Mon Aug 3 14:54:33 2015 -0400,Release 0.3.2 ,False,None,False,False,,1.0,1.0,1.0,0.0,1.0,1.0,"setup.py,CAS_DELIMITER",58.0,3.0,27.251145833333332,1.0,63.0,4.742924149021713,30.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+f274aa6787cb8b3ec1cc12c440a56665b7231882,Nathaniel McCallum,1438627129,npmccallum@redhat.com,Mon Aug 3 14:38:49 2015 -0400,"Enforce a maximum packet length Permanently fixes CVE-2015-5159 for all applications.
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,6.0,1.0,"kdcproxy/__init__.py,CAS_DELIMITER",276.0,5.0,74.42376157407408,1.0,61.0,2.742924149021709,36.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+e4a71193099cd395578bcf32f4eb8beaa7da3e43,Nathaniel McCallum,1437583632,npmccallum@redhat.com,Wed Jul 22 12:47:12 2015 -0400,"Document LimitRequestBody stanza This prevents DoS attacks.
+
+CVE-2015-5159
+
+Fixes #20
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,3.0,0.0,"README,CAS_DELIMITER",162.0,2.0,61.34899305555555,1.0,60.0,2.098155076103111,28.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+96bfe8b171478981927345e64e30f4671adaacec,Nathaniel McCallum,1436273574,nathaniel@themccallums.org,Tue Jul 7 08:52:54 2015 -0400,Release 0.3.1 ,False,None,False,False,,1.0,1.0,1.0,0.0,1.0,1.0,"setup.py,CAS_DELIMITER",58.0,3.0,26.700983796296295,1.0,59.0,1.7949326633537157,27.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+5724c88d3cd5633e6396d7bf33a2b98e1d247f28,Christian Heimes,1435152741,cheimes@redhat.com,Wed Jun 24 15:32:21 2015 +0200,"Fix tox compatibility issue on Fedora 21 Fedora 21 has python-tox-1.7.1. The version doesn't support conditional
+requirements.
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,11.0,3.0,"tox.ini,CAS_DELIMITER",54.0,2.0,33.213680555555555,1.0,27.0,3.0571428571428574,15.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+2c5da06994492c2776cd9d1851b3bbe990c88fa9,Nathaniel McCallum,1433966609,npmccallum@redhat.com,Wed Jun 10 16:03:29 2015 -0400,Release 0.3 ,False,None,False,False,,1.0,1.0,1.0,0.0,1.0,1.0,"setup.py,CAS_DELIMITER",58.0,3.0,0.0002662037037037037,1.0,58.0,2.8563090014214167,26.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+8f31d42725c7ecfaa1911315ec135823ea4ea35e,Nathaniel McCallum,1433966586,npmccallum@redhat.com,Wed Jun 10 16:03:06 2015 -0400,Add Christian Heimes as an author ,False,Feature Addition,False,False,,1.0,1.0,1.0,0.0,2.0,2.0,"setup.py,CAS_DELIMITER",58.0,3.0,28.52712962962963,1.0,57.0,0.8563090014214165,25.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+88f07a831fcd6a8895950ef24780d385007b7595,Christian Heimes,1432283079,cheimes@redhat.com,Fri May 22 10:24:39 2015 +0200,"Make README markdown compatible again README must be valid markdown (for github) and restructured text (for
+PyPI).
+",False,None,False,False,,1.0,1.0,2.0,0.672294817075638,10.0,7.0,"README,CAS_DELIMITER,tox.ini,CAS_DELIMITER",106.5,3.0,8.995850694444446,2.0,26.0,12.0,14.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+6ec3f459a03c33eb54d644c1e4477f336d0d8681,Christian Heimes,1432196916,cheimes@redhat.com,Thu May 21 10:28:36 2015 +0200,"Fix error in HTTPError call with GET requests GET requests caused an internal server error because HTTPError was
+called with wrong arguments for headers.
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,5.0,5.0,"kdcproxy/__init__.py,CAS_DELIMITER",276.0,5.0,3.043645833333333,1.0,21.0,8.0,10.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+657b38658c3c708661dd2187bb3b4d06dc7f367e,Christian Heimes,1432196522,cheimes@redhat.com,Thu May 21 10:22:02 2015 +0200,"Fix error in logging code of the global config handler The error logger of KDCProxyConfig.__init__ was referring to the
+wrong variable.
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,5.0,2.0,"kdcproxy/config/__init__.py,CAS_DELIMITER",164.0,4.0,8.040277777777778,1.0,23.0,8.0,12.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+e9aeff1a544671529ea6f160914573dcca31a85c,Christian Heimes,1431933945,cheimes@redhat.com,Mon May 18 09:25:45 2015 +0200,"Fix socket.recv() behavior for TCP sockets For TCP sockets, one call to recv() may not return the entire message.
+If the first reply is not as long as the expected message size, further
+results are accumulated in a buffer until the socket signals EOF.
+",True,Corrective,True,True,"[""074fda5394b5ae201da1ceb6d61ad55f8557db50""]",1.0,1.0,1.0,0.0,46.0,11.0,"kdcproxy/__init__.py,CAS_DELIMITER",241.0,5.0,5.001192129629629,1.0,20.0,7.0,9.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+bae10ef4e124456044215adcea4fe03b306a1005,Christian Heimes,1431684863,cheimes@redhat.com,Fri May 15 12:14:23 2015 +0200,Fix KPASSWDProxyRequest.__str__ ,True,Corrective,True,False,,1.0,1.0,1.0,0.0,1.0,0.0,"kdcproxy/codec.py,CAS_DELIMITER",141.0,2.0,2.1182986111111113,1.0,19.0,5.0,8.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+da761441b3091dee8cccd5b0098f74a4cc941cfa,Christian Heimes,1431677010,cheimes@redhat.com,Fri May 15 10:03:30 2015 +0200,"Fix and improve kdcproxy.config.mit module Bugs fixed:
+ * get_bool() wasn't working on Python because char* input
+   parameters were unicode instead of bytes.
+ * dns_lookup_kdc option was ignored. prof.section() returns a
+   list of tuples.
+ * each kpasswd lookup modified the internal kpasswd_server list. This
+   bug causes the list to grow with every request.
+
+Reimplement parts of module with advanced ctypes feature.
+
+The module now uses function prototypes with argtypes, restype and
+errcheck as well as structs for type-safe function calls and simpler
+error checks. A custom text type makes UTF-8 support simpler, too.
+",True,Corrective,True,True,"[""bb1b3411ae3c54ef4db5ebf12d4e7d2222c59201""]",1.0,1.0,1.0,0.0,146.0,68.0,"kdcproxy/config/mit.py,CAS_DELIMITER",214.0,2.0,2.0274074074074075,1.0,22.0,4.0,11.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+6c9f0fec1b950d0f74867c1709623bad5bfd27f3,Christian Heimes,1431510763,cheimes@redhat.com,Wed May 13 11:52:43 2015 +0200,"Update README with examples and configuration hints * explain client-side configuration
+* give some debugging hints
+* add more detailed example for mod_wsgi settings
+* include a note on configuration reloading
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,79.0,6.0,"README,CAS_DELIMITER",89.0,2.0,208.77310185185186,1.0,24.0,3.0,12.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+cfbb9399259c49cbf2aacaed364d940a3fbb16b5,Christian Heimes,1431501842,cheimes@redhat.com,Wed May 13 09:24:02 2015 +0200,PEP8-tify the source code ,False,None,False,True,"[""da761441b3091dee8cccd5b0098f74a4cc941cfa"", ""483c00d0bdf96848bffcc20f8b23ca0c9761497a"", ""5ed2ab9d724c84ce1b50cde73f59b0e36659c2ed"", ""55034d6bd396b00fb5f68edf6e5fec75acffa845""]",2.0,3.0,6.0,2.469802806300462,89.0,51.0,"kdcproxy/__init__.py,CAS_DELIMITER,kdcproxy/asn1.py,CAS_DELIMITER,kdcproxy/codec.py,CAS_DELIMITER,kdcproxy/config/__init__.py,CAS_DELIMITER,kdcproxy/config/mit.py,CAS_DELIMITER,setup.py,CAS_DELIMITER",142.0,6.0,200.7150173611111,2.0,18.0,1.0,9.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+031ce69fb57828e899805f48b921184ff19536b6,Christian Heimes,1431500912,cheimes@redhat.com,Wed May 13 09:08:32 2015 +0200,"Add testing infrastructure The new unit test infrastructure uses tox, py.test, coverage, flake8 and
+doc8. To run the tests, install python-tox and run:
+
+    tox
+
+The test check for Python 2.7 and 3.4 compatibility. The source files
+and documentation are checked for PEP8 conformity, too.
+",False,Feature Addition,False,True,"[""d9923b582a31cafce75ddd3a97857fa1794e22ca""]",1.0,1.0,5.0,1.193870652662185,405.0,0.0,".coveragerc,CAS_DELIMITER,.gitignore,CAS_DELIMITER,tests.krb5.conf,CAS_DELIMITER,tests.py,CAS_DELIMITER,tox.ini,CAS_DELIMITER",0.2,3.0,95.50112037037034,2.0,25.0,0.0,13.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+0c9d0c0b9c11622e8dd932421425099ce90ebe49,Nathaniel McCallum,1414160302,npmccallum@redhat.com,Fri Oct 24 10:18:22 2014 -0400,Release 0.2.1 ,False,None,False,False,,1.0,1.0,1.0,0.0,1.0,1.0,"setup.py,CAS_DELIMITER",57.0,3.0,0.003298611111111111,1.0,56.0,8.910526315789479,24.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+df1f5a4ea2b73295c2cf026c1401f55c8a941183,Nathaniel McCallum,1414160017,npmccallum@redhat.com,Fri Oct 24 10:13:37 2014 -0400,"Remove all shebang lines The shebang lines cause some packaging tools to create hard
+dependencies on the python3 binary when no hard dependency is
+required.
+",False,Feature Addition,False,False,,2.0,3.0,6.0,2.584962500721156,0.0,12.0,"kdcproxy/__init__.py,CAS_DELIMITER,kdcproxy/asn1.py,CAS_DELIMITER,kdcproxy/codec.py,CAS_DELIMITER,kdcproxy/config/__init__.py,CAS_DELIMITER,kdcproxy/config/mit.py,CAS_DELIMITER,setup.py,CAS_DELIMITER",144.0,6.0,134.04275462962963,6.0,55.0,6.910526315789472,29.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+0fb130cd80a67ec8107a0d60d190f94fbefc97ee,Nathaniel McCallum,1414159294,npmccallum@redhat.com,Fri Oct 24 10:01:34 2014 -0400,Python 3 no longer supports .has_key() on os.environ ,False,None,False,False,,1.0,1.0,1.0,0.0,2.0,2.0,"kdcproxy/config/__init__.py,CAS_DELIMITER",161.0,4.0,0.09811342592592592,1.0,54.0,4.910526315789472,34.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+b64909d2b0f6a1e800a54680ecf9ad33771354b0,Nathaniel McCallum,1414159229,npmccallum@redhat.com,Fri Oct 24 10:00:29 2014 -0400,Only process known MIT config keys ,False,None,False,False,,1.0,1.0,1.0,0.0,5.0,0.0,"kdcproxy/config/mit.py,CAS_DELIMITER",205.0,1.0,276.6492939814815,1.0,53.0,2.9105263157894727,33.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+62f0c3402567f38309306bfaf80d1a1731d975ed,Patrick Uiterwijk,1414150817,puiterwijk@redhat.com,Fri Oct 24 13:40:17 2014 +0200,Fix handling instantiation errors ,True,Corrective,True,False,,1.0,1.0,1.0,0.0,2.0,1.0,"kdcproxy/config/__init__.py,CAS_DELIMITER",160.0,4.0,258.51670138888886,1.0,1.0,0.0,0.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+55710bab448bc3743d09ac1b220269f28b7e766e,Nathaniel McCallum,1413472992,npmccallum@redhat.com,Thu Oct 16 11:23:12 2014 -0400,Release 0.2 ,False,None,False,False,,1.0,1.0,1.0,0.0,1.0,1.0,"setup.py,CAS_DELIMITER",59.0,3.0,267.73854166666666,1.0,52.0,2.934164934164933,22.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+65f9ca29e01ba5bb2e7d63c461dd8f50d7ecebee,Nathaniel McCallum,1413472767,npmccallum@redhat.com,Thu Oct 16 11:19:27 2014 -0400,Update docs for recent changes ,False,Non Functional,False,False,,1.0,1.0,1.0,0.0,22.0,18.0,"README,CAS_DELIMITER",85.0,2.0,267.7636342592593,1.0,51.0,0.9341649341649343,21.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+6e1cd076e5662bec8be45fde006672d9cc169236,Nalin Dahyabhai,1398264475,nalin@dahyabhai.net,Wed Apr 23 10:47:55 2014 -0400,"Always instantiate an application When run under mod_wsgi, we're invoked as 'kdcproxy', so we don't supply
+the application object that it expects.  Just remove the conditional
+logic and always instantiate one.
+",False,None,False,False,,1.0,1.0,1.0,0.0,1.0,2.0,"kdcproxy/__init__.py,CAS_DELIMITER",228.0,5.0,76.85898148148148,1.0,10.0,0.7012987012987012,9.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+30c0fed8de4f859cb8b4bb7468069db9aed331ad,Nalin Dahyabhai,1391815074,nalin@dahyabhai.net,Fri Feb 7 18:17:54 2014 -0500,"Work around read() not finishing under paste When run from mod_wsgi, env[""wsgi.input""].read's default behavior of
+reading until the end of the data is reached pulls in the rest of the
+client's request.  Under paste with SSL, it blocks.  So if the client
+sent a Content-Length header, stop after reading just that many bytes.
+",False,None,False,True,"[""f274aa6787cb8b3ec1cc12c440a56665b7231882""]",1.0,1.0,1.0,0.0,5.0,1.0,"kdcproxy/__init__.py,CAS_DELIMITER",227.0,5.0,1.1574074074074073e-05,1.0,11.0,4.0,10.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+e87f1004201dc54b67d3fdd1e3dc35dff4310a09,Nalin Dahyabhai,1391814974,nalin@dahyabhai.net,Fri Feb 7 18:16:14 2014 -0500,"Prefer to read configuration from $KDCPROXY_CONFIG If $KDCPROXY_CONFIG is defined, try to read it instead of
+/etc/kdcproxy.conf.  Otherwise, read /etc/kdcproxy.conf, as
+we did before.  Proposed for issue #4.
+",False,None,False,True,"[""657b38658c3c708661dd2187bb3b4d06dc7f367e""]",1.0,1.0,1.0,0.0,5.0,2.0,"kdcproxy/config/__init__.py,CAS_DELIMITER",157.0,4.0,17.0684375,1.0,12.0,3.0000000000000004,11.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+4f74cc671d9a7b4c265564b70b363a98d7b2b1a7,Nalin Dahyabhai,1391814858,nalin@dahyabhai.net,Fri Feb 7 18:14:18 2014 -0500,"Handle python3's socket.SOCK_NONBLOCK more cleanly Use the fact that python2 doesn't mix socket.SOCK_NONBLOCK in with
+socket .type attributes to add a helper method that does the right
+thing for both, and use it when reading back a socket's type.
+",False,Feature Addition,False,True,"[""e9aeff1a544671529ea6f160914573dcca31a85c""]",1.0,1.0,1.0,0.0,9.0,3.0,"kdcproxy/__init__.py,CAS_DELIMITER",231.0,5.0,1.1574074074074073e-05,1.0,13.0,1.9999999999999998,12.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+1c95425fc4b1d20a413674d5d4214fbd05b227c9,Nathaniel McCallum,1391623859,npmccallum@redhat.com,Wed Feb 5 13:10:59 2014 -0500,"Only give TCP a longer timeout after connection Fixes #3.
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,5.0,7.0,"kdcproxy/__init__.py,CAS_DELIMITER",230.0,5.0,0.010150462962962964,1.0,50.0,15.33333333333334,32.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+42bf4d72cf01568b4e9b744b91bae3602d665d98,Nathaniel McCallum,1391622982,npmccallum@redhat.com,Wed Feb 5 12:56:22 2014 -0500,"Filter out socket types we don't support Fixes #2.
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,14.0,1.0,"kdcproxy/__init__.py,CAS_DELIMITER",217.0,5.0,14.875092592592592,1.0,49.0,13.333333333333337,31.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+0c9d47ca8f1a2235ee0433f0ef5c15d22df066d8,Nathaniel McCallum,1391621533,npmccallum@redhat.com,Wed Feb 5 12:32:13 2014 -0500,Remove trailing whitespace ,False,None,False,False,,1.0,1.0,1.0,0.0,1.0,1.0,"kdcproxy/codec.py,CAS_DELIMITER",131.0,2.0,0.0005092592592592592,1.0,48.0,11.333333333333334,30.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+faabc6efa0f417e68cbd4f2ee644f77c4ae4eb98,Nathaniel McCallum,1391621489,npmccallum@redhat.com,Wed Feb 5 12:31:29 2014 -0500,"Use the correct encoder (DER) Fixes #1
+",True,Corrective,True,False,,1.0,1.0,1.0,0.0,1.0,1.0,"kdcproxy/codec.py,CAS_DELIMITER",131.0,2.0,15.911377314814814,1.0,47.0,9.333333333333332,29.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+01333670d69e4c55d20032d54d0e5760271ed1f8,Nathaniel McCallum,1390340382,npmccallum@redhat.com,Tue Jan 21 16:39:42 2014 -0500,Release 0.1.1 ,False,None,False,False,,1.0,1.0,1.0,0.0,1.0,1.0,"setup.py,CAS_DELIMITER",59.0,3.0,0.027696759259259258,1.0,46.0,26.0,20.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+a00cd0ac2ed87be7baccdfa92c97052122059f02,Nathaniel McCallum,1390340261,npmccallum@redhat.com,Tue Jan 21 16:37:41 2014 -0500,Add missing copyright header ,False,Feature Addition,False,False,,1.0,1.0,1.0,0.0,23.0,0.0,"kdcproxy/config/__init__.py,CAS_DELIMITER",134.0,4.0,0.9637847222222222,1.0,45.0,24.0,28.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+370fd4dcdc1ae9eb58ad707b4b90bea5b795d4ec,Nathaniel McCallum,1390337989,npmccallum@redhat.com,Tue Jan 21 15:59:49 2014 -0500,Prepare for release ,False,None,False,True,"[""7c2e45e4f63cc5adad43b6a11765c42f805bdd16""]",1.0,1.0,5.0,1.7854678868592844,126.0,93.0,"COPYING,CAS_DELIMITER,MANIFEST.in,CAS_DELIMITER,README,CAS_DELIMITER,README.md,CAS_DELIMITER,setup.py,CAS_DELIMITER",27.0,3.0,0.27317824074074076,3.0,44.0,22.0,19.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+90ea534796f1d374c803eba225a3c5550f2a25b7,Nalin Dahyabhai,1390337774,nalin@redhat.com,Tue Jan 21 15:56:14 2014 -0500,Handle the 4-byte prefix when proxying over UDP ,True,Corrective,True,True,"[""e9aeff1a544671529ea6f160914573dcca31a85c""]",1.0,1.0,1.0,0.0,15.0,2.0,"kdcproxy/__init__.py,CAS_DELIMITER",204.0,5.0,0.007060185185185185,1.0,9.0,4.0,8.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+3c88ed36fde2b38c203b5ace97d87a05b6d174e8,Nalin Dahyabhai,1390337164,nalin@redhat.com,Tue Jan 21 15:46:04 2014 -0500,Use all the arguments in the getaddrinfo() results ,False,Feature Addition,False,False,,1.0,1.0,1.0,0.0,1.0,1.0,"kdcproxy/__init__.py,CAS_DELIMITER",204.0,5.0,0.0005439814814814814,1.0,8.0,2.0,7.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+01851029056da6da36d76c65fb4ef1451da457d3,Nalin Dahyabhai,1390337117,nalin@redhat.com,Tue Jan 21 15:45:17 2014 -0500,Fix bug in socket type conditionals ,True,Corrective,True,True,"[""1c95425fc4b1d20a413674d5d4214fbd05b227c9""]",1.0,1.0,1.0,0.0,2.0,2.0,"kdcproxy/__init__.py,CAS_DELIMITER",204.0,5.0,0.015127314814814816,1.0,7.0,0.0,6.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+cc01a45bd6a3a71c48dbaa2a963d3a658c7723cc,Nathaniel McCallum,1390335810,npmccallum@redhat.com,Tue Jan 21 15:23:30 2014 -0500,Fix logic around non-blocking connect() (thanks Nalin!) ,True,Corrective,True,False,,1.0,1.0,1.0,0.0,6.0,4.0,"kdcproxy/__init__.py,CAS_DELIMITER",202.0,5.0,0.9143518518518519,1.0,43.0,20.0,27.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+893bba1af11ac4c50e9c705080a75d70981aec61,Nathaniel McCallum,1390313536,npmccallum@redhat.com,Tue Jan 21 09:12:16 2014 -0500,Clarify some important points in the docs ,False,Non Functional,False,False,,1.0,1.0,1.0,0.0,28.0,19.0,"README.md,CAS_DELIMITER",76.0,1.0,0.6472106481481481,1.0,42.0,18.0,18.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+2c6214a8510fc808fd9e61abf9f17fbc89a1afa1,Nathaniel McCallum,1390257617,npmccallum@redhat.com,Mon Jan 20 17:40:17 2014 -0500,Update documentation for UDP support ,False,Non Functional,False,False,,1.0,1.0,1.0,0.0,5.0,3.0,"README.md,CAS_DELIMITER",74.0,1.0,0.15362268518518518,1.0,41.0,16.0,17.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+cfbbdb877a5bfec6447b56df80b3d5a1cff98b01,Nathaniel McCallum,1390256990,npmccallum@redhat.com,Mon Jan 20 17:29:50 2014 -0500,Remove obsolete config normalization ,False,None,False,False,,1.0,1.0,1.0,0.0,1.0,28.0,"kdcproxy/config/__init__.py,CAS_DELIMITER",161.0,4.0,0.002766203703703704,1.0,40.0,14.0,26.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+8cd033fecdd0af449759d5c5e3ddd9ddcf94218f,Nathaniel McCallum,1390256810,npmccallum@redhat.com,Mon Jan 20 17:26:50 2014 -0500,Add UDP support ,False,Feature Addition,False,True,"[""cc01a45bd6a3a71c48dbaa2a963d3a658c7723cc"", ""01851029056da6da36d76c65fb4ef1451da457d3"", ""90ea534796f1d374c803eba225a3c5550f2a25b7"", ""42bf4d72cf01568b4e9b744b91bae3602d665d98"", ""1c95425fc4b1d20a413674d5d4214fbd05b227c9"", ""e9aeff1a544671529ea6f160914573dcca31a85c"", ""6ec3f459a03c33eb54d644c1e4477f336d0d8681""]",1.0,1.0,1.0,0.0,111.0,18.0,"kdcproxy/__init__.py,CAS_DELIMITER",109.0,5.0,0.11648148148148148,1.0,39.0,12.0,25.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+b2b92d505f1f7f53c16925c0a0250601f24bfaa5,Nathaniel McCallum,1390256751,npmccallum@redhat.com,Mon Jan 20 17:25:51 2014 -0500,Catch all DNS errors ,False,None,False,False,,1.0,1.0,1.0,0.0,1.0,1.0,"kdcproxy/config/__init__.py,CAS_DELIMITER",161.0,4.0,0.14359953703703704,1.0,38.0,10.0,24.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+0fe7dc3bcc7ff93118a201f5119670baf730ec03,Nathaniel McCallum,1390256730,npmccallum@redhat.com,Mon Jan 20 17:25:30 2014 -0500,Fix typo (thanks Nalin!) ,True,Corrective,True,False,,1.0,1.0,1.0,0.0,1.0,1.0,"kdcproxy/config/mit.py,CAS_DELIMITER",205.0,1.0,0.14335648148148147,1.0,37.0,8.0,23.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+145bda94497f24f65528e6e5d28dac7332324db8,Nathaniel McCallum,1390246746,npmccallum@redhat.com,Mon Jan 20 14:39:06 2014 -0500,Fix codec and wsgi code ,True,Corrective,True,False,,1.0,1.0,2.0,0.9182958340544896,11.0,4.0,"kdcproxy/__init__.py,CAS_DELIMITER,kdcproxy/codec.py,CAS_DELIMITER",116.5,5.0,0.024837962962962964,2.0,36.0,6.0,22.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+8b8434154b9730dbe9533eef054d4d31885f2d6f,Nathaniel McCallum,1390244856,npmccallum@redhat.com,Mon Jan 20 14:07:36 2014 -0500,Fix decoding bug typo ,True,Corrective,True,False,,1.0,1.0,1.0,0.0,2.0,2.0,"kdcproxy/codec.py,CAS_DELIMITER",124.0,2.0,0.005925925925925926,1.0,35.0,4.0,21.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+3c819f4273657573dd053762fc5009421577de41,Nathaniel McCallum,1390244432,npmccallum@redhat.com,Mon Jan 20 14:00:32 2014 -0500,Initial commit ,False,Feature Addition,False,True,"[""8b8434154b9730dbe9533eef054d4d31885f2d6f"", ""145bda94497f24f65528e6e5d28dac7332324db8"", ""faabc6efa0f417e68cbd4f2ee644f77c4ae4eb98"", ""da761441b3091dee8cccd5b0098f74a4cc941cfa"", ""6ec3f459a03c33eb54d644c1e4477f336d0d8681""]",2.0,2.0,9.0,2.51344662626388,648.0,0.0,".gitignore,CAS_DELIMITER,.project,CAS_DELIMITER,.pydevproject,CAS_DELIMITER,README.md,CAS_DELIMITER,kdcproxy/__init__.py,CAS_DELIMITER,kdcproxy/asn1.py,CAS_DELIMITER,kdcproxy/codec.py,CAS_DELIMITER,kdcproxy/config.py,CAS_DELIMITER,setup.py,CAS_DELIMITER",0.0,5.0,9.002057613168725e-06,1.0,33.0,1.0,17.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
+b409cba11db540cab85d18f3cde00e770728e8db,Nathaniel McCallum,1390244344,npmccallum@redhat.com,Mon Jan 20 13:59:04 2014 -0500,Create a more flexible configuration system ,False,Feature Addition,False,True,"[""0fe7dc3bcc7ff93118a201f5119670baf730ec03"", ""62f0c3402567f38309306bfaf80d1a1731d975ed"", ""da761441b3091dee8cccd5b0098f74a4cc941cfa"", ""657b38658c3c708661dd2187bb3b4d06dc7f367e""]",2.0,3.0,5.0,1.8071797293204777,261.0,94.0,"README.md,CAS_DELIMITER,kdcproxy/__init__.py,CAS_DELIMITER,kdcproxy/codec.py,CAS_DELIMITER,kdcproxy/config/__init__.py,CAS_DELIMITER,kdcproxy/config/mit.py,CAS_DELIMITER",100.8,6.0,1.1574074074074073e-05,2.0,34.0,0.0,18.0,0.0,0.0,718d2bb7-ecb6-4e5c-b472-7bd80fbc6435,,,
