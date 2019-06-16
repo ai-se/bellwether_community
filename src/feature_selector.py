@@ -316,13 +316,21 @@ class featureSelector():
                     F.pop()
             F.append(idx)
             M.append(score)
+            similarity = 0
+            best = max(M)
             if len(M) > 5:
+                print(M)
                 if score <= M[len(M)-2]:
+                    similarity += 1
                     if score <= M[len(M)-3]:
+                        similarity += 1
                         if score <= M[len(M)-4]:
+                            similarity += 1
                             if score <= M[len(M)-5]:
+                                similarity += 1
                                 break
-        F = F[0:len(M)-4]
+        print(similarity)
+        F = F[0:len(M)-similarity]
         selected_features = F + [target]
         selected_features_list = []
         for feature in features:
