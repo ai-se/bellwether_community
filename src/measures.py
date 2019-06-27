@@ -36,6 +36,7 @@ import pandas as pd
 import hashlib
 import pdb
 
+
 """
 input:
  row - one pandas.core.series.Series. INCLUDING LAST Y VALUE

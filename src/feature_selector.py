@@ -202,10 +202,10 @@ class featureSelector():
         target = df.columns[-1]
         cf = pd.DataFrame(data=np.zeros([1, df.shape[1] - 1]), columns=features, index=df.columns[-1:])
         ff = pd.DataFrame(data=np.zeros([len(features), len(features)]), index=features, columns=features)
-    
         # fill in cf
         for attr in cf.columns:
             cf.loc[target, attr] = abs(df[attr].corr(df[target], method='pearson'))
+        
     
         # fill in ff
         for attr1 in ff.index:
@@ -268,12 +268,13 @@ class featureSelector():
     
         features = df.columns[:-1]
         target = df.columns[-1]
+        print(target)
         cf = pd.DataFrame(data=np.zeros([1, df.shape[1] - 1]), columns=features, index=df.columns[-1:])
         ff = pd.DataFrame(data=np.zeros([len(features), len(features)]), index=features, columns=features)
+
         # fill in cf
         for attr in cf.columns:
             cf.loc[target, attr] = abs(df[attr].corr(df[target], method='pearson'))
-    
         # fill in ff
         for attr1 in ff.index:
             for attr2 in ff.columns:
@@ -319,7 +320,6 @@ class featureSelector():
             similarity = 0
             best = max(M)
             if len(M) > 5:
-                print(M)
                 if score <= M[len(M)-2]:
                     similarity += 1
                     if score <= M[len(M)-3]:
@@ -328,8 +328,8 @@ class featureSelector():
                             similarity += 1
                             if score <= M[len(M)-5]:
                                 similarity += 1
-                                break
-        print(similarity)
+                                break 
+        print(F,M)                      
         F = F[0:len(M)-similarity]
         selected_features = F + [target]
         selected_features_list = []
