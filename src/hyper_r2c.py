@@ -85,43 +85,46 @@ class hyper(object):
     def tune(self):
         project_scores = {}
         for project in self.projects:
-            df = self.prepare_data(project)
-            df.reset_index(drop=True,inplace=True)
-            y = df.BUGS
-            X = df.drop(labels = ['BUGS'],axis = 1)
-            train_X,test_X,train_y,test_y = train_test_split(X, y, test_size=0.33, random_state=13)
-            df_test = pd.concat([test_X,test_y], axis = 1)
-            df = pd.concat([train_X,train_y], axis = 1)
-            df.reset_index(drop=True,inplace=True)
-            y = df.BUGS
-            X = df.drop(labels = ['BUGS'],axis = 1)
-            kf = StratifiedKFold(n_splits = 5)
-            goal = 'f1'
-            learner = [SK_LR][0]
-            F = {}
-            score = []
-            for i in range(2):
-                for train_index, tune_index in kf.split(X, y):
-                    X_train, X_tune = X.iloc[train_index], X.iloc[tune_index]
-                    y_train, y_tune = y[train_index], y[tune_index]
-                    _df = pd.concat([X_train,y_train], axis = 1)
-                    _df_tune = pd.concat([X_tune,y_tune], axis = 1)
-                    _df = self.apply_smote(_df)
-                    _df,selected_cols = self.apply_cfs(_df)
-                    y_train = _df.BUGS
-                    X_train = _df.drop(labels = ['BUGS'],axis = 1)
-                    _df_tune = _df_tune[selected_cols]
-                    y_tune = _df_tune.BUGS
-                    X_tune = _df_tune.drop(labels = ['BUGS'],axis = 1)
-                    _df_test = df_test[selected_cols]
-                    test_y = _df_test.BUGS
-                    test_X = _df_test.drop(labels = ['BUGS'],axis = 1)
-                    params, evaluation = self.tune_learner(learner, X_train, y_train,  X_tune,y_tune, goal)
-                    clf = learner(X_train, y_train,  test_X,test_y, goal)
-                    F = clf.learn(F,**params)
-                    score.append(F[goal][0])
-            project_name = project.rsplit('/',1)[1].split('.',1)[0]
-            project_scores[project_name] = score
+            try:
+                df = self.prepare_data(project)
+                df.reset_index(drop=True,inplace=True)
+                y = df.BUGS
+                X = df.drop(labels = ['BUGS'],axis = 1)
+                train_X,test_X,train_y,test_y = train_test_split(X, y, test_size=0.33, random_state=13)
+                df_test = pd.concat([test_X,test_y], axis = 1)
+                df = pd.concat([train_X,train_y], axis = 1)
+                df.reset_index(drop=True,inplace=True)
+                y = df.BUGS
+                X = df.drop(labels = ['BUGS'],axis = 1)
+                kf = StratifiedKFold(n_splits = 5)
+                goal = 'f1'
+                learner = [SK_LR][0]
+                F = {}
+                score = []
+                for i in range(2):
+                    for train_index, tune_index in kf.split(X, y):
+                        X_train, X_tune = X.iloc[train_index], X.iloc[tune_index]
+                        y_train, y_tune = y[train_index], y[tune_index]
+                        _df = pd.concat([X_train,y_train], axis = 1)
+                        _df_tune = pd.concat([X_tune,y_tune], axis = 1)
+                        _df = self.apply_smote(_df)
+                        _df,selected_cols = self.apply_cfs(_df)
+                        y_train = _df.BUGS
+                        X_train = _df.drop(labels = ['BUGS'],axis = 1)
+                        _df_tune = _df_tune[selected_cols]
+                        y_tune = _df_tune.BUGS
+                        X_tune = _df_tune.drop(labels = ['BUGS'],axis = 1)
+                        _df_test = df_test[selected_cols]
+                        test_y = _df_test.BUGS
+                        test_X = _df_test.drop(labels = ['BUGS'],axis = 1)
+                        params, evaluation = self.tune_learner(learner, X_train, y_train,  X_tune,y_tune, goal)
+                        clf = learner(X_train, y_train,  test_X,test_y, goal)
+                        F = clf.learn(F,**params)
+                        score.append(F[goal][0])
+                project_name = project.rsplit('/',1)[1].split('.',1)[0]
+                project_scores[project_name] = score
+            except:
+                continue
             with open('data/r2c_hyper.pkl', 'wb') as handle:
                 pickle.dump(project_scores, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
