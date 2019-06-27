@@ -112,7 +112,6 @@ class bellwether(object):
         return tuner.Tune()
 
     def run_bellwether(self):
-        model = self.model_selector()
         final_score = {}
         for s_project in self.projects:
             print(s_project)
