@@ -213,7 +213,7 @@ class SK_LR(DE_Learners):
 
 
 if __name__ == "__main__":
-    #data_path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/src/datasets'
-    data_path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/src/datasets'
+    data_path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/src/datasets'
+    #data_path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/src/datasets'
     hype = hyper(data_path)
     hype.tune()
