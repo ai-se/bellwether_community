@@ -116,12 +116,12 @@ class bellwether(object):
         for s_project in self.projects:
             print(s_project)
             try:
-                df = pd.read_pickle('/Users/suvodeepmajumder/Documents/AI4SE/git_miner/data/' + s_project + '_commit.pkl')
+                df = pd.read_pickle('/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/data/' + s_project + '_commit.pkl')
                 df1 = df[df['buggy'] == 1]
                 X1 = df1.commit_number
                 X2 = df1.parent
                 X = np.append(X1,X2)
-                path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/commit_guru/' + s_project + '.csv'
+                path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/commit_guru/' + s_project + '.csv'
                 df = self.prepare_data(path,X)
                 df.reset_index(drop=True,inplace=True)
                 y = df.fix
@@ -150,12 +150,12 @@ class bellwether(object):
                         destination_projects.remove(s_project)
                         for d_project in destination_projects:
                             try:
-                                destination_df = pd.read_pickle('/Users/suvodeepmajumder/Documents/AI4SE/git_miner/data/' + d_project + '_commit.pkl')
+                                destination_df = pd.read_pickle('/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/data/' + d_project + '_commit.pkl')
                                 df1 = destination_df[destination_df['buggy'] == 1]
                                 X1 = df1.commit_number
                                 X2 = df1.parent
                                 _X = np.append(X1,X2)
-                                path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/commit_guru/' + d_project + '.csv'
+                                path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/commit_guru/' + d_project + '.csv'
                                 destination_df = self.prepare_data(path,_X)
                                 destination_df.reset_index(drop=True,inplace=True)
                                 destination_df = destination_df[selected_cols]
@@ -287,3 +287,8 @@ class SK_LR(DE_Learners):
                    "neighbours": [5,21],
                    "r":[1,6]}
         return tunelst
+
+if __name__ == "__main__":
+    bell = bellwether('/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/data/',
+                                '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/commit_guru/',1)
+    bell.run_bellwether()
