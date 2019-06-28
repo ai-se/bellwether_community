@@ -1,12 +1,7 @@
 import pandas as pd
 import numpy as np
-import platform
-from os import listdir
-from os.path import isfile, join
-from glob import glob
-from pathlib import Path
-from typing import NoReturn
-from collections import defaultdict
+import pickle
+
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.linear_model import LogisticRegression
@@ -14,37 +9,59 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import StratifiedKFold
 from sklearn.svm import SVC
 from sklearn import svm
-import sys
-import os
-import copy
-import feature_selector
 from sklearn import metrics
-import pickle
 
 import SMOTE
 import feature_selector
 import DE
 import CFS
-
 import metrices
 import measures
 
 import sys
 import traceback
 import warnings
+import os
+import copy
+import platform
+from os import listdir
+from os.path import isfile, join
+from glob import glob
+from pathlib import Path
+from typing import NoReturn
+from collections import defaultdict
+
+from multiprocessing import Pool, cpu_count
+from threading import Thread
+from multiprocessing import Queue
+
 warnings.filterwarnings("ignore")
 
 root = os.path.join(os.getcwd().split('src')[0], 'src')
 if root not in sys.path:
     sys.path.append(root)
 
-warnings.filterwarnings("ignore")
+
+class ThreadWithReturnValue(Thread):
+    def __init__(self, group=None, target=None, name=None,
+                 args=(), kwargs={}, Verbose=None):
+        Thread.__init__(self, group, target, name, args, kwargs)
+        self._return = None
+    def run(self):
+        #print(type(self._target))
+        if self._target is not None:
+            self._return = self._target(*self._args,
+                                                **self._kwargs)
+    def join(self, *args):
+        Thread.join(self, *args)
+        return self._return
+
+
 class bellwether(object):
 
-    def __init__(self,data_source1,data_source2,model):
+    def __init__(self,data_source1,data_source2):
         self.data_source1 = data_source1
         self.data_source2 = data_source2
-        self.model = model
         if platform.system() == 'Darwin' or platform.system() == 'Linux':
             _dir1 = self.data_source1 + '/'
             _dir2 = self.data_source2 + '/'
@@ -68,7 +85,9 @@ class bellwether(object):
         self.projects2_list = set(self.projects2_list)
 
         if (self.projects1_list & self.projects2_list): 
-            self.projects = self.projects1_list & self.projects2_list
+            self.projects = list(self.projects1_list & self.projects2_list)
+
+        self.cores = cpu_count()
     
     def prepare_data(self,path,X):
         df = pd.read_csv(path)
@@ -111,17 +130,17 @@ class bellwether(object):
         tuner = DE.DE_Tune_ML(clf, clf.get_param(), goal, target_class)
         return tuner.Tune()
 
-    def run_bellwether(self):
+    def bellwether(self,projects):
         final_score = {}
-        for s_project in self.projects:
+        for s_project in projects:
             print(s_project)
             try:
-                df = pd.read_pickle('/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/data/' + s_project + '_commit.pkl')
+                df = pd.read_pickle(self.data_source1 + '/' + s_project + '_commit.pkl')
                 df1 = df[df['buggy'] == 1]
                 X1 = df1.commit_number
                 X2 = df1.parent
                 X = np.append(X1,X2)
-                path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/commit_guru/' + s_project + '.csv'
+                path = self.data_source2 + '/' + s_project + '.csv'
                 df = self.prepare_data(path,X)
                 df.reset_index(drop=True,inplace=True)
                 y = df.fix
@@ -138,7 +157,6 @@ class bellwether(object):
                         y_train, y_tune = y[train_index], y[tune_index]
                         _df = pd.concat([X_train,y_train], axis = 1)
                         _df_tune = pd.concat([X_tune,y_tune], axis = 1)
-                        #_df = self.apply_smote(_df)
                         _df,selected_cols = self.apply_cfs(_df)
                         y_train = _df.fix
                         X_train = _df.drop(labels = ['fix'],axis = 1)
@@ -150,12 +168,12 @@ class bellwether(object):
                         destination_projects.remove(s_project)
                         for d_project in destination_projects:
                             try:
-                                destination_df = pd.read_pickle('/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/data/' + d_project + '_commit.pkl')
+                                destination_df = pd.read_pickle(self.data_source1 + '/' + d_project + '_commit.pkl')
                                 df1 = destination_df[destination_df['buggy'] == 1]
                                 X1 = df1.commit_number
                                 X2 = df1.parent
                                 _X = np.append(X1,X2)
-                                path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/commit_guru/' + d_project + '.csv'
+                                path = self.data_source2 + '/'+ d_project + '.csv'
                                 destination_df = self.prepare_data(path,_X)
                                 destination_df.reset_index(drop=True,inplace=True)
                                 destination_df = destination_df[selected_cols]
@@ -174,17 +192,24 @@ class bellwether(object):
             except:
                 print(s_project,sys.exc_info())
                 continue
-        #df = pd.DataFrame(final_score)
-        with open('data/bellwether.pkl', 'wb') as handle:
-            pickle.dump(final_score, handle, protocol=pickle.HIGHEST_PROTOCOL)
-        #final_score.to_pickle('data/bellwether.pkl')
+        return final_score
 
-    def model_selector(self):
-        #clf = DecisionTreeClassifier(criterion='entropy')
-        #clf = SVC()
-        #clf = ExtraTreesClassifier()
-        clf = LogisticRegression(penalty='l1')
-        return clf
+    def run_bellwether(self):
+        threads = []
+        results = {}
+        projects = np.array_split(self.projects, self.cores)
+        for i in range(self.cores):
+            print("starting thread ",i)
+            t = ThreadWithReturnValue(target = self.bellwether, args = [projects[i]])
+            threads.append(t)
+        for th in threads:
+            th.start()
+        for th in threads:
+            response = th.join()
+            results = results.update(response)
+        with open('data/bellwether.pkl', 'wb') as handle:
+            pickle.dump(results, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
 
 
 
@@ -289,6 +314,6 @@ class SK_LR(DE_Learners):
         return tunelst
 
 if __name__ == "__main__":
-    bell = bellwether('/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/data/',
-                                '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/commit_guru/',1)
+    bell = bellwether('/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/data',
+                                '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/commit_guru')
     bell.run_bellwether()
