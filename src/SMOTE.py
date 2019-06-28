@@ -16,7 +16,7 @@ from sklearn.neighbors import NearestNeighbors as NN
 
 
 class smote(object):
-  def __init__(self, pd_data, neighbor=5, up_to_num=[]):
+  def __init__(self, pd_data, neighbor=5,r=2 ,up_to_num=[]):
     """
     :param pd_data: panda.DataFrame, the last column must be class label
     :param neighbor: num of nearst neighbors to select
@@ -29,6 +29,7 @@ class smote(object):
     self.neighbor = neighbor
     self.up_to_max = False
     self.up_to_num = up_to_num
+    self.r = r
     self.label_num = len(set(pd_data[pd_data.columns[-1]].values))
     if up_to_num:
       label_num = len(set(pd_data[pd_data.columns[-1]].values))
@@ -82,7 +83,7 @@ class smote(object):
           num_neigh = len(data_no_label) # void # of neighbors >= sample size
         else:
           num_neigh = self.neighbor
-        knn = NN(n_neighbors=num_neigh).fit(data_no_label)
+        knn = NN(n_neighbors=num_neigh,p=self.r,algorithm='ball_tree').fit(data_no_label)
         for _ in range(to_add):
           rand_ngbr, sample = get_ngbr(data_no_label, knn)
           new_row = []

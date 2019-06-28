@@ -14,13 +14,13 @@ class measures(object):
         self.pre, self.rec, self.spec, self.fpr, self.npv, self.acc, self.f1,self.pd,self.pf = self.get_performance()
         
     def calculate_recall(self):
-        return metrics.recall_score(self.actual, self.predicted, average='weighted')
+        return round(metrics.recall_score(self.actual, self.predicted, average='weighted'),2)
 
     def calculate_precision(self):
-        return metrics.precision_score(self.actual, self.predicted, average='weighted')
+        return round(metrics.precision_score(self.actual, self.predicted, average='weighted'),2)
 
     def calculate_f1_score(self):
-        return metrics.f1_score(self.actual, self.predicted, average='weighted')
+        return round(metrics.f1_score(self.actual, self.predicted, average='weighted'),2)
 
     def get_performance(self):
         pre = round(1.0 * self.tp / (self.tp + self.fp),2) if (self.tp + self.fp) != 0 else 0

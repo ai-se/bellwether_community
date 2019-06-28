@@ -108,8 +108,8 @@ class hyper(object):
                         y_train, y_tune = y[train_index], y[tune_index]
                         _df = pd.concat([X_train,y_train], axis = 1)
                         _df_tune = pd.concat([X_tune,y_tune], axis = 1)
-                        _df = self.apply_smote(_df)
-                        _df,selected_cols = self.apply_cfs(_df)
+                        #_df,selected_cols = self.apply_cfs(_df)
+                        _df,selected_cols = _df,_df.columns
                         y_train = _df.BUGS
                         X_train = _df.drop(labels = ['BUGS'],axis = 1)
                         _df_tune = _df_tune[selected_cols]
@@ -124,6 +124,7 @@ class hyper(object):
                         score.append(F[goal][0])
                 project_name = project.rsplit('/',1)[1].split('.',1)[0]
                 project_scores[project_name] = score
+                break
             except:
                 continue
             with open('data/r2c_hyper.pkl', 'wb') as handle:
@@ -152,6 +153,13 @@ class DE_Learners(object):
         self.confusion = None
         self.params = None
 
+    def apply_smote(self,df,neighbours,r):
+        cols = df.columns
+        smt = SMOTE.smote(df,neighbor = neighbours,r = r)
+        df = smt.run()
+        df.columns = cols
+        return df
+
     def learn(self,F, **kwargs):
         """
         :param F: a dict, holds all scores, can be used during debugging
@@ -159,16 +167,24 @@ class DE_Learners(object):
         :return: F, scores.
         """
         self.scores = {self.goal: [0.0]}
-        try:    
+        try:
+            neighbours = kwargs.pop('neighbours')
+            r = kwargs.pop('r')
             self.learner.set_params(**kwargs)
             predict_result = []
-            clf = self.learner.fit(self.train_X, self.train_Y)
+            _df = pd.concat([self.train_X, self.train_Y], axis = 1)
+            _df = self.apply_smote(_df,neighbours,r)
+            y_train = _df.BUGS
+            X_train = _df.drop(labels = ['BUGS'],axis = 1)
+            clf = self.learner.fit(X_train, y_train)
+            #clf = self.learner.fit(self.train_X, self.train_Y)
             predict_result = clf.predict(self.test_X)
             self.abcd = metrices.measures(self.test_Y,predict_result)
             self.scores = self._Abcd(self.abcd,F)
             self.confusion = metrics.classification_report(self.test_Y.values.tolist(), predict_result, digits=2)
             self.params = kwargs
         except Exception as e:
+            #print(e)
             a = 10
         return self.scores
     
@@ -211,7 +227,9 @@ class SK_LR(DE_Learners):
                    "class_weight": ["balanced", None],
                    "solver": ['newton-cg','lbfgs','liblinear','sag', 'saga'],
                    "warm_start": [True, False],
-                   "max_iter": [100,600]}
+                   "max_iter": [100,600],
+                   "neighbours": [5,21],
+                   "r":[1,6]}
         return tunelst
 
 
