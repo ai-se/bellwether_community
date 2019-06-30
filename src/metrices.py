@@ -40,8 +40,7 @@ class measures(object):
         if (self.tp + self.fn) != 0:
             recall = self.tp/(self.tp + self.fn)
         dist2heaven = math.sqrt((1 - recall) ** 2 + far ** 2)
-        print("dist",dist2heaven)
-        return dist2heaven
+        return round(dist2heaven,2)
 
     def get_g_score(self, beta = 0.5):
         g = (1 + beta**2) * (self.pd * (1.0 - self.pf))/ (beta ** 2 * self.pd + (1.0 - self.pf))
