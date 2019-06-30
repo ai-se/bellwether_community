@@ -159,15 +159,15 @@ class DE(object):
       self.frontier = nextgeneration[:]
       newbestconf, newbestscore = self.best()
       if isBetter(list(newbestscore.values()), list(self.bestscore.values())): 
-        print("newbestscore %s:" % str(newbestscore))
-        print("bestconf %s :" % str(newbestconf))
+        #print("newbestscore %s:" % str(newbestscore))
+        #print("bestconf %s :" % str(newbestconf))
         self.bestscore = newbestscore
         self.bestconf = newbestconf
         changed = True
       if not changed:
         self.life -= 1
       changed = False
-    print("TUNING DONE !",self.bestconf,self.bestscore)
+    #print("TUNING DONE !",self.bestconf,self.bestscore)
     return (self.bestconf, self.evaluation)
 
 

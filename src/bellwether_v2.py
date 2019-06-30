@@ -182,9 +182,14 @@ class bellwether(object):
                                 clf = learner(X_train, y_train,  test_X,test_y, goal)
                                 F = clf.learn(F,**params)
                                 if d_project not in score.keys():
-                                    score[d_project] = [F[goal][0]]
+                                    score[d_project] = F
                                 else:
-                                    score[d_project].append(F[goal][0])
+                                    score[d_project]['f1'].append(F['f1'][0])
+                                    score[d_project]['precision'].append(F['precision'][0])
+                                    score[d_project]['recall'].append(F['recall'][0])
+                                    score[d_project]['g-score'].append(F['g-score'][0])
+                                    score[d_project]['d2h'].append(F['d2h'][0])
+
                             except:
                                 print(s_project,d_project,sys.exc_info())
                                 continue
@@ -192,11 +197,13 @@ class bellwether(object):
             except:
                 print(s_project,sys.exc_info())
                 continue
+        print(final_score)
         return final_score
 
     def run_bellwether(self):
         threads = []
         results = {}
+        self.projects = self.projects[0:2]
         projects = np.array_split(self.projects, self.cores)
         for i in range(self.cores):
             print("starting thread ",i)
@@ -206,7 +213,7 @@ class bellwether(object):
             th.start()
         for th in threads:
             response = th.join()
-            results = results.update(response)
+            results.update(response)
         with open('data/bellwether.pkl', 'wb') as handle:
             pickle.dump(results, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
@@ -275,17 +282,15 @@ class DE_Learners(object):
         :param F: previously got scores
         :return: updated scores.
         """
-        if 'g-score' in self.goal:
-            F['g-score'] = [abcd.get_g_score()]
-            return F
-        elif 'precision' in self.goal:
-            F['precision'] = [abcd.get_precision()]
-            return F
-        elif 'f1' in self.goal:
+        if self.goal in ['f1','precision','recall','g-score','d2h']:
             F['f1'] = [abcd.calculate_f1_score()]
-            return F
-        elif 'd2h' in self.goal:
+            F['precision'] = [abcd.calculate_precision()]
+            F['recall'] = [abcd.calculate_recall()]
+            F['g-score'] = [abcd.get_g_score()]
             F['d2h'] = [abcd.calculate_d2h()]
+            return F
+        else:
+            print("wronging goal")
             return F
 
     def predict(self,test_X):
@@ -299,13 +304,13 @@ class SK_LR(DE_Learners):
         super(SK_LR, self).__init__(clf, train_x, train_y, predict_x, predict_y,goal)
 
     def get_param(self):
-        tunelst = {"penalty": ['l1', 'l2','elasticnet',None],
+        tunelst = {"penalty": ['l1', 'l2','elasticnet','none'],
                    "multi_class": ['ovr', 'multinomial','auto'],
                    "C": [1.0,200.0],
                    "dual": [True, False],
                    "fit_intercept": [True, False],
                    "intercept_scaling": [1.0,100.0],
-                   "class_weight": ["balanced", None],
+                   "class_weight": ["balanced", 'none'],
                    "solver": ['newton-cg','lbfgs','liblinear','sag', 'saga'],
                    "warm_start": [True, False],
                    "max_iter": [100,600],
@@ -314,6 +319,8 @@ class SK_LR(DE_Learners):
         return tunelst
 
 if __name__ == "__main__":
-    bell = bellwether('/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/data',
-                                '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/commit_guru')
+    #path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data'
+    path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data'
+    bell = bellwether(path + '/data',
+                                path + '/commit_guru')
     bell.run_bellwether()
