@@ -181,29 +181,30 @@ class bellwether(object):
                                 test_X = destination_df.drop(labels = ['fix'],axis = 1)
                                 clf = learner(X_train, y_train,  test_X,test_y, goal)
                                 F = clf.learn(F,**params)
+                                _F = copy.deepcopy(F)
                                 if d_project not in score.keys():
-                                    score[d_project] = F
+                                    score[d_project] = _F
                                 else:
                                     score[d_project]['f1'].append(F['f1'][0])
                                     score[d_project]['precision'].append(F['precision'][0])
                                     score[d_project]['recall'].append(F['recall'][0])
                                     score[d_project]['g-score'].append(F['g-score'][0])
                                     score[d_project]['d2h'].append(F['d2h'][0])
-
                             except:
                                 print(s_project,d_project,sys.exc_info())
                                 continue
+                            #print(score)
                 final_score[s_project] = score
             except:
                 print(s_project,sys.exc_info())
                 continue
-        print(final_score)
+        #print(final_score)
         return final_score
 
     def run_bellwether(self):
         threads = []
         results = {}
-        self.projects = self.projects[0:2]
+        self.projects = self.projects
         projects = np.array_split(self.projects, self.cores)
         for i in range(self.cores):
             print("starting thread ",i)
@@ -319,8 +320,8 @@ class SK_LR(DE_Learners):
         return tunelst
 
 if __name__ == "__main__":
-    #path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data'
-    path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data'
+    path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data'
+    #path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data'
     bell = bellwether(path + '/data',
                                 path + '/commit_guru')
     bell.run_bellwether()

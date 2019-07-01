@@ -173,7 +173,7 @@ class DE(object):
 
 class DE_Tune_ML(DE):
   def __init__(self, learner, params_distribution, goal, target_class,
-               num_population=60, repeats=1000, f=0.75, cr=0.3, life=3):
+               num_population=10, repeats=1000, f=0.75, cr=0.3, life=3):
     self.learner = learner
     super(DE_Tune_ML, self).__init__(params_distribution, goal, target_class,
                                      num_population, repeats, f, cr, life)
