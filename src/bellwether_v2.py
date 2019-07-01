@@ -197,13 +197,12 @@ class bellwether(object):
             except:
                 print(s_project,sys.exc_info())
                 continue
-        print(final_score)
         return final_score
 
     def run_bellwether(self):
         threads = []
         results = {}
-        self.projects = self.projects[0:2]
+        self.projects = self.projects
         projects = np.array_split(self.projects, self.cores)
         for i in range(self.cores):
             print("starting thread ",i)
