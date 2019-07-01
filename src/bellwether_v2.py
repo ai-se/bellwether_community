@@ -181,18 +181,19 @@ class bellwether(object):
                                 test_X = destination_df.drop(labels = ['fix'],axis = 1)
                                 clf = learner(X_train, y_train,  test_X,test_y, goal)
                                 F = clf.learn(F,**params)
+                                _F = copy.deepcopy(F)
                                 if d_project not in score.keys():
-                                    score[d_project] = F
+                                    score[d_project] = _F
                                 else:
                                     score[d_project]['f1'].append(F['f1'][0])
                                     score[d_project]['precision'].append(F['precision'][0])
                                     score[d_project]['recall'].append(F['recall'][0])
                                     score[d_project]['g-score'].append(F['g-score'][0])
                                     score[d_project]['d2h'].append(F['d2h'][0])
-
                             except:
                                 print(s_project,d_project,sys.exc_info())
                                 continue
+                            #print(score)
                 final_score[s_project] = score
             except:
                 print(s_project,sys.exc_info())
