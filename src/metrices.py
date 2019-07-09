@@ -3,24 +3,71 @@ import math
 
 from sklearn import metrics
 import numpy as np
+import pandas as pd
 
 class measures(object):
 
-    def __init__(self,actual,predicted,labels = [0,1]):
+    def __init__(self,actual,predicted,loc,labels = [0,1]):
         self.actual = actual
         self.predicted = predicted
+        self.loc = loc.values
+        #self.dframe = pd.concat(
+        #    [pd.Series(self.actual,name='Actual'), pd.Series(self.predicted,name='Predicted'), self.loc], axis=1)
+        self.dframe = pd.DataFrame(list(zip(self.actual,self.predicted,self.loc)),columns = ['Actual','Predicted','LOC'])
+        self.dframe = self.dframe.dropna()
+        self.dframe = self.dframe.astype({'Actual': int, 'Predicted': int})
+        #self.dframe.sort_values(by = ['Predicted','LOC'],inplace=True)
+        self.dframe['InspectedLOC'] = self.dframe.LOC.cumsum()
         self.tn, self.fp, self.fn, self.tp = metrics.confusion_matrix(
             actual, predicted, labels=labels).ravel()
         self.pre, self.rec, self.spec, self.fpr, self.npv, self.acc, self.f1,self.pd,self.pf = self.get_performance()
-        
+        #print(metrics.classification_report(self.actual,self.predicted))
+        self._set_aux_vars()
+
+
+    def _set_aux_vars(self):
+        """
+        Set all the auxillary variables used for defect prediction
+        """
+        self.M = len(self.dframe)
+        self.N = self.dframe.Actual.sum() # have to check the implementation
+        #inspected_max = self.dframe.InspectedLOC.max()
+        inspected_max = self.dframe.InspectedLOC.max() * 0.2
+        for i in range(self.M):
+            if self.dframe.InspectedLOC.iloc[i] >= 1 * inspected_max:
+                # If we have inspected more than 20% of the total LOC
+                # break
+                break
+
+        self.inspected_50 = self.dframe.iloc[:i]
+        # Number of changes when we inspect 20% of LOC
+        self.m = len(self.inspected_50)
+        self.n = self.inspected_50.Predicted.sum()
+
+    
+    def get_pci_20(self):
+        pci_20 = self.m / self.M
+        return round(pci_20,2)
+
+    
+    def get_ifa(self):
+        for i in range(len(self.dframe)):
+            if self.dframe['Actual'].iloc[i] == self.dframe['Predicted'].iloc[i] == 1:
+                break
+
+        pred_vals = self.dframe['Predicted'].values[:i]
+        ifa = int(sum(pred_vals) / (i + 1) * 100)
+        return i
+    
+    
     def calculate_recall(self):
-        return round(metrics.recall_score(self.actual, self.predicted, average='weighted'),2)
+        return round(metrics.recall_score(self.actual, self.predicted, average=None)[1],2)
 
     def calculate_precision(self):
-        return round(metrics.precision_score(self.actual, self.predicted, average='weighted'),2)
+        return round(metrics.precision_score(self.actual, self.predicted, average=None)[1],2)
 
     def calculate_f1_score(self):
-        return round(metrics.f1_score(self.actual, self.predicted, average='weighted'),2)
+        return round(metrics.f1_score(self.actual, self.predicted, average=None)[1],2)
 
     def get_performance(self):
         pre = round(1.0 * self.tp / (self.tp + self.fp),2) if (self.tp + self.fp) != 0 else 0
@@ -34,7 +81,15 @@ class measures(object):
         pf =  round(1.0 * self.fp / (self.fp + self.tn),2)
         return pre, rec, spec, fpr, npv, acc, f1,pd,pf
 
+    def get_pd(self):
+        return self.pd
+
+    def get_pf(self):
+        return self.pf
+
     def calculate_d2h(self):
+        far = 0
+        recall = 0
         if (self.fp + self.tn) != 0:
             far = self.fp/(self.fp+self.tn)
         if (self.tp + self.fn) != 0:

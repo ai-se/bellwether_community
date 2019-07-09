@@ -1,0 +1,10 @@
+,scikit-learn,pip,jadx,android-Ultra-Pull-To-Refresh,AndroidViewAnimations,disruptor,BaseRecyclerViewAdapterHelper,LightTable,android,mobile-icon-resizer
+AndroidViewAnimations,0.68,0.67,0.76,0.0,,0.68,0.56,0.83,0.68,0.67
+BaseRecyclerViewAdapterHelper,0.74,0.68,0.86,0.0,0.73,0.82,,0.69,0.74,0.86
+LightTable,0.71,0.65,0.86,0.0,0.82,0.76,0.9,,0.74,1.0
+android,0.67,0.65,0.84,0.0,0.67,0.68,0.56,0.74,,0.8
+disruptor,0.69,0.65,0.65,0.0,0.66,,0.66,0.73,0.72,0.79
+jadx,0.7,0.74,,0.0,0.63,0.58,0.7,0.74,0.8,0.86
+mobile-icon-resizer,0.73,0.69,0.84,0.0,0.7,0.82,0.65,0.73,0.83,
+pip,0.71,,0.84,0.0,0.6,0.71,0.55,0.66,0.78,0.79
+scikit-learn,,0.77,0.84,0.0,0.88,0.82,1.0,0.82,0.8,0.92

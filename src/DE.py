@@ -159,21 +159,21 @@ class DE(object):
       self.frontier = nextgeneration[:]
       newbestconf, newbestscore = self.best()
       if isBetter(list(newbestscore.values()), list(self.bestscore.values())): 
-        #print("newbestscore %s:" % str(newbestscore))
-        #print("bestconf %s :" % str(newbestconf))
+        print("newbestscore %s:" % str(newbestscore))
+        print("bestconf %s :" % str(newbestconf))
         self.bestscore = newbestscore
         self.bestconf = newbestconf
         changed = True
       if not changed:
         self.life -= 1
       changed = False
-    #print("TUNING DONE !",self.bestconf,self.bestscore)
+    print("TUNING DONE !",self.bestconf,self.bestscore)
     return (self.bestconf, self.evaluation)
 
 
 class DE_Tune_ML(DE):
   def __init__(self, learner, params_distribution, goal, target_class,
-               num_population=10, repeats=1000, f=0.75, cr=0.3, life=3):
+               num_population=60, repeats=1000, f=0.75, cr=0.3, life=10):
     self.learner = learner
     super(DE_Tune_ML, self).__init__(params_distribution, goal, target_class,
                                      num_population, repeats, f, cr, life)
@@ -182,6 +182,7 @@ class DE_Tune_ML(DE):
     for n, kwargs in enumerate(self.frontier):
       score_dict = self.learner.learn({},**kwargs)
       self.scores[n] = self.get_target_score(score_dict)
+      print(self.scores[n])
 
   def evaluate_once(self, **new):
     return self.learner.learn({},**new)

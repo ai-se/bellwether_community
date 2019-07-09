@@ -14,9 +14,8 @@ import pandas as pd
 import numpy as np
 from sklearn.neighbors import NearestNeighbors as NN
 
-
 class smote(object):
-  def __init__(self, pd_data, neighbor=5,r=2 ,up_to_num=[]):
+  def __init__(self, pd_data, neighbor=5,r=2 ,up_to_num=[],auto=True):
     """
     :param pd_data: panda.DataFrame, the last column must be class label
     :param neighbor: num of nearst neighbors to select
@@ -26,19 +25,20 @@ class smote(object):
     :return panda.DataFrame smoted data
     """
     self.set_data(pd_data)
+    self.auto = auto
     self.neighbor = neighbor
     self.up_to_max = False
     self.up_to_num = up_to_num
     self.r = r
     self.label_num = len(set(pd_data[pd_data.columns[-1]].values))
-    if up_to_num:
-      label_num = len(set(pd_data[pd_data.columns[-1]].values))
-      if label_num - 1 != len(up_to_num):
-        raise ValueError(
-          "should set smoted size for " + str(label_num - 1) + " minorities")
-      self.up_to_num = up_to_num
-    else:
-      self.up_to_max = True
+    #if up_to_num:
+    #  label_num = len(set(pd_data[pd_data.columns[-1]].values))
+    #  if label_num - 1 != len(up_to_num):
+    #    raise ValueError(
+    #      "should set smoted size for " + str(label_num - 1) + " minorities")
+    #  self.up_to_num = up_to_num
+    #else:
+    #  self.up_to_max = True
 
   def set_data(self, pd_data):
     if not pd_data.empty:# and isinstance(
@@ -84,6 +84,10 @@ class smote(object):
         else:
           num_neigh = self.neighbor
         knn = NN(n_neighbors=num_neigh,p=self.r,algorithm='ball_tree').fit(data_no_label)
+        if self.auto:
+          to_add = to_add
+        else:
+          to_add = self.up_to_num
         for _ in range(to_add):
           rand_ngbr, sample = get_ngbr(data_no_label, knn)
           new_row = []

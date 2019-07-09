@@ -204,7 +204,7 @@ class bellwether(object):
     def run_bellwether(self):
         threads = []
         results = {}
-        self.projects = self.projects
+        self.projects = self.projects[0:10]
         projects = np.array_split(self.projects, self.cores)
         for i in range(self.cores):
             print("starting thread ",i)
