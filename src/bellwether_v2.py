@@ -198,7 +198,6 @@ class bellwether(object):
             except:
                 print(s_project,sys.exc_info())
                 continue
-        #print(final_score)
         return final_score
 
     def run_bellwether(self):
@@ -320,8 +319,8 @@ class SK_LR(DE_Learners):
         return tunelst
 
 if __name__ == "__main__":
-    path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data'
-    #path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data'
+    #path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data'
+    path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data'
     bell = bellwether(path + '/data',
                                 path + '/commit_guru')
     bell.run_bellwether()
