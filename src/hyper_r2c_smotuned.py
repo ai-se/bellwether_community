@@ -102,7 +102,7 @@ class hyper(object):
                 learner = [SK_LR][0]
                 F = {}
                 score = []
-                for i in range(2):
+                for i in range(5):
                     for train_index, tune_index in kf.split(X, y):
                         X_train, X_tune = X.iloc[train_index], X.iloc[tune_index]
                         y_train, y_tune = y[train_index], y[tune_index]
