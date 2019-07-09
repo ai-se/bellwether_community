@@ -1,9 +1,9 @@
 #!/bin/csh
 #BSUB -W 6000
-#BSUB -n 8
-#BSUB -R span[ptile=8]
+#BSUB -n 2
+#BSUB -R span[ptile=2]
 #BSUB -o ./out/out.%J
 #BSUB -e ./out/out.%J
 
 module load python
-python bellwether_v2.py
+python 1385_default_bellwether.py
