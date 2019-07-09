@@ -67,7 +67,7 @@ class bellwether(object):
             _dir1 = self.data_source + '\\' 
         self.projects = [f for f in listdir(_dir1) if isfile(join(_dir1, f))]
         self.selected_projects = self.get_eligible_projects()
-        self.selected_projects = self.selected_projects[0:20]
+        self.selected_projects = self.selected_projects[0:3]
         self.cores = cpu_count()
 
     
@@ -130,7 +130,7 @@ class bellwether(object):
     def bellwether(self):
         final_score = {}
         count = 0
-        for s_project in self.selected_projects[0:2]:
+        for s_project in self.selected_projects:
             try:
                 s_path = self.data_source + '/' + s_project
                 print(s_project)
@@ -192,11 +192,11 @@ class bellwether(object):
                                     score[d_project]['ifa'].append(F['ifa'][0])
                                     score[d_project]['pd'].append(F['pd'][0])
                                     score[d_project]['pf'].append(F['pf'][0])
-                            except ArithmeticError as e:
+                            except Exception as e:
                                 print(e)
                                 continue
                     final_score[s_project] = score 
-            except ArithmeticError as e:
+            except Exception as e:
                 print(e)
                 continue
         return final_score
@@ -263,7 +263,7 @@ class bellwether(object):
 
 
 if __name__ == "__main__":
-    path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
-    #path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data'
+    #path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
+    path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
     bell = bellwether(path)
     bell.run_bellwether()
