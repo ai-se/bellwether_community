@@ -67,7 +67,7 @@ class bellwether(object):
             _dir1 = self.data_source + '\\' 
         self.projects = [f for f in listdir(_dir1) if isfile(join(_dir1, f))]
         self.selected_projects = self.get_eligible_projects()
-        self.selected_projects = self.selected_projects[0:3]
+        self.selected_projects = self.selected_projects[0:80]
         self.cores = cpu_count()
 
     
@@ -248,15 +248,15 @@ class bellwether(object):
         results_pd_df = pd.DataFrame.from_dict(results_pd, orient='index')
         results_pf_df = pd.DataFrame.from_dict(results_pf, orient='index')
 
-        results_f1_df.to_csv('data/1385/20/1385_LR_bellwether_f1.csv')
-        results_precision_df.to_csv('data/1385/20/1385_LR_bellwether_precision.csv')
-        results_recall_df.to_csv('data/1385/20/1385_LR_bellwether_recall.csv')
-        results_g_df.to_csv('data/1385/20/1385_LR_bellwether_g.csv')
-        results_d2h_df.to_csv('data/1385/20/1385_LR_bellwether_d2h.csv')
-        results_pci_20_df.to_csv('data/1385/20/1385_LR_bellwether_pci_20.csv')
-        results_ifa_df.to_csv('data/1385/20/1385_LR_bellwether_ifa.csv')
-        results_pd_df.to_csv('data/1385/20/1385_LR_bellwether_pd.csv')
-        results_pf_df.to_csv('data/1385/20/1385_LR_bellwether_pf.csv')
+        results_f1_df.to_csv('data/1385/80/1385_LR_bellwether_f1.csv')
+        results_precision_df.to_csv('data/1385/80/1385_LR_bellwether_precision.csv')
+        results_recall_df.to_csv('data/1385/80/1385_LR_bellwether_recall.csv')
+        results_g_df.to_csv('data/1385/80/1385_LR_bellwether_g.csv')
+        results_d2h_df.to_csv('data/1385/80/1385_LR_bellwether_d2h.csv')
+        results_pci_20_df.to_csv('data/1385/80/1385_LR_bellwether_pci_20.csv')
+        results_ifa_df.to_csv('data/1385/80/1385_LR_bellwether_ifa.csv')
+        results_pd_df.to_csv('data/1385/80/1385_LR_bellwether_pd.csv')
+        results_pf_df.to_csv('data/1385/80/1385_LR_bellwether_pf.csv')
 
 
 
