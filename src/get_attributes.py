@@ -29,7 +29,7 @@ class attribute(object):
         else:
             self._dir = self.path + '\\'
         self.projects = [f for f in listdir(self._dir) if isfile(join(self._dir, f))]
-        self.projects = self.projects[0:10]
+        #self.projects = self.projects[0:10]
 
     def prepare_data(self,path):
         df = pd.read_csv(path)
@@ -105,8 +105,8 @@ class attribute(object):
 
 
 if __name__ == "__main__":
-    path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
-    #path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
+    #path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
+    path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
     attr = attribute(path)
     project_selection = attr.get_attributes()
     with open('data/1385/projects/selected_attr.pkl', 'wb') as handle:
