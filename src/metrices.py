@@ -16,7 +16,8 @@ class measures(object):
         self.dframe = pd.DataFrame(list(zip(self.actual,self.predicted,self.loc)),columns = ['Actual','Predicted','LOC'])
         self.dframe = self.dframe.dropna()
         self.dframe = self.dframe.astype({'Actual': int, 'Predicted': int})
-        #self.dframe.sort_values(by = ['Predicted','LOC'],inplace=True)
+        self.dframe.sort_values(by = ['Predicted','LOC'],inplace=True,ascending=[False,True])
+        #print(self.dframe)
         self.dframe['InspectedLOC'] = self.dframe.LOC.cumsum()
         self.tn, self.fp, self.fn, self.tp = metrics.confusion_matrix(
             actual, predicted, labels=labels).ravel()
