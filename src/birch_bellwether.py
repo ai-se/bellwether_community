@@ -299,7 +299,9 @@ if __name__ == "__main__":
     data_store_path = 'data/1385/exp1/1/'
     bell = bellwether(path,meta_path)
     cluster,cluster_tree = bell.build_BIRCH()
-    cluster_ids = [35,55] # need to include cluster 1
+    with open('data/1385/exp1/1385_cluster_35.pkl', 'rb') as handle:
+        _cluster_projects = pickle.load(handle)
+    cluster_ids = [55] # need to include cluster 1
     for ids in cluster_ids:
-        selected_projects = list(bell.attr_df.iloc[cluster_tree[ids].data_points].index)
+        selected_projects = _cluster_projects
         bell.run(selected_projects,ids,data_store_path)
