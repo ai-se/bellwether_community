@@ -1,0 +1,11 @@
+,jlinalg.csv,superwaba.csv,fritzing.csv,playerstage.csv,knowledge.csv,massiv.csv,rtrt-on-gpu.csv,amateur-scrolls.csv,quarkplusplus.csv,multitude.csv
+amateur-scrolls.csv,0.71,0.03,0.58,0.06,0.2,0.12,0.06,0.17,0.22,0.08
+fritzing.csv,0.21,0.32,0.27,0.43,0.6,0.6,0.04,0.28,0.53,0.32
+jlinalg.csv,0.21,0.51,0.94,0.84,0.4,0.8,0.98,0.93,0.75,0.78
+knowledge.csv,1.0,1.0,0.99,1.0,0.6,0.97,0.94,0.78,0.88,0.98
+massiv.csv,0.0,0.04,0.13,0.0,0.0,0.0,0.0,0.02,0.0,0.0
+multitude.csv,0.79,0.75,0.73,0.82,0.6,0.62,0.54,0.67,0.88,0.32
+playerstage.csv,0.86,0.55,0.64,0.27,0.4,0.34,0.08,0.24,0.38,0.24
+quarkplusplus.csv,0.29,0.23,0.35,0.36,0.0,0.33,0.15,0.98,0.31,0.37
+rtrt-on-gpu.csv,0.0,0.28,0.13,0.14,0.8,0.19,0.06,0.04,0.44,0.15
+superwaba.csv,0.21,0.17,0.43,0.17,0.2,0.43,0.23,0.5,0.12,0.15

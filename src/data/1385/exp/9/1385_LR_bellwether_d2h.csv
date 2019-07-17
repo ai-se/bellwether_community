@@ -1,0 +1,7 @@
+,jgnash.csv,yarp0.csv,mp-rechnungs-und-kundenverwaltung.csv,ingex.csv,ambulant.csv,openefm.csv
+ambulant.csv,0.82,0.71,0.79,0.74,,0.83
+ingex.csv,0.87,0.94,0.79,,0.69,0.92
+jgnash.csv,,0.65,0.83,0.54,0.6,0.91
+mp-rechnungs-und-kundenverwaltung.csv,0.84,0.82,,0.54,0.71,0.61
+openefm.csv,0.59,0.88,0.73,0.64,0.69,
+yarp0.csv,1.0,,0.66,0.59,0.78,0.71

@@ -1,0 +1,6 @@
+,sqlpower-library.csv,freenet.csv,onotoa.csv,botsnscouts.csv,mediaportal.csv
+botsnscouts.csv,0.55,0.92,1.0,0.37,0.62
+freenet.csv,1.0,0.48,1.01,0.67,0.97
+mediaportal.csv,0.87,0.91,0.92,1.0,0.83
+onotoa.csv,0.89,0.76,0.89,0.78,0.81
+sqlpower-library.csv,0.6,0.89,0.68,1.0,1.0

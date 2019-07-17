@@ -1,0 +1,10 @@
+,gtad.csv,kaffeine.csv,taokgame.csv,htmlunit.csv,jsr308-langtools.csv,continuum-ide.csv,anaxagora.csv,stemkit.csv,carabiner.csv
+anaxagora.csv,0.15,0.0,0.16,0.05,0.05,0.18,0.0,0.14,0.16
+carabiner.csv,0.37,0.0,0.51,0.75,0.05,0.44,0.35,0.24,0.16
+continuum-ide.csv,0.03,0.73,0.3,0.36,0.1,0.05,0.16,0.18,0.02
+gtad.csv,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0.0,0.0
+htmlunit.csv,0.37,0.0,0.18,0.13,0.05,0.33,0.18,0.25,0.14
+jsr308-langtools.csv,0.65,0.0,0.73,0.1,0.2,0.67,0.68,0.82,0.76
+kaffeine.csv,0.96,0.27,0.72,0.7,1.0,1.0,0.58,0.72,0.53
+stemkit.csv,0.0,0.0,0.05,0.02,0.0,0.0,0.19,0.0,0.04
+taokgame.csv,0.25,0.0,0.07,0.05,0.3,0.23,0.41,0.19,0.27

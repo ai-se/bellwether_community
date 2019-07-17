@@ -1,0 +1,5 @@
+,mycila.csv,azureus.csv,octet.csv,autofac.csv
+autofac.csv,0.99,0.76,0.61,
+azureus.csv,0.99,,1.01,0.88
+mycila.csv,,0.53,0.68,0.72
+octet.csv,0.81,0.76,,0.73

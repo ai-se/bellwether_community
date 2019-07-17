@@ -1,0 +1,8 @@
+,fido.csv,poormans.csv,hibernate.csv,ninject.csv,geogebra.csv,fluent-nhibernate.csv,uface.csv
+fido.csv,1.0,0.03,0.19,0.0,0.01,0.24,0.9
+fluent-nhibernate.csv,0.25,0.56,0.34,0.2,0.53,0.94,0.31
+geogebra.csv,0.25,0.47,0.51,0.4,0.66,0.82,0.47
+hibernate.csv,0.75,0.65,0.57,1.0,0.61,0.94,0.63
+ninject.csv,0.5,0.68,0.44,1.0,0.55,0.82,0.49
+poormans.csv,0.0,0.76,0.32,0.6,0.64,0.59,0.16
+uface.csv,1.0,1.0,0.65,0.8,0.91,1.0,0.93

@@ -30,7 +30,7 @@ class measures(object):
         """
         Set all the auxillary variables used for defect prediction
         """
-        self.M = len(self.dframe)
+        self.M = len(self.dframe[self.dframe['Predicted'] == 1])
         self.N = self.dframe.Actual.sum() # have to check the implementation
         #inspected_max = self.dframe.InspectedLOC.max()
         inspected_max = self.dframe.InspectedLOC.max() * 0.2
@@ -39,7 +39,9 @@ class measures(object):
                 # If we have inspected more than 20% of the total LOC
                 # break
                 break
-
+        if self.M == 0:
+            i = 0
+            self.M = 1
         self.inspected_50 = self.dframe.iloc[:i]
         # Number of changes when we inspect 20% of LOC
         self.m = len(self.inspected_50)

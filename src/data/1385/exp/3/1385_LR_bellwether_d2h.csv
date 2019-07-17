@@ -1,0 +1,8 @@
+,jahshaka.csv,open-media-library.csv,benojt.csv,jatlas.csv,jam-daq.csv,chrysalis.csv,jedit.csv
+benojt.csv,1.0,1.0,,1.0,0.98,1.0,0.93
+chrysalis.csv,0.4,0.69,0.34,0.39,0.78,,0.45
+jahshaka.csv,,0.81,0.88,0.81,0.53,0.82,0.71
+jam-daq.csv,0.57,0.59,0.76,0.37,,0.76,0.65
+jatlas.csv,0.91,0.73,0.62,,0.76,0.89,0.63
+jedit.csv,0.96,0.88,1.0,0.99,1.0,0.81,
+open-media-library.csv,0.62,,0.75,0.33,0.54,1.0,0.72
