@@ -173,7 +173,7 @@ class bellwether(object):
                         #destination_projects.remove(s_project)
                         for d_project in destination_projects:
                             try:
-                                d_path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted/' + d_project
+                                d_path = self.data_path + d_project
                                 _test_df = self.prepare_data(d_path)
                                 _df_test_loc = _test_df.LOC
                                 test_df = _test_df[s_cols]
