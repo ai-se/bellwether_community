@@ -293,8 +293,8 @@ class bellwether(object):
 
 
 if __name__ == "__main__":
-    path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
-    #path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
+    #path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
+    path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
     meta_path = 'data/1385/projects/selected_attr.pkl'
     data_store_path = 'data/1385/exp1/1/'
     bell = bellwether(path,meta_path)
