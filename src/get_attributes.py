@@ -20,6 +20,25 @@ import CFS
 import metrices
 import measures
 
+from multiprocessing import Pool, cpu_count
+from threading import Thread
+from multiprocessing import Queue
+
+
+class ThreadWithReturnValue(Thread):
+    def __init__(self, group=None, target=None, name=None,
+                 args=(), kwargs={}, Verbose=None):
+        Thread.__init__(self, group, target, name, args, kwargs)
+        self._return = None
+    def run(self):
+        #print(type(self._target))
+        if self._target is not None:
+            self._return = self._target(*self._args,
+                                                **self._kwargs)
+    def join(self, *args):
+        Thread.join(self, *args)
+        return self._return
+
 class attribute(object):
 
     def __init__(self,path):
@@ -30,6 +49,7 @@ class attribute(object):
             self._dir = self.path + '\\'
         self.projects = [f for f in listdir(self._dir) if isfile(join(self._dir, f))]
         #self.projects = self.projects[0:10]
+        self.cores = cpu_count()
 
     def prepare_data(self,path):
         df = pd.read_csv(path)
@@ -78,16 +98,16 @@ class attribute(object):
         df.columns = cols
         return df
 
-    def get_attributes(self):
+    def get_attributes(self,projects):
         count = 0
         project_selection = {}
-        for project in self.projects:
+        for project in projects:
             try:
                 project_attr = []
                 path = self._dir + project
                 print(project)
                 df = self.prepare_data(path)
-                if df.shape[0] >= 50:
+                if df.shape[0] < 50:
                     continue
                 else:
                     count+=1
@@ -103,11 +123,26 @@ class attribute(object):
                 continue
         return project_selection
 
+    def run_attributes_selector(self):
+        threads = []
+        results = {}
+        split_projects = np.array_split(self.projects, self.cores)
+        for i in range(self.cores):
+            print("starting thread ",i)
+            t = ThreadWithReturnValue(target = self.get_attributes, args = [split_projects[i]])
+            threads.append(t)
+        for th in threads:
+            th.start()
+        for th in threads:
+            response = th.join()
+            results.update(response)
+        return results
+
 
 if __name__ == "__main__":
     #path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
     path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
     attr = attribute(path)
-    project_selection = attr.get_attributes()
-    with open('data/1385/projects/other_project_selected_attr.pkl', 'wb') as handle:
+    project_selection = attr.run_attributes_selector()
+    with open('data/1385/projects/selected_attr.pkl', 'wb') as handle:
             pickle.dump(project_selection, handle, protocol=pickle.HIGHEST_PROTOCOL)
