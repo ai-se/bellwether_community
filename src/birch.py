@@ -101,16 +101,6 @@ class birch(object):
     def show_clutser_tree(self):
         self.htree.display_tree()
         
-    # Add classification model at each node and leaf
-    # def model_adder(self,cluster_tree):
-    #     for cluster_id in cluster_tree:
-    #         clf = DecisionTreeClassifier(criterion='entropy')
-    #         sample_points = cluster_tree[cluster_id].data_points
-    #         train_X_sub = self.data.iloc[sample_points,:]
-    #         train_y_sub = self.y.iloc[sample_points]
-    #         clf.fit(train_X_sub,train_y_sub)
-    #         cluster_tree[cluster_id].set_classifier(clf)
-    #     return cluster_tree
         
     # Prediction Function with height based prediction with outlier detection
     def predict(self,test_X,depth):
@@ -130,11 +120,11 @@ class birch(object):
                     selected_cluster = cluster_id
             self.cluster_tree[selected_cluster].add_test_points(test_instance[0])
             # Outlier identifier
-            if self.cluster_tree[selected_cluster].check_outlier(min_distance):
-                self.cluster_tree[selected_cluster].add_outlier_points(test_instance[0])
-            _predicted_label = self.cluster_tree[selected_cluster].classifier.predict([test_sample])
-            self.cluster_tree[selected_cluster].add_predicted(_predicted_label)
-            predicted.append(_predicted_label)
+            #if self.cluster_tree[selected_cluster].check_outlier(min_distance):
+            #    self.cluster_tree[selected_cluster].add_outlier_points(test_instance[0])
+            #_predicted_label = self.cluster_tree[selected_cluster].classifier.predict([test_sample])
+            #self.cluster_tree[selected_cluster].add_predicted(_predicted_label)
+            predicted.append(selected_cluster)
         return predicted
     
     # Model certification creator
