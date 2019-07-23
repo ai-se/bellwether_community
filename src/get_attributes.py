@@ -87,7 +87,7 @@ class attribute(object):
                 path = self._dir + project
                 print(project)
                 df = self.prepare_data(path)
-                if df.shape[0] < 50:
+                if df.shape[0] >= 50:
                     continue
                 else:
                     count+=1
@@ -109,5 +109,5 @@ if __name__ == "__main__":
     path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
     attr = attribute(path)
     project_selection = attr.get_attributes()
-    with open('data/1385/projects/selected_attr.pkl', 'wb') as handle:
+    with open('data/1385/projects/other_project_selected_attr.pkl', 'wb') as handle:
             pickle.dump(project_selection, handle, protocol=pickle.HIGHEST_PROTOCOL)
