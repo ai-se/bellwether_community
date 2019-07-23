@@ -293,15 +293,15 @@ class bellwether(object):
 
 
 if __name__ == "__main__":
-    path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
-    #path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
+    #path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
+    path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
     meta_path = 'data/1385/projects/selected_attr.pkl'
     data_store_path = 'data/1385/exp1/0/'
     bell = bellwether(path,meta_path)
     cluster,cluster_tree = bell.build_BIRCH()
-    with open('data/1385/exp1/1385_cluster_0.pkl', 'rb') as handle:
+    with open('data/1385/exp1/1385_cluster_28.pkl', 'rb') as handle:
         _cluster_projects = pickle.load(handle)
-    cluster_ids = [0] # need to include cluster 1
+    cluster_ids = [28] # need to include cluster 1
     for ids in cluster_ids:
         selected_projects = _cluster_projects
         bell.run(selected_projects,ids,data_store_path)
