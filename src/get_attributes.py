@@ -48,7 +48,7 @@ class attribute(object):
         else:
             self._dir = self.path + '\\'
         self.projects = [f for f in listdir(self._dir) if isfile(join(self._dir, f))]
-        #self.projects = self.projects[0:10]
+        self.projects = self.projects[0:10]
         self.cores = cpu_count()
 
     def prepare_data(self,path):
@@ -144,5 +144,5 @@ if __name__ == "__main__":
     path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
     attr = attribute(path)
     project_selection = attr.run_attributes_selector()
-    with open('data/1385/projects/selected_attr.pkl', 'wb') as handle:
+    with open('data/1385/projects/other_selected_attr.pkl', 'wb') as handle:
             pickle.dump(project_selection, handle, protocol=pickle.HIGHEST_PROTOCOL)

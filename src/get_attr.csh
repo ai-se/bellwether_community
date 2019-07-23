@@ -1,7 +1,7 @@
 #!/bin/csh
 #BSUB -W 6000
-#BSUB -n 2
-#BSUB -R span[ptile=2]
+#BSUB -n 8
+#BSUB -R span[ptile=8]
 #BSUB -o ./out/out.%J
 #BSUB -e ./out/out.%J
 
