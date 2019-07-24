@@ -48,7 +48,7 @@ class attribute(object):
         else:
             self._dir = self.path + '\\'
         self.projects = [f for f in listdir(self._dir) if isfile(join(self._dir, f))]
-        self.projects = self.projects[0:10]
+        #self.projects = self.projects[0:10]
         self.cores = cpu_count()
 
     def prepare_data(self,path):
@@ -107,7 +107,7 @@ class attribute(object):
                 path = self._dir + project
                 print(project)
                 df = self.prepare_data(path)
-                if df.shape[0] < 50:
+                if df.shape[0] >= 50:
                     continue
                 else:
                     count+=1
