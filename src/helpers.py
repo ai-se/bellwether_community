@@ -60,6 +60,8 @@ def get_score(criteria, metrics):  # The smaller the better
   all_metrics = [tp, fp, tn, fn, pre, rec, spec, fpr, npv, acc, f1]
   if criteria == "Accuracy":
     score = -all_metrics[-ACC]
+  elif criteria == "F1":
+    score = -all_metrics[-F1]
   elif criteria == "Precision":
       score = -all_metrics[-PRE]
   elif criteria == "Dist2Heaven":

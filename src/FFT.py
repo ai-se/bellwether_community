@@ -81,7 +81,7 @@ class FFT(object):
                 [str(x).ljust(5, "0") for x in all_metrics[4:] + [score]]))
         print("\tThe best tree found on training data is: FFT(" + str(best[0]) + ")")
         self.best = best[0]
-        self.print_tree(best[0])
+        #self.print_tree(best[0])
         return self.performance_on_test[best[0]][4:]
 
     "Given how the decision is made, get the description for the node."
