@@ -1,10 +1,2 @@
 ,id,expected,max_bell,avge,bellwether
-4,1,6,0,0.0,adonthell.csv
-2,11,0,0,0.0,atunes.csv
-7,14,7,0,0.0,acegisecurity.csv
-8,25,0,0,0.0,javagroups.csv
-5,26,0,0,0.0,esmf.csv
-1,27,0,0,0.0,xmemcached.csv
-3,28,4,53,17.43,emite.csv
-0,35,16,195,54.85,xreal.csv
-6,55,14,180,56.93,ctrlr.csv
+0,0,426,692,260.99,jchassis.csv

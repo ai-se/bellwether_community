@@ -20,6 +20,7 @@ import sys
 import os
 import copy
 import traceback
+import timeit
 
 
 
@@ -138,7 +139,7 @@ class bellwether(object):
         attr_dict = pd.read_pickle(self.meta_path)
         self.attr_df = pd.DataFrame.from_dict(attr_dict,orient='index')
         cluster,cluster_tree,_ = self.cluster_driver(self.attr_df)
-        return cluster,cluster_tree
+        return cluster,cluster_tree,self.attr_df
 
 
     def bellwether(self,selected_projects,all_projects):
@@ -294,15 +295,22 @@ class bellwether(object):
 
 
 if __name__ == "__main__":
+    start = timeit.default_timer()
     #path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
     path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
     meta_path = 'data/1385/projects/selected_attr.pkl'
-    data_store_path = 'data/1385/exp1/0/'
+    data_store_path = 'data/1385/exp2/2/'
     bell = bellwether(path,meta_path)
-    cluster,cluster_tree = bell.build_BIRCH()
-    with open('data/1385/exp1/1385_cluster_0.pkl', 'rb') as handle:
-        _cluster_projects = pickle.load(handle)
-    cluster_ids = [0] # need to include cluster 1
+    cluster,cluster_tree,attr_df = bell.build_BIRCH()
+    #with open('data/1385/exp1/1385_cluster_0.pkl', 'rb') as handle:
+    #    _cluster_projects = pickle.load(handle)
+    cluster_ids = []
+    for key in cluster_tree:
+        if cluster_tree[key].depth == 2:
+            cluster_ids.append(key)
+    #cluster_ids = [0] # need to include cluster 1
     for ids in cluster_ids:
-        selected_projects = _cluster_projects
+        selected_projects = list(attr_df.iloc[cluster_tree[ids].data_points].index)
         bell.run(selected_projects,ids,data_store_path)
+    stop = timeit.default_timer() 
+    print("Model training time: ", stop - start)
