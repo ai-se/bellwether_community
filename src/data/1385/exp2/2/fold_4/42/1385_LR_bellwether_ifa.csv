@@ -1,0 +1,9 @@
+,adaptagrams.csv,olsrd.csv,electric-core.csv,badtrinitycore.csv,aime.csv,mumble.csv,t-2.csv,geochat.csv
+adaptagrams.csv,0.0,2.0,4.0,4.0,6.0,13.0,24.0,9.0
+aime.csv,8.0,0.0,17.0,405.0,1.0,2.0,1.0,127.0
+badtrinitycore.csv,49.0,1.0,1.0,0.0,12.0,4.0,6.0,1.0
+electric-core.csv,3.0,1.0,14.0,13.0,9.0,8.0,9.0,4.0
+geochat.csv,7.0,0.0,3.0,99.0,4.0,5.0,0.0,0.0
+mumble.csv,8.0,0.0,20.0,6.0,0.0,0.0,0.0,3.0
+olsrd.csv,8.0,0.0,5.0,4.0,2.0,21.0,42.0,6.0
+t-2.csv,5.0,4.0,1.0,4.0,12.0,7.0,5.0,9.0

@@ -1,0 +1,8 @@
+,graphmak.csv,pdfedit.csv,hazelcast.csv,betoffice.csv,tart.csv,jrdf.csv,elvishrayrenderer.csv
+betoffice.csv,0.98,0.8,1.02,0.64,0.77,0.8,0.71
+elvishrayrenderer.csv,0.66,0.63,0.42,0.96,1.04,0.7,0.43
+graphmak.csv,0.31,0.83,0.81,0.84,0.87,0.99,0.89
+hazelcast.csv,0.87,0.74,0.07,0.67,0.78,0.68,0.67
+jrdf.csv,0.89,0.7,0.55,0.85,0.81,0.38,0.75
+pdfedit.csv,0.78,0.39,0.94,0.82,0.61,0.74,0.57
+tart.csv,0.68,0.54,0.65,0.81,0.25,0.85,0.69

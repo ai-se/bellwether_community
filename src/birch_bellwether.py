@@ -10,6 +10,7 @@ from sklearn import metrics
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import KFold
 
 import platform
 from os import listdir
@@ -64,9 +65,9 @@ class ThreadWithReturnValue(Thread):
 
 class bellwether(object):
 
-    def __init__(self,data_path,meta_path):
+    def __init__(self,data_path,attr_df):
         self.data_path = data_path
-        self.meta_path = meta_path
+        self.attr_df = attr_df
         if platform.system() == 'Darwin' or platform.system() == 'Linux':
             self.data_path = self.data_path + '/'
         else:
@@ -136,10 +137,8 @@ class bellwether(object):
         return cluster,cluster_tree,max_depth
 
     def build_BIRCH(self):
-        attr_dict = pd.read_pickle(self.meta_path)
-        self.attr_df = pd.DataFrame.from_dict(attr_dict,orient='index')
         cluster,cluster_tree,_ = self.cluster_driver(self.attr_df)
-        return cluster,cluster_tree,self.attr_df
+        return cluster,cluster_tree
 
 
     def bellwether(self,selected_projects,all_projects):
@@ -147,6 +146,7 @@ class bellwether(object):
         count = 0
         for s_project in selected_projects:
             try:
+                print(s_project)
                 s_path = self.data_path + s_project
                 print(s_project)
                 df = self.prepare_data(s_path)
@@ -164,54 +164,54 @@ class bellwether(object):
                 kf = StratifiedKFold(n_splits = 5)
                 score = {}
                 F = {}
-                for i in range(1):
-                    #for train_index, tune_index in kf.split(X, y):
-                    #X_train, X_tune = X.iloc[train_index], X.iloc[tune_index]
-                    #y_train, y_tune = y[train_index], y[tune_index]
-                    clf = LogisticRegression()
-                    clf.fit(X,y)
-                    destination_projects = copy.deepcopy(all_projects)
-                        #destination_projects.remove(s_project)
-                    for d_project in destination_projects:
-                        try:
-                            d_path = self.data_path + d_project
-                            _test_df = self.prepare_data(d_path)
-                            _df_test_loc = _test_df.LOC
-                            test_df = _test_df[s_cols]
-                            if test_df.shape[0] < 50:
+                for i in range(5):
+                    for train_index, tune_index in kf.split(X, y):
+                        X_train, X_tune = X.iloc[train_index], X.iloc[tune_index]
+                        y_train, y_tune = y[train_index], y[tune_index]
+                        clf = LogisticRegression()
+                        clf.fit(X,y)
+                        destination_projects = copy.deepcopy(all_projects)
+                            #destination_projects.remove(s_project)
+                        for d_project in destination_projects:
+                            try:
+                                d_path = self.data_path + d_project
+                                _test_df = self.prepare_data(d_path)
+                                _df_test_loc = _test_df.LOC
+                                test_df = _test_df[s_cols]
+                                if test_df.shape[0] < 50:
+                                    continue
+                                test_df.reset_index(drop=True,inplace=True)
+                                d = {'buggy': True, 'clean': False}
+                                test_df['Buggy'] = test_df['Buggy'].map(d)
+                                test_y = test_df.Buggy
+                                test_X = test_df.drop(labels = ['Buggy'],axis = 1)
+                                predicted = clf.predict(test_X)
+                                abcd = metrices.measures(test_y,predicted,_df_test_loc)
+                                F['f1'] = [abcd.calculate_f1_score()]
+                                F['precision'] = [abcd.calculate_precision()]
+                                F['recall'] = [abcd.calculate_recall()]
+                                F['g-score'] = [abcd.get_g_score()]
+                                F['d2h'] = [abcd.calculate_d2h()]
+                                F['pci_20'] = [abcd.get_pci_20()]
+                                F['ifa'] = [abcd.get_ifa()]
+                                F['pd'] = [abcd.get_pd()]
+                                F['pf'] = [abcd.get_pf()]
+                                _F = copy.deepcopy(F)
+                                if 'f1' not in score.keys():
+                                    score[d_project] = _F
+                                else:
+                                    score[d_project]['f1'].append(F['f1'][0])
+                                    score[d_project]['precision'].append(F['precision'][0])
+                                    score[d_project]['recall'].append(F['recall'][0])
+                                    score[d_project]['g-score'].append(F['g-score'][0])
+                                    score[d_project]['d2h'].append(F['d2h'][0])
+                                    score[d_project]['pci_20'].append(F['pci_20'][0])
+                                    score[d_project]['ifa'].append(F['ifa'][0])
+                                    score[d_project]['pd'].append(F['pd'][0])
+                                    score[d_project]['pf'].append(F['pf'][0])
+                            except Exception as e:
+                                print("dest",d_project,e)
                                 continue
-                            test_df.reset_index(drop=True,inplace=True)
-                            d = {'buggy': True, 'clean': False}
-                            test_df['Buggy'] = test_df['Buggy'].map(d)
-                            test_y = test_df.Buggy
-                            test_X = test_df.drop(labels = ['Buggy'],axis = 1)
-                            predicted = clf.predict(test_X)
-                            abcd = metrices.measures(test_y,predicted,_df_test_loc)
-                            F['f1'] = [abcd.calculate_f1_score()]
-                            F['precision'] = [abcd.calculate_precision()]
-                            F['recall'] = [abcd.calculate_recall()]
-                            F['g-score'] = [abcd.get_g_score()]
-                            F['d2h'] = [abcd.calculate_d2h()]
-                            F['pci_20'] = [abcd.get_pci_20()]
-                            F['ifa'] = [abcd.get_ifa()]
-                            F['pd'] = [abcd.get_pd()]
-                            F['pf'] = [abcd.get_pf()]
-                            _F = copy.deepcopy(F)
-                            if 'f1' not in score.keys():
-                                score[d_project] = _F
-                            else:
-                                score[d_project]['f1'].append(F['f1'][0])
-                                score[d_project]['precision'].append(F['precision'][0])
-                                score[d_project]['recall'].append(F['recall'][0])
-                                score[d_project]['g-score'].append(F['g-score'][0])
-                                score[d_project]['d2h'].append(F['d2h'][0])
-                                score[d_project]['pci_20'].append(F['pci_20'][0])
-                                score[d_project]['ifa'].append(F['ifa'][0])
-                                score[d_project]['pd'].append(F['pd'][0])
-                                score[d_project]['pf'].append(F['pf'][0])
-                        except Exception as e:
-                            print("dest",d_project,e)
-                            continue
                     final_score[s_project] = score 
             except Exception as e:
                 print("src",s_project,e)
@@ -299,18 +299,42 @@ if __name__ == "__main__":
     #path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
     path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
     meta_path = 'data/1385/projects/selected_attr.pkl'
-    data_store_path = 'data/1385/exp2/2/'
-    bell = bellwether(path,meta_path)
-    cluster,cluster_tree,attr_df = bell.build_BIRCH()
-    #with open('data/1385/exp1/1385_cluster_0.pkl', 'rb') as handle:
-    #    _cluster_projects = pickle.load(handle)
-    cluster_ids = []
-    for key in cluster_tree:
-        if cluster_tree[key].depth == 2:
-            cluster_ids.append(key)
-    #cluster_ids = [0] # need to include cluster 1
-    for ids in cluster_ids:
-        selected_projects = list(attr_df.iloc[cluster_tree[ids].data_points].index)
-        bell.run(selected_projects,ids,data_store_path)
+    _data_store_path = 'data/1385/exp2/2/'
+    attr_dict = pd.read_pickle(meta_path)
+    attr_df = pd.DataFrame.from_dict(attr_dict,orient='index')
+    attr_df_index = list(attr_df.index)
+    kf = KFold(n_splits=10)
+    i = 0
+    for train_index, test_index in kf.split(attr_df):
+        data_store_path = _data_store_path
+        _train_index = []
+        _test_index = []
+        for index in train_index:
+            _train_index.append(attr_df_index[index])
+        for index in test_index:
+            _test_index.append(attr_df_index[index])
+        data_store_path = data_store_path + 'fold_' + str(i) + '/'
+        i += 1
+        _attr_df_train = attr_df.loc[_train_index]
+        #_attr_df_train.reset_index(drop=True,inplace=True)
+        _attr_df_test = attr_df.loc[_test_index]
+        #_attr_df_test.reset_index(drop=True,inplace=True)
+        data_path = Path(data_store_path)
+        if not data_path.is_dir():
+            os.makedirs(data_path)
+        _attr_df_train.to_pickle(data_store_path + 'train_data.pkl')
+        _attr_df_test.to_pickle(data_store_path + 'test_data.pkl')
+        bell = bellwether(path,_attr_df_train)
+        cluster,cluster_tree = bell.build_BIRCH()
+        #with open('data/1385/exp1/1385_cluster_0.pkl', 'rb') as handle:
+        #    _cluster_projects = pickle.load(handle)
+        cluster_ids = []
+        for key in cluster_tree:
+            if cluster_tree[key].depth == 2:
+                cluster_ids.append(key)
+        #cluster_ids = [0] # need to include cluster 1
+        for ids in cluster_ids:
+            selected_projects = list(_attr_df_train.iloc[cluster_tree[ids].data_points].index)
+            bell.run(selected_projects,ids,data_store_path)
     stop = timeit.default_timer() 
     print("Model training time: ", stop - start)

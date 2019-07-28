@@ -1,0 +1,9 @@
+,migen.csv,acegisecurity.csv,openxava.csv,motu.csv,irrlicht.csv,truevision.csv,zoolib.csv,emite.csv
+acegisecurity.csv,0.56,0.44,0.1,0.27,0.81,0.45,0.13,0.43
+emite.csv,0.33,0.27,0.32,0.23,0.78,0.47,0.16,0.61
+irrlicht.csv,0.44,0.28,0.11,0.22,0.82,0.35,0.09,0.44
+migen.csv,0.66,0.37,0.11,0.45,0.84,0.69,0.21,0.58
+motu.csv,0.48,0.32,0.1,0.42,0.8,0.43,0.11,0.44
+openxava.csv,0.41,0.33,0.24,0.14,0.82,0.41,0.08,0.78
+truevision.csv,0.68,0.38,0.15,0.38,0.83,0.64,0.15,0.54
+zoolib.csv,0.4,0.46,0.25,0.22,0.83,0.53,0.21,0.47

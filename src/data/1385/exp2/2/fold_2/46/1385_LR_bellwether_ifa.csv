@@ -1,0 +1,11 @@
+,olap-navigator.csv,qgis.csv,phonon-vlc-mplayer.csv,gnupdate.csv,qse.csv,roller.csv,xpontus.csv,zoolib.csv,rebecca-aiml.csv,xapian.csv,linux-ntfs.csv
+gnupdate.csv,0.0,0.0,20.0,0.0,2.0,0.0,117.0,13.0,21.0,2.0,2.0
+linux-ntfs.csv,0.0,0.0,4.0,11.0,5.0,7.0,72.0,7.0,1.0,0.0,0.0
+olap-navigator.csv,0.0,0.0,4.0,0.0,1.0,0.0,32.0,11.0,63.0,4.0,0.0
+phonon-vlc-mplayer.csv,0.0,0.0,10.0,2.0,10.0,0.0,42.0,8.0,56.0,0.0,0.0
+qgis.csv,0.0,0.0,23.0,105.0,2.0,0.0,69.0,13.0,3.0,2.0,0.0
+qse.csv,0.0,0.0,5.0,0.0,1.0,0.0,57.0,4.0,0.0,10.0,1.0
+rebecca-aiml.csv,0.0,1.0,1.0,5.0,1.0,2.0,30.0,37.0,0.0,6.0,5.0
+roller.csv,0.0,0.0,27.0,2.0,7.0,0.0,43.0,15.0,3.0,10.0,0.0
+xapian.csv,0.0,0.0,22.0,2.0,12.0,0.0,89.0,15.0,3.0,1.0,0.0
+zoolib.csv,0.0,0.0,5.0,1.0,0.0,0.0,117.0,6.0,15.0,0.0,0.0

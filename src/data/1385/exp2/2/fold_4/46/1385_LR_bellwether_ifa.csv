@@ -1,0 +1,11 @@
+,awemud.csv,liferea.csv,go.csv,kwave.csv,dvd-create.csv,gbif-indexingtoolkit.csv,mpgravity.csv,clamav.csv,linux-ntfs.csv,libarchive.csv
+awemud.csv,1.0,3.0,0.0,1.0,0.0,2.0,52.0,4.0,0.0,1.0
+clamav.csv,0.0,2.0,1.0,0.0,0.0,11.0,2.0,0.0,3.0,0.0
+dvd-create.csv,2.0,5.0,2.0,2.0,0.0,3.0,52.0,4.0,0.0,5.0
+gbif-indexingtoolkit.csv,1.0,6.0,2.0,0.0,0.0,1.0,52.0,12.0,0.0,5.0
+go.csv,1.0,3.0,0.0,0.0,0.0,4.0,0.0,2.0,0.0,3.0
+kwave.csv,2.0,6.0,4.0,0.0,0.0,0.0,2.0,13.0,0.0,6.0
+libarchive.csv,0.0,6.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,2.0
+liferea.csv,2.0,0.0,0.0,0.0,0.0,10.0,1.0,0.0,3.0,4.0
+linux-ntfs.csv,2.0,8.0,1.0,0.0,1.0,2.0,16.0,1.0,0.0,2.0
+mpgravity.csv,2.0,4.0,0.0,3.0,0.0,2.0,0.0,7.0,0.0,5.0

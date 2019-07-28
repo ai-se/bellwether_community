@@ -1,0 +1,9 @@
+,google-collections.csv,forester-atv.csv,mediate.csv,st-filteredstatistics.csv,projectfactory.csv,geotools.csv,l2j.csv,thedata.csv
+forester-atv.csv,0.11,0.83,0.57,0.18,0.16,0.35,0.3,0.0
+geotools.csv,0.0,0.66,0.0,0.44,0.48,0.61,0.34,0.61
+google-collections.csv,0.84,0.09,0.0,0.0,0.0,0.0,0.0,0.0
+l2j.csv,0.1,0.09,0.27,0.48,0.46,0.43,0.72,0.29
+mediate.csv,0.51,0.29,0.62,0.51,0.12,0.36,0.47,0.29
+projectfactory.csv,0.27,0.67,0.57,0.61,0.57,0.71,0.66,0.54
+st-filteredstatistics.csv,0.45,0.38,0.0,0.85,0.0,0.57,0.59,0.28
+thedata.csv,0.0,0.72,0.5,0.44,0.52,0.53,0.62,0.98

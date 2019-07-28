@@ -1,0 +1,8 @@
+,agilitybook.csv,apolloplayer.csv,gotjava.csv,rtb-team.csv,redshell.csv,k3d.csv,kowari.csv,xreal.csv
+agilitybook.csv,0.54,0.89,1.04,0.65,0.9,0.89,0.73,0.5
+apolloplayer.csv,0.71,0.37,0.61,0.7,0.68,0.6,0.49,0.91
+k3d.csv,0.73,0.88,0.02,0.91,0.95,0.26,1.0,1.01
+kowari.csv,0.75,0.69,0.07,0.94,0.84,0.69,0.49,0.48
+redshell.csv,0.88,0.76,1.25,1.01,0.43,0.84,0.74,0.72
+rtb-team.csv,0.87,0.59,1.01,0.3,0.79,0.9,0.76,0.46
+xreal.csv,0.96,0.94,1.0,0.67,0.79,0.78,0.89,0.02

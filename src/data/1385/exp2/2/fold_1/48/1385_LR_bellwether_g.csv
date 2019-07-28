@@ -1,0 +1,6 @@
+,autofac.csv,mobicents.csv,snakeyaml.csv,chrysalis.csv,xamj.csv
+autofac.csv,0.8,0.62,0.78,0.53,0.68
+chrysalis.csv,0.39,0.52,0.63,0.79,0.59
+mobicents.csv,0.44,0.67,0.65,0.64,0.62
+snakeyaml.csv,0.33,0.59,0.66,0.0,0.45
+xamj.csv,0.6,0.46,0.66,0.55,0.71

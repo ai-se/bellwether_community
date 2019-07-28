@@ -1,0 +1,7 @@
+,jlinalg.csv,arianne.csv,playerstage.csv,knowledge.csv,massiv.csv,ultimairis.csv
+arianne.csv,0.75,0.72,0.44,0.92,0.01,0.3
+jlinalg.csv,0.98,0.48,0.38,1.0,0.02,0.26
+knowledge.csv,0.95,0.61,0.42,1.0,0.01,0.32
+massiv.csv,1.0,0.47,0.0,0.0,0.21,1.0
+playerstage.csv,0.94,0.57,0.69,0.98,0.01,0.3
+ultimairis.csv,0.92,0.61,0.48,0.98,0.01,0.55

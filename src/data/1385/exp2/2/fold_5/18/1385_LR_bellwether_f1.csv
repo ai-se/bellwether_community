@@ -1,0 +1,8 @@
+,ifmo-game-1.csv,quarkplusplus.csv,dataobjectsdotnet.csv,xapian.csv,pi-qmc.csv,gstreamer.csv,zemljanka.csv
+dataobjectsdotnet.csv,0.21,0.46,0.59,0.47,0.61,0.63,0.0
+gstreamer.csv,0.17,0.56,0.61,0.38,0.43,0.73,0.79
+ifmo-game-1.csv,0.37,0.0,0.34,0.07,0.19,0.46,0.03
+pi-qmc.csv,0.09,0.47,0.45,0.34,0.69,0.72,0.94
+quarkplusplus.csv,0.18,0.64,0.53,0.35,0.29,0.27,0.02
+xapian.csv,0.17,0.6,0.56,0.59,0.3,0.62,0.79
+zemljanka.csv,0.2,0.53,0.59,0.37,0.4,0.57,0.89

@@ -1,0 +1,10 @@
+,barracudamvc.csv,openintents.csv,arsenal-1.csv,alembik.csv,mumble.csv,ontopia.csv,irplus.csv,lite.csv,mevenide.csv
+alembik.csv,0.89,0.43,0.0,0.64,0.65,0.81,0.6,0.44,0.5
+arsenal-1.csv,0.81,0.5,0.71,0.5,0.3,0.57,0.4,0.4,0.38
+barracudamvc.csv,0.95,0.42,0.45,0.39,0.28,0.88,0.37,0.27,0.17
+irplus.csv,0.85,0.39,0.55,0.67,0.43,0.74,0.58,0.6,0.28
+lite.csv,0.77,0.32,0.54,0.58,0.21,0.8,0.46,0.5,0.34
+mevenide.csv,0.83,0.37,0.47,0.5,0.67,0.72,0.2,1.0,0.59
+mumble.csv,0.86,0.42,0.42,0.29,0.61,0.86,0.3,0.26,0.15
+ontopia.csv,0.75,0.42,0.53,0.36,0.34,0.95,0.33,0.26,0.4
+openintents.csv,0.86,0.7,0.47,0.44,0.16,0.86,0.35,0.3,0.2
