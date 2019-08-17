@@ -1,0 +1,4 @@
+,recall,precision,pf,pci_20,ifa,wins
+amanda.csv,0.64,0.77,0.34,0.53,2.0,2
+empyrean.csv,0.0,0.0,0.0,0.0,111.0,0
+nutz.csv,0.55,0.56,0.47,0.59,1.0,1

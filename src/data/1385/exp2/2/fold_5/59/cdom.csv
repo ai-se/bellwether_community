@@ -1,0 +1,6 @@
+,f1,g,recall,precision,pf,wins
+cleartk.csv,0.55,0.57,0.64,0.4,0.37,2
+intact.csv,0.56,0.57,0.54,0.5,0.29,3
+miranda-icq.csv,0.51,0.52,0.47,0.43,0.29,1
+ofbiz.csv,0.41,0.51,0.73,0.4,0.64,0
+roolo.csv,0.73,0.57,0.77,0.67,0.71,4

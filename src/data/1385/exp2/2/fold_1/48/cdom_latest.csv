@@ -1,0 +1,6 @@
+,recall,precision,pf,pci_20,ifa,wins
+autofac.csv,0.81,0.37,0.52,0.43,1.0,0
+chrysalis.csv,0.57,0.45,0.3,0.48,2.0,2
+mobicents.csv,0.63,0.5,0.29,0.5,1.0,3
+snakeyaml.csv,0.4,0.56,0.14,0.64,1.0,4
+xamj.csv,0.66,0.51,0.31,0.53,5.0,1

@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,8,6.38,1.0,benojt.csv
+1,10,2,1.5,0.855,gpsmid.csv
+2,13,10,7.5,0.985,biopax.csv
+3,27,5,3.6,0.96,paintown.csv
+4,33,16,13.78,1.0,irrlicht.csv
+5,52,13,9.64,0.99,wpdev.csv

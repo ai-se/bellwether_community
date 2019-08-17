@@ -1,0 +1,8 @@
+,f1,g,recall,precision,pf,wins
+adaptagrams.csv,0.32,0.37,0.32,0.5,0.19,3
+bibedt.csv,0.59,0.4,0.56,0.56,0.26,5
+fulguro.csv,0.33,0.39,0.45,0.43,0.54,1
+glelite.csv,0.59,0.27,0.91,0.44,0.93,2
+go.csv,0.47,0.54,0.73,0.58,0.3,6
+libmesh.csv,0.2,0.24,0.2,0.5,0.3,0
+moving-pictures.csv,0.37,0.53,0.5,0.64,0.29,4

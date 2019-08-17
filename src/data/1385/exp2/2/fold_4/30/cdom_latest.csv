@@ -1,0 +1,4 @@
+,recall,precision,pf,pci_20,ifa,wins
+bacnet.csv,0.58,0.52,0.28,0.57,1.0,2
+exordium.csv,0.4,0.52,0.15,0.59,2.0,1
+google-caja.csv,0.74,0.43,0.41,0.36,0.0,0

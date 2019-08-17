@@ -1,0 +1,8 @@
+,avifile.csv,pokeglobal.csv,gogoego.csv,patterntesting.csv,fluidium.csv,qtwin.csv,httpcontentparser.csv
+avifile.csv,0.17,0.1,0.35,0.19,0.83,0.56,0.96
+fluidium.csv,0.0,0.03,0.06,0.0,0.38,0.01,0.0
+gogoego.csv,0.42,0.48,0.29,0.72,0.07,0.36,0.33
+httpcontentparser.csv,0.58,0.31,0.47,0.04,1.0,0.65,0.26
+patterntesting.csv,0.97,0.97,0.95,0.19,0.97,0.96,0.98
+pokeglobal.csv,0.88,0.31,0.4,0.32,1.0,0.73,0.8
+qtwin.csv,0.12,0.03,0.53,0.43,0.0,0.09,0.02

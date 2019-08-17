@@ -1,0 +1,10 @@
+,f1,g,recall,precision,pf,wins
+anaxagora.csv,0.5,0.6,0.6,0.36,0.39,8
+buddata-ebxml-registry.csv,0.47,0.24,0.96,0.31,0.94,2
+continuum-ide.csv,0.28,0.28,0.24,0.43,0.24,1
+gtad.csv,0.25,0.38,0.33,0.32,0.14,3
+htmlunit.csv,0.42,0.56,0.57,0.32,0.29,6
+jsr308-langtools.csv,0.36,0.63,0.67,0.35,0.35,7
+kaffeine.csv,0.5,0.51,0.82,0.33,0.64,5
+stemkit.csv,0.38,0.37,0.33,0.44,0.24,4
+taokgame.csv,0.18,0.28,0.24,0.31,0.23,0

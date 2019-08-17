@@ -1,0 +1,10 @@
+,freelords.csv,columba.csv,ng4j.csv,geogebra.csv,selenium.csv,glas.csv,magicwars.csv,turbotrader-bos.csv,xmemcached.csv
+columba.csv,0.76,0.53,0.29,0.28,0.59,0.44,0.33,0.47,0.26
+freelords.csv,0.79,0.4,0.31,0.31,0.57,0.41,0.35,0.41,0.32
+geogebra.csv,0.81,0.4,0.32,0.44,0.64,0.42,0.88,0.5,1.0
+glas.csv,0.84,0.43,0.33,0.26,0.57,0.57,0.48,0.5,0.32
+magicwars.csv,0.77,0.29,0.25,0.26,0.48,0.4,0.8,0.34,0.26
+ng4j.csv,0.83,0.39,0.61,0.3,0.62,0.44,0.32,0.36,0.31
+selenium.csv,0.8,0.48,0.37,0.37,0.67,0.52,0.36,0.39,0.3
+turbotrader-bos.csv,0.82,0.52,0.5,0.51,0.72,0.5,0.79,0.59,0.35
+xmemcached.csv,0.77,0.3,0.24,0.32,0.51,0.37,0.32,0.33,0.63

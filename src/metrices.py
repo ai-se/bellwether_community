@@ -16,9 +16,11 @@ class measures(object):
         self.dframe = pd.DataFrame(list(zip(self.actual,self.predicted,self.loc)),columns = ['Actual','Predicted','LOC'])
         self.dframe = self.dframe.dropna()
         self.dframe = self.dframe.astype({'Actual': int, 'Predicted': int})
+        self.dframe_unchanged = copy.deepcopy(self.dframe)
         self.dframe.sort_values(by = ['Predicted','LOC'],inplace=True,ascending=[False,True])
         #print(self.dframe)
         self.dframe['InspectedLOC'] = self.dframe.LOC.cumsum()
+        self.dframe_unchanged['InspectedLOC'] = self.dframe_unchanged.LOC.cumsum()
         self.tn, self.fp, self.fn, self.tp = metrics.confusion_matrix(
             actual, predicted, labels=labels).ravel()
         self.pre, self.rec, self.spec, self.fpr, self.npv, self.acc, self.f1,self.pd,self.pf = self.get_performance()
@@ -61,6 +63,24 @@ class measures(object):
         pred_vals = self.dframe['Predicted'].values[:i]
         ifa = int(sum(pred_vals) / (i + 1) * 100)
         return i
+    
+    def get_ifa_roc(self):
+        ifa_x = []
+        ifa_y = []
+        for perc in range(1,101,1):
+            count = 0
+            inspected_max = self.dframe_unchanged.InspectedLOC.max() * (perc/100)
+            for i in range(len(self.dframe_unchanged)):
+                if self.dframe_unchanged.InspectedLOC.iloc[i] >= 1 * inspected_max:
+                    break
+                if self.dframe_unchanged['Predicted'].iloc[i] == 0:
+                    continue
+                count += 1 
+                if self.dframe_unchanged['Actual'].iloc[i] == self.dframe_unchanged['Predicted'].iloc[i] == 1:
+                    break
+            ifa_x.append(perc)
+            ifa_y.append(count)
+        return np.trapz(ifa_y,x=ifa_x)
     
     
     def calculate_recall(self):

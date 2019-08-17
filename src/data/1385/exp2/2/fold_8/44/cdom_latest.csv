@@ -1,0 +1,6 @@
+,recall,precision,pf,pci_20,ifa,wins
+autoopencas.csv,0.45,0.39,0.34,0.89,3.0,3
+nabu-library.csv,0.32,0.39,0.26,0.8,3.0,0
+pcgen.csv,0.97,0.51,0.97,0.43,2.0,1
+selenium.csv,0.69,0.42,0.48,0.38,1.0,2
+tolven.csv,0.53,0.67,0.22,0.52,0.0,4

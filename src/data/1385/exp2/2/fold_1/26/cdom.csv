@@ -1,0 +1,6 @@
+,f1,g,recall,precision,pf,wins
+coot.csv,0.47,0.42,0.72,0.36,0.77,2
+jchassis.csv,0.0,0.0,0.0,0.0,0.0,0
+panda3d.csv,0.46,0.53,0.6,0.45,0.53,3
+scenemonitor.csv,0.25,0.21,0.18,0.41,0.17,1
+xcf.csv,0.43,0.51,0.52,0.6,0.46,4

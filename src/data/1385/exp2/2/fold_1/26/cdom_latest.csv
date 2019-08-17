@@ -1,0 +1,6 @@
+,recall,precision,pf,pci_20,ifa,wins
+coot.csv,0.72,0.36,0.77,0.52,3.0,1
+jchassis.csv,0.0,0.0,0.0,0.0,61.0,0
+panda3d.csv,0.6,0.45,0.53,0.61,1.0,2
+scenemonitor.csv,0.18,0.41,0.17,0.82,1.0,4
+xcf.csv,0.52,0.6,0.46,0.47,3.0,3

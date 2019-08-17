@@ -1,0 +1,10 @@
+,recall,precision,pf,pci_20,ifa,wins
+baadengine.csv,0.95,0.55,0.65,0.4,2.0,6
+barracudamvc.csv,0.88,0.35,0.96,0.48,1.0,1
+ingex.csv,0.75,0.55,0.65,0.47,4.0,3
+jgnash.csv,0.61,0.56,0.29,0.44,1.0,7
+jsr308-langtools.csv,0.93,0.62,0.39,0.46,1.0,8
+owlapi.csv,0.41,0.39,0.32,0.58,1.0,2
+owlib.csv,0.53,0.59,0.29,0.39,1.0,5
+sidekar.csv,0.0,0.0,0.0,0.0,78.0,0
+springside.csv,0.72,0.57,0.6,0.46,3.0,4

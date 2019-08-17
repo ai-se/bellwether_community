@@ -1,0 +1,10 @@
+,springside.csv,fluent-nhibernate.csv,jmule.csv,botsnscouts.csv,go.csv,freewrl.csv,magicwars.csv,turbotrader-bos.csv,xmemcached.csv
+botsnscouts.csv,0.34,0.73,0.45,0.71,0.66,0.05,0.56,0.66,0.69
+fluent-nhibernate.csv,0.33,0.96,0.64,0.47,0.52,0.3,0.53,0.44,0.63
+freewrl.csv,0.35,0.05,0.72,0.62,0.42,0.78,0.05,0.65,0.52
+go.csv,0.63,0.85,0.74,0.72,0.74,0.6,0.64,0.63,0.66
+jmule.csv,0.66,0.8,0.88,0.51,0.72,0.61,0.62,0.71,0.66
+magicwars.csv,0.78,0.05,0.27,0.36,0.0,0.0,0.66,0.48,0.52
+springside.csv,0.75,0.61,0.5,0.3,0.75,0.4,0.5,0.69,0.58
+turbotrader-bos.csv,0.37,0.75,0.0,0.35,0.48,0.26,0.38,0.71,0.68
+xmemcached.csv,0.28,0.7,0.13,0.64,0.0,0.05,0.45,0.35,0.75

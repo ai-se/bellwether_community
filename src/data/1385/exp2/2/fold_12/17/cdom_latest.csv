@@ -1,0 +1,7 @@
+,recall,precision,pf,pci_20,ifa,wins
+fm-classic.csv,0.36,0.3,0.1,0.88,4.0,5
+jcl.csv,0.33,0.25,0.28,0.76,5.0,4
+openxava.csv,0.44,0.1,0.4,0.54,4.0,3
+tcvp.csv,0.0,0.0,0.01,0.0,101.0,0
+vars-redux.csv,1.0,0.11,0.76,0.46,16.0,2
+werx.csv,0.96,0.11,0.95,0.37,19.0,1

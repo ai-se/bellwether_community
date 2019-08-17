@@ -1,0 +1,15 @@
+,f1,g,recall,precision,pf,wins
+cascading.csv,0.51,0.55,0.53,0.39,0.49,10
+codepurge.csv,0.34,0.47,0.45,0.47,0.22,11
+crisscross.csv,0.51,0.27,0.92,0.35,0.93,4
+elvishrayrenderer.csv,0.38,0.38,0.35,0.45,0.29,6
+gisgraphy.csv,0.27,0.26,0.22,0.45,0.21,2
+ivataopenportal.csv,0.48,0.27,0.91,0.33,0.91,3
+lite.csv,0.17,0.16,0.13,0.53,0.12,0
+mb-unit.csv,0.48,0.47,0.82,0.34,0.8,8
+nova.csv,0.38,0.51,0.65,0.36,0.65,5
+olex2.csv,0.44,0.42,0.47,0.46,0.27,12
+openwbem.csv,0.55,0.56,0.56,0.51,0.4,13
+stajistics.csv,0.45,0.48,0.67,0.35,0.66,7
+uwom.csv,0.49,0.48,0.65,0.37,0.54,9
+xcmetadataservicestoolkit.csv,0.26,0.35,0.62,0.32,0.66,1

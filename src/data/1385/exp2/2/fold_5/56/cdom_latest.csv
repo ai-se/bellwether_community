@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+blogentis.csv,0.5,0.33,0.56,0.56,3.0,4
+emulemorph.csv,0.28,0.18,0.2,0.74,5.0,2
+htmlunit.csv,0.56,0.25,0.46,0.41,6.0,1
+jvcl.csv,0.5,0.3,0.1,0.77,2.0,6
+m-m-m.csv,0.6,0.22,0.69,0.54,9.0,0
+nh3d.csv,0.46,0.38,0.12,0.58,12.0,5
+wgs-assembler.csv,0.62,0.28,0.39,0.5,7.0,3

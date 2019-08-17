@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,8,6.0,1.0,google-collections.csv
+1,10,2,1.5,0.845,gpsmid.csv
+2,13,8,6.11,0.99,ppcboot.csv
+3,26,5,4.2,1.0,somap.csv
+4,32,14,13.71,1.0,hydrogen.csv
+5,50,18,13.74,0.99,wpdev.csv

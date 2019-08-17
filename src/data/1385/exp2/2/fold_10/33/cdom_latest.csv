@@ -1,0 +1,7 @@
+,recall,precision,pf,pci_20,ifa,wins
+adobe-source.csv,0.38,0.37,0.46,0.74,1.0,3
+bwapi.csv,0.74,0.24,0.97,0.57,2.0,0
+gisgraphy.csv,0.4,0.32,0.26,0.85,2.0,4
+lite.csv,0.43,0.39,0.37,0.46,1.0,2
+ontopia.csv,0.79,0.34,0.67,0.44,3.0,1
+smartgwt.csv,0.47,0.53,0.36,0.61,0.0,5

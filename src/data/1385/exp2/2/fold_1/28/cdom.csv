@@ -1,0 +1,12 @@
+,f1,g,recall,precision,pf,wins
+ambulant.csv,0.44,0.45,0.59,0.56,0.69,5
+codesmith.csv,0.58,0.53,0.6,0.52,0.52,10
+javaprofiler.csv,0.57,0.52,0.68,0.5,0.6,9
+jpaul.csv,0.31,0.27,0.24,0.53,0.17,2
+jrdf.csv,0.4,0.34,0.32,0.45,0.27,4
+mecat.csv,0.2,0.15,0.12,0.44,0.03,0
+neodatis-odb.csv,0.44,0.38,0.57,0.58,0.4,7
+synecdoche.csv,0.44,0.43,0.46,0.6,0.41,6
+tycho.csv,0.47,0.42,0.38,0.7,0.36,8
+unicase.csv,0.48,0.43,0.76,0.37,0.83,3
+xcmetadataservicestoolkit.csv,0.24,0.35,0.59,0.4,0.59,1

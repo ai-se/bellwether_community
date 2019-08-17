@@ -1,0 +1,3 @@
+,f1,g,recall,precision,pf,wins
+freewrl.csv,0.665,0.7,0.77,0.6,0.46499999999999997,1
+silvertree.csv,0.71,0.45,0.86,0.63,0.58,0

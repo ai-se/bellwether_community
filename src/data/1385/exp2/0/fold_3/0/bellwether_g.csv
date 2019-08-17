@@ -1,0 +1,9 @@
+,simplewebservices.csv,gpsmid.csv,yafdotnet.csv,lphant.csv,xtreemfs.csv,rectracker.csv,javagroups.csv,jvcl.csv
+gpsmid.csv,0.55,0.8,0.65,0.0,0.8,0.55,0.58,0.09
+javagroups.csv,0.53,0.34,0.4,0.24,0.57,0.21,0.69,0.21
+jvcl.csv,0.41,0.46,0.18,0.41,0.06,0.38,0.05,0.54
+lphant.csv,0.53,0.79,0.57,0.69,0.47,0.72,0.42,0.6
+rectracker.csv,0.54,0.37,0.09,0.33,0.13,0.87,0.55,0.0
+simplewebservices.csv,0.67,0.74,0.55,0.13,0.63,0.25,0.53,0.29
+xtreemfs.csv,0.64,0.73,0.64,0.52,0.83,0.34,0.48,0.5
+yafdotnet.csv,0.39,0.7,0.69,0.57,0.31,0.59,0.64,0.65

@@ -1,0 +1,6 @@
+,recall,precision,pf,pci_20,ifa,wins
+cleartk.csv,0.67,0.42,0.35,0.45,0.0,2
+intact.csv,0.5,0.43,0.35,0.56,1.0,1
+miranda-icq.csv,0.5,0.47,0.29,0.56,1.0,3
+ofbiz.csv,0.57,0.38,0.5,0.45,4.0,0
+roolo.csv,0.7,0.64,0.64,0.49,1.0,4

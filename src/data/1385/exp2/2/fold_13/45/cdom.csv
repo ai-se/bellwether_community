@@ -1,0 +1,8 @@
+,f1,g,recall,precision,pf,wins
+awemud.csv,0.5,0.55,0.52,0.46,0.26,5
+freebios.csv,0.5,0.45,0.46,0.39,0.5,0
+k3b.csv,0.51,0.56,0.72,0.48,0.5,4
+loki-lib.csv,0.58,0.62,0.6,0.55,0.33,6
+powerfolder.csv,0.45,0.5,0.46,0.47,0.21,3
+quarkplusplus.csv,0.39,0.36,0.31,0.6,0.17,1
+tzod.csv,0.41,0.45,0.4,0.53,0.27,2

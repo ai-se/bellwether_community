@@ -1,0 +1,4 @@
+,recall,precision,pf,pci_20,ifa,wins
+archive-crawler.csv,0.57,0.43,0.32,0.6,2.0,1
+ardour.csv,0.7,0.35,0.32,0.39,5.0,0
+zorannt.csv,0.61,0.36,0.24,0.5,1.0,2

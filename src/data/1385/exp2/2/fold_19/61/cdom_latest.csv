@@ -1,0 +1,6 @@
+,recall,precision,pf,pci_20,ifa,wins
+lazarus-ccr.csv,0.71,0.38,0.63,0.54,1.0,0
+lcfizvtop.csv,0.82,0.4,0.56,0.38,1.0,1
+migen.csv,0.36,0.4,0.23,0.6,1.0,3
+mvnforum.csv,0.29,0.43,0.23,0.73,2.0,4
+plplot.csv,0.57,0.47,0.32,0.52,3.0,2

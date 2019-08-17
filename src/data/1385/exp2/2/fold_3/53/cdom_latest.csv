@@ -1,0 +1,16 @@
+,recall,precision,pf,pci_20,ifa,wins
+algebsql.csv,0.53,0.69,0.5,0.7,1.0,11
+continuum-ide.csv,0.15,0.59,0.13,0.83,1.0,10
+fleet-simulator.csv,0.85,0.6,0.84,0.39,1.0,3
+hydrate.csv,0.39,0.57,0.29,0.5,1.0,5
+ivef-sdk.csv,0.54,0.51,0.53,0.61,2.0,2
+jmri.csv,0.38,0.64,0.26,0.57,0.0,12
+kdenlive.csv,0.6,0.56,0.63,0.4,0.0,6
+mia.csv,0.18,0.5,0.03,0.81,1.0,7
+ontopia.csv,0.62,0.59,0.67,0.47,2.0,0
+opentibia.csv,0.45,0.64,0.31,0.59,0.0,13
+runuomondains.csv,0.41,0.43,0.43,0.52,0.0,4
+somap.csv,0.94,0.62,1.0,0.4,2.0,1
+taverna.csv,0.27,0.67,0.12,0.62,0.0,14
+tigermud.csv,0.74,0.66,0.67,0.53,1.0,8
+x-ray-mule.csv,0.17,0.57,0.08,0.8,1.0,9

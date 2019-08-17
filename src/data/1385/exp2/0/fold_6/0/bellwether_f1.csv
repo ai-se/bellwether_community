@@ -1,0 +1,10 @@
+,springside.csv,columba.csv,xtreemfs.csv,kdenlive.csv,owlib.csv,glelite.csv,magicwars.csv,bigdata.csv,xmemcached.csv
+bigdata.csv,0.47,0.41,0.78,0.5,0.38,0.94,0.62,0.84,0.29
+columba.csv,0.43,0.57,0.93,0.74,0.57,0.38,0.48,0.67,0.44
+glelite.csv,0.6,0.45,0.61,0.79,0.56,0.98,0.53,0.92,0.43
+kdenlive.csv,0.47,0.56,0.5,0.77,0.58,0.85,0.49,0.83,0.57
+magicwars.csv,0.61,0.45,0.89,0.78,0.57,0.99,0.7,0.87,0.39
+owlib.csv,0.33,0.56,0.49,0.71,0.65,0.36,0.49,0.69,0.5
+springside.csv,0.68,0.53,0.88,0.68,0.49,0.81,0.61,0.84,0.38
+xmemcached.csv,0.33,0.45,0.9,0.56,0.54,0.85,0.49,0.76,0.65
+xtreemfs.csv,0.48,0.43,0.9,0.77,0.56,0.66,0.47,0.67,0.41

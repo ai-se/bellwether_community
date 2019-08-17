@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+bochs.csv,0.66,0.34,0.42,0.44,2.0,1
+encog-java.csv,0.22,0.27,0.06,0.77,2.0,4
+galaxium.csv,0.75,0.42,0.44,0.44,3.0,2
+h2database.csv,0.31,0.5,0.24,0.62,0.0,6
+haphazard.csv,0.51,0.35,0.54,0.57,1.0,3
+jaql.csv,0.65,0.52,0.25,0.44,1.0,5
+raven-monitoring.csv,0.61,0.28,0.57,0.47,2.0,0

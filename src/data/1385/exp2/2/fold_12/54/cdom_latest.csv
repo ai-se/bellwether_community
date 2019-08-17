@@ -1,0 +1,4 @@
+,recall,precision,pf,pci_20,ifa,wins
+freewrl.csv,0.96,0.69,1.0,0.38,1.0,0
+olsrd.csv,0.59,0.67,0.15,0.36,0.0,1
+silvertree.csv,0.68,0.74,0.17,0.5,2.0,2

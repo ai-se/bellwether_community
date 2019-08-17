@@ -1,0 +1,10 @@
+,recall,precision,pf,pci_20,ifa,wins
+aime.csv,0.29,0.35,0.17,0.88,3.0,8
+bloodycore.csv,0.32,0.29,0.24,0.82,7.0,2
+dvd-create.csv,0.79,0.36,0.59,0.39,4.0,4
+dvt.csv,0.48,0.41,0.28,0.64,7.0,7
+gbif-indexingtoolkit.csv,0.68,0.28,0.61,0.57,5.0,1
+mumble.csv,0.81,0.3,0.62,0.44,1.0,5
+planeshift.csv,0.87,0.3,0.71,0.41,8.0,0
+truevision.csv,0.65,0.29,0.38,0.57,4.0,3
+zorannt.csv,0.52,0.35,0.28,0.55,5.0,6

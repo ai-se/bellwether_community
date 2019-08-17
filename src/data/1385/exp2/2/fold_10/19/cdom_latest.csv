@@ -1,0 +1,16 @@
+,recall,precision,pf,pci_20,ifa,wins
+bacnet.csv,0.52,0.57,0.26,0.54,1.0,10
+bibletime.csv,0.86,0.45,0.69,0.4,3.0,0
+boost.csv,0.56,0.57,0.34,0.56,3.0,2
+doomlegacy.csv,0.43,0.62,0.21,0.51,1.0,11
+gpac.csv,0.46,0.46,0.38,0.61,1.0,5
+kftpgrabber.csv,0.21,0.63,0.07,0.86,1.0,14
+nativeclient.csv,0.68,0.56,0.38,0.46,0.0,12
+netatalk.csv,0.64,0.48,0.57,0.41,0.0,3
+open-ms.csv,0.36,0.5,0.21,0.6,1.0,8
+openmsx.csv,0.54,0.43,0.45,0.59,2.0,1
+rosegarden.csv,0.7,0.58,0.39,0.42,1.0,9
+rsyslog.csv,0.58,0.5,0.33,0.49,1.0,6
+sandiaportals.csv,0.67,0.51,0.43,0.52,1.0,7
+xmoto.csv,0.62,0.65,0.29,0.52,1.0,13
+xqilla.csv,0.25,0.41,0.24,0.75,1.0,4

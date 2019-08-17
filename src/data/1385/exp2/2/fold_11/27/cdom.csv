@@ -1,0 +1,8 @@
+,f1,g,recall,precision,pf,wins
+archive-crawler.csv,0.47,0.4,0.35,0.66,0.11,6
+gisgraphy.csv,0.38,0.26,0.35,0.31,0.24,1
+haggle.csv,0.47,0.54,0.52,0.46,0.29,5
+java-gnome.csv,0.4,0.35,0.31,0.39,0.21,3
+magicwars.csv,0.47,0.27,0.94,0.32,0.93,2
+orc.csv,0.47,0.39,0.35,0.38,0.22,4
+servicestack.csv,0.15,0.11,0.09,0.45,0.02,0

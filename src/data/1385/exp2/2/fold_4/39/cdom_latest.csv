@@ -1,0 +1,12 @@
+,recall,precision,pf,pci_20,ifa,wins
+gnupdate.csv,0.43,0.66,0.33,0.6,0.0,5
+ikvm.csv,0.46,0.61,0.67,0.59,2.0,1
+libtorrent.csv,0.93,0.66,0.67,0.39,0.0,4
+mcmc-jags.csv,0.73,0.7,0.56,0.44,2.0,2
+moast.csv,1.0,0.58,1.0,0.46,2.0,0
+olap-navigator.csv,0.84,0.71,0.33,0.53,0.0,8
+pidgin.csv,0.67,0.83,0.26,0.44,0.0,6
+salasaga.csv,0.55,0.7,0.48,0.43,1.0,3
+sepgsql.csv,0.57,0.88,0.11,0.57,0.0,10
+sigil.csv,0.73,0.84,0.22,0.51,0.0,9
+xtreemfs.csv,0.6,0.86,0.2,0.48,0.0,7

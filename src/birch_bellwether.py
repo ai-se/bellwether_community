@@ -148,7 +148,7 @@ class bellwether(object):
             try:
                 print(s_project)
                 s_path = self.data_path + s_project
-                print(s_project)
+                #print(s_project)
                 df = self.prepare_data(s_path)
                 if df.shape[0] < 50:
                     continue
@@ -164,7 +164,7 @@ class bellwether(object):
                 kf = StratifiedKFold(n_splits = 5)
                 score = {}
                 F = {}
-                for i in range(5):
+                for i in range(1):
                     for train_index, tune_index in kf.split(X, y):
                         X_train, X_tune = X.iloc[train_index], X.iloc[tune_index]
                         y_train, y_tune = y[train_index], y[tune_index]
@@ -304,7 +304,7 @@ if __name__ == "__main__":
     attr_df = pd.DataFrame.from_dict(attr_dict,orient='index')
     attr_df_index = list(attr_df.index)
     kf = KFold(n_splits=10)
-    i = 0
+    i = 10
     for train_index, test_index in kf.split(attr_df):
         data_store_path = _data_store_path
         _train_index = []

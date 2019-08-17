@@ -1,0 +1,10 @@
+,springside.csv,gpsmid.csv,jmule.csv,botsnscouts.csv,libarchive.csv,xuggle.csv,magicwars.csv,turbotrader-bos.csv,xmemcached.csv
+botsnscouts.csv,0.34,0.48,0.45,0.71,0.68,0.54,0.56,0.66,0.69
+gpsmid.csv,0.44,0.75,0.27,0.6,0.0,0.23,0.66,0.67,0.24
+jmule.csv,0.64,0.76,0.89,0.5,0.6,0.72,0.62,0.69,0.68
+libarchive.csv,0.69,0.67,0.69,0.71,0.67,0.71,0.63,0.7,0.55
+magicwars.csv,0.77,0.71,0.27,0.36,0.0,0.0,0.7,0.57,0.49
+springside.csv,0.82,0.74,0.49,0.37,0.0,0.09,0.58,0.68,0.58
+turbotrader-bos.csv,0.42,0.62,0.1,0.38,0.52,0.44,0.38,0.7,0.63
+xmemcached.csv,0.33,0.56,0.13,0.55,0.0,0.2,0.55,0.21,0.8
+xuggle.csv,0.36,0.54,0.37,0.5,0.51,0.73,0.49,0.63,0.5

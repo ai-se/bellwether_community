@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,4,1.86,0.67,jam-daq.csv
+1,9,0,0.0,0.2,fluent-nhibernate.csv
+2,12,7,1.7,0.685,fm-classic.csv
+3,26,0,0.0,0.475,chrysalis.csv
+4,31,10,4.95,0.67,genoviz.csv
+5,51,5,2.83,0.515,nassp.csv

@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,7,6.71,1.0,google-collections.csv
+1,9,2,2.0,0.815,xamj.csv
+2,12,1,1.0,0.815,megameknet.csv
+3,15,3,2.67,0.81,twostep.csv
+4,21,18,14.45,1.0,irrlicht.csv
+5,42,19,15.8,1.0,nh3d.csv

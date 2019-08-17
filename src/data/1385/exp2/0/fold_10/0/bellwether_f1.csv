@@ -1,0 +1,8 @@
+,ng4j.csv,autowikibrowser.csv,carabiner.csv,jitterbit.csv,benojt.csv,emftriple.csv,javagroups.csv
+autowikibrowser.csv,0.43,0.67,0.52,0.49,0.81,0.05,0.59
+benojt.csv,0.41,0.62,0.46,0.41,0.99,0.11,0.51
+carabiner.csv,0.35,0.64,0.61,0.51,0.91,0.03,0.5
+emftriple.csv,0.0,0.25,0.2,0.2,0.21,0.53,0.25
+javagroups.csv,0.38,0.64,0.29,0.42,0.67,0.14,0.62
+jitterbit.csv,0.5,0.6,0.43,0.62,0.88,0.29,0.49
+ng4j.csv,0.61,0.66,0.42,0.47,0.9,0.19,0.48

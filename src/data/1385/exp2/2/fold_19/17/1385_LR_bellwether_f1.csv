@@ -1,0 +1,9 @@
+,psycle.csv,ildjit.csv,jfreereport.csv,enlightenment.csv,empserver.csv,pcsx2.csv,lufa-lib.csv,wxjs.csv
+empserver.csv,0.54,0.32,0.21,0.37,0.71,0.54,0.56,0.18
+enlightenment.csv,0.79,0.37,0.23,0.68,0.69,0.8,0.61,0.15
+ildjit.csv,0.61,0.57,0.24,0.36,0.51,0.43,0.08,0.0
+jfreereport.csv,0.17,0.05,0.32,0.26,0.1,0.39,0.17,0.0
+lufa-lib.csv,0.54,0.35,0.24,0.61,0.39,0.7,0.65,0.15
+pcsx2.csv,0.52,0.07,0.31,0.64,0.71,0.79,0.56,0.0
+psycle.csv,0.71,0.22,0.27,0.71,0.61,0.78,0.56,0.19
+wxjs.csv,0.09,0.0,0.08,0.0,0.05,0.06,0.02,0.46

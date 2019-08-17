@@ -1,0 +1,10 @@
+,joustsim.csv,gpsmid.csv,psycle.csv,uface.csv,n2cms.csv,rebecca-aiml.csv,magicwars.csv,turbotrader-bos.csv,xmemcached.csv
+gpsmid.csv,0.45,0.18,0.82,0.3,0.59,0.97,0.1,0.64,0.84
+joustsim.csv,0.08,0.13,0.41,0.31,0.8,0.58,0.06,0.38,0.48
+magicwars.csv,0.98,0.63,1.0,0.89,0.91,0.98,0.08,0.93,0.84
+n2cms.csv,0.57,0.18,0.23,0.2,0.22,0.4,0.84,0.52,0.34
+psycle.csv,0.33,0.55,0.28,0.3,0.74,0.9,0.6,0.6,0.55
+rebecca-aiml.csv,0.9,0.29,0.21,0.39,0.73,0.15,0.59,0.29,0.78
+turbotrader-bos.csv,0.48,0.08,0.15,0.06,0.23,0.13,0.04,0.23,0.41
+uface.csv,0.47,0.55,0.63,0.06,0.66,0.98,0.87,0.68,0.75
+xmemcached.csv,0.67,0.45,0.82,0.72,0.69,0.96,0.9,0.96,0.2

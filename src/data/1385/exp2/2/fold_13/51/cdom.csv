@@ -1,0 +1,10 @@
+,f1,g,recall,precision,pf,wins
+buddata-ebxml-registry.csv,0.48,0.35,0.97,0.31,0.9,2
+carabiner.csv,0.46,0.61,0.7,0.46,0.43,8
+dvt.csv,0.39,0.57,0.55,0.38,0.27,6
+flylinkdc.csv,0.48,0.44,0.63,0.43,0.71,4
+jsr308-langtools.csv,0.46,0.28,0.93,0.3,0.75,3
+rtb-team.csv,0.22,0.1,0.23,0.19,0.14,0
+stemkit.csv,0.32,0.39,0.35,0.3,0.29,1
+unimrcp.csv,0.54,0.53,0.54,0.5,0.35,7
+utgb.csv,0.4,0.38,0.33,0.49,0.15,5

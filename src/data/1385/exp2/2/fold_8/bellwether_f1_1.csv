@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,4,3.0,0.78,logicmail.csv
+1,9,0,0.0,0.295,fluent-nhibernate.csv
+2,12,5,1.56,0.67,jmule.csv
+3,25,3,1.75,0.76,somap.csv
+4,30,10,6.5,0.7,mcmc-jags.csv
+5,49,8,5.5,0.595,kaffeine.csv

@@ -1,0 +1,10 @@
+,recall,precision,pf,pci_20,ifa,wins
+bacnet.csv,0.62,0.51,0.43,0.47,0.0,7
+bibletime.csv,0.89,0.41,0.7,0.39,3.0,1
+flexpay.csv,0.27,0.45,0.37,0.84,1.0,6
+lufa-lib.csv,0.47,0.56,0.33,0.63,1.0,8
+nullc.csv,0.79,0.47,0.61,0.46,0.0,5
+pgui.csv,0.66,0.34,0.34,0.45,5.0,0
+superwaba.csv,0.7,0.47,0.47,0.37,0.0,4
+sylpheed-claws.csv,0.97,0.43,0.86,0.4,1.0,2
+xqilla.csv,0.19,0.3,0.21,0.89,1.0,3

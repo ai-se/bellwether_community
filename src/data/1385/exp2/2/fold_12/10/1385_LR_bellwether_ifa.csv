@@ -1,0 +1,10 @@
+,campsoft.csv,beast-mcmc.csv,array4j.csv,continuum-ide.csv,jam-daq.csv,anaxagora.csv,nodal.csv,projectfactory.csv,roolo.csv,l2j.csv
+anaxagora.csv,66.0,1.0,1.0,2.0,3.0,0.0,7.0,1.0,3.0,0.0
+array4j.csv,63.0,9.0,0.0,9.0,3.0,0.0,4.0,1.0,4.0,0.0
+beast-mcmc.csv,48.0,6.0,6.0,6.0,0.0,0.0,0.0,0.0,0.0,3.0
+continuum-ide.csv,104.0,4.0,1.0,2.0,7.0,11.0,5.0,1.0,0.0,0.0
+jam-daq.csv,35.0,2.0,2.0,6.0,1.0,8.0,1.0,0.0,0.0,0.0
+l2j.csv,63.0,19.0,4.0,2.0,1.0,7.0,4.0,1.0,6.0,1.0
+nodal.csv,104.0,2.0,0.0,7.0,2.0,17.0,0.0,1.0,0.0,0.0
+projectfactory.csv,104.0,18.0,0.0,0.0,0.0,27.0,1.0,0.0,0.0,0.0
+roolo.csv,104.0,12.0,0.0,10.0,1.0,7.0,1.0,1.0,0.0,3.0

@@ -1,0 +1,5 @@
+,id,max_bell,avge,median,bellwether
+0,3,5,5.0,0.2,avisynth2.csv
+1,9,10,7.5,0.575,fbmanager.csv
+2,20,16,11.56,0.495,jchassis.csv
+3,38,19,15.3,0.425,cme.csv

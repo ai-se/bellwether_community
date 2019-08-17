@@ -1,0 +1,4 @@
+,f1,g,recall,precision,pf,wins
+openintents.csv,0.61,0.58,0.65,0.58,0.75,0
+rectracker.csv,0.87,0.5,0.95,0.8,0.83,2
+x4x.csv,0.6,0.55,0.74,0.65,0.33,1

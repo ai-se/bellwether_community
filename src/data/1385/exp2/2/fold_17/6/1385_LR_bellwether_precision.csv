@@ -1,0 +1,12 @@
+,google-collections.csv,forester-atv.csv,autofac.csv,neodatis-odb.csv,gabel.csv,mycila.csv,azureus.csv,pokenetonline.csv,servicestack.csv,rcp-company-uibindings.csv,javaprofiler.csv
+autofac.csv,0.98,0.38,0.81,0.31,0.11,0.13,0.27,0.74,0.67,0.97,0.73
+azureus.csv,0.97,0.39,0.45,0.35,0.08,0.21,0.57,0.79,0.26,0.98,0.69
+forester-atv.csv,1.0,0.55,0.45,0.75,0.25,0.31,0.29,0.94,0.42,0.92,0.75
+gabel.csv,1.0,0.5,0.82,0.29,0.22,0.2,0.46,0.78,0.6,0.99,0.8
+google-collections.csv,1.0,0.38,0.47,0.35,0.08,0.19,0.27,0.76,0.27,0.96,0.68
+javaprofiler.csv,1.0,0.4,0.64,0.35,0.11,0.17,0.3,0.74,0.53,0.97,0.91
+mycila.csv,1.0,0.47,0.48,0.29,0.12,0.47,0.33,0.75,0.09,0.95,0.51
+neodatis-odb.csv,0.97,0.35,0.5,0.59,0.05,0.44,0.44,0.75,0.25,0.97,0.83
+pokenetonline.csv,0.98,0.44,0.45,0.37,0.07,0.19,0.28,0.87,0.31,0.96,0.6
+rcp-company-uibindings.csv,1.0,0.43,0.58,0.29,0.14,0.24,0.35,0.89,0.3,1.0,0.73
+servicestack.csv,1.0,0.64,0.62,0.55,0.0,0.17,0.24,0.89,0.59,0.97,1.0

@@ -1,0 +1,13 @@
+,f1,g,recall,precision,pf,wins
+avifile.csv,0.35,0.5,0.64,0.31,0.44,7
+delphilhlplib.csv,0.39,0.5,0.53,0.48,0.4,10
+esmf.csv,0.52,0.53,0.63,0.42,0.55,11
+gbif-indexingtoolkit.csv,0.34,0.54,0.52,0.35,0.43,5
+jgameai.csv,0.11,0.1,0.08,0.2,0.09,0
+jsecurity.csv,0.29,0.24,0.21,0.4,0.26,3
+libopenmetaverse.csv,0.45,0.0,1.0,0.29,1.0,1
+mptvseries.csv,0.34,0.43,0.39,0.43,0.2,9
+mule.csv,0.34,0.5,0.56,0.33,0.39,6
+piccolo2d.csv,0.28,0.39,0.36,0.41,0.24,4
+vars-redux.csv,0.38,0.62,0.76,0.25,0.62,8
+werx.csv,0.45,0.13,0.95,0.29,0.97,2

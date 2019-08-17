@@ -1,0 +1,5 @@
+,recall,precision,pf,pci_20,ifa,wins
+fityk.csv,0.52,0.595,0.27,0.625,0.0,3
+k3b.csv,0.76,0.52,0.5650000000000001,0.39,0.5,0
+mp-rechnungs-und-kundenverwaltung.csv,0.245,0.585,0.12,0.6000000000000001,1.0,1
+thrust.csv,0.29000000000000004,0.475,0.38,0.885,0.0,2

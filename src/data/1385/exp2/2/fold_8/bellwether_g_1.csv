@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,5,1.86,0.7,springside.csv
+1,9,1,1.0,0.68,gpsmid.csv
+2,12,6,2.56,0.69,jmule.csv
+3,25,3,2.0,0.75,google-caja.csv
+4,30,9,5.0,0.645,heekscad.csv
+5,49,4,2.45,0.62,hazelcast.csv

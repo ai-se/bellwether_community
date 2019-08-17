@@ -1,0 +1,8 @@
+,f1,g,recall,precision,pf,wins
+betoffice.csv,0.59,0.52,0.64,0.51,0.66,4
+elvishrayrenderer.csv,0.42,0.47,0.44,0.56,0.29,5
+graphmak.csv,0.59,0.44,0.76,0.5,0.81,2
+hazelcast.csv,0.54,0.57,0.62,0.49,0.63,3
+jrdf.csv,0.39,0.3,0.26,0.53,0.17,0
+pdfedit.csv,0.38,0.53,0.65,0.45,0.57,1
+tart.csv,0.56,0.52,0.63,0.48,0.4,6

@@ -1,0 +1,12 @@
+,recall,precision,pf,pci_20,ifa,wins
+cuberok.csv,0.52,0.57,0.3,0.58,1.0,9
+gabel.csv,0.31,0.71,0.2,0.67,1.0,10
+javaprofiler.csv,0.7,0.41,0.74,0.44,0.0,2
+jmoney.csv,0.39,0.5,0.24,0.4,0.0,6
+mycila.csv,0.87,0.4,0.78,0.46,1.0,3
+neodatis-odb.csv,0.3,0.42,0.37,0.67,0.0,8
+servicestack.csv,0.01,0.37,0.04,0.63,6.0,0
+sqlpower-library.csv,0.76,0.4,0.65,0.41,0.0,4
+synecdoche.csv,0.57,0.52,0.47,0.44,0.0,7
+tmva.csv,0.88,0.45,0.87,0.41,0.0,5
+unicase.csv,0.76,0.37,0.65,0.47,2.0,1

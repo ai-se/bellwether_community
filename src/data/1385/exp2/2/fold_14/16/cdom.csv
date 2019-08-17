@@ -1,0 +1,4 @@
+,f1,g,recall,precision,pf,wins
+freebios.csv,0.26,0.48,0.58,0.17,0.38,1
+jnode.csv,0.21,0.15,0.12,0.4,0.06,0
+tradelink.csv,0.48,0.57,0.74,0.45,0.59,2

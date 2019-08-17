@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,0,0.57,0.49,sblim.csv
+1,9,0,0.0,0.30000000000000004,columba.csv
+2,12,4,2.1,0.505,fm-classic.csv
+3,26,1,1.0,0.48,myfaces.csv
+4,32,9,4.94,0.615,customsagetv.csv
+5,51,2,2.65,0.44,nassp.csv

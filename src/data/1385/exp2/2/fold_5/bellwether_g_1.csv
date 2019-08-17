@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,5,2.88,0.69,jgnash.csv
+1,10,2,2.0,0.73,atunes.csv
+2,13,4,2.3,0.635,psycle.csv
+3,27,3,1.4,0.66,kdenlive.csv
+4,33,7,4.11,0.645,selenium.csv
+5,52,3,2.0,0.625,hazelcast.csv

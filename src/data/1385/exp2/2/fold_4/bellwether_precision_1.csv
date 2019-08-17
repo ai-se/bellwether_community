@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,5,4.12,0.76,matrex.csv
+1,10,0,0.0,0.2,fluent-nhibernate.csv
+2,13,5,2.7,0.66,jfreereport.csv
+3,27,1,0.67,0.535,retromenu.csv
+4,34,7,3.0,0.61,genoviz.csv
+5,52,4,2.89,0.565,jrdf.csv

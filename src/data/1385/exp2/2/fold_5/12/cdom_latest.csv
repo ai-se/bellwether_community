@@ -1,0 +1,4 @@
+,recall,precision,pf,pci_20,ifa,wins
+columba.csv,0.61,0.51,0.42,0.38,2.0,1
+emftriple.csv,0.23,0.42,0.13,0.96,2.0,2
+gpsmid.csv,0.83,0.32,0.72,0.42,2.0,0

@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+cities3d.csv,0.23,0.62,0.14,0.6,0.0,3
+firebird.csv,0.76,0.67,0.34,0.45,0.0,4
+kmatplot.csv,0.42,0.62,0.25,0.48,1.0,2
+mscore.csv,0.8,0.56,0.63,0.42,0.0,1
+openmalaria.csv,0.76,0.57,0.5,0.4,2.0,0
+popeye-chess.csv,0.45,0.64,0.22,0.55,0.0,5
+riff-evolve.csv,0.63,0.71,0.2,0.54,0.0,6

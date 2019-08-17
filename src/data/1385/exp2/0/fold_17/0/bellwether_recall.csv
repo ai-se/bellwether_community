@@ -1,0 +1,10 @@
+,freelords.csv,gpsmid.csv,jmule.csv,botsnscouts.csv,heekscad.csv,plplot.csv,magicwars.csv,turbotrader-bos.csv,xmemcached.csv
+botsnscouts.csv,0.33,0.43,1.0,0.7,0.71,0.57,0.54,0.87,0.83
+freelords.csv,0.7,0.78,0.96,0.89,0.77,0.95,0.53,0.88,0.74
+gpsmid.csv,0.43,0.76,1.0,0.59,0.9,0.86,0.68,0.89,0.87
+heekscad.csv,0.2,0.69,0.62,0.7,0.81,0.33,0.76,0.78,0.78
+jmule.csv,0.57,0.78,0.79,0.85,0.9,0.57,0.7,0.89,0.78
+magicwars.csv,0.9,0.88,1.0,0.96,1.0,1.0,0.64,0.89,0.83
+plplot.csv,0.54,0.59,0.08,0.63,0.58,0.71,0.41,0.49,0.48
+turbotrader-bos.csv,0.24,0.51,0.0,0.22,0.61,0.29,0.31,0.68,0.61
+xmemcached.csv,0.46,0.67,1.0,0.85,0.42,0.67,0.65,0.93,0.78

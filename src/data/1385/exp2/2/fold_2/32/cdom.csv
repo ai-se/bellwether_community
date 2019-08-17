@@ -1,0 +1,16 @@
+,f1,g,recall,precision,pf,wins
+acegisecurity.csv,0.51,0.59,0.78,0.39,0.59,10
+amateur-scrolls.csv,0.42,0.36,0.33,0.5,0.16,7
+biopax.csv,0.54,0.21,1.0,0.37,0.95,5
+crux-framework.csv,0.18,0.18,0.15,0.39,0.11,2
+exl.csv,0.46,0.49,0.5,0.43,0.44,6
+ikvm.csv,0.3,0.39,0.39,0.3,0.66,1
+irrlicht.csv,0.53,0.0,1.0,0.36,1.0,3
+les-indemodables.csv,0.49,0.59,0.64,0.4,0.47,8
+lportal.csv,0.24,0.17,0.14,0.47,0.06,4
+ns-3-dev-def-routing.csv,0.49,0.63,0.67,0.45,0.38,14
+qpe.csv,0.46,0.5,0.49,0.53,0.32,9
+sigil.csv,0.5,0.61,0.67,0.45,0.38,13
+ultimairis.csv,0.5,0.58,0.68,0.52,0.48,11
+unflobtactical.csv,0.53,0.64,0.81,0.43,0.59,12
+xbg.csv,0.17,0.14,0.12,0.33,0.17,0

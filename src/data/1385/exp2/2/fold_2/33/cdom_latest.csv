@@ -1,0 +1,13 @@
+,recall,precision,pf,pci_20,ifa,wins
+dvt.csv,0.21,0.14,0.23,0.67,13.0,5
+empserver.csv,0.92,0.27,0.9,0.39,5.0,2
+emulemorph.csv,0.0,0.0,0.0,0.5,79.0,0
+google-web-toolkit.csv,0.5,0.32,0.45,0.48,3.0,6
+htmlunit.csv,0.57,0.36,0.41,0.44,4.0,8
+jaxen.csv,0.82,0.34,0.75,0.47,4.0,7
+jguard.csv,1.0,0.3,0.95,0.41,5.0,3
+kowari.csv,0.4,0.33,0.35,0.66,2.0,11
+maidsafe-dht.csv,0.6,0.35,0.31,0.46,2.0,10
+mimosa.csv,0.73,0.32,0.61,0.45,4.0,4
+vdsf.csv,0.73,0.26,0.9,0.44,5.0,1
+xbrlapi.csv,0.36,0.31,0.38,0.54,3.0,9

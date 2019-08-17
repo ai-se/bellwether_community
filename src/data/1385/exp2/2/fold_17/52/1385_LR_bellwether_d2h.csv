@@ -1,0 +1,8 @@
+,nova.csv,crisscross.csv,mb-unit.csv,ivatamasks.csv,ivataopenportal.csv,kolmafia.csv,olex2.csv
+crisscross.csv,1.0,0.28,0.89,0.56,0.71,0.93,0.96
+ivatamasks.csv,0.98,0.74,0.74,0.36,0.74,0.87,1.0
+ivataopenportal.csv,1.0,0.79,0.73,0.71,0.4,0.9,1.0
+kolmafia.csv,1.0,0.68,0.76,0.96,0.85,0.38,0.8
+mb-unit.csv,0.85,0.76,0.54,0.96,0.84,1.0,0.58
+nova.csv,0.32,0.66,0.67,0.77,0.75,0.71,0.8
+olex2.csv,0.56,0.61,0.6,0.98,0.97,0.7,0.4

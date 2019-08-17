@@ -1,0 +1,10 @@
+,recall,precision,pf,pci_20,ifa,wins
+alembik.csv,0.31,0.6,0.2,0.54,1.0,6
+arsenal-1.csv,0.13,0.5,0.11,0.8,1.0,7
+barracudamvc.csv,0.91,0.39,0.93,0.38,2.0,0
+irplus.csv,0.6,0.58,0.38,0.42,1.0,5
+lite.csv,0.48,0.5,0.52,0.5,0.0,4
+mevenide.csv,0.24,0.59,0.16,0.68,1.0,8
+mumble.csv,0.52,0.42,0.6,0.44,1.0,2
+ontopia.csv,0.55,0.4,0.36,0.48,1.0,3
+openintents.csv,0.61,0.44,0.65,0.52,2.0,1

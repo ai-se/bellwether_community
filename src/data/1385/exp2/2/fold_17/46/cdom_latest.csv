@@ -1,0 +1,12 @@
+,recall,precision,pf,pci_20,ifa,wins
+factor.csv,0.21,0.33,0.13,0.69,2.0,5
+fceugc.csv,0.46,0.52,0.5,0.64,4.0,2
+flexpay.csv,0.42,0.32,0.36,0.64,2.0,3
+jstock.csv,0.27,0.65,0.13,0.79,1.0,10
+keyczar.csv,0.18,0.27,0.36,0.82,3.0,1
+modellus.csv,0.38,0.69,0.2,0.61,0.0,9
+open-data-kit.csv,0.77,0.5,0.58,0.46,0.0,6
+phet.csv,0.53,0.31,0.72,0.56,3.0,0
+qtractor.csv,0.55,0.57,0.25,0.5,2.0,7
+sumatrapdf.csv,0.86,0.62,0.61,0.42,1.0,8
+synergyspace.csv,0.46,0.4,0.3,0.55,2.0,4

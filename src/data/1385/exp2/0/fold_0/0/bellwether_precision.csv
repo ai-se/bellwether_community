@@ -1,0 +1,8 @@
+,glelite.csv,yield.csv,ivataopenportal.csv,qtractor.csv,benojt.csv,emftriple.csv,javagroups.csv
+benojt.csv,0.98,0.48,0.51,0.54,1.0,0.06,0.35
+emftriple.csv,0.92,0.24,0.46,0.23,1.0,0.41,0.4
+glelite.csv,1.0,0.52,0.51,0.57,0.96,0.07,0.37
+ivataopenportal.csv,0.99,0.52,0.69,0.56,0.97,0.08,0.35
+javagroups.csv,0.9,0.32,0.54,0.53,1.0,0.0,0.54
+qtractor.csv,0.98,0.68,0.66,0.74,0.97,0.0,0.35
+yield.csv,0.99,0.77,0.51,0.63,0.97,0.06,0.35

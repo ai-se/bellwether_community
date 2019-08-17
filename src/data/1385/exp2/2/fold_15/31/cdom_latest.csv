@@ -1,0 +1,14 @@
+,recall,precision,pf,pci_20,ifa,wins
+bzbyte.csv,0.75,0.09,0.65,0.38,16.0,0
+fido.csv,0.11,0.24,0.05,0.52,2.0,6
+fleet-simulator.csv,0.91,0.37,0.67,0.38,5.0,2
+fluent-nhibernate.csv,0.29,0.47,0.2,0.67,3.0,11
+galaxium.csv,0.77,0.27,0.69,0.43,2.0,3
+itext.csv,0.83,0.35,0.63,0.37,2.0,4
+mecat.csv,0.06,0.31,0.03,0.67,6.0,9
+mediaportal.csv,0.28,0.79,0.03,0.68,0.0,12
+ninject.csv,0.56,0.31,0.4,0.6,6.0,8
+smartgwt.csv,0.56,0.28,0.47,0.51,2.0,7
+sqlpower-library.csv,0.94,0.24,0.94,0.39,7.0,1
+stuproa-cims.csv,0.48,0.28,0.17,0.62,5.0,10
+uface.csv,0.93,0.32,0.66,0.38,3.0,5

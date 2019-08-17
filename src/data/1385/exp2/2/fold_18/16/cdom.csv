@@ -1,0 +1,10 @@
+,f1,g,recall,precision,pf,wins
+cortex-vfx.csv,0.45,0.44,0.4,0.7,0.23,3
+empserver.csv,0.44,0.5,0.52,0.72,0.27,6
+enlightenment.csv,0.69,0.0,1.0,0.52,1.0,2
+ildjit.csv,0.24,0.25,0.22,0.49,0.23,0
+jfreereport.csv,0.28,0.21,0.18,0.6,0.09,1
+lufa-lib.csv,0.54,0.55,0.62,0.62,0.52,4
+pcsx2.csv,0.61,0.56,0.66,0.64,0.41,8
+psycle.csv,0.69,0.59,0.8,0.56,0.71,7
+wikipediardware.csv,0.65,0.62,0.79,0.51,0.66,5

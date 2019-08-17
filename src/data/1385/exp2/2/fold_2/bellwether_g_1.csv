@@ -1,0 +1,8 @@
+,id,max_bell,avge,median,bellwether
+0,1,4,1.78,0.65,l2j.csv
+1,12,1,1.0,0.55,amanda.csv
+2,15,6,3.46,0.65,twostep.csv
+3,29,9,4.65,0.635,jmule.csv
+4,50,2,1.4,0.62,gss.csv
+5,56,2,1.0,0.68,libtorrent.csv
+6,60,1,1.67,0.57,openwbem.csv

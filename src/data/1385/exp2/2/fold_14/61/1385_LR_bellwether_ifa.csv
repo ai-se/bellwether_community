@@ -1,0 +1,11 @@
+,sauerbraten.csv,lazarus-ccr.csv,linuxsh.csv,xuggle.csv,moviesandbox.csv,migen.csv,scite-ru.csv,vrjuggler.csv,alleg.csv,chaosrts.csv
+alleg.csv,4.0,0.0,2.0,56.0,2.0,2.0,4.0,7.0,1.0,0.0
+chaosrts.csv,4.0,0.0,4.0,13.0,1.0,2.0,6.0,6.0,1.0,1.0
+lazarus-ccr.csv,6.0,0.0,4.0,115.0,2.0,9.0,9.0,14.0,1.0,2.0
+linuxsh.csv,1.0,5.0,0.0,10.0,0.0,0.0,72.0,74.0,0.0,0.0
+migen.csv,3.0,1.0,3.0,14.0,0.0,0.0,72.0,0.0,0.0,3.0
+moviesandbox.csv,3.0,5.0,1.0,25.0,0.0,1.0,4.0,1.0,0.0,1.0
+sauerbraten.csv,2.0,5.0,4.0,84.0,2.0,2.0,12.0,13.0,1.0,2.0
+scite-ru.csv,2.0,5.0,0.0,104.0,0.0,2.0,0.0,3.0,2.0,2.0
+vrjuggler.csv,0.0,5.0,65.0,415.0,0.0,5.0,3.0,4.0,0.0,1.0
+xuggle.csv,1.0,1.0,5.0,12.0,0.0,1.0,0.0,13.0,1.0,1.0

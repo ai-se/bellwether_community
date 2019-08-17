@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,8,7.0,0.24,jchassis.csv
+1,10,2,1.5,0.355,emftriple.csv
+2,13,8,7.1,0.645,empyrean.csv
+3,27,6,4.67,0.475,cme.csv
+4,34,16,12.24,0.5,xined.csv
+5,52,18,11.94,0.72,mecat.csv

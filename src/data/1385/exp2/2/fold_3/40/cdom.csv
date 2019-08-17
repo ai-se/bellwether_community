@@ -1,0 +1,4 @@
+,f1,g,recall,precision,pf,wins
+gdis.csv,0.6,0.65,0.72,0.62,0.54,0
+ns-3-dev-def-routing.csv,0.57,0.61,0.6,0.62,0.35,1
+xinity.csv,0.78,0.46,0.8,0.75,0.62,2

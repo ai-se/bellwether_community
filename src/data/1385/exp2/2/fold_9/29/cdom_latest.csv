@@ -1,0 +1,14 @@
+,recall,precision,pf,pci_20,ifa,wins
+algebsql.csv,0.53,0.71,0.66,0.74,1.0,11
+ivef-sdk.csv,0.67,0.68,0.6,0.55,1.0,7
+jmri.csv,0.38,0.56,0.24,0.68,0.0,12
+jython.csv,0.7,0.63,0.58,0.62,1.0,9
+kdenlive.csv,0.59,0.47,0.53,0.4,0.0,2
+opentibia.csv,0.42,0.51,0.31,0.67,0.0,10
+projectfactory.csv,0.56,0.5,0.36,0.52,1.0,3
+runuomondains.csv,0.36,0.43,0.3,0.6,0.0,6
+somap.csv,0.9,0.48,0.92,0.43,1.0,0
+taverna.csv,0.24,0.5,0.19,0.66,1.0,5
+tigermud.csv,0.33,0.4,0.33,0.74,1.0,4
+unbvision.csv,0.48,0.58,0.42,0.5,0.0,8
+x-ray-mule.csv,0.13,0.45,0.14,0.69,2.0,1

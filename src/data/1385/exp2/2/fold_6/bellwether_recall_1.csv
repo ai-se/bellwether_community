@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,7,6.14,1.0,benojt.csv
+1,9,2,1.5,0.865,gpsmid.csv
+2,12,10,6.7,0.995,werx.csv
+3,26,5,3.6,0.91,somap.csv
+4,32,14,14.67,1.0,hydrogen.csv
+5,51,14,13.94,1.0,nh3d.csv

@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,7,5.0,1.0,google-collections.csv
+1,9,2,1.5,0.8,gpsmid.csv
+2,12,10,6.6,1.0,werx.csv
+3,26,4,3.25,0.94,fleet-simulator.csv
+4,31,16,15.05,1.0,hydrogen.csv
+5,51,14,13.72,0.995,nh3d.csv

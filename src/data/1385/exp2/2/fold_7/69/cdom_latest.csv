@@ -1,0 +1,3 @@
+,recall,precision,pf,pci_20,ifa,wins
+thrust.csv,0.435,0.295,0.315,0.85,13.0,0
+trinitycore.csv,0.6,0.325,0.42500000000000004,0.515,5.5,1

@@ -1,0 +1,10 @@
+,recall,precision,pf,pci_20,ifa,wins
+abbot.csv,0.8,0.27,0.79,0.43,3.0,1
+jicarilla.csv,0.02,0.13,0.03,0.5,6.0,0
+optalgtoolkit.csv,0.43,0.3,0.41,0.51,1.0,5
+oscarmcmaster.csv,0.32,0.31,0.35,0.5,3.0,3
+ossim.csv,0.3,0.37,0.32,0.63,1.0,8
+projectts.csv,0.57,0.27,0.43,0.56,2.0,6
+sabbu.csv,0.38,0.23,0.24,0.6,3.0,4
+vxl.csv,0.48,0.32,0.38,0.51,0.0,7
+zact.csv,0.23,0.18,0.28,0.78,5.0,2

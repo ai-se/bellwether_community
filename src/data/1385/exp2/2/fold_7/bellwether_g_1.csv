@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,4,1.71,0.67,beast-mcmc.csv
+1,9,1,1.0,0.7050000000000001,gpsmid.csv
+2,12,6,2.7,0.6799999999999999,jmule.csv
+3,26,2,1.5,0.665,botsnscouts.csv
+4,31,10,4.32,0.66,maya-work-in-progress.csv
+5,51,7,2.83,0.62,carabiner.csv

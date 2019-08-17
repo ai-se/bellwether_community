@@ -1,0 +1,10 @@
+,springside.csv,gpsmid.csv,psycle.csv,botsnscouts.csv,lphant.csv,oscarmcmaster.csv,magicwars.csv,turbotrader-bos.csv,xmemcached.csv
+botsnscouts.csv,0.34,0.48,0.54,0.71,0.64,0.6,0.56,0.66,0.69
+gpsmid.csv,0.41,0.71,0.31,0.63,0.0,0.63,0.63,0.69,0.2
+lphant.csv,0.46,0.8,0.59,0.44,0.67,0.61,0.43,0.71,0.63
+magicwars.csv,0.74,0.69,0.0,0.36,0.0,0.17,0.68,0.63,0.48
+oscarmcmaster.csv,0.61,0.66,0.66,0.44,0.45,0.56,0.62,0.79,0.72
+psycle.csv,0.7,0.68,0.67,0.68,0.51,0.59,0.63,0.73,0.61
+springside.csv,0.78,0.75,0.6,0.26,0.52,0.62,0.48,0.68,0.47
+turbotrader-bos.csv,0.47,0.7,0.51,0.26,0.63,0.61,0.41,0.7,0.64
+xmemcached.csv,0.28,0.6,0.46,0.64,0.13,0.51,0.58,0.27,0.76

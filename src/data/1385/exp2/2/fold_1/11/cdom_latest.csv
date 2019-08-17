@@ -1,0 +1,12 @@
+,recall,precision,pf,pci_20,ifa,wins
+arcallians.csv,0.88,0.67,0.65,0.45,1.0,5
+biopax.csv,1.0,0.52,1.0,0.41,2.0,1
+crux-framework.csv,0.16,0.48,0.13,0.86,1.0,7
+kml.csv,0.93,0.63,0.8,0.44,2.0,2
+les-indemodables.csv,0.63,0.67,0.32,0.48,0.0,9
+metacosm.csv,0.61,0.74,0.23,0.48,1.0,8
+moviesandbox.csv,0.74,0.7,0.4,0.52,2.0,6
+sigil.csv,0.52,0.83,0.19,0.48,0.0,10
+unflobtactical.csv,0.79,0.67,0.6,0.46,2.0,4
+xtreemfs.csv,0.94,0.52,0.75,0.43,3.0,0
+yale.csv,0.43,0.53,0.46,0.69,2.0,3

@@ -1,0 +1,6 @@
+,id,max_bell,avge,median,bellwether
+0,2,10,4.3,0.655,google-caja.csv
+1,23,2,1.43,0.59,cleartk.csv
+2,31,1,1.0,0.635,columba.csv
+3,36,3,2.08,0.585,owlib.csv
+4,49,7,3.29,0.6699999999999999,gss.csv

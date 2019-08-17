@@ -1,0 +1,12 @@
+,recall,precision,pf,pci_20,ifa,wins
+boost-sandbox.csv,0.45,0.3,0.43,0.59,3.0,3
+bscwweasel.csv,0.45,0.38,0.24,0.58,2.0,7
+capcode.csv,0.56,0.38,0.41,0.54,2.0,6
+lamp.csv,0.61,0.43,0.41,0.45,5.0,4
+nodal.csv,0.43,0.45,0.11,0.62,3.0,9
+pydev.csv,0.7,0.43,0.53,0.47,2.0,5
+retromenu.csv,0.3,0.47,0.16,0.74,2.0,10
+smbopensoft.csv,0.5,0.21,0.54,0.56,6.0,0
+stuproa-cims.csv,0.34,0.43,0.14,0.5,1.0,8
+thout.csv,0.63,0.35,0.56,0.41,2.0,2
+uface.csv,0.91,0.3,0.64,0.39,5.0,1

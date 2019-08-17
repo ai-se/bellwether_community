@@ -1,0 +1,9 @@
+,geotools.csv,gpsmid.csv,lphant.csv,nativeclient.csv,xcf.csv,columba.csv,kaffeine.csv,atunes.csv
+atunes.csv,0.42,0.08,0.48,0.66,0.23,0.34,0.09,0.24
+columba.csv,0.44,0.5,0.33,0.25,0.27,0.24,0.0,0.35
+geotools.csv,0.29,0.21,0.82,0.79,0.2,0.18,1.0,0.23
+gpsmid.csv,0.9,0.18,1.0,0.78,0.9,0.68,1.0,0.84
+kaffeine.csv,0.74,0.29,0.79,0.12,0.43,0.33,0.09,0.5
+lphant.csv,0.71,0.53,0.27,0.28,0.6,0.43,0.64,0.54
+nativeclient.csv,0.85,0.16,0.64,0.26,0.43,0.37,0.18,0.66
+xcf.csv,0.42,0.5,0.06,0.31,0.3,0.34,0.09,0.26

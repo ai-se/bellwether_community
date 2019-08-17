@@ -1,0 +1,3 @@
+,recall,precision,pf,pci_20,ifa,wins
+jmol.csv,0.835,0.46,0.675,0.405,10.5,0
+papertoolkit.csv,0.605,0.5449999999999999,0.16,0.92,0.5,1

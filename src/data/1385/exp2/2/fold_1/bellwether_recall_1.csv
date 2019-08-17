@@ -1,0 +1,6 @@
+,id,max_bell,avge,median,bellwether
+0,2,19,13.65,1.0,enlightenment.csv
+1,23,7,5.0,0.89,magicwars.csv
+2,31,4,3.0,0.97,inkscape.csv
+3,36,12,10.08,1.0,google-collections.csv
+4,49,9,10.21,0.975,nh3d.csv

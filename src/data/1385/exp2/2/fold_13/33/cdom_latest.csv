@@ -1,0 +1,16 @@
+,recall,precision,pf,pci_20,ifa,wins
+alsa.csv,0.6,0.67,0.32,0.5,0.0,11
+amateur-scrolls.csv,0.12,0.75,0.05,0.83,0.0,14
+arianne.csv,0.95,0.59,0.94,0.43,0.0,7
+bl-toolkit.csv,0.74,0.53,0.65,0.5,1.0,2
+doomlegacy.csv,0.84,0.59,0.7,0.43,0.0,8
+enlightenment.csv,1.0,0.55,1.0,0.42,0.0,6
+fritzing.csv,0.62,0.69,0.31,0.5,0.0,13
+gnukeda.csv,0.73,0.57,0.53,0.51,1.0,4
+jlinalg.csv,0.6,0.57,0.53,0.52,1.0,3
+knowledge.csv,0.8,0.64,0.56,0.43,0.0,10
+massiv.csv,0.08,0.5,0.0,0.62,2.0,0
+playerstage.csv,0.62,0.68,0.4,0.53,1.0,9
+psycle.csv,0.84,0.63,0.58,0.39,1.0,5
+superwaba.csv,0.41,0.72,0.2,0.47,0.0,12
+wxcrp.csv,0.66,0.53,0.66,0.49,1.0,1

@@ -1,0 +1,10 @@
+,recall,precision,pf,pci_20,ifa,wins
+fleet-simulator.csv,0.98,0.38,0.83,0.39,2.0,2
+galaxium.csv,0.57,0.39,0.45,0.42,2.0,3
+jython.csv,0.7,0.31,0.58,0.48,2.0,1
+ninject.csv,0.3,0.4,0.36,0.8,1.0,6
+ondex.csv,0.35,0.59,0.2,0.66,0.0,8
+opentibia.csv,0.39,0.31,0.25,0.66,2.0,4
+power-architect.csv,0.97,0.29,1.0,0.44,2.0,0
+unbvision.csv,0.57,0.44,0.36,0.45,1.0,5
+x-ray-mule.csv,0.24,0.65,0.39,0.65,1.0,7

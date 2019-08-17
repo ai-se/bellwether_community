@@ -1,0 +1,8 @@
+,f1,g,recall,precision,pf,wins
+badtrinity-zero.csv,0.25,0.64,0.69,0.16,0.56,2
+fw4spl.csv,0.27,0.36,0.33,0.33,0.25,1
+kftpgrabber.csv,0.33,0.44,0.47,0.38,0.25,4
+kolmafia.csv,0.55,0.57,0.96,0.38,0.79,6
+lazarus-ccr.csv,0.31,0.41,0.63,0.22,0.84,0
+mia.csv,0.29,0.43,0.38,0.38,0.16,3
+plee-the-bear.csv,0.35,0.55,0.53,0.44,0.32,5

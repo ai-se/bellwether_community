@@ -1,0 +1,6 @@
+,recall,precision,pf,pci_20,ifa,wins
+maidsafe-dht.csv,0.53,0.41,0.36,0.5,4.0,2
+n2cms.csv,0.73,0.28,0.67,0.37,1.0,0
+nassp.csv,0.29,0.43,0.23,0.69,5.0,4
+nug.csv,0.65,0.42,0.7,0.51,6.0,1
+oorexx.csv,0.75,0.31,0.39,0.43,0.0,3

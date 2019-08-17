@@ -1,0 +1,4 @@
+,recall,precision,pf,pci_20,ifa,wins
+lmms.csv,0.67,0.21,0.41,0.46,1.0,2
+qpe.csv,0.66,0.18,0.32,0.48,13.0,0
+yale.csv,0.62,0.24,0.67,0.6,0.0,1

@@ -1,0 +1,14 @@
+,recall,precision,pf,pci_20,ifa,wins
+alembik.csv,0.0,0.0,0.04,0.5,59.0,0
+chaperon.csv,0.45,0.4,0.38,0.56,2.0,6
+co-ode-owl-plugins.csv,0.36,0.37,0.23,0.65,3.0,9
+e-bio-flow.csv,0.27,0.44,0.16,0.65,2.0,11
+free-evolution.csv,0.6,0.39,0.52,0.37,2.0,3
+jaxlib.csv,0.43,0.37,0.32,0.75,2.0,10
+jmonkeyengine.csv,0.5,0.21,0.56,0.58,4.0,1
+jmule.csv,0.67,0.29,0.52,0.43,2.0,4
+kaffeine.csv,0.77,0.34,0.58,0.36,2.0,2
+nodal.csv,0.25,0.38,0.15,0.73,2.0,12
+ogrehg.csv,0.5,0.36,0.43,0.52,1.0,5
+onotoa.csv,0.42,0.26,0.38,0.78,3.0,8
+papertoolkit.csv,0.2,0.27,0.19,0.72,1.0,7

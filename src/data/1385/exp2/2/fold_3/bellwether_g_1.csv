@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,3,1.43,0.65,joustsim.csv
+1,9,2,1.5,0.735,gpsmid.csv
+2,12,2,1.0,0.67,yafdotnet.csv
+3,15,3,1.67,0.74,lphant.csv
+4,21,11,5.45,0.675,jmule.csv
+5,42,6,3.05,0.615,n2cms.csv

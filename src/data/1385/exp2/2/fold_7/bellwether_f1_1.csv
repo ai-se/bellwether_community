@@ -1,0 +1,7 @@
+,id,max_bell,avge,median,bellwether
+0,1,3,2.29,0.64,benojt.csv
+1,9,0,0.0,0.29,fluent-nhibernate.csv
+2,12,4,2.9,0.635,enlightenment.csv
+3,26,2,1.5,0.6950000000000001,fleet-simulator.csv
+4,31,10,5.32,0.66,electric-core.csv
+5,51,6,4.33,0.56,carabiner.csv

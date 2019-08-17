@@ -1,0 +1,10 @@
+,freelords.csv,gpsmid.csv,empserver.csv,unbvision.csv,n2cms.csv,twostep.csv,magicwars.csv,turbotrader-bos.csv,xmemcached.csv
+empserver.csv,0.97,0.84,0.56,0.77,0.79,0.88,0.68,0.94,0.78
+freelords.csv,0.7,0.76,0.56,0.63,0.83,0.85,0.68,0.83,0.74
+gpsmid.csv,0.44,0.8,1.0,0.6,0.56,0.92,0.6,0.94,0.87
+magicwars.csv,0.89,0.92,1.0,1.0,1.0,0.96,0.64,0.96,0.78
+n2cms.csv,0.8,0.59,0.78,0.5,0.75,0.96,0.66,0.75,0.61
+turbotrader-bos.csv,0.16,0.51,0.28,0.5,0.33,0.81,0.28,0.69,0.65
+twostep.csv,0.66,0.9,0.61,0.73,0.94,0.88,0.92,0.84,0.87
+unbvision.csv,0.51,0.61,0.61,0.77,0.31,0.35,0.28,0.52,0.26
+xmemcached.csv,0.72,0.82,0.92,0.83,0.79,0.81,0.67,0.99,0.7
