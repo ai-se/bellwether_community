@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+carabiner.csv,0.515,0.26,0.265,10
+continuum-ide.csv,0.105,0.245,0.08,6
+free-evolution.csv,0.32499999999999996,0.25,0.195,7
+gtad.csv,0.06,0.75,0.01,12
+jaxen.csv,0.0,0.0,0.0,2
+jruby.csv,0.405,0.215,0.2,9
+jsr308-langtools.csv,0.525,0.30000000000000004,0.33499999999999996,8
+kaffeine.csv,0.95,0.265,0.845,0
+oorexx.csv,0.6699999999999999,0.31,0.52,5
+qedo.csv,0.025,0.065,0.055,4
+sarasvati.csv,0.20500000000000002,0.41500000000000004,0.195,11
+taokgame.csv,0.0,0.0,0.0,2
+zabbix.csv,0.865,0.28,0.735,1

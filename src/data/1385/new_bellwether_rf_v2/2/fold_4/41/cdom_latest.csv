@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+firebird.csv,0.47,0.435,0.305,2
+jmule.csv,0.7050000000000001,0.48,0.48,6
+nosleepsoftware.csv,0.35,0.55,0.195,8
+open-ms.csv,0.555,0.43,0.51,0
+qgo.csv,0.395,0.62,0.165,9
+rezilla.csv,0.895,0.475,0.865,1
+riff-evolve.csv,0.385,0.45499999999999996,0.225,4
+uwom.csv,0.4,0.5,0.2,7
+virtuoso.csv,0.72,0.475,0.585,3
+yield.csv,0.825,0.485,0.61,5

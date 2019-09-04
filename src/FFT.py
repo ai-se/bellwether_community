@@ -1,6 +1,7 @@
 import collections
 import pandas as pd
 from helpers import get_performance, get_score, subtotal, get_recall, get_auc
+import copy
 
 PRE, REC, SPEC, FPR, NPV, ACC, F1 = 7, 6, 5, 4, 3, 2, 1
 MATRIX = "\t".join(["\tTP", "FP", "TN", "FN"])
@@ -81,14 +82,15 @@ class FFT(object):
                 [str(x).ljust(5, "0") for x in all_metrics[4:] + [score]]))
         print("\tThe best tree found on training data is: FFT(" + str(best[0]) + ")")
         self.best = best[0]
-        #self.print_tree(best[0])
+        print(self.print_tree(best[0]))
+        print(self.selected)
         return self.performance_on_test[best[0]][4:]
 
     "Given how the decision is made, get the description for the node."
 
-    def describe_decision(self, t_id, level, metrics, reversed=False):
+    def describe_decision(self, t_id, level, metrics, reversed=False,_from="None"):
         cue, direction, threshold, decision = self.selected[t_id][level]
-        print('inside describe_decision', metrics)
+        #print('inside describe_decision', _from)
         tp, fp, tn, fn = metrics
         results = ["\'Good\'", "\'Bug!\'"]
         description = ("\t| " * (level + 1) + \
@@ -140,16 +142,18 @@ class FFT(object):
         for level in range(depth + 1):
             cue, direction, threshold, decision = self.selected[t_id][level]
             undecided, metrics, loc_auc = self.eval_decision(data, cue, direction, threshold, decision)
+            _metrics = copy.deepcopy(metrics)
+            _metrics2 = copy.deepcopy(metrics)
             tp, fp, tn, fn = self.update_metrics(level, depth, decision, metrics,'eval_tree')
-            #description = self.describe_decision(t_id, level, metrics,False)
-            description = 'For Now'
+            description = self.describe_decision(t_id, level, _metrics,False,"Eval_tree")
+            #description = 'For Now'
             self.node_descriptions[t_id][level] += [description]
             TP, FP, TN, FN = TP + tp, FP + fp, TN + tn, FN + fn
             if len(undecided) == 0:
                 break
             data = undecided
-        #description = self.describe_decision(t_id, level, metrics, reversed=True)
-        description = 'For Now'
+        description = self.describe_decision(t_id, level, _metrics2, reversed=True,_from = "Eval_tree")
+        #description = 'For Now'
         self.node_descriptions[t_id][level] += [description]
 
         pre, rec, spec, fpr, npv, acc, f1 = get_performance([TP, FP, TN, FN])
@@ -224,7 +228,7 @@ class FFT(object):
 
     "Given tree id, print the specific tree and its performances."
 
-    def print_tree(self, t_id):
+    def print_tree1(self, t_id):
         depth = self.tree_depths[t_id]
         for i in range(depth + 1):
             print(self.node_descriptions[t_id][i][0])
@@ -244,6 +248,28 @@ class FFT(object):
             # map(str, ["FFT(" + str(self.best) + ")"] + self.performance_on_test[t_id][4:] + [dist2heaven]))
 
     "Get all possible tree structure"
+
+    def print_tree(self, t_id):
+        data = self.test
+        depth = self.tree_depths[t_id]
+        string=''
+        if not self.node_descriptions[t_id]:
+            self.node_descriptions[t_id] = [[] for _ in range(depth + 1)]
+        for i in range(depth + 1):
+            if self.node_descriptions[t_id][i]:
+                #print self.node_descriptions[t_id][i][0]
+                string+=self.node_descriptions[t_id][i][0]+'\n'
+            else:
+                cue, direction, threshold, decision = self.selected[t_id][i]
+                undecided, metrics, loc_auc = self.eval_decision(data, cue, direction, threshold, decision)
+                description = self.describe_decision(t_id, i, metrics,False,"from print_tree")
+                self.node_descriptions[t_id][i] += [description]
+                #print description
+                string+=description+'\n'
+                if len(undecided) == 0:
+                    break
+                data = undecided
+        return string
 
     def get_all_structure(self):
         def dfs(cur, n):

@@ -1,0 +1,4 @@
+,recall,precision,pf,wins
+jhotdraw.csv,0.56,0.57,0.19,1
+pokeglobal.csv,0.77,0.55,0.85,0
+unflobtactical.csv,0.71,0.6,0.59,2

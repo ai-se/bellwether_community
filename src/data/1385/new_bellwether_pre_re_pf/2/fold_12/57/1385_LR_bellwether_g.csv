@@ -1,0 +1,7 @@
+,encog-java.csv,h2database.csv,raven-monitoring.csv,jaql.csv,v8.csv,fluent-nhibernate.csv
+encog-java.csv,0.69,0.07,0.04,0.25,0.01,0.15
+fluent-nhibernate.csv,0.31,0.25,0.34,0.39,0.19,0.91
+h2database.csv,0.62,0.71,0.17,0.65,0.16,0.77
+jaql.csv,0.69,0.69,0.3,0.74,0.37,0.46
+raven-monitoring.csv,0.36,0.42,0.62,0.41,0.23,0.54
+v8.csv,0.13,0.53,0.24,0.42,0.85,0.68

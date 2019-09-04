@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+fontforge.csv,0.755,0.72,0.56,3
+freelords.csv,0.6950000000000001,0.6699999999999999,0.47500000000000003,2
+jfreereport.csv,0.355,0.605,0.165,0
+super-tux.csv,0.685,0.595,0.315,1

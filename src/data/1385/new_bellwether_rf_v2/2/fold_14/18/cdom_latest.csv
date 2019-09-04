@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+cortex-vfx.csv,0.41000000000000003,0.52,0.24,11
+doomlegacy.csv,0.65,0.4,0.43,5
+empserver.csv,0.475,0.455,0.35,7
+fritzing.csv,0.385,0.5249999999999999,0.26,10
+ifmo-game-1.csv,0.01,0.11,0.0,0
+jparsec.csv,0.58,0.415,0.53,2
+lmms.csv,0.74,0.495,0.66,3
+lufa-lib.csv,0.41500000000000004,0.445,0.32499999999999996,6
+pgui.csv,0.38,0.48,0.31,8
+pi-qmc.csv,0.525,0.55,0.27,13
+repositorium.csv,0.445,0.475,0.43,4
+superwaba.csv,0.315,0.58,0.255,12
+xapian.csv,0.33999999999999997,0.435,0.195,9
+zemljanka.csv,1.0,0.37,0.995,1

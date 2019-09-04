@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+alpine.csv,0.02,0.6,0.0,11
+badtrinity-zero.csv,0.5,0.44,0.37,6
+bibletime.csv,0.82,0.46,0.67,1
+critterding.csv,0.67,0.48,0.6,2
+elateportal.csv,0.87,0.45,0.71,0
+fmri-dmt.csv,0.07,0.5,0.03,9
+ftm.csv,0.27,0.52,0.11,10
+gusanos.csv,0.68,0.47,0.59,3
+monetdb.csv,0.38,0.5,0.34,8
+quarkplayer.csv,0.05,0.38,0.06,5
+reactos-mirror.csv,0.68,0.51,0.54,7
+sandiaportals.csv,0.69,0.46,0.55,4
+xbplayer.csv,0.27,0.73,0.1,12

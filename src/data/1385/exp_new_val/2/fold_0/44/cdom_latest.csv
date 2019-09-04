@@ -1,0 +1,10 @@
+,recall,precision,pf,pci_20,ifa,wins
+autofac.csv,0.51,0.74,0.26,0.53,127.0,7
+buddata-ebxml-registry.csv,0.95,0.46,0.87,0.43,288.5,0
+fluidium.csv,0.02,0.33,0.05,0.64,88.5,5
+illumination.csv,0.97,0.63,1.0,0.45,197.5,2
+jsr308-langtools.csv,0.76,0.47,0.54,0.39,194.0,1
+olsrd.csv,0.41,0.52,0.15,0.6,154.0,6
+reaper-ecad.csv,0.09,0.73,0.0,0.79,73.5,8
+rtb-team.csv,0.08,0.43,0.1,0.5,98.5,4
+sidekar.csv,0.52,0.29,0.0,0.38,95.5,3

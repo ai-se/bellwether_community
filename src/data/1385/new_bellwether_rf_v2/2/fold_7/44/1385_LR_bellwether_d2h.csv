@@ -1,0 +1,7 @@
+,rezilla.csv,webdriver.csv,minig.csv,ossbuild.csv,kmess.csv,rocrail.csv
+kmess.csv,0.93,0.83,0.6,0.82,0.0,0.57
+minig.csv,0.7,0.65,0.05,1.0,0.61,0.39
+ossbuild.csv,0.94,0.64,0.8,0.03,0.69,0.47
+rezilla.csv,0.06,0.81,0.71,0.97,0.86,0.94
+rocrail.csv,0.95,0.71,0.87,0.94,0.77,0.01
+webdriver.csv,0.85,0.0,0.75,0.66,0.56,0.44

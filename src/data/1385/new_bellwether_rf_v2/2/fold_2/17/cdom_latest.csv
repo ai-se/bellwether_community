@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+fm-classic.csv,0.0,0.0,0.0,1
+jcl.csv,0.08,0.22,0.1,2
+openxava.csv,0.56,0.21,0.26,4
+tcvp.csv,0.02,0.4,0.04,5
+vars-redux.csv,0.81,0.16,0.42,3
+werx.csv,1.0,0.11,0.99,0

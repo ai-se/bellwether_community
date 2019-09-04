@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+delphilhlplib.csv,0.71,0.54,0.32,0.53,99.0,4
+flexpay.csv,0.62,0.26,0.36,0.59,99.0,3
+gabel.csv,0.38,0.45,0.16,0.73,99.0,5
+genoviz.csv,0.42,0.71,0.11,0.62,99.0,6
+img-browse-sort.csv,0.54,0.57,0.38,0.6,179.0,2
+ontomorphtab.csv,0.91,0.27,0.69,0.38,193.0,0
+passwordsafe.csv,0.77,0.45,0.5,0.5,173.0,1

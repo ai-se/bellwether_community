@@ -1,0 +1,4 @@
+,recall,precision,pf,pci_20,ifa,wins
+jhotdraw.csv,0.58,0.44,0.46,0.82,98.5,1
+pokeglobal.csv,0.73,0.52,0.77,0.45,98.5,0
+unflobtactical.csv,0.76,0.6,0.62,0.5,98.5,2

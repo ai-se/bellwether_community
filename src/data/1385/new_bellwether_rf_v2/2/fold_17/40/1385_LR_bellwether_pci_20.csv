@@ -1,0 +1,10 @@
+,rhex.csv,kmatplot.csv,jcae.csv,applet2app.csv,mscore.csv,riff-evolve.csv,archive-crawler.csv,autowikibrowser.csv,quickfast.csv
+applet2app.csv,0.78,0.51,0.37,0.62,0.58,0.47,0.44,0.53,0.68
+archive-crawler.csv,0.92,0.95,0.85,0.75,0.72,0.94,0.73,0.94,0.86
+autowikibrowser.csv,0.5,0.49,0.33,0.43,0.45,0.5,0.47,0.45,0.33
+jcae.csv,0.0,0.91,0.89,0.99,0.86,0.9,0.83,0.9,0.0
+kmatplot.csv,0.96,0.88,0.93,0.82,0.75,0.93,0.68,0.72,0.52
+mscore.csv,0.49,0.44,0.34,0.48,0.46,0.46,0.47,0.47,0.38
+quickfast.csv,0.63,0.57,0.3,0.51,0.53,0.48,0.35,0.39,0.36
+rhex.csv,0.92,0.83,0.91,0.63,0.96,0.96,0.95,0.94,0.9
+riff-evolve.csv,0.53,0.5,0.39,0.52,0.52,0.57,0.44,0.51,0.47

@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+adonthell.csv,0.62,0.51,0.44,13
+avisynth2.csv,0.0,0.0,0.0,0
+bigdata.csv,0.89,0.46,0.84,4
+dsworkbench.csv,0.32,0.35,0.29,8
+foursquared.csv,0.2,0.56,0.13,14
+geotools.csv,0.39,0.54,0.2,15
+gephex.csv,0.6,0.29,0.57,2
+jgossipforum.csv,0.01,0.09,0.02,1
+madman.csv,0.03,0.25,0.05,5
+pokenetonline.csv,0.67,0.4,0.53,12
+qmmp.csv,0.72,0.43,0.61,11
+rcp-company-uibindings.csv,1.0,0.42,0.95,3
+simplewebservices.csv,0.39,0.38,0.39,7
+t-2.csv,0.54,0.52,0.61,10
+wsmt.csv,0.23,0.37,0.25,9
+yarp0.csv,0.54,0.4,0.52,6

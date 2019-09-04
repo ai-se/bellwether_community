@@ -1,0 +1,8 @@
+,olap-navigator.csv,ikvm.csv,sepgsql.csv,mcmc-jags.csv,pidgin.csv,libtorrent.csv,xstore.csv
+ikvm.csv,0.57,0.86,0.02,0.19,0.48,0.66,0.4
+libtorrent.csv,0.81,0.54,0.13,0.39,0.85,0.82,0.65
+mcmc-jags.csv,0.6,0.55,0.1,0.73,0.77,0.78,0.72
+olap-navigator.csv,0.88,0.45,0.21,0.41,0.73,0.59,0.58
+pidgin.csv,0.65,0.5,0.12,0.4,0.79,0.61,0.69
+sepgsql.csv,0.72,0.53,0.21,0.4,0.77,0.57,0.57
+xstore.csv,0.58,0.39,0.09,0.36,0.83,0.53,0.68

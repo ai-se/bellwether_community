@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+adobe-source.csv,0.295,0.435,0.055,7
+atlc.csv,0.79,0.36,0.555,4
+ipfilter.csv,0.775,0.315,0.765,0
+jmol.csv,0.8300000000000001,0.31,0.79,1
+pfaedit.csv,0.495,0.45499999999999996,0.27,5
+rockbox.csv,0.405,0.605,0.155,9
+snakeyaml.csv,0.655,0.445,0.65,3
+theresa.csv,0.0,0.0,0.0,2
+trinitycore.csv,0.365,0.535,0.22999999999999998,6
+wxcode.csv,0.1,0.625,0.015,8

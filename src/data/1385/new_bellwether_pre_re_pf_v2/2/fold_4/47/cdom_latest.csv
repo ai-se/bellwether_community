@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+acdk.csv,0.6799999999999999,0.495,0.265,7
+archive-crawler.csv,0.51,0.42500000000000004,0.195,3
+jcae.csv,0.495,0.485,0.15000000000000002,6
+openmalaria.csv,0.745,0.38,0.545,1
+popeye-chess.csv,0.67,0.45499999999999996,0.315,5
+rhex.csv,0.495,0.33,0.30500000000000005,0
+rocrail.csv,0.71,0.43,0.365,4
+truevision.csv,0.77,0.37,0.37,2

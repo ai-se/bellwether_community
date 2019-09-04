@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+arm-webradio.csv,0.5,0.45,0.25,10
+bibedt.csv,0.3,0.4,0.11,8
+brlcad.csv,0.895,0.275,0.875,0
+co-ode-owl-plugins.csv,0.615,0.455,0.255,12
+firebreath.csv,0.585,0.265,0.46,4
+fltk.csv,0.46499999999999997,0.45,0.16999999999999998,11
+glas.csv,0.25,0.25,0.29000000000000004,2
+gretl.csv,0.8200000000000001,0.325,0.72,3
+konversation.csv,0.055,0.6,0.01,13
+micomt.csv,0.175,0.44,0.045,9
+openxava.csv,0.42,0.35,0.32,7
+sumatrapdf.csv,0.78,0.265,0.5,6
+tweetsharp.csv,0.595,0.33999999999999997,0.535,5
+wxcode.csv,0.01,0.125,0.0,1

@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+acegisecurity.csv,0.495,0.425,0.305,4
+emite.csv,0.44,0.385,0.22999999999999998,2
+irrlicht.csv,0.605,0.355,0.375,1
+migen.csv,0.485,0.42000000000000004,0.25,5
+motu.csv,0.1,0.63,0.015,7
+openxava.csv,0.5349999999999999,0.485,0.195,6
+truevision.csv,0.88,0.385,0.695,0
+zoolib.csv,0.06,0.41500000000000004,0.05,3

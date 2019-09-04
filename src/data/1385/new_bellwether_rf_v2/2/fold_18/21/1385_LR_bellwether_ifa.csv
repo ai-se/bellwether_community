@@ -1,0 +1,10 @@
+,rsyslog.csv,acegisecurity.csv,wow-qrsk.csv,ppcboot.csv,kml.csv,repositorium.csv,ultimairis.csv,xbg.csv,gdis.csv
+acegisecurity.csv,4.0,0.0,4.0,0.0,3.0,3.0,8.0,5.0,0.0
+gdis.csv,1.0,0.0,28.0,0.0,2.0,1.0,9.0,2.0,0.0
+kml.csv,1.0,0.0,1.0,0.0,0.0,0.0,2.0,4.0,0.0
+ppcboot.csv,0.0,0.0,15.0,0.0,4.0,37.0,4.0,4.0,0.0
+repositorium.csv,7.0,7.0,42.0,1.0,2.0,0.0,0.0,3.0,1.0
+rsyslog.csv,0.0,4.0,15.0,0.0,2.0,5.0,1.0,62.0,0.0
+ultimairis.csv,6.0,6.0,68.0,0.0,5.0,3.0,0.0,14.0,0.0
+wow-qrsk.csv,3.0,7.0,0.0,0.0,3.0,0.0,1.0,6.0,0.0
+xbg.csv,49.0,0.0,2.0,0.0,0.0,3.0,0.0,0.0,69.0

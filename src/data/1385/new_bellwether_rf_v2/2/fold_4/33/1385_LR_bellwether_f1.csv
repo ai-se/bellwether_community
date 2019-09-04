@@ -1,0 +1,10 @@
+,opentibia.csv,x-ray-mule.csv,jython.csv,unbvision.csv,galaxium.csv,power-architect.csv,ondex.csv,fleet-simulator.csv,ninject.csv
+fleet-simulator.csv,0.93,0.75,0.23,0.41,0.45,0.88,0.29,1.0,0.16
+galaxium.csv,0.2,0.0,0.05,0.18,0.99,0.25,0.2,0.54,0.29
+jython.csv,0.66,0.68,0.98,0.37,0.25,0.66,0.29,0.35,0.14
+ninject.csv,0.07,0.06,0.07,0.26,0.48,0.11,0.09,0.34,1.0
+ondex.csv,0.37,0.0,0.38,0.32,0.09,0.29,0.95,0.88,0.12
+opentibia.csv,0.99,0.68,0.21,0.44,0.36,0.73,0.24,0.76,0.18
+power-architect.csv,0.79,0.58,0.23,0.37,0.46,1.0,0.29,0.75,0.15
+unbvision.csv,0.56,0.22,0.22,0.98,0.47,0.49,0.29,0.52,0.19
+x-ray-mule.csv,0.28,1.0,0.23,0.19,0.19,0.19,0.24,0.2,0.08

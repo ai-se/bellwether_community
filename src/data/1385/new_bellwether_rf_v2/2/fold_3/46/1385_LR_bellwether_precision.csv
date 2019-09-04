@@ -1,0 +1,7 @@
+,x4x.csv,graphmak.csv,rectracker.csv,pdfedit.csv,wxlua.csv,jruby.csv
+graphmak.csv,0.71,1.0,0.78,0.41,1.0,1.0
+jruby.csv,0.86,0.38,0.92,0.75,0.86,1.0
+pdfedit.csv,0.81,0.38,0.83,0.98,0.91,0.9
+rectracker.csv,0.8,0.33,1.0,0.5,0.93,0.88
+wxlua.csv,0.77,0.36,0.67,0.54,1.0,0.87
+x4x.csv,1.0,0.36,0.67,0.52,0.93,0.87

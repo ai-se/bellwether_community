@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+cornerstone.csv,0.5,0.39,0.3,5
+emeraldemu.csv,0.255,0.585,0.08,10
+frogatto.csv,0.675,0.44,0.355,7
+grafx2.csv,0.795,0.385,0.545,3
+jahshakafx.csv,0.315,0.595,0.105,11
+nassp.csv,0.4,0.65,0.11499999999999999,13
+netatalk.csv,0.495,0.585,0.155,12
+open-beos.csv,0.785,0.36,0.54,2
+psycle.csv,0.8200000000000001,0.395,0.655,0
+quantlib.csv,0.415,0.535,0.22,8
+reaper-ecad.csv,0.365,0.46,0.275,6
+sbml.csv,0.77,0.435,0.565,4
+unimrcp.csv,0.36,0.565,0.15000000000000002,9
+unladen-swallow.csv,0.4,0.475,0.46499999999999997,1

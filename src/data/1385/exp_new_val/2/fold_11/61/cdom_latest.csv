@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+betoffice.csv,0.64,0.3,0.8,0.59,366.0,0
+ifmo-game-1.csv,0.11,0.38,0.09,0.78,229.5,4
+knowledge.csv,0.86,0.4,0.69,0.42,197.0,1
+pentahoanalysistool.csv,0.56,0.39,0.58,0.57,197.0,2
+projecteqemu.csv,0.71,0.49,0.38,0.57,188.0,6
+sumatrapdf.csv,0.86,0.47,0.89,0.47,197.5,3
+voms.csv,0.73,0.42,0.2,0.58,187.0,5

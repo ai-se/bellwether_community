@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+bigdata.csv,0.99,0.43,0.9,2
+e-bio-flow.csv,0.38,0.5700000000000001,0.25,11
+freedom-erp.csv,0.02,0.515,0.02,7
+jbasic.csv,0.355,0.53,0.215,9
+jgossipforum.csv,0.0,0.0,0.0,0
+joustsim.csv,0.30500000000000005,0.51,0.155,10
+jsidplay2.csv,0.66,0.475,0.545,5
+madman.csv,0.0,0.0,0.0,0
+mule.csv,0.4,0.505,0.255,6
+nunit.csv,0.19,0.575,0.16499999999999998,8
+power-architect.csv,0.8,0.45999999999999996,0.77,3
+reaper3d.csv,0.27,0.405,0.31999999999999995,4

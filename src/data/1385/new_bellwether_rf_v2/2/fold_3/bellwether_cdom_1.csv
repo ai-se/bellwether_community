@@ -1,0 +1,9 @@
+,recall,precision,pf,cdom,bellwether
+1,0.55,0.45,0.33,6.0,icescrum.csv
+9,0.87,0.87,0.53,1.0,columba.csv
+12,0.77,0.77,0.605,1.0,mplayer-ce.csv
+15,0.28,0.45,0.27,2.0,owlapi.csv
+21,0.47,0.405,0.32,19.0,dynalloy.csv
+42,0.295,0.335,0.27,19.0,gmerlin.csv
+19,0.94,0.97,0.94,0.0,javagroups.csv
+20,0.94,0.97,0.94,0.0,jvcl.csv

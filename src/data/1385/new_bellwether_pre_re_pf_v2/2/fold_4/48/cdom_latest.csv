@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+fmri-dmt.csv,0.755,0.395,0.685,2
+google-web-toolkit.csv,0.5800000000000001,0.385,0.35,4
+open-data-kit.csv,0.8049999999999999,0.345,0.73,0
+qtractor.csv,0.605,0.365,0.4,3
+quarkplayer.csv,0.37,0.36500000000000005,0.28,1
+zoolib.csv,0.44999999999999996,0.425,0.21,5

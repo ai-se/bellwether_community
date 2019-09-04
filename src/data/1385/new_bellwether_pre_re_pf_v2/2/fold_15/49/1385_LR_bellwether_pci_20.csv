@@ -1,0 +1,5 @@
+,selenium.csv,pcgen.csv,autoopencas.csv,tolven.csv
+autoopencas.csv,0.97,0.64,0.68,0.97
+pcgen.csv,0.44,0.44,0.41,0.38
+selenium.csv,0.43,0.5,0.38,0.42
+tolven.csv,0.7,0.51,0.95,0.45

@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+maidsafe-dht.csv,0.615,0.4,0.29500000000000004,3
+n2cms.csv,0.74,0.27,0.575,0
+nassp.csv,0.29,0.405,0.195,2
+nug.csv,0.7,0.29500000000000004,0.525,1

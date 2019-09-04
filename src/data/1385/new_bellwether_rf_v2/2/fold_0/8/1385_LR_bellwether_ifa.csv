@@ -1,0 +1,14 @@
+,jicarilla.csv,bacula.csv,pentahoanalysistool.csv,foursquared.csv,bdbbasic.csv,open-data-kit.csv,yafdotnet.csv,impala.csv,turbotrader-bos.csv,ultimairis.csv,tradelink.csv,wikipediardware.csv,ng4j.csv
+bacula.csv,6.0,0.0,3.0,0.0,1.0,1.0,4.0,3.0,14.0,1.0,3.0,0.0,10.0
+bdbbasic.csv,2.0,2.0,4.0,5.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,1.0,2.0
+foursquared.csv,69.0,0.0,3.0,0.0,0.0,0.0,0.0,7.0,2.0,0.0,1.0,0.0,0.0
+impala.csv,4.0,1.0,2.0,2.0,9.0,4.0,2.0,0.0,7.0,1.0,0.0,0.0,1.0
+jicarilla.csv,0.0,0.0,1.0,69.0,67.0,4.0,5.0,1.0,6.0,1.0,10.0,0.0,0.0
+ng4j.csv,0.0,3.0,0.0,2.0,1.0,0.0,0.0,18.0,1.0,0.0,5.0,0.0,0.0
+open-data-kit.csv,1.0,0.0,2.0,4.0,1.0,0.0,4.0,29.0,2.0,0.0,1.0,0.0,8.0
+pentahoanalysistool.csv,0.0,1.0,0.0,1.0,0.0,1.0,8.0,15.0,1.0,2.0,1.0,0.0,0.0
+tradelink.csv,1.0,2.0,2.0,4.0,12.0,3.0,8.0,207.0,13.0,0.0,0.0,0.0,1.0
+turbotrader-bos.csv,4.0,2.0,9.0,6.0,8.0,3.0,0.0,16.0,0.0,1.0,1.0,0.0,7.0
+ultimairis.csv,1.0,1.0,2.0,1.0,4.0,3.0,8.0,4.0,4.0,0.0,0.0,1.0,1.0
+wikipediardware.csv,2.0,5.0,6.0,16.0,1.0,3.0,8.0,8.0,4.0,0.0,0.0,0.0,13.0
+yafdotnet.csv,3.0,2.0,2.0,9.0,4.0,2.0,0.0,8.0,0.0,0.0,0.0,0.0,3.0

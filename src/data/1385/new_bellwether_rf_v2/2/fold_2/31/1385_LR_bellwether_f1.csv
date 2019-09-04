@@ -1,0 +1,10 @@
+,sabbu.csv,vxl.csv,kdenlive.csv,zact.csv,optalgtoolkit.csv,tokratan.csv,boost-sandbox.csv,foursquared.csv,jasperreports.csv
+boost-sandbox.csv,0.21,0.36,0.57,0.0,0.56,0.25,1.0,0.39,0.18
+foursquared.csv,0.44,0.05,0.37,0.29,0.19,0.32,0.1,1.0,0.08
+jasperreports.csv,0.29,0.0,0.11,0.0,0.0,0.0,0.02,0.32,0.94
+kdenlive.csv,0.63,0.35,1.0,0.09,0.62,0.33,0.64,0.58,0.12
+optalgtoolkit.csv,0.56,0.34,0.67,0.14,0.97,0.21,0.71,0.46,0.1
+sabbu.csv,0.98,0.32,0.62,0.15,0.15,0.29,0.47,0.55,0.14
+tokratan.csv,0.36,0.04,0.47,0.17,0.17,0.8,0.04,0.15,0.08
+vxl.csv,0.27,0.94,0.46,0.09,0.08,0.16,0.41,0.11,0.08
+zact.csv,0.07,0.0,0.0,0.73,0.0,0.0,0.0,0.12,0.0

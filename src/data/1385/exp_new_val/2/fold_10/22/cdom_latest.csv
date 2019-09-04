@@ -1,0 +1,4 @@
+,recall,precision,pf,pci_20,ifa,wins
+amygdala.csv,0.67,0.68,0.37,0.6,98.5,2
+log4net.csv,0.41,0.7,0.17,0.57,167.0,1
+rectracker.csv,0.89,0.59,0.69,0.39,98.5,0

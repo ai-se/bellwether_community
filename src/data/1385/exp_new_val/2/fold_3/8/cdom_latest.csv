@@ -1,0 +1,9 @@
+,recall,precision,pf,pci_20,ifa,wins
+forester-atv.csv,0.125,0.65,0.09,0.75,96.5,7
+geotools.csv,0.665,0.5,0.665,0.36,193.5,0
+google-collections.csv,1.0,0.5249999999999999,1.0,0.355,148.5,1
+l2j.csv,0.58,0.52,0.38,0.475,146.0,2
+mediate.csv,0.435,0.555,0.5,0.54,99.0,5
+projectfactory.csv,0.79,0.565,0.56,0.42000000000000004,99.0,6
+st-filteredstatistics.csv,0.79,0.52,0.725,0.38,98.75,3
+thedata.csv,0.7749999999999999,0.53,0.72,0.495,99.0,4

@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+dxengine.csv,0.23,0.25,0.12,11
+e-bio-flow.csv,0.23,0.23,0.23,8
+haggle.csv,0.43,0.23,0.27,9
+hannosset.csv,0.0,0.0,0.01,5
+jas.csv,0.04,0.33,0.04,13
+jbpm.csv,0.0,0.0,0.02,2
+jgossipforum.csv,0.0,0.0,0.0,6
+joustsim.csv,0.41,0.38,0.25,12
+log4net.csv,0.0,0.0,0.0,6
+madman.csv,0.0,0.0,0.02,2
+ngl.csv,0.75,0.23,0.46,2
+nunit.csv,0.37,0.22,0.3,3
+piccolo2d.csv,0.04,0.16,0.02,10
+sblim.csv,0.04,0.5,0.03,14
+wsmt.csv,0.23,0.09,0.27,0

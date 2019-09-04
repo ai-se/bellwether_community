@@ -1,0 +1,11 @@
+,recall,precision,pf,pci_20,ifa,wins
+crisscross.csv,0.81,0.47,0.96,0.47,99.0,7
+cubefs.csv,0.69,0.46,0.63,0.49,190.0,3
+iaml.csv,0.21,0.4,0.32,0.59,152.0,2
+ivataopenportal.csv,0.88,0.46,0.87,0.42,194.0,1
+mb-unit.csv,0.7,0.5,0.56,0.47,191.0,5
+mvdsv.csv,0.07,0.56,0.03,0.86,98.5,9
+nova.csv,0.54,0.47,0.47,0.52,194.0,4
+olex2.csv,0.67,0.52,0.49,0.48,196.0,6
+openwbem.csv,0.57,0.54,0.38,0.48,115.0,8
+xcmetadataservicestoolkit.csv,0.62,0.47,0.8,0.47,194.0,0

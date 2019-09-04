@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+atlc.csv,0.74,0.45,0.61,4
+glelite.csv,1.0,0.41,1.0,1
+hannosset.csv,0.05,0.29,0.0,2
+ipfilter.csv,0.61,0.48,0.46,8
+moving-pictures.csv,0.67,0.55,0.58,7
+pclasses.csv,0.22,0.38,0.19,3
+pfaedit.csv,0.29,0.6,0.12,13
+qcad2.csv,0.54,0.54,0.45,9
+rockbox.csv,0.44,0.5,0.33,10
+roller.csv,0.56,0.51,0.48,6
+theresa.csv,0.0,0.0,0.0,0
+tzod.csv,0.51,0.56,0.26,12
+xinity.csv,0.31,0.44,0.14,11
+zabbix.csv,0.75,0.55,0.72,5

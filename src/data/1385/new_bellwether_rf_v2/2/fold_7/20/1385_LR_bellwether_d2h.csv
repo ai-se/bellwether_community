@@ -1,0 +1,7 @@
+,ifmo-game-1.csv,voms.csv,fm-classic.csv,foursquared.csv,micomt.csv,xpontus.csv,jmule.csv
+fm-classic.csv,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+foursquared.csv,0.72,0.89,1.01,0.04,0.92,1.03,0.79
+ifmo-game-1.csv,0.0,1.0,1.0,1.0,1.03,1.0,1.0
+jmule.csv,0.66,0.5,0.36,0.39,0.5,0.45,0.04
+micomt.csv,1.0,0.82,0.72,0.6,0.0,0.54,0.91
+voms.csv,1.0,0.11,1.0,1.0,1.0,1.0,0.96

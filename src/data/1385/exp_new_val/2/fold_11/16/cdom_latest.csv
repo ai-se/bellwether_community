@@ -1,0 +1,6 @@
+,recall,precision,pf,pci_20,ifa,wins
+ng4j.csv,0.53,0.44,0.42,0.58,280.5,1
+open-data-kit.csv,0.88,0.39,0.59,0.44,178.0,0
+qtractor.csv,0.68,0.73,0.3,0.45,99.0,4
+quarkplayer.csv,0.21,0.35,0.3,0.83,192.5,2
+turbotrader-bos.csv,0.36,0.6,0.15,0.72,460.5,3

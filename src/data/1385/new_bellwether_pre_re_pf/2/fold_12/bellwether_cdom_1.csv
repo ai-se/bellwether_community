@@ -1,0 +1,9 @@
+,recall,precision,pf,cdom,bellwether
+1,0.37,0.435,0.33,8.0,mediaportal.csv
+12,0.5700000000000001,0.275,0.21500000000000002,1.0,emftriple.csv
+15,0.47,0.44,0.38,12.0,exordium.csv
+29,0.63,0.47,0.41,19.0,ktc.csv
+50,0.71,0.55,0.37,4.0,moving-pictures.csv
+56,0.66,0.61,0.52,2.0,columba.csv
+60,0.64,0.33,0.31,8.0,oscarmcmaster.csv
+11,0.86,0.485,0.25,0.0,atunes.csv

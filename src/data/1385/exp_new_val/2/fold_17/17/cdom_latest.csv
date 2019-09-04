@@ -1,0 +1,4 @@
+,recall,precision,pf,pci_20,ifa,wins
+clamav.csv,0.81,0.46,0.63,0.36,99.0,0
+mbse.csv,0.74,0.47,0.54,0.47,95.5,2
+yafdotnet.csv,0.63,0.5,0.26,0.43,99.0,1

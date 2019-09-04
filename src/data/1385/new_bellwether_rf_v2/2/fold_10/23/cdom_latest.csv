@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+cleartk.csv,0.875,0.36,0.69,2
+dsworkbench.csv,0.235,0.47,0.17,5
+gogoego.csv,0.245,0.6,0.16499999999999998,6
+jpaul.csv,0.32,0.645,0.245,10
+loki-lib.csv,0.745,0.4,0.595,3
+motu.csv,0.165,0.7849999999999999,0.055,11
+mp-rechnungs-und-kundenverwaltung.csv,0.35,0.57,0.20500000000000002,8
+rtrt-on-gpu.csv,0.18,0.29500000000000004,0.25,1
+scenemonitor.csv,0.615,0.38,0.47,4
+xstore.csv,0.495,0.515,0.25,7
+yarp0.csv,0.65,0.505,0.33999999999999997,9
+zemljanka.csv,0.94,0.365,0.945,0

@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+encog-java.csv,0.39,0.61,0.035,5
+fluent-nhibernate.csv,0.22,0.39,0.16,2
+h2database.csv,0.29,0.475,0.095,3
+jaql.csv,0.46499999999999997,0.28500000000000003,0.335,0
+raven-monitoring.csv,0.3,0.29,0.245,1
+v8.csv,0.615,0.42000000000000004,0.22499999999999998,4

@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+aime.csv,0.5,0.54,0.24,4
+flylinkdc.csv,0.465,0.47000000000000003,0.235,1
+ltp.csv,0.09,0.22,0.065,2
+pfaedit.csv,0.63,0.4,0.24,3
+powerfolder-.csv,0.16499999999999998,0.5,0.035,5
+qtwin.csv,0.0,0.0,0.0,0

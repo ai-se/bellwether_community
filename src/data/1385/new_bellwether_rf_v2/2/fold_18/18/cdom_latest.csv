@@ -1,0 +1,4 @@
+,recall,precision,pf,wins
+lmms.csv,0.74,0.21,0.31,1
+qpe.csv,0.37,0.59,0.18,2
+yale.csv,0.43,0.56,0.34,0

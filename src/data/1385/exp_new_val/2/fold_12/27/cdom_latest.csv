@@ -1,0 +1,6 @@
+,recall,precision,pf,pci_20,ifa,wins
+autat.csv,0.62,0.36,0.27,0.57,194.0,3
+dynalloy.csv,0.68,0.35,0.59,0.61,485.5,1
+findbugs.csv,0.75,0.45,0.33,0.56,389.0,4
+runuomondains.csv,0.62,0.4,0.4,0.49,487.5,0
+xbplayer.csv,0.62,0.32,0.31,0.5,194.0,2

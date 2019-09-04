@@ -79,24 +79,45 @@ class measures(object):
                 if self.dframe_unchanged['Actual'].iloc[i] == self.dframe_unchanged['Predicted'].iloc[i] == 1:
                     break
             ifa_x.append(perc)
-            ifa_y.append(count)
+            ifa_y.append(count/self.dframe_unchanged[self.dframe_unchanged['Predicted'] == 1].shape[0])
         return np.trapz(ifa_y,x=ifa_x)
     
     
     def calculate_recall(self):
-        return round(metrics.recall_score(self.actual, self.predicted, average=None)[1],2)
+        if len(metrics.recall_score(self.actual, self.predicted, average=None)) == 1:
+            if self.actual.unique()[0] == True:
+                result = round(metrics.recall_score(self.actual, self.predicted, average=None)[0],2)
+            else:
+                result = 0
+        else:
+            result = round(metrics.recall_score(self.actual, self.predicted, average=None)[1],2)
+        return result
 
     def calculate_precision(self):
-        return round(metrics.precision_score(self.actual, self.predicted, average=None)[1],2)
+        if len(metrics.precision_score(self.actual, self.predicted, average=None)) == 1:
+            if self.actual.unique()[0] == True:
+                result = round(metrics.precision_score(self.actual, self.predicted, average=None)[0],2)
+            else:
+                result = 0
+        else:
+            result = round(metrics.precision_score(self.actual, self.predicted, average=None)[1],2)
+        return result
 
     def calculate_f1_score(self):
-        return round(metrics.f1_score(self.actual, self.predicted, average=None)[1],2)
+        if len(metrics.f1_score(self.actual, self.predicted, average=None)) == 1:
+            if self.actual.unique()[0] == True:
+                result = round(metrics.f1_score(self.actual, self.predicted, average=None)[0],2)
+            else:
+                result = 0
+        else:
+            result = round(metrics.f1_score(self.actual, self.predicted, average=None)[1],2)
+        return result
 
     def get_performance(self):
         pre = round(1.0 * self.tp / (self.tp + self.fp),2) if (self.tp + self.fp) != 0 else 0
         rec = round(1.0 * self.tp / (self.tp + self.fn),2) if (self.tp + self.fn) != 0 else 0
         spec = round(1.0 * self.tn / (self.tn + self.fp),2) if (self.tn + self.fp) != 0 else 0
-        fpr = 1 - spec
+        fpr = round(1 - spec,2)
         npv = round(1.0 * self.tn / (self.tn + self.fn),2) if (self.tn + self.fn) != 0 else 0
         acc = round(1.0 * (self.tp + self.tn) / (self.tp + self.tn + self.fp + self.fn),2) if (self.tp + self.tn + self.fp + self.fn) != 0 else 0
         f1 = round(2.0 * self.tp / (2.0 * self.tp + self.fp + self.fn),2) if (2.0 * self.tp + self.fp + self.fn) != 0 else 0

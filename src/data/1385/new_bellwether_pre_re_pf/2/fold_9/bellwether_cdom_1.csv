@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.36,0.47,0.36,7.0,mp-rechnungs-und-kundenverwaltung.csv
+10,0.5,0.11499999999999999,0.11499999999999999,1.0,emftriple.csv
+13,0.77,0.33,0.29,8.0,phonon-vlc-mplayer.csv
+26,0.5,0.48,0.28,4.0,retromenu.csv
+32,0.2,0.345,0.25,16.0,quark.csv
+50,0.71,0.34,0.33,18.0,xcf.csv
+23,0.81,0.5800000000000001,0.52,1.0,magicwars.csv
+24,0.54,0.46499999999999997,0.425,3.0,personalaccess.csv
+25,0.74,0.655,0.57,0.0,xmemcached.csv

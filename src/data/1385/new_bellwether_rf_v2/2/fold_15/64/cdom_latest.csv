@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+arm-webradio.csv,0.44,0.32,0.23,11
+aubit4gl.csv,0.37,0.27,0.4,0
+bionote.csv,0.0,0.0,0.02,1
+liferea.csv,0.5,0.38,0.31,9
+opensim4opencog.csv,0.15,0.39,0.04,12
+pclasses.csv,0.0,0.0,0.0,2
+plearn.csv,0.36,0.23,0.34,3
+psrchive.csv,0.09,0.33,0.05,10
+re2c.csv,0.43,0.28,0.3,5
+rebecca-aiml.csv,0.33,0.33,0.28,6
+thrust.csv,0.32,0.3,0.23,8
+tzod.csv,0.41,0.26,0.31,4
+yaprm.csv,0.35,0.32,0.27,7

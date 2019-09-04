@@ -1,0 +1,15 @@
+,recall,precision,pf,pci_20,ifa,wins
+aufs.csv,0.5,0.65,0.29,0.63,97.5,11
+calcubetimer.csv,0.47,0.67,0.43,0.57,98.5,7
+chaosrts.csv,0.56,0.67,0.38,0.47,97.5,10
+emono.csv,0.84,0.64,0.82,0.43,99.0,3
+freelords.csv,0.79,0.69,0.6,0.34,99.0,4
+jmonkeyengine.csv,0.4,0.63,0.29,0.64,99.0,6
+jython.csv,0.43,0.7,0.4,0.65,98.5,9
+mclient-mume.csv,0.4,0.85,0.23,0.59,98.5,12
+papertoolkit.csv,0.18,0.67,0.17,0.89,97.5,13
+primefaces.csv,0.99,0.66,0.95,0.37,99.0,2
+st-filteredstatistics.csv,0.9,0.6,0.9,0.36,99.0,0
+toped.csv,0.78,0.63,0.81,0.41,99.0,1
+triplea.csv,0.68,0.7,0.52,0.4,99.0,5
+web-cat.csv,0.83,0.67,0.56,0.5,98.5,8

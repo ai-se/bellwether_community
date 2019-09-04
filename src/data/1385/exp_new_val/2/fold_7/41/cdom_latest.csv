@@ -1,0 +1,6 @@
+,recall,precision,pf,pci_20,ifa,wins
+adaptagrams.csv,0.64,0.4,0.25,0.45,327.0,4
+aime.csv,0.5,0.37,0.45,0.52,197.5,3
+badtrinitycore.csv,0.47,0.33,0.18,0.5,394.0,0
+electric-core.csv,0.71,0.4,0.55,0.47,393.5,2
+olsrd.csv,0.55,0.37,0.3,0.39,295.5,1

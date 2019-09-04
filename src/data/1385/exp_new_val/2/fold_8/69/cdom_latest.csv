@@ -1,0 +1,10 @@
+,recall,precision,pf,pci_20,ifa,wins
+anaxagora.csv,0.6,0.36,0.44,0.43,193.0,3
+buddata-ebxml-registry.csv,0.97,0.31,0.94,0.37,292.0,0
+continuum-ide.csv,0.25,0.41,0.18,0.85,190.0,6
+gtad.csv,0.33,0.32,0.13,0.67,95.5,5
+htmlunit.csv,0.56,0.32,0.27,0.43,96.5,4
+jsr308-langtools.csv,0.9,0.18,0.62,0.35,193.0,1
+kaffeine.csv,0.75,0.33,0.48,0.37,290.5,2
+stemkit.csv,0.4,0.45,0.22,0.72,99.0,8
+taokgame.csv,0.24,0.46,0.21,0.8,106.0,7

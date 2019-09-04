@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+ardour.csv,0.485,0.755,0.22499999999999998,5
+cornerstone.csv,0.62,0.73,0.26,6
+frogatto.csv,0.62,0.7,0.42500000000000004,4
+novembre.csv,0.30500000000000005,0.83,0.1,7
+ns-3.csv,0.71,0.59,0.45,2
+open-beos.csv,0.575,0.6699999999999999,0.4,3
+planeshift.csv,0.79,0.565,0.635,0
+sbml.csv,0.79,0.625,0.58,1

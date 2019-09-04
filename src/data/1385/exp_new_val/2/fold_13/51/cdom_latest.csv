@@ -1,0 +1,10 @@
+,recall,precision,pf,pci_20,ifa,wins
+buddata-ebxml-registry.csv,0.97,0.34,0.85,0.41,290.5,0
+carabiner.csv,0.77,0.38,0.77,0.35,195.0,1
+dvt.csv,0.44,0.32,0.31,0.41,98.5,4
+flylinkdc.csv,0.71,0.37,0.71,0.51,196.5,3
+jsr308-langtools.csv,0.86,0.34,0.59,0.38,196.5,2
+rtb-team.csv,0.24,0.18,0.24,0.72,88.5,6
+stemkit.csv,0.35,0.27,0.31,0.73,196.5,5
+unimrcp.csv,0.67,0.48,0.36,0.5,194.0,7
+utgb.csv,0.33,0.44,0.25,0.68,98.5,8

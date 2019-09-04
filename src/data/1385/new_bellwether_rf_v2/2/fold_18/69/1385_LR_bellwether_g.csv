@@ -1,0 +1,10 @@
+,gtad.csv,kaffeine.csv,taokgame.csv,htmlunit.csv,jsr308-langtools.csv,continuum-ide.csv,anaxagora.csv,stemkit.csv,buddata-ebxml-registry.csv
+anaxagora.csv,0.0,0.1,0.24,0.06,0.09,0.14,0.88,0.2,0.16
+buddata-ebxml-registry.csv,0.0,0.0,0.0,0.05,0.0,0.0,0.17,0.0,1.0
+continuum-ide.csv,0.0,0.0,0.24,0.39,0.12,1.0,0.23,0.2,0.05
+gtad.csv,1.0,0.0,0.0,0.07,0.04,0.07,0.17,0.0,0.0
+htmlunit.csv,0.0,0.14,0.0,0.93,0.45,0.4,0.12,0.2,0.0
+jsr308-langtools.csv,0.53,0.4,0.23,0.51,1.0,0.52,0.42,0.2,0.36
+kaffeine.csv,0.0,0.98,0.0,0.13,0.0,0.0,0.24,0.17,0.76
+stemkit.csv,0.0,0.26,0.24,0.34,0.2,0.07,0.17,1.0,0.17
+taokgame.csv,0.0,0.0,1.0,0.0,0.0,0.0,0.23,0.0,0.23

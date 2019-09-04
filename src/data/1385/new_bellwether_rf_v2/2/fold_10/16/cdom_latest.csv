@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+clamav.csv,0.42,0.6,0.24,11
+cornerstone.csv,0.42,0.61,0.26,10
+esmf.csv,0.55,0.49,0.67,0
+frogatto.csv,0.55,0.65,0.29,12
+gretl.csv,0.76,0.5,0.62,1
+kindb.csv,0.61,0.64,0.29,13
+libtorrent.csv,0.84,0.52,0.69,2
+mia.csv,0.22,0.5,0.14,8
+open-beos.csv,0.68,0.55,0.5,7
+pidgin.csv,0.67,0.49,0.5,3
+quantlib.csv,0.47,0.52,0.41,4
+riff-evolve.csv,0.55,0.61,0.34,9
+tokratan.csv,0.12,0.5,0.15,5
+upp-mirror.csv,0.33,0.47,0.17,6
+wxcrp.csv,0.33,0.67,0.12,14

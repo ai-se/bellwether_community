@@ -1,0 +1,9 @@
+,openwbem.csv,x-ray-mule.csv,cleartk.csv,log4net.csv,opensim4opencog.csv,ofbiz.csv,ibatisdb.csv,power-architect.csv
+cleartk.csv,0.38,0.53,1.0,0.03,0.12,0.69,0.29,0.81
+ibatisdb.csv,0.31,0.5,0.86,0.04,0.15,0.81,1.0,1.0
+log4net.csv,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+ofbiz.csv,0.57,0.53,1.0,0.03,0.14,0.99,0.24,0.88
+opensim4opencog.csv,0.51,0.0,0.95,0.0,1.0,0.65,0.1,0.67
+openwbem.csv,0.98,0.59,0.87,0.02,0.12,0.77,0.29,0.75
+power-architect.csv,0.35,0.22,0.95,0.01,0.12,0.59,0.32,1.0
+x-ray-mule.csv,0.33,1.0,0.9,0.02,0.16,0.7,0.07,0.77

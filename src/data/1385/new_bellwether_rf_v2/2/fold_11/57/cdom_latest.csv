@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+dspace-gsoc.csv,0.445,0.585,0.155,8
+electric-core.csv,0.535,0.35,0.54,1
+jahshakafx.csv,0.315,0.825,0.045,9
+jython.csv,0.615,0.31,0.56,0
+kftpgrabber.csv,0.4,0.425,0.21500000000000002,6
+mvnforum.csv,0.15500000000000003,0.435,0.14,5
+openmalaria.csv,0.72,0.46499999999999997,0.51,3
+plplot.csv,0.745,0.47,0.53,2
+popeye-chess.csv,0.675,0.47,0.365,7
+zxing.csv,0.635,0.47,0.455,4

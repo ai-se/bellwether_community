@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+alpine.csv,0.75,0.37,0.475,3
+autat.csv,0.4,0.45499999999999996,0.14,5
+critterding.csv,0.895,0.31,0.91,0
+fmri-dmt.csv,0.53,0.36,0.595,1
+open-data-kit.csv,0.655,0.34,0.42000000000000004,2
+reactos-mirror.csv,0.645,0.43000000000000005,0.36,4

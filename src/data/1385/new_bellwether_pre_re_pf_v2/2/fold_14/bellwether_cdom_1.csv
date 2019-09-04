@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.52,0.43,0.335,7.0,forester-atv.csv
+10,0.87,0.42000000000000004,0.29000000000000004,1.0,atunes.csv
+13,0.64,0.365,0.35,9.0,acegisecurity.csv
+27,0.495,0.43,0.32,5.0,fbmanager.csv
+34,0.85,0.36,0.3,16.0,n2cms.csv
+52,0.6950000000000001,0.44,0.37,17.0,olex2.csv
+24,0.8200000000000001,0.61,0.61,1.0,magicwars.csv
+25,0.38,0.445,0.375,3.0,personalaccess.csv
+26,0.7,0.6599999999999999,0.62,0.0,xmemcached.csv

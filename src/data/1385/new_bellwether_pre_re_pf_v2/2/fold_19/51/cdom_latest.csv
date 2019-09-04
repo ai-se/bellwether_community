@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+crisscross.csv,0.815,0.455,0.925,0
+cubefs.csv,0.605,0.42000000000000004,0.485,2
+iaml.csv,0.27999999999999997,0.475,0.25,4
+ivataopenportal.csv,0.8200000000000001,0.48,0.81,3
+mb-unit.csv,0.77,0.435,0.7150000000000001,1
+mvdsv.csv,0.07,0.5700000000000001,0.04,8
+nova.csv,0.36,0.485,0.325,5
+openwbem.csv,0.54,0.52,0.31,7
+xcmetadataservicestoolkit.csv,0.8,0.45999999999999996,0.495,6

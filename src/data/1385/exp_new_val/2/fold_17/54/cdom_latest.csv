@@ -1,0 +1,4 @@
+,recall,precision,pf,pci_20,ifa,wins
+graphmak.csv,0.67,0.64,0.26,0.52,173.0,2
+pdfedit.csv,0.66,0.69,0.59,0.48,395.5,1
+rectracker.csv,0.88,0.53,0.79,0.42,637.5,0

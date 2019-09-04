@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+cleartk.csv,0.69,0.32,0.62,4
+encog-cs.csv,0.69,0.42,0.67,5
+extprosys.csv,0.82,0.38,0.79,3
+ibatisdb.csv,0.16,0.56,0.15,14
+intact.csv,0.31,0.49,0.27,10
+japano.csv,0.82,0.35,0.86,1
+lockss.csv,0.07,0.43,0.1,9
+ofbiz.csv,0.25,0.38,0.11,11
+officefloor.csv,0.79,0.4,0.62,6
+opennms.csv,0.16,0.57,0.17,13
+papertoolkit.csv,0.0,0.0,0.0,0
+rohxel.csv,0.66,0.43,0.55,7
+sevenupdate.csv,0.83,0.36,0.81,2
+web-cat.csv,0.25,0.42,0.22,8
+xcf.csv,0.57,0.48,0.42,12

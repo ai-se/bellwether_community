@@ -1,0 +1,9 @@
+,recall,precision,pf,cdom,bellwether
+1,0.43,0.475,0.32,8.0,jam-daq.csv
+12,0.545,0.25,0.235,1.0,emftriple.csv
+15,0.64,0.39,0.33,12.0,lockss.csv
+29,0.51,0.45,0.43,19.0,ktc.csv
+50,0.76,0.57,0.425,4.0,olsrd.csv
+56,0.74,0.65,0.535,2.0,modellus.csv
+60,0.63,0.28500000000000003,0.3,8.0,rockbox.csv
+11,0.77,0.44,0.24,0.0,atunes.csv

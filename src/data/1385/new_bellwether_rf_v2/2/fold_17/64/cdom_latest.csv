@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+alembik.csv,0.07,0.475,0.0,3
+arsenal-1.csv,0.595,0.45999999999999996,0.48,1
+barracudamvc.csv,0.89,0.44999999999999996,0.83,0
+mevenide.csv,0.44999999999999996,0.565,0.355,4
+mumble.csv,0.41000000000000003,0.655,0.135,5
+openintents.csv,0.365,0.475,0.315,2

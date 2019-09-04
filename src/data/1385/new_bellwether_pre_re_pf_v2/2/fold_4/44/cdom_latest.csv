@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+delphilhlplib.csv,0.71,0.54,0.32,5
+flexpay.csv,0.62,0.26,0.36,1
+gabel.csv,0.38,0.45,0.16,4
+genoviz.csv,0.42,0.71,0.11,6
+img-browse-sort.csv,0.54,0.57,0.38,3
+ontomorphtab.csv,0.91,0.27,0.69,0
+passwordsafe.csv,0.77,0.45,0.5,2

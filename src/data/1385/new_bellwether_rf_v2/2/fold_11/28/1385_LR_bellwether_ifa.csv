@@ -1,0 +1,12 @@
+,jpaul.csv,neodatis-odb.csv,tycho.csv,unicase.csv,jrdf.csv,xcmetadataservicestoolkit.csv,mecat.csv,ambulant.csv,synecdoche.csv,javaprofiler.csv,codesmith.csv
+ambulant.csv,1.0,0.0,0.0,0.0,7.0,1.0,9.0,0.0,10.0,0.0,0.0
+codesmith.csv,12.0,6.0,0.0,0.0,11.0,0.0,5.0,2.0,0.0,0.0,0.0
+javaprofiler.csv,0.0,0.0,0.0,0.0,3.0,1.0,33.0,2.0,2.0,0.0,0.0
+jpaul.csv,0.0,0.0,0.0,2.0,2.0,0.0,9.0,7.0,0.0,0.0,0.0
+jrdf.csv,1.0,4.0,0.0,0.0,0.0,1.0,15.0,0.0,3.0,0.0,0.0
+mecat.csv,57.0,106.0,62.0,656.0,73.0,54.0,0.0,106.0,71.0,110.0,97.0
+neodatis-odb.csv,4.0,0.0,0.0,2.0,10.0,1.0,24.0,2.0,5.0,0.0,0.0
+synecdoche.csv,1.0,1.0,0.0,0.0,4.0,0.0,18.0,16.0,0.0,1.0,0.0
+tycho.csv,1.0,0.0,0.0,0.0,10.0,0.0,13.0,6.0,0.0,2.0,0.0
+unicase.csv,3.0,1.0,62.0,0.0,4.0,0.0,24.0,2.0,2.0,0.0,4.0
+xcmetadataservicestoolkit.csv,4.0,0.0,0.0,1.0,18.0,0.0,25.0,2.0,0.0,2.0,0.0

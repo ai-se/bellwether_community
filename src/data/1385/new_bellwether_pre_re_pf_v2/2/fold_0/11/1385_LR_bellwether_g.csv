@@ -1,0 +1,10 @@
+,zorannt.csv,dvt.csv,bloodycore.csv,dvd-create.csv,gbif-indexingtoolkit.csv,aime.csv,planeshift.csv,mumble.csv,truevision.csv
+aime.csv,0.43,0.29,0.34,0.13,0.56,0.55,0.09,0.54,0.6
+bloodycore.csv,0.16,0.37,0.66,0.52,0.0,0.33,0.34,0.32,0.06
+dvd-create.csv,0.47,0.74,0.54,0.81,0.61,0.4,0.65,0.74,0.72
+dvt.csv,0.55,0.74,0.49,0.67,0.39,0.43,0.61,0.58,0.3
+gbif-indexingtoolkit.csv,0.38,0.49,0.41,0.34,0.65,0.47,0.45,0.47,0.19
+mumble.csv,0.72,0.47,0.63,0.24,0.55,0.72,0.55,0.8,0.51
+planeshift.csv,0.58,0.57,0.6,0.69,0.48,0.26,0.66,0.56,0.68
+truevision.csv,0.56,0.5,0.47,0.0,0.39,0.0,0.67,0.68,0.8
+zorannt.csv,0.71,0.5,0.28,0.06,0.57,0.46,0.59,0.75,0.37

@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+dspace-gsoc.csv,0.68,0.52,0.46,6
+firebird.csv,0.68,0.6,0.37,10
+flylegacy.csv,0.62,0.61,0.36,9
+gzigzag.csv,0.44,0.57,0.14,14
+hydrogen.csv,1.0,0.48,1.0,0
+mcore3d.csv,0.56,0.6,0.41,8
+nabu-library.csv,0.32,0.48,0.26,4
+ogrehg.csv,0.6,0.56,0.29,12
+qgo.csv,0.83,0.53,0.7,2
+qtractor.csv,0.66,0.62,0.33,13
+rhex.csv,0.33,0.5,0.28,5
+rocrail.csv,0.57,0.54,0.26,11
+webdriver.csv,0.69,0.54,0.45,7
+xined.csv,0.0,0.0,0.0,1
+yield.csv,0.87,0.51,0.57,3

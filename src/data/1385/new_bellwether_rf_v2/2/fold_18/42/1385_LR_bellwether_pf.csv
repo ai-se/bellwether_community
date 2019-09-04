@@ -1,0 +1,9 @@
+,etics.csv,mcore3d.csv,kvs.csv,ogrehg.csv,genecys.csv,boost.csv,projecteqemu.csv,kftpgrabber.csv
+boost.csv,0.6,0.49,0.3,0.59,0.44,0.0,0.78,0.47
+etics.csv,0.0,0.3,0.68,0.37,0.33,0.43,0.33,0.52
+genecys.csv,0.95,0.79,0.63,1.0,0.11,0.83,0.71,1.0
+kftpgrabber.csv,0.14,0.3,0.16,0.27,0.11,0.17,0.36,0.0
+kvs.csv,0.17,0.09,0.0,0.16,0.33,0.15,0.33,0.1
+mcore3d.csv,0.4,0.0,0.53,0.51,0.44,0.48,0.51,0.6
+ogrehg.csv,0.12,0.19,0.17,0.01,0.33,0.11,0.4,0.27
+projecteqemu.csv,0.12,0.18,0.17,0.12,0.22,0.16,0.0,0.13

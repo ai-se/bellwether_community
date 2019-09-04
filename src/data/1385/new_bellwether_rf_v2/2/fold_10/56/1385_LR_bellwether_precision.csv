@@ -1,0 +1,8 @@
+,kvs.csv,phet.csv,jasperreports.csv,fido.csv,hibernate.csv,geogebra.csv,fluent-nhibernate.csv
+fido.csv,0.0,0.0,0.0,1.0,0.5,0.0,0.0
+fluent-nhibernate.csv,1.0,0.08,0.1,0.0,0.33,0.32,1.0
+geogebra.csv,0.0,0.16,0.18,0.01,0.29,0.99,0.29
+hibernate.csv,0.33,0.23,0.03,0.05,0.99,0.25,0.17
+jasperreports.csv,0.0,0.0,1.0,0.0,0.4,0.0,1.0
+kvs.csv,1.0,0.08,0.13,0.0,0.44,0.41,0.32
+phet.csv,0.25,0.98,0.0,0.02,0.27,0.19,0.06

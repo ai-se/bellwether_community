@@ -6,6 +6,7 @@ import pickle
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 from sklearn import metrics
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import confusion_matrix
@@ -157,7 +158,8 @@ class bellwether(object):
                 df.reset_index(drop=True,inplace=True)
                 d = {'buggy': True, 'clean': False}
                 df['Buggy'] = df['Buggy'].map(d)
-                df, s_cols = self.apply_cfs(df)
+                #df, s_cols = self.apply_cfs(df)
+                s_cols = df.columns.tolist()
                 df = self.apply_smote(df)
                 y = df.Buggy
                 X = df.drop(labels = ['Buggy'],axis = 1)
@@ -165,13 +167,13 @@ class bellwether(object):
                 score = {}
                 F = {}
                 for i in range(1):
-                    clf = LogisticRegression()
+                    #clf = LogisticRegression()
+                    clf = RandomForestClassifier()
                     clf.fit(X,y)
                     destination_projects = copy.deepcopy(all_projects)
                         #destination_projects.remove(s_project)
                     for d_project in destination_projects:
                         try:
-                            print('dest',s_project,d_project)
                             d_path = self.data_path + d_project
                             _test_df = self.prepare_data(d_path)
                             _df_test_loc = _test_df.LOC
@@ -297,11 +299,11 @@ if __name__ == "__main__":
     #path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
     path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
     meta_path = 'data/1385/projects/selected_attr.pkl'
-    _data_store_path = 'data/1385/exp_new/2/'
+    _data_store_path = 'data/1385/new_bellwether_rf_v2/2/'
     attr_dict = pd.read_pickle(meta_path)
     attr_df = pd.DataFrame.from_dict(attr_dict,orient='index')
     attr_df_index = list(attr_df.index)
-    kf = KFold(n_splits=10)
+    kf = KFold(n_splits=10,random_state=24)
     i = 10
     for train_index, test_index in kf.split(attr_df):
         data_store_path = _data_store_path
@@ -328,13 +330,12 @@ if __name__ == "__main__":
         #    _cluster_projects = pickle.load(handle)
         cluster_ids = []
         for key in cluster_tree:
-            if cluster_tree[key].depth == 0:
+            if cluster_tree[key].depth == 2:
                 cluster_ids.append(key)
         #cluster_ids = [0] # need to include cluster 1
         print(len(_attr_df_train.iloc[cluster_tree[cluster_ids[0]].data_points]))
         for ids in cluster_ids:
             selected_projects = list(_attr_df_train.iloc[cluster_tree[ids].data_points].index)
             bell.run(selected_projects,ids,data_store_path)
-        break
     stop = timeit.default_timer() 
     print("Model training time: ", stop - start)

@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+amateur-scrolls.csv,0.345,0.605,0.11,8
+ffigo.csv,0.35,0.475,0.21999999999999997,3
+foursquared.csv,0.12000000000000001,0.8200000000000001,0.01,9
+gebr.csv,0.91,0.365,0.79,0
+ildjit.csv,0.04,0.5,0.03,4
+jfreereport.csv,0.305,0.44,0.28,2
+kml.csv,0.51,0.56,0.255,7
+ng4j.csv,0.445,0.575,0.26,6
+pcsx2.csv,0.545,0.42,0.255,5
+wxjs.csv,0.0,0.0,0.02,1

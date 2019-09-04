@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+etherboot.csv,0.26,0.655,0.14,9
+fityk.csv,0.585,0.5,0.48,3
+hatari.csv,0.575,0.495,0.44,6
+lmms.csv,0.39,0.395,0.345,1
+mecat.csv,0.0,0.0,0.0,0
+nullc.csv,0.915,0.525,0.66,2
+oscarmcmaster.csv,0.255,0.635,0.09,10
+superwaba.csv,0.505,0.625,0.38,7
+tycho.csv,0.435,0.495,0.39,4
+vienna-add-in.csv,0.545,0.41000000000000003,0.385,5
+voms.csv,0.075,0.675,0.025,11
+wsmt.csv,0.12,0.62,0.135,8

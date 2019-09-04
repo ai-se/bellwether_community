@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+adaptagrams.csv,0.35,0.46,0.23,0.6,193.0,2
+bibedt.csv,0.38,0.56,0.22,0.67,97.5,5
+fulguro.csv,0.69,0.29,0.75,0.42,99.0,1
+glelite.csv,0.91,0.44,0.93,0.4,489.5,0
+go.csv,0.72,0.56,0.41,0.45,98.5,4
+libmesh.csv,0.36,0.5,0.37,0.89,95.5,6
+moving-pictures.csv,0.5,0.61,0.29,0.43,194.0,3

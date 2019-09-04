@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+aufs.csv,0.26,0.5,0.17,7
+bdbbasic.csv,0.53,0.48,0.27,10
+echongl.csv,0.64,0.3,0.57,2
+etherboot.csv,0.39,0.32,0.35,4
+freebios.csv,0.58,0.3,0.51,3
+gebr.csv,0.89,0.32,0.79,1
+gnukeda.csv,0.67,0.4,0.5,6
+google-gears.csv,0.68,0.33,0.53,5
+jnode.csv,0.0,0.0,0.0,0
+openmeetings.csv,0.43,0.5,0.25,9
+pgui.csv,0.21,0.5,0.12,8
+tradelink.csv,0.13,0.5,0.05,11
+wxcrp.csv,0.26,0.5,0.09,12

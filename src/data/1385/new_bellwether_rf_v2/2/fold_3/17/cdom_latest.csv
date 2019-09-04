@@ -1,0 +1,4 @@
+,recall,precision,pf,wins
+kmatplot.csv,0.1,1.0,0.0,2
+mob-sen-plat.csv,0.5,0.5,0.41,0
+openmalaria.csv,0.83,0.7,0.5,1

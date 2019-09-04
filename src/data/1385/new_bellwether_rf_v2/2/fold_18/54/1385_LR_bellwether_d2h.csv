@@ -1,0 +1,9 @@
+,sabbu.csv,vxl.csv,jicarilla.csv,ossim.csv,zact.csv,optalgtoolkit.csv,projectts.csv,abbot.csv
+abbot.csv,0.7,0.66,0.93,0.67,0.68,0.8,0.67,0.02
+jicarilla.csv,0.98,0.92,0.03,1.0,1.0,1.0,1.0,0.96
+optalgtoolkit.csv,0.74,0.82,0.77,0.73,0.75,0.05,0.9,0.78
+ossim.csv,0.9,1.0,1.0,0.06,1.0,1.0,1.0,1.0
+projectts.csv,0.69,0.72,0.87,0.51,0.68,0.8,0.11,0.7
+sabbu.csv,0.03,0.78,0.89,0.53,0.54,0.84,0.75,0.78
+vxl.csv,0.95,0.11,0.52,0.89,0.73,0.95,0.66,0.74
+zact.csv,0.75,1.0,0.97,1.0,0.0,1.0,1.0,0.78

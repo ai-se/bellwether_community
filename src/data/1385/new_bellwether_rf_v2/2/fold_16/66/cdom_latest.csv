@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+fw4spl.csv,0.33,0.65,0.33,6
+ipfilter.csv,0.73,0.45,0.76,0
+mesa3d.csv,0.24,0.6,0.2,5
+nassp.csv,0.31,0.68,0.17,8
+rockbox.csv,0.48,0.61,0.35,7
+soar.csv,0.39,0.48,0.38,2
+super-tux.csv,1.0,0.53,1.0,1
+tencompetence.csv,0.26,0.53,0.21,4
+utgb.csv,0.56,0.33,0.23,3

@@ -1,0 +1,11 @@
+,mule.csv,springside.csv,swtfox.csv,chaperon.csv,calcubetimer.csv,twostep.csv,geotools.csv,primefaces.csv,l2j.csv,nunit.csv
+calcubetimer.csv,0.0,11.0,0.0,13.0,0.0,19.0,24.0,1.0,4.0,0.0
+chaperon.csv,238.0,3.0,10.0,0.0,0.0,0.0,0.0,2.0,0.0,4.0
+geotools.csv,2.0,2.0,0.0,51.0,0.0,5.0,0.0,0.0,2.0,2.0
+l2j.csv,2.0,7.0,0.0,5.0,0.0,0.0,4.0,1.0,0.0,12.0
+mule.csv,0.0,4.0,1.0,0.0,0.0,2.0,1.0,1.0,0.0,11.0
+nunit.csv,0.0,1.0,2.0,51.0,0.0,1.0,13.0,0.0,1.0,0.0
+primefaces.csv,3.0,0.0,0.0,11.0,0.0,19.0,10.0,0.0,1.0,5.0
+springside.csv,4.0,0.0,0.0,5.0,0.0,5.0,8.0,1.0,0.0,3.0
+swtfox.csv,0.0,0.0,0.0,24.0,0.0,0.0,35.0,2.0,5.0,0.0
+twostep.csv,2.0,0.0,0.0,12.0,1.0,0.0,7.0,2.0,5.0,0.0

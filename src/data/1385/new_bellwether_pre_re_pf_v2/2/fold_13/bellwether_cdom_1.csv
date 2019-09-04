@@ -1,0 +1,9 @@
+,recall,precision,pf,cdom,bellwether
+1,0.545,0.6,0.4,6.0,forester-atv.csv
+9,0.825,0.3,0.31,1.0,atunes.csv
+12,0.645,0.7050000000000001,0.51,1.0,amanda.csv
+15,0.36,0.435,0.36,2.0,gamestone.csv
+21,0.64,0.35,0.29,19.0,ktc.csv
+42,0.52,0.42,0.37,19.0,skia.csv
+19,0.68,0.63,0.58,0.0,javagroups.csv
+20,0.62,0.43,0.24,0.0,jvcl.csv

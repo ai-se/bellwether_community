@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+gwanted.csv,0.11,0.81,0.02,9
+ivatamasks.csv,0.63,0.71,0.46,5
+java-gnome.csv,0.61,0.67,0.27,7
+orc.csv,0.11,0.29,0.25,0
+plato.csv,0.7,0.62,0.75,1
+rodin-b-sharp.csv,0.19,0.82,0.11,8
+tycho.csv,0.3,0.76,0.24,6
+umber.csv,0.31,0.85,0.11,10
+unicase.csv,0.63,0.71,0.47,4
+vienna-add-in.csv,0.93,0.67,0.82,3
+wpdev.csv,1.0,0.67,1.0,2

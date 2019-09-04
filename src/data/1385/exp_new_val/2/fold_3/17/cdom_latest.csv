@@ -1,0 +1,4 @@
+,recall,precision,pf,pci_20,ifa,wins
+kmatplot.csv,0.86,0.56,0.35,0.48,196.5,2
+mob-sen-plat.csv,0.82,0.64,0.33,0.41,194.0,1
+openmalaria.csv,0.71,0.72,0.5,0.41,295.0,0

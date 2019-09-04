@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+apertium.csv,0.52,0.5349999999999999,0.44,6
+beast-mcmc.csv,0.25,0.675,0.125,14
+bigdata.csv,0.54,0.54,0.42,8
+cuberok.csv,0.555,0.52,0.405,7
+exist.csv,0.41,0.55,0.25,12
+icescrum.csv,0.28500000000000003,0.7,0.14,15
+jbasic.csv,0.325,0.6,0.2,13
+jrefactory.csv,0.27,0.59,0.245,11
+jsecurity.csv,0.225,0.525,0.18,9
+libopenmetaverse.csv,0.635,0.545,0.58,5
+mobicents.csv,0.42,0.45,0.4,1
+opendvr.csv,0.5,0.52,0.5,3
+power-architect.csv,0.81,0.515,0.745,0
+sidekar.csv,0.475,0.5549999999999999,0.33499999999999996,10
+wheat.csv,0.275,0.47,0.29,4
+wsmt.csv,0.065,0.4,0.08499999999999999,2

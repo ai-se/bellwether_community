@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+beast-mcmc.csv,0.5,0.585,0.28,11
+codesmith.csv,0.715,0.43,0.575,2
+icescrum.csv,0.435,0.5549999999999999,0.185,10
+ingex.csv,0.30000000000000004,0.51,0.185,8
+jrefactory.csv,0.6,0.395,0.58,1
+jsecurity.csv,0.185,0.48,0.14,4
+libopenmetaverse.csv,0.705,0.36,0.745,0
+lite.csv,0.27,0.51,0.115,9
+mobicents.csv,0.42,0.51,0.325,6
+opendvr.csv,0.495,0.52,0.375,7
+openefm.csv,0.44999999999999996,0.47,0.28500000000000003,5
+sidekar.csv,0.745,0.45999999999999996,0.5700000000000001,3

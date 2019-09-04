@@ -1,0 +1,7 @@
+,werx.csv,plog4u.csv,fm-classic.csv,openxava.csv,vars-redux.csv,tcvp.csv,jcl.csv
+fm-classic.csv,0.01,0.0,1.0,0.06,0.0,0.0,0.0
+jcl.csv,0.3,0.0,0.0,0.06,0.08,0.22,0.79
+openxava.csv,0.64,0.0,0.67,0.94,0.16,0.56,0.43
+tcvp.csv,0.02,0.0,0.0,0.06,0.04,1.0,0.0
+vars-redux.csv,0.64,1.0,1.0,0.81,0.98,0.56,0.57
+werx.csv,1.0,1.0,1.0,0.94,0.96,1.0,1.0

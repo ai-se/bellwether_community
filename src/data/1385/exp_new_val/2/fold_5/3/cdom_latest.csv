@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+benojt.csv,1.0,0.47,1.0,0.35,195.0,0
+jahshaka.csv,0.48,0.47,0.31,0.5,98.5,4
+jatlas.csv,0.55,0.36,0.33,0.64,170.0,2
+jedit.csv,0.88,0.51,0.82,0.41,98.5,3
+open-media-library.csv,0.65,0.47,0.34,0.51,98.5,5
+panda3d.csv,0.54,0.5,0.35,0.53,98.5,6
+wheat.csv,0.66,0.41,0.36,0.44,187.0,1

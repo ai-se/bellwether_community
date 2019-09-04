@@ -1,0 +1,4 @@
+,recall,precision,pf,wins
+clamav.csv,0.09,0.6,0.04,2
+mbse.csv,0.6,0.52,0.34,1
+yafdotnet.csv,0.97,0.3,0.83,0

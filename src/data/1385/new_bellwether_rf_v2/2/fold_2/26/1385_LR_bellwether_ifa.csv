@@ -1,0 +1,8 @@
+,pclasses.csv,re2c.csv,thrust.csv,k3b.csv,clamav.csv,acdk.csv,kindb.csv
+acdk.csv,66.0,56.0,63.0,81.0,0.0,0.0,3.0
+clamav.csv,0.0,1.0,3.0,0.0,0.0,1.0,0.0
+k3b.csv,9.0,3.0,0.0,0.0,0.0,40.0,5.0
+kindb.csv,3.0,1.0,2.0,1.0,3.0,3.0,0.0
+pclasses.csv,0.0,56.0,63.0,81.0,55.0,3.0,49.0
+re2c.csv,17.0,0.0,3.0,0.0,6.0,3.0,2.0
+thrust.csv,66.0,56.0,0.0,4.0,5.0,0.0,0.0

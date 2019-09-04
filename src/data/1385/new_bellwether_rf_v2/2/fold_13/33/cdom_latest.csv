@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+alsa.csv,0.34,0.77,0.13,14
+amateur-scrolls.csv,0.08,0.75,0.04,13
+arianne.csv,0.35,0.64,0.3,6
+bl-toolkit.csv,0.58,0.65,0.37,7
+doomlegacy.csv,0.65,0.62,0.53,2
+enlightenment.csv,0.6,0.63,0.35,8
+fritzing.csv,0.64,0.64,0.35,9
+gnukeda.csv,0.75,0.63,0.55,4
+jlinalg.csv,0.79,0.65,0.59,3
+knowledge.csv,0.84,0.6,0.7,1
+massiv.csv,0.0,0.0,0.0,0
+playerstage.csv,0.42,0.7,0.22,12
+psycle.csv,0.7,0.64,0.51,5
+superwaba.csv,0.59,0.68,0.32,11
+wxcrp.csv,0.27,0.67,0.14,10

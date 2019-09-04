@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+applet2app.csv,0.64,0.515,0.22999999999999998,11
+autowikibrowser.csv,0.675,0.52,0.41000000000000003,8
+cities3d.csv,0.33,0.43,0.065,9
+firebird.csv,0.675,0.44,0.41500000000000004,6
+hydrogen.csv,1.0,0.405,1.0,1
+lphant.csv,0.685,0.51,0.435,7
+qgo.csv,0.905,0.45,0.72,2
+quickfast.csv,0.745,0.435,0.48,5
+rhex.csv,0.455,0.4,0.265,4
+rocrail.csv,0.69,0.475,0.32,10
+xined.csv,0.0,0.0,0.0,0
+yield.csv,0.885,0.41000000000000003,0.655,3

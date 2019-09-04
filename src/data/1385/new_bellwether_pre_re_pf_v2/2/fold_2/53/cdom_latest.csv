@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+alleg.csv,0.62,0.46,0.42,4
+ctrlr.csv,0.47,0.45,0.43,0
+customsagetv.csv,0.14,0.71,0.11,8
+glas.csv,0.71,0.59,0.54,5
+octave.csv,0.24,0.4,0.24,2
+tango-cs.csv,0.6,0.47,0.44,3
+xcf.csv,0.78,0.55,0.45,6
+xfce.csv,0.7,0.45,0.51,1
+zildo.csv,0.6,0.61,0.26,7

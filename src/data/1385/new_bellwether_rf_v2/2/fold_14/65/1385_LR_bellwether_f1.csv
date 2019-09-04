@@ -1,0 +1,8 @@
+,wpdev.csv,mb-unit.csv,rodin-b-sharp.csv,gwanted.csv,java-gnome.csv,unicase.csv,mecat.csv
+gwanted.csv,0.54,0.67,0.64,0.95,0.1,0.61,0.31
+java-gnome.csv,0.87,0.52,0.53,0.26,1.0,0.52,0.14
+mb-unit.csv,0.79,0.99,0.54,0.28,0.53,0.66,0.08
+mecat.csv,0.03,0.01,0.0,0.0,0.0,0.06,0.86
+rodin-b-sharp.csv,0.62,0.47,1.0,0.24,0.87,0.57,0.07
+unicase.csv,0.81,0.82,0.59,0.27,0.59,1.0,0.11
+wpdev.csv,1.0,0.92,0.53,0.29,0.88,0.84,0.09

@@ -1,0 +1,10 @@
+,psycle.csv,ildjit.csv,jfreereport.csv,enlightenment.csv,empserver.csv,pcsx2.csv,lufa-lib.csv,cortex-vfx.csv,wikipediardware.csv
+cortex-vfx.csv,0.4,0.29,0.18,0.34,0.3,0.24,0.31,0.0,0.07
+empserver.csv,0.08,0.24,0.29,0.17,0.0,0.25,0.21,0.34,0.29
+enlightenment.csv,0.23,0.35,0.56,0.02,0.48,0.33,0.39,0.54,0.29
+ildjit.csv,0.13,0.0,0.1,0.01,0.03,0.03,0.04,0.13,0.0
+jfreereport.csv,0.78,0.72,0.0,0.71,0.48,0.46,0.45,0.17,0.79
+lufa-lib.csv,0.52,0.39,0.24,0.42,0.33,0.47,0.0,0.25,0.36
+pcsx2.csv,0.32,0.53,0.77,0.8,1.0,0.02,1.0,0.81,0.93
+psycle.csv,0.01,0.64,0.95,0.38,0.42,0.76,0.56,0.91,0.14
+wikipediardware.csv,0.37,0.74,0.85,0.7,0.7,0.69,0.88,0.85,0.0

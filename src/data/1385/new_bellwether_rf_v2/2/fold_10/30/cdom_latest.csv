@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+bigdata.csv,0.29000000000000004,0.66,0.14,10
+chipster.csv,0.395,0.6950000000000001,0.22,12
+delphilhlplib.csv,0.48,0.5800000000000001,0.375,3
+emite.csv,0.475,0.64,0.445,5
+hydrate.csv,0.225,0.71,0.135,13
+ivataopenportal.csv,0.61,0.65,0.53,6
+jppf-project.csv,0.925,0.61,0.925,0
+kolmafia.csv,0.615,0.69,0.405,11
+l2j.csv,0.675,0.625,0.56,4
+mb-unit.csv,0.665,0.565,0.5549999999999999,2
+opde.csv,0.64,0.6599999999999999,0.55,7
+pamguard.csv,0.62,0.65,0.48,8
+quark.csv,0.035,0.8,0.0,14
+stajistics.csv,0.265,0.7,0.245,9
+tigermud.csv,0.845,0.595,0.825,1

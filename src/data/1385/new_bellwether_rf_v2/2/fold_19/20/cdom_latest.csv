@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+amateur-scrolls.csv,0.185,0.58,0.060000000000000005,7
+fritzing.csv,0.54,0.5349999999999999,0.24,6
+jlinalg.csv,0.895,0.435,0.865,0
+knowledge.csv,0.99,0.44,0.8300000000000001,2
+massiv.csv,0.0,0.0,0.0,1
+multitude.csv,0.545,0.49,0.395,3
+playerstage.csv,0.505,0.565,0.245,5
+quarkplusplus.csv,0.39,0.7,0.08499999999999999,9
+rtrt-on-gpu.csv,0.27,0.5700000000000001,0.135,4
+superwaba.csv,0.555,0.6000000000000001,0.25,8

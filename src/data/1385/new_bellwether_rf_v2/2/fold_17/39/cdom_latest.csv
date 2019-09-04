@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+agilitybook.csv,0.295,0.14,0.26,5
+apolloplayer.csv,0.325,0.14,0.28,4
+k3d.csv,0.025,0.055,0.060000000000000005,2
+kowari.csv,0.0,0.0,0.015,0
+redshell.csv,1.0,0.18,0.73,3
+rtb-team.csv,0.5349999999999999,0.16999999999999998,0.345,6
+xreal.csv,0.0,0.0,0.0,1

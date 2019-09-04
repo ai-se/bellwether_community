@@ -1,0 +1,9 @@
+,jedit.csv,jahshaka.csv,open-media-library.csv,benojt.csv,jatlas.csv,snakeyaml.csv,chrysalis.csv,xamj.csv
+benojt.csv,0.85,1.0,1.0,0.0,0.97,0.89,0.99,0.94
+chrysalis.csv,0.27,0.24,0.91,0.67,0.48,0.72,0.22,0.53
+jahshaka.csv,0.35,0.18,0.59,0.0,0.61,0.19,0.72,0.43
+jatlas.csv,0.76,0.49,0.74,0.33,0.15,0.46,0.16,0.14
+jedit.csv,0.28,0.45,0.59,1.0,0.95,0.81,0.71,0.98
+open-media-library.csv,0.75,0.16,0.3,1.0,0.47,0.46,0.13,0.52
+snakeyaml.csv,0.13,0.18,0.3,0.0,0.29,0.19,0.02,0.14
+xamj.csv,0.68,0.61,0.26,0.33,0.23,0.47,0.3,0.21

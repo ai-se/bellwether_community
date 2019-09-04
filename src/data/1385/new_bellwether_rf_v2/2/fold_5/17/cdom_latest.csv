@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+enlightenment.csv,0.62,0.73,0.39,8
+ffigo.csv,0.47,0.68,0.33,6
+ildjit.csv,0.03,0.43,0.04,4
+jfreereport.csv,0.45,0.54,0.45,2
+pcsx2.csv,0.67,0.63,0.48,5
+psycle.csv,0.72,0.67,0.45,7
+wikipediardware.csv,0.81,0.64,0.64,3
+wxjs.csv,0.0,0.0,0.0,0
+xqilla.csv,0.0,0.0,0.0,0

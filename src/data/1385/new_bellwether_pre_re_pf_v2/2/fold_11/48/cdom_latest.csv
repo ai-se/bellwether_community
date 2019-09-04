@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+autofac.csv,0.76,0.33,0.47,0
+chrysalis.csv,0.71,0.43,0.41,1
+mobicents.csv,0.63,0.48,0.3,2
+snakeyaml.csv,0.44,0.54,0.16,3
+xamj.csv,0.65,0.56,0.26,4

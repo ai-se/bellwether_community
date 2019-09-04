@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.715,0.44999999999999996,0.29000000000000004,7.0,gephex.csv
+10,0.5,0.525,0.05,1.0,emftriple.csv
+13,0.55,0.41,0.29,9.0,les-indemodables.csv
+27,0.35,0.295,0.24,5.0,retromenu.csv
+34,0.5,0.38,0.27,16.0,qse.csv
+52,0.45999999999999996,0.32,0.27,17.0,uwom-server.csv
+24,0.885,0.885,0.6799999999999999,1.0,magicwars.csv
+25,0.38,0.6950000000000001,0.38,3.0,turbotrader-bos.csv
+26,1.0,1.0,1.0,0.0,xmemcached.csv

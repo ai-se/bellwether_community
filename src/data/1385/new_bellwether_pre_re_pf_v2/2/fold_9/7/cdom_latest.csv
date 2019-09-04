@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+array4j.csv,0.69,0.14,0.66,1
+e-bio-flow.csv,0.39,0.2,0.23,8
+jas.csv,0.5,0.2,0.42,5
+jbpm.csv,0.03,0.09,0.06,4
+jgossipforum.csv,0.4,0.29,0.23,12
+jmonkeyengine.csv,0.5,0.15,0.6,0
+joustsim.csv,0.75,0.22,0.47,9
+log4net.csv,0.25,0.24,0.15,11
+ngl.csv,0.85,0.19,0.73,3
+piccolo2d.csv,0.36,0.2,0.16,10
+pustefix.csv,0.54,0.13,0.46,2
+reaper3d.csv,0.39,0.2,0.36,6
+sblim.csv,0.56,0.25,0.54,7

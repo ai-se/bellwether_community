@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+badtrinity-zero.csv,0.72,0.42,0.48,0.45,198.0,2
+fw4spl.csv,0.46,0.39,0.31,0.53,99.0,5
+kftpgrabber.csv,0.52,0.41,0.27,0.52,98.5,6
+kolmafia.csv,0.89,0.35,0.86,0.39,193.0,0
+lazarus-ccr.csv,0.73,0.3,0.78,0.48,99.0,1
+mia.csv,0.29,0.38,0.17,0.83,192.0,4
+plee-the-bear.csv,0.5,0.31,0.32,0.52,99.0,3

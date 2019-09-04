@@ -1,0 +1,7 @@
+,toped.csv,irrlicht.csv,qse.csv,truevision.csv,qedo.csv,genoviz.csv
+genoviz.csv,0.84,0.87,0.89,0.89,1.01,0.04
+irrlicht.csv,1.0,0.6,1.0,1.0,1.0,1.0
+qedo.csv,0.96,0.85,1.0,0.89,0.35,1.0
+qse.csv,0.53,0.67,0.23,0.57,0.88,0.67
+toped.csv,0.21,0.82,0.78,0.83,0.71,0.87
+truevision.csv,0.56,0.6,0.89,0.36,1.03,0.58

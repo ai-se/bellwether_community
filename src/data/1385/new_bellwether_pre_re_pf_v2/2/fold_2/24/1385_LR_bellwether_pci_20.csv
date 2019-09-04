@@ -1,0 +1,11 @@
+,reactos-mirror.csv,critterding.csv,exordium.csv,enlightenment.csv,lockss.csv,google-caja.csv,bdbbasic.csv,yafdotnet.csv,modplug.csv,itext.csv
+bdbbasic.csv,0.8,0.89,0.67,0.0,0.0,0.95,0.48,0.77,0.47,0.0
+critterding.csv,0.53,0.56,0.51,0.74,0.43,0.55,0.45,0.41,0.48,0.45
+enlightenment.csv,0.52,0.44,0.41,0.46,0.39,0.32,0.42,0.49,0.38,0.44
+exordium.csv,0.95,0.56,0.63,0.96,0.57,0.45,0.67,0.57,0.57,0.86
+google-caja.csv,0.34,0.38,0.43,0.38,0.38,0.32,0.42,0.34,0.33,0.32
+itext.csv,0.35,0.34,0.42,0.4,0.34,0.34,0.38,0.36,0.37,0.34
+lockss.csv,0.71,0.86,0.48,0.54,0.49,0.36,0.46,0.53,0.45,0.41
+modplug.csv,0.44,0.54,0.44,0.5,0.43,0.4,0.49,0.35,0.44,0.45
+reactos-mirror.csv,0.56,0.53,0.44,0.5,0.42,0.33,0.4,0.87,0.44,0.39
+yafdotnet.csv,0.41,0.35,0.46,0.58,0.4,0.36,0.67,0.43,0.4,0.34

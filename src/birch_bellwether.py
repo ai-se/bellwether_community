@@ -165,53 +165,53 @@ class bellwether(object):
                 score = {}
                 F = {}
                 for i in range(1):
-                    for train_index, tune_index in kf.split(X, y):
-                        X_train, X_tune = X.iloc[train_index], X.iloc[tune_index]
-                        y_train, y_tune = y[train_index], y[tune_index]
-                        clf = LogisticRegression()
-                        clf.fit(X,y)
-                        destination_projects = copy.deepcopy(all_projects)
-                            #destination_projects.remove(s_project)
-                        for d_project in destination_projects:
-                            try:
-                                d_path = self.data_path + d_project
-                                _test_df = self.prepare_data(d_path)
-                                _df_test_loc = _test_df.LOC
-                                test_df = _test_df[s_cols]
-                                if test_df.shape[0] < 50:
-                                    continue
-                                test_df.reset_index(drop=True,inplace=True)
-                                d = {'buggy': True, 'clean': False}
-                                test_df['Buggy'] = test_df['Buggy'].map(d)
-                                test_y = test_df.Buggy
-                                test_X = test_df.drop(labels = ['Buggy'],axis = 1)
-                                predicted = clf.predict(test_X)
-                                abcd = metrices.measures(test_y,predicted,_df_test_loc)
-                                F['f1'] = [abcd.calculate_f1_score()]
-                                F['precision'] = [abcd.calculate_precision()]
-                                F['recall'] = [abcd.calculate_recall()]
-                                F['g-score'] = [abcd.get_g_score()]
-                                F['d2h'] = [abcd.calculate_d2h()]
-                                F['pci_20'] = [abcd.get_pci_20()]
-                                F['ifa'] = [abcd.get_ifa()]
-                                F['pd'] = [abcd.get_pd()]
-                                F['pf'] = [abcd.get_pf()]
-                                _F = copy.deepcopy(F)
-                                if 'f1' not in score.keys():
-                                    score[d_project] = _F
-                                else:
-                                    score[d_project]['f1'].append(F['f1'][0])
-                                    score[d_project]['precision'].append(F['precision'][0])
-                                    score[d_project]['recall'].append(F['recall'][0])
-                                    score[d_project]['g-score'].append(F['g-score'][0])
-                                    score[d_project]['d2h'].append(F['d2h'][0])
-                                    score[d_project]['pci_20'].append(F['pci_20'][0])
-                                    score[d_project]['ifa'].append(F['ifa'][0])
-                                    score[d_project]['pd'].append(F['pd'][0])
-                                    score[d_project]['pf'].append(F['pf'][0])
-                            except Exception as e:
-                                print("dest",d_project,e)
+                    #for train_index, tune_index in kf.split(X, y):
+                        #X_train, X_tune = X.iloc[train_index], X.iloc[tune_index]
+                        #y_train, y_tune = y[train_index], y[tune_index]
+                    clf = LogisticRegression()
+                    clf.fit(X,y)
+                    destination_projects = copy.deepcopy(all_projects)
+                        #destination_projects.remove(s_project)
+                    for d_project in destination_projects:
+                        try:
+                            d_path = self.data_path + d_project
+                            _test_df = self.prepare_data(d_path)
+                            _df_test_loc = _test_df.LOC
+                            test_df = _test_df[s_cols]
+                            if test_df.shape[0] < 50:
                                 continue
+                            test_df.reset_index(drop=True,inplace=True)
+                            d = {'buggy': True, 'clean': False}
+                            test_df['Buggy'] = test_df['Buggy'].map(d)
+                            test_y = test_df.Buggy
+                            test_X = test_df.drop(labels = ['Buggy'],axis = 1)
+                            predicted = clf.predict(test_X)
+                            abcd = metrices.measures(test_y,predicted,_df_test_loc)
+                            F['f1'] = [abcd.calculate_f1_score()]
+                            F['precision'] = [abcd.calculate_precision()]
+                            F['recall'] = [abcd.calculate_recall()]
+                            F['g-score'] = [abcd.get_g_score()]
+                            F['d2h'] = [abcd.calculate_d2h()]
+                            F['pci_20'] = [abcd.get_pci_20()]
+                            F['ifa'] = [abcd.get_ifa_roc()]
+                            F['pd'] = [abcd.get_pd()]
+                            F['pf'] = [abcd.get_pf()]
+                            _F = copy.deepcopy(F)
+                            if 'f1' not in score.keys():
+                                score[d_project] = _F
+                            else:
+                                score[d_project]['f1'].append(F['f1'][0])
+                                score[d_project]['precision'].append(F['precision'][0])
+                                score[d_project]['recall'].append(F['recall'][0])
+                                score[d_project]['g-score'].append(F['g-score'][0])
+                                score[d_project]['d2h'].append(F['d2h'][0])
+                                score[d_project]['pci_20'].append(F['pci_20'][0])
+                                score[d_project]['ifa'].append(F['ifa'][0])
+                                score[d_project]['pd'].append(F['pd'][0])
+                                score[d_project]['pf'].append(F['pf'][0])
+                        except Exception as e:
+                            print("dest",d_project,e)
+                            continue
                     final_score[s_project] = score 
             except Exception as e:
                 print("src",s_project,e)
@@ -299,12 +299,12 @@ if __name__ == "__main__":
     #path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
     path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
     meta_path = 'data/1385/projects/selected_attr.pkl'
-    _data_store_path = 'data/1385/exp2/2/'
+    _data_store_path = 'data/1385/exp_new_val/2/'
     attr_dict = pd.read_pickle(meta_path)
     attr_df = pd.DataFrame.from_dict(attr_dict,orient='index')
     attr_df_index = list(attr_df.index)
     kf = KFold(n_splits=10)
-    i = 10
+    i = 0
     for train_index, test_index in kf.split(attr_df):
         data_store_path = _data_store_path
         _train_index = []
@@ -315,6 +315,7 @@ if __name__ == "__main__":
             _test_index.append(attr_df_index[index])
         data_store_path = data_store_path + 'fold_' + str(i) + '/'
         i += 1
+        print(i)
         _attr_df_train = attr_df.loc[_train_index]
         #_attr_df_train.reset_index(drop=True,inplace=True)
         _attr_df_test = attr_df.loc[_test_index]

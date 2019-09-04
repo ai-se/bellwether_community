@@ -1,0 +1,3 @@
+,recall,precision,pf,wins
+emftriple.csv,0.5,0.46,0.005,0
+gpsmid.csv,0.505,0.51,0.18,1

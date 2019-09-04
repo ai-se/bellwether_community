@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+boost.csv,0.5349999999999999,0.555,0.35,3
+etics.csv,0.63,0.605,0.39,5
+genecys.csv,0.96,0.385,0.91,0
+kvs.csv,0.165,0.6,0.095,4
+mcore3d.csv,0.54,0.435,0.44,1
+miranda.csv,0.505,0.44,0.335,2
+ogrehg.csv,0.495,0.63,0.28,7
+passwordsafe.csv,0.595,0.615,0.365,6

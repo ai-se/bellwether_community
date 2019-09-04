@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.52,0.56,0.395,6.0,piccolo2d.csv
+9,0.695,0.245,0.28,1.0,fluent-nhibernate.csv
+12,0.68,0.43,0.35,8.0,superwaba.csv
+25,0.625,0.615,0.48,3.0,fbmanager.csv
+30,0.585,0.485,0.405,17.0,ftm.csv
+49,0.575,0.44,0.37,19.0,nuttx.csv
+22,0.8300000000000001,0.6000000000000001,0.47000000000000003,1.0,magicwars.csv
+23,0.52,0.485,0.39,3.0,personalaccess.csv
+24,0.78,0.71,0.64,0.0,xmemcached.csv

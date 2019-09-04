@@ -1,0 +1,10 @@
+,recall,precision,pf,pci_20,ifa,wins
+autoopencas.csv,0.12,0.01,0.18,0.65,99.0,3
+avisynth2.csv,0.01,0.07,0.01,0.64,99.0,6
+les-indemodables.csv,0.82,0.4,0.65,0.42,284.5,0
+lportal.csv,0.22,0.15,0.12,0.57,98.5,5
+mbse.csv,0.36,0.42,0.22,0.54,293.5,1
+mplayer-ce.csv,0.7,0.42,0.46,0.47,99.0,8
+simplewebservices.csv,0.67,0.36,0.52,0.48,198.0,2
+vapor.csv,0.56,0.37,0.34,0.48,99.0,7
+zscreen.csv,0.82,0.42,0.67,0.44,99.0,4

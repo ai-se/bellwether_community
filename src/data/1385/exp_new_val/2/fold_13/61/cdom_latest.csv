@@ -1,0 +1,9 @@
+,recall,precision,pf,pci_20,ifa,wins
+anaxagora.csv,0.51,0.41,0.36,0.42,243.5,5
+ctrlr.csv,0.21,0.47,0.31,0.79,188.0,7
+empserver.csv,0.64,0.42,0.57,0.51,294.0,4
+ffigo.csv,0.05,0.26,0.26,0.53,192.0,2
+gmerlin.csv,0.53,0.2,0.42,0.37,99.0,1
+skia.csv,0.59,0.5,0.43,0.43,195.0,6
+wikipediardware.csv,0.78,0.38,0.74,0.39,195.0,3
+zemljanka.csv,0.81,0.37,0.74,0.41,443.5,0

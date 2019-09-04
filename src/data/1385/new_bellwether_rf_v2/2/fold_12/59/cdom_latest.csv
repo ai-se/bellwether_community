@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+autoopencas.csv,0.245,0.27,0.36,0
+columba.csv,0.4,0.76,0.13,3
+decidr.csv,0.74,0.47,0.44999999999999996,1
+jajuk.csv,0.495,0.6799999999999999,0.16,2

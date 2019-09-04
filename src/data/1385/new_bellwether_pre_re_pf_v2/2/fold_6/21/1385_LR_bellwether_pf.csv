@@ -1,0 +1,9 @@
+,arianne.csv,qgis.csv,phonon-vlc-mplayer.csv,arcallians.csv,mbse.csv,alsa.csv,multitude.csv,cortex-vfx.csv
+alsa.csv,0.39,0.47,0.29,0.42,0.61,0.36,0.39,1.0
+arcallians.csv,0.76,0.48,0.34,0.25,0.25,0.21,0.47,0.14
+arianne.csv,0.26,0.92,0.87,1.0,1.0,1.0,0.9,0.94
+cortex-vfx.csv,0.22,0.22,0.11,0.08,0.16,0.08,0.24,0.23
+mbse.csv,0.62,0.61,0.68,0.78,0.34,0.64,0.29,0.8
+multitude.csv,0.54,0.56,0.55,0.08,0.93,0.92,0.29,0.96
+phonon-vlc-mplayer.csv,0.11,0.25,0.17,0.12,0.99,0.42,0.24,0.35
+qgis.csv,0.38,0.25,0.49,0.15,0.0,0.0,0.44,0.7

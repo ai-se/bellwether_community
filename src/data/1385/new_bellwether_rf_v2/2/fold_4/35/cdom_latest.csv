@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+all-plasm.csv,0.35,0.44,0.26,4
+gamestone.csv,0.08,0.51,0.07,6
+gbif-providertoolkit.csv,0.08,0.71,0.04,11
+growl-for-windows.csv,0.43,0.41,0.3,2
+gss.csv,0.71,0.43,0.5,3
+heekscad.csv,0.54,0.43,0.36,5
+igarden.csv,0.2,0.56,0.13,9
+levent.csv,0.52,0.5,0.27,10
+openmsx.csv,0.81,0.52,0.75,1
+pnotepad.csv,0.89,0.44,0.8,0
+quark.csv,0.1,1.0,0.0,12
+tango-cs.csv,0.43,0.57,0.34,7
+xcsoar.csv,0.53,0.5,0.3,8

@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+all-plasm.csv,0.795,0.45,0.715,0
+blue-c.csv,0.655,0.59,0.385,5
+cities3d.csv,0.375,0.425,0.16499999999999998,2
+dynalloy.csv,0.5,0.62,0.25,8
+firebird.csv,0.39,0.5,0.29000000000000004,1
+hydrogen.csv,0.325,0.74,0.12000000000000001,10
+nosleepsoftware.csv,0.425,0.595,0.21500000000000002,4
+openmalaria.csv,0.67,0.585,0.37,7
+popeye-chess.csv,0.605,0.63,0.335,9
+qgo.csv,0.385,0.76,0.075,11
+xmoto.csv,0.485,0.56,0.18,6
+yield.csv,0.6799999999999999,0.555,0.5,3

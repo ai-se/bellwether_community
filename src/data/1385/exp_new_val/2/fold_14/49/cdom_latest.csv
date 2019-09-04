@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+illumination.csv,0.44,0.29,0.16,0.45,98.5,3
+kftpgrabber.csv,0.29,0.65,0.15,0.67,156.0,4
+kindb.csv,0.43,0.77,0.12,0.5,98.5,5
+m-a-d-n-e-s-s.csv,0.22,0.6,0.06,0.83,97.5,6
+netatalk.csv,0.76,0.38,0.62,0.42,359.0,1
+quickfast.csv,0.86,0.3,0.72,0.39,380.5,0
+wow-qrsk.csv,0.37,0.38,0.25,0.61,281.5,2

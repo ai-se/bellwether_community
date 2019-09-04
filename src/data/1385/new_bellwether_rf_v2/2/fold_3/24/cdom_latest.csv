@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+elateportal.csv,0.67,0.42,0.53,3
+ikvm.csv,0.43,0.41,0.55,0
+lazarus-ccr.csv,0.89,0.36,0.71,1
+les-indemodables.csv,0.48,0.56,0.19,8
+metacosm.csv,0.46,0.5,0.33,7
+micomt.csv,0.42,0.43,0.29,6
+ontomorphtab.csv,0.68,0.45,0.68,2
+tradelink.csv,0.14,0.33,0.03,5
+xuggle.csv,0.46,0.45,0.46,4

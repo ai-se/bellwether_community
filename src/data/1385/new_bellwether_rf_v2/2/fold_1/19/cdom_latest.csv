@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+auber.csv,0.5,0.54,0.24,11
+emulemorph.csv,0.0,0.0,0.0,1
+fceugc.csv,0.25,0.6,0.1,12
+gnukeda.csv,0.66,0.32,0.58,4
+gusanos.csv,0.71,0.35,0.64,3
+micomt.csv,0.18,0.75,0.05,13
+modplug.csv,0.73,0.38,0.49,6
+ogre.csv,1.0,0.33,1.0,0
+openfrag.csv,0.67,0.43,0.51,5
+oscarmcmaster.csv,0.22,0.79,0.05,14
+pidgin.csv,0.71,0.56,0.5,8
+repositorium.csv,0.24,0.5,0.21,7
+unimrcp.csv,0.12,0.5,0.03,10
+xapian.csv,0.36,0.56,0.26,9
+xqilla.csv,0.0,0.0,0.0,1

@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+autofac.csv,0.57,0.47,0.43,7
+azureus.csv,0.47,0.45,0.36,6
+forester-atv.csv,0.08,0.67,0.06,9
+gabel.csv,0.0,0.0,0.0,0
+google-collections.csv,1.0,0.39,1.0,1
+javaprofiler.csv,0.7,0.44,0.64,4
+mycila.csv,0.16,0.32,0.17,3
+neodatis-odb.csv,0.47,0.47,0.4,5
+pokenetonline.csv,0.7,0.44,0.45,8
+rcp-company-uibindings.csv,0.9,0.38,0.72,2
+servicestack.csv,0.53,0.71,0.35,10

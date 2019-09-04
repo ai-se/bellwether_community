@@ -1,0 +1,9 @@
+,selenium.csv,cities3d.csv,levent.csv,xemeiah.csv,bwapi.csv,img-browse-sort.csv,somap.csv,pnotepad.csv
+bwapi.csv,0.88,0.8,1.0,0.79,0.0,0.9,1.0,0.82
+cities3d.csv,0.91,0.08,0.88,0.73,0.73,0.94,0.85,0.9
+img-browse-sort.csv,0.62,0.83,0.69,0.81,0.73,0.0,0.89,0.69
+levent.csv,0.61,0.7,0.02,0.64,0.86,0.61,0.86,0.66
+pnotepad.csv,0.56,0.93,0.72,0.81,0.66,0.83,0.75,0.02
+selenium.csv,0.07,0.44,0.69,0.55,0.8,0.62,1.03,0.52
+somap.csv,0.98,1.0,1.0,1.0,1.0,1.0,0.01,1.0
+xemeiah.csv,0.69,0.48,0.74,0.04,0.86,0.6,0.82,0.69

@@ -1,0 +1,4 @@
+,recall,precision,pf,wins
+freewrl.csv,0.78,0.75,0.29,2
+olsrd.csv,0.7,0.71,0.15,1
+silvertree.csv,0.72,0.69,0.23,0

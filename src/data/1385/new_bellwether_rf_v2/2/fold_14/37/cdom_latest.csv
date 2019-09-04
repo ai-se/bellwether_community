@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+autoopencas.csv,0.16,0.29,0.31,1
+bacula.csv,0.63,0.37,0.38,6
+elmo.csv,0.02,0.2,0.01,2
+jajuk.csv,0.68,0.47,0.36,9
+ktc.csv,0.52,0.53,0.35,8
+neoengine.csv,0.56,0.34,0.41,3
+omseek.csv,0.34,0.5,0.37,4
+pcgen.csv,0.26,0.48,0.12,10
+rosegarden.csv,0.55,0.42,0.4,5
+selenium.csv,0.64,0.54,0.32,11
+vapor.csv,0.39,0.6,0.12,12
+zorannt.csv,0.45,0.33,0.59,0
+zscreen.csv,0.55,0.42,0.36,7

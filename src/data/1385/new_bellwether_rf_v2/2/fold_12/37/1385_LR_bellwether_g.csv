@@ -1,0 +1,8 @@
+,selenium.csv,jnode.csv,mcmc-jags.csv,freebios.csv,miranda-icq.csv,quarkplusplus.csv,metacosm.csv
+freebios.csv,0.54,0.61,0.55,1.0,0.51,0.48,0.3
+jnode.csv,0.0,0.9,0.0,0.02,0.0,0.0,0.0
+mcmc-jags.csv,0.56,0.42,1.0,0.39,0.45,0.42,0.67
+metacosm.csv,0.47,0.56,0.75,0.26,0.65,0.42,0.97
+miranda-icq.csv,0.38,0.68,0.54,0.39,0.84,0.37,0.52
+quarkplusplus.csv,0.53,0.62,0.71,0.17,0.33,0.99,0.71
+selenium.csv,0.97,0.52,0.31,0.33,0.47,0.5,0.47

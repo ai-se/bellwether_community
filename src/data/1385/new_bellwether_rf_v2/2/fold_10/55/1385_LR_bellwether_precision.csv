@@ -1,0 +1,9 @@
+,brlcad.csv,jmri.csv,critterding.csv,popeye-chess.csv,alpine.csv,yarp.csv,nabu-library.csv,biodwh.csv
+alpine.csv,0.36,0.4,0.5,0.78,1.0,0.25,0.2,0.27
+biodwh.csv,0.31,0.58,1.0,0.86,0.1,0.0,0.5,1.0
+brlcad.csv,1.0,0.44,0.42,0.37,0.08,0.4,0.49,0.12
+critterding.csv,0.25,0.5,1.0,0.49,0.08,0.38,0.42,0.18
+jmri.csv,0.27,1.0,0.45,0.92,0.1,0.27,0.37,0.18
+nabu-library.csv,0.26,0.45,0.37,0.49,0.05,0.5,1.0,0.15
+popeye-chess.csv,0.35,0.54,0.48,1.0,0.11,0.42,0.82,0.27
+yarp.csv,0.33,0.51,0.82,0.59,0.12,1.0,0.12,0.18

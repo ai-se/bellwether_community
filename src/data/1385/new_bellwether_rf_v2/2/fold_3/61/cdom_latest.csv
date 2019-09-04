@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+anaxagora.csv,0.04,0.43,0.02,5
+ctrlr.csv,0.03,0.33,0.05,3
+empserver.csv,0.61,0.41,0.47,4
+ffigo.csv,0.53,0.3,0.33,2
+gmerlin.csv,0.4,0.52,0.22,7
+skia.csv,0.14,0.45,0.08,6
+wikipediardware.csv,0.86,0.35,0.75,1
+zemljanka.csv,1.0,0.34,0.97,0

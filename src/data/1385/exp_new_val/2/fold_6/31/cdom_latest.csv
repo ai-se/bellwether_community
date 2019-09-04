@@ -1,0 +1,6 @@
+,recall,precision,pf,pci_20,ifa,wins
+bzbyte.csv,0.77,0.77,0.33,0.4,95.5,3
+mediaportal.csv,0.53,0.44,0.24,0.57,190.0,1
+poormans.csv,0.43,0.8,0.15,0.54,98.5,4
+smartgwt.csv,0.71,0.55,0.41,0.45,99.0,2
+sqlpower-library.csv,0.77,0.25,0.79,0.44,99.0,0

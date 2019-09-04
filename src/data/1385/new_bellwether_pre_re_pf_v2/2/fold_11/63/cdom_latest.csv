@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+arm-webradio.csv,0.41,0.17,0.45,2
+fmri-dmt.csv,0.45,0.22,0.65,0
+ftm.csv,0.37,0.29,0.18,10
+fulguro.csv,0.3,0.17,0.42,1
+gss.csv,0.88,0.26,0.81,3
+illumination.csv,0.0,0.0,0.01,4
+ldview.csv,0.83,0.23,0.69,7
+monetdb.csv,0.53,0.31,0.29,11
+netatalk.csv,0.82,0.21,0.68,5
+olex2.csv,0.36,0.17,0.34,8
+qpe.csv,0.45,0.28,0.28,9
+quark.csv,0.12,0.5,0.05,13
+sepgsql.csv,0.57,0.35,0.25,12
+synergyspace.csv,0.15,0.14,0.2,6

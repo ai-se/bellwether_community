@@ -1,0 +1,6 @@
+,scenemonitor.csv,panda3d.csv,jchassis.csv,xcf.csv,coot.csv
+coot.csv,0.54,0.26,0.0,0.73,1.0
+jchassis.csv,0.0,0.0,1.0,0.0,0.0
+panda3d.csv,0.26,1.0,0.0,0.48,0.39
+scenemonitor.csv,1.0,0.36,0.03,0.57,0.51
+xcf.csv,0.53,0.25,0.05,1.0,0.7

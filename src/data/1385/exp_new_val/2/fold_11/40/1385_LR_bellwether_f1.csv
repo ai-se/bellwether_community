@@ -1,0 +1,9 @@
+,logicmail.csv,taverna.csv,javagroups.csv,jrefactory.csv,freenet.csv,nodal.csv,soar.csv,web-cat.csv
+freenet.csv,0.79,0.38,0.5,0.71,0.74,0.42,0.29,0.53
+javagroups.csv,0.75,0.06,0.65,0.56,0.62,0.46,0.06,0.43
+jrefactory.csv,0.74,0.0,0.36,0.73,0.58,0.43,0.69,0.58
+logicmail.csv,0.91,0.51,0.51,0.73,0.79,0.45,0.46,0.58
+nodal.csv,0.68,0.16,0.43,0.51,0.38,0.62,0.0,0.48
+soar.csv,0.77,0.41,0.62,0.73,0.78,0.42,0.67,0.48
+taverna.csv,0.55,0.66,0.43,0.28,0.62,0.42,0.29,0.28
+web-cat.csv,0.82,0.46,0.46,0.39,0.74,0.47,0.71,0.7

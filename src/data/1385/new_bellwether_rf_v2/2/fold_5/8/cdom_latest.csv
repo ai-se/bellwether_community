@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+array4j.csv,0.175,0.36,0.135,6
+emono.csv,0.16999999999999998,0.56,0.065,10
+freedom-erp.csv,0.005,0.3,0.025,5
+jchassis.csv,0.0,0.0,0.0,0
+jmoney.csv,0.37,0.485,0.125,11
+jmonkeyengine.csv,0.11,0.42,0.095,8
+jsidplay2.csv,0.635,0.37,0.51,2
+matrex.csv,0.185,0.41500000000000004,0.155,7
+mediate.csv,0.495,0.44999999999999996,0.46,3
+mesa3d.csv,0.305,0.495,0.2,9
+pustefix.csv,0.355,0.295,0.345,1
+reaper3d.csv,0.07,0.23500000000000001,0.05,4

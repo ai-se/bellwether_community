@@ -1,0 +1,9 @@
+,nsis.csv,arsenal-1.csv,jbpm.csv,neodatis-odb.csv,mediate.csv,aztec.csv,mycila.csv,rodin-b-sharp.csv
+arsenal-1.csv,0.0,0.0,0.29,0.11,0.4,0.06,0.36,0.16
+aztec.csv,0.0,0.29,0.77,0.79,0.93,0.0,0.81,0.74
+jbpm.csv,0.0,0.0,0.0,0.0,0.17,0.17,0.02,0.11
+mediate.csv,0.29,0.52,0.2,0.11,0.0,0.36,0.12,0.19
+mycila.csv,0.0,0.23,0.29,0.23,0.3,0.07,0.0,0.14
+neodatis-odb.csv,0.0,0.32,0.26,0.0,0.37,0.17,0.12,0.37
+nsis.csv,0.0,0.29,0.83,0.37,0.5,0.99,0.9,0.56
+rodin-b-sharp.csv,0.14,0.0,0.11,0.06,0.2,0.47,0.05,0.0

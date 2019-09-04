@@ -1,0 +1,5 @@
+,n2cms.csv,maidsafe-dht.csv,nug.csv,nassp.csv
+maidsafe-dht.csv,0.83,0.85,0.58,0.8
+n2cms.csv,0.63,0.68,0.36,0.43
+nassp.csv,0.92,0.89,0.88,0.73
+nug.csv,0.6,0.83,0.81,0.75

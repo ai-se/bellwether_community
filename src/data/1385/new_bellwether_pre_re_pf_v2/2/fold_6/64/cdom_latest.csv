@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+adobe-source.csv,0.43,0.505,0.18,11
+aubit4gl.csv,0.295,0.4,0.18,9
+liferea.csv,0.255,0.32,0.28,3
+moving-pictures.csv,0.35,0.395,0.25,8
+olex2.csv,0.31,0.36,0.24,6
+opensim4opencog.csv,0.615,0.325,0.365,7
+plearn.csv,0.595,0.32999999999999996,0.41500000000000004,5
+psrchive.csv,0.6799999999999999,0.405,0.385,10
+re2c.csv,0.365,0.375,0.475,2
+rebecca-aiml.csv,0.845,0.305,0.745,0
+wxcode.csv,0.355,0.325,0.255,4
+xfce.csv,0.745,0.345,0.67,1

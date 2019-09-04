@@ -1,0 +1,6 @@
+,recall,precision,pf,pci_20,ifa,wins
+jparsec.csv,0.56,0.48,0.28,0.53,286.5,2
+minig.csv,0.74,0.43,0.74,0.45,196.0,0
+ossbuild.csv,0.46,0.45,0.22,0.79,187.0,4
+rezilla.csv,0.35,0.57,0.3,0.5,98.5,3
+webdriver.csv,0.44,0.4,0.26,0.48,187.0,1

@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+bulmages.csv,0.065,0.6499999999999999,0.03,4
+codeblocks.csv,0.7050000000000001,0.515,0.215,5
+dataobjectsdotnet.csv,0.29,0.64,0.165,3
+n2cms.csv,0.185,0.605,0.14,2
+nug.csv,0.365,0.575,0.38,1
+uclmda.csv,0.745,0.37,0.715,0

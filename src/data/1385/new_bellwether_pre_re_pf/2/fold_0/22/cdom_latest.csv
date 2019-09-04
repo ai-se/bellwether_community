@@ -1,0 +1,4 @@
+,recall,precision,pf,wins
+amygdala.csv,0.67,0.69,0.37,1
+log4net.csv,0.41,0.71,0.17,2
+rectracker.csv,0.89,0.54,0.74,0

@@ -1,0 +1,5 @@
+,gpsmid.csv,emftriple.csv,fluent-nhibernate.csv,columba.csv
+columba.csv,0.84,0.09,1.0,0.68
+emftriple.csv,0.14,1.0,0.12,0.25
+fluent-nhibernate.csv,0.78,0.0,0.94,0.4
+gpsmid.csv,0.8,1.0,0.76,0.71

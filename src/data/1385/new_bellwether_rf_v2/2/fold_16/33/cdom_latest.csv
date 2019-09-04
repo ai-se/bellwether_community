@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+bacnet.csv,0.49,0.44,0.24,5
+gamestone.csv,0.235,0.525,0.13,6
+gbif-providertoolkit.csv,0.10500000000000001,0.7649999999999999,0.01,9
+heekscad.csv,0.635,0.4,0.335,3
+igarden.csv,0.16,0.7,0.03,8
+levent.csv,0.66,0.365,0.31,4
+owlapi.csv,0.125,0.665,0.03,7
+pnotepad.csv,0.905,0.36,0.73,0
+quark.csv,0.0,0.0,0.0,1
+xcsoar.csv,0.535,0.37,0.33999999999999997,2

@@ -1,0 +1,3 @@
+,recall,precision,pf,pci_20,ifa,wins
+bloodycore.csv,0.445,0.39,0.215,0.855,569.5,1
+raygina.csv,0.545,0.37,0.36,0.51,489.5,0

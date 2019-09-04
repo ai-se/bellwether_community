@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.6950000000000001,0.52,0.41,7.0,jgnash.csv
+10,0.71,0.525,0.32,1.0,columba.csv
+13,0.565,0.42,0.36,9.0,growl-for-windows.csv
+27,0.41,0.5349999999999999,0.31,4.0,h2database.csv
+33,0.675,0.47,0.33,17.0,jstock.csv
+52,0.37,0.36,0.24,13.0,jvcl.csv
+24,0.8,0.6799999999999999,0.61,1.0,magicwars.csv
+25,0.63,0.45,0.41,2.0,esmf.csv
+26,0.83,0.6950000000000001,0.56,0.0,xmemcached.csv

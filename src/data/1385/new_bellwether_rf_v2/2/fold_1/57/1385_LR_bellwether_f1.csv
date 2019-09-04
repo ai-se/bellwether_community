@@ -1,0 +1,11 @@
+,jahshakafx.csv,electric-core.csv,jython.csv,popeye-chess.csv,mvnforum.csv,plplot.csv,openmalaria.csv,dspace-gsoc.csv,kftpgrabber.csv,zxing.csv
+dspace-gsoc.csv,0.11,0.15,0.65,0.0,0.32,0.47,0.43,1.0,0.15,0.71
+electric-core.csv,0.46,0.97,0.46,0.38,0.43,0.4,0.36,0.62,0.36,0.8
+jahshakafx.csv,0.99,0.43,0.56,0.47,0.29,0.51,0.34,0.15,0.45,0.62
+jython.csv,0.54,0.38,0.9,0.47,0.42,0.42,0.44,0.57,0.55,0.76
+kftpgrabber.csv,0.35,0.43,0.34,0.58,0.07,0.32,0.09,0.42,0.98,0.42
+mvnforum.csv,0.28,0.16,0.45,0.45,0.97,0.3,0.18,0.28,0.11,0.39
+openmalaria.csv,0.48,0.38,0.41,0.34,0.35,0.43,1.0,0.73,0.49,0.89
+plplot.csv,0.56,0.38,0.2,0.61,0.38,0.92,0.69,0.66,0.57,0.81
+popeye-chess.csv,0.64,0.4,0.17,0.99,0.38,0.59,0.6,0.6,0.53,0.64
+zxing.csv,0.56,0.46,0.48,0.67,0.47,0.35,0.43,0.36,0.5,0.99

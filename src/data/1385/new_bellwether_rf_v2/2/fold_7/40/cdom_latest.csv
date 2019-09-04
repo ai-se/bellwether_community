@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+applet2app.csv,0.58,0.48,0.56,1
+archive-crawler.csv,0.33,0.54,0.19,6
+autowikibrowser.csv,0.42,0.5,0.18,7
+jcae.csv,0.01,0.33,0.0,3
+kmatplot.csv,0.25,0.7,0.1,8
+mscore.csv,0.56,0.42,0.44,2
+quickfast.csv,0.78,0.38,0.65,0
+rhex.csv,0.43,0.48,0.33,4
+riff-evolve.csv,0.55,0.43,0.31,5

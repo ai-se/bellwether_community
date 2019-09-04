@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+encog-java.csv,0.535,0.44,0.385,5
+h2database.csv,0.175,0.525,0.11,9
+hannosset.csv,0.005,0.125,0.0,1
+jaql.csv,0.555,0.42500000000000004,0.365,6
+megameknet.csv,0.5700000000000001,0.375,0.47,2
+ngl.csv,0.59,0.375,0.42,4
+qedo.csv,0.03,0.45,0.03,8
+qmmp.csv,0.65,0.33499999999999996,0.55,0
+raven-monitoring.csv,0.235,0.32,0.19,3
+v8.csv,0.65,0.45,0.4,7

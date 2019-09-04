@@ -1,0 +1,8 @@
+,recall,precision,pf,cdom,bellwether
+3,0.74,0.5700000000000001,0.44,4.0,turbotrader-bos.csv
+9,0.715,0.59,0.48,9.0,rosegarden.csv
+20,0.165,0.32,0.31,15.0,mevenide.csv
+38,0.29,0.33,0.29,19.0,taokgame.csv
+1,0.99,0.995,0.99,0.0,benojt.csv
+2,1.0,0.72,0.44,0.0,emftriple.csv
+37,0.565,0.42999999999999994,0.29,1.0,ivef-sdk.csv

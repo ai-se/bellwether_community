@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+botsnscouts.csv,0.54,0.77,0.31,4
+freenet.csv,0.78,0.8,0.56,3
+mediaportal.csv,0.59,0.81,0.44,2
+onotoa.csv,0.75,0.64,0.45,1
+sqlpower-library.csv,0.79,0.69,0.59,0

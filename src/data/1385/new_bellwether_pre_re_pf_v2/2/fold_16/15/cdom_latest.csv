@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+aufs.csv,0.315,0.465,0.215,11
+crux-framework.csv,0.315,0.28500000000000003,0.255,3
+etherboot.csv,0.225,0.415,0.05,10
+freebios.csv,0.44499999999999995,0.305,0.435,2
+gebr.csv,0.88,0.325,0.81,0
+gnukeda.csv,0.6950000000000001,0.36,0.5549999999999999,9
+google-gears.csv,0.91,0.37,0.78,5
+gstreamer.csv,0.77,0.345,0.76,1
+jnode.csv,0.12,0.31,0.17,4
+metacosm.csv,0.49,0.44,0.24,12
+openmeetings.csv,0.51,0.475,0.26,13
+pgui.csv,0.625,0.31,0.435,7
+tradelink.csv,0.685,0.33999999999999997,0.5549999999999999,6
+wxcrp.csv,0.825,0.395,0.745,8

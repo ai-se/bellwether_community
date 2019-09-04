@@ -197,7 +197,7 @@ class bellwether(object):
                             #F['pci_20'] = results[6]
                             #F['ifa'] = results[6]
                             #F['pd'] = results[6]
-                            #F['pf'] = results[6]
+                            F['pf'] = results[3]
                             _F = copy.deepcopy(F)
                             if 'f1' not in score.keys():
                                 score[d_project] = _F
@@ -210,7 +210,7 @@ class bellwether(object):
                                 #score[d_project]['pci_20'].append(F['pci_20'][0])
                                 #score[d_project]['ifa'].append(F['ifa'][0])
                                 #score[d_project]['pd'].append(F['pd'][0])
-                                #score[d_project]['pf'].append(F['pf'][0])
+                                score[d_project]['pf'].append(F['pf'])
                         except ValueError as e:
                             print("dest",d_project,e)
                             continue

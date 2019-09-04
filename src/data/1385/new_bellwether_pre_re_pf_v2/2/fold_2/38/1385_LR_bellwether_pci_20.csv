@@ -1,0 +1,8 @@
+,net-snmp.csv,fontforge.csv,k3d.csv,patterntesting.csv,massiv.csv,t-2.csv,xreal.csv
+fontforge.csv,0.42,0.44,0.35,0.36,0.4,0.43,0.37
+k3d.csv,0.76,0.83,0.74,0.0,0.98,0.96,0.83
+massiv.csv,0.0,0.0,0.92,0.83,0.95,0.95,0.9
+net-snmp.csv,0.45,0.3,0.55,0.47,0.42,0.45,0.41
+patterntesting.csv,0.41,0.29,0.36,0.5,0.42,0.44,0.36
+t-2.csv,0.5,0.71,0.4,0.5,0.51,0.8,0.53
+xreal.csv,0.91,0.41,0.6,0.91,0.99,0.99,0.86

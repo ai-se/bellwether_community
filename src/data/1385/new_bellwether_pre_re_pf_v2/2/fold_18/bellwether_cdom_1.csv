@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.63,0.58,0.46,6.0,freedom-erp.csv
+9,0.82,0.29,0.30000000000000004,1.0,atunes.csv
+12,0.7,0.46499999999999997,0.37,8.0,amanda.csv
+25,0.65,0.615,0.485,3.0,fbmanager.csv
+30,0.69,0.49,0.4,17.0,riff-evolve.csv
+49,0.5549999999999999,0.37,0.32,19.0,nuttx.csv
+22,0.8200000000000001,0.615,0.585,1.0,magicwars.csv
+23,0.63,0.45499999999999996,0.42,3.0,turbotrader-bos.csv
+24,0.65,0.625,0.6,0.0,xmemcached.csv

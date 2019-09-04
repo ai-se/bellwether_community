@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+genecys.csv,0.735,0.69,0.645,1
+google-caja.csv,0.815,0.8300000000000001,0.41500000000000004,3
+itext.csv,0.8049999999999999,0.775,0.5,2
+plee-the-bear.csv,0.61,0.64,0.58,0

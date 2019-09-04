@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+bacnet.csv,0.38,0.59,0.17,8
+bibletime.csv,0.54,0.46,0.24,7
+flexpay.csv,0.54,0.57,0.38,5
+lufa-lib.csv,0.46,0.44,0.31,4
+nullc.csv,0.96,0.38,0.89,1
+pgui.csv,0.37,0.37,0.43,2
+superwaba.csv,0.45,0.46,0.2,6
+sylpheed-claws.csv,0.53,0.43,0.37,3
+xqilla.csv,0.0,0.0,0.0,0

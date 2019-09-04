@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.15,0.56,0.26,6.0,dxengine.csv
+9,0.5700000000000001,0.5700000000000001,0.09,1.0,emftriple.csv
+12,0.555,0.5,0.29,9.0,kml.csv
+26,0.34,0.345,0.15,4.0,poormans.csv
+32,0.765,0.33,0.27,17.0,minig.csv
+51,0.39,0.29,0.2,16.0,nassp.csv
+23,0.955,0.945,0.75,1.0,magicwars.csv
+24,0.7,0.62,0.44,4.0,codesmith.csv
+25,0.91,0.9550000000000001,0.91,0.0,xmemcached.csv

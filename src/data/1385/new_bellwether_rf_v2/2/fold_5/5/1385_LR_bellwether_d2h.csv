@@ -1,0 +1,7 @@
+,mule.csv,springside.csv,swtfox.csv,twostep.csv,geotools.csv,l2j.csv
+geotools.csv,0.76,0.96,0.9,0.85,0.06,0.9
+l2j.csv,0.62,0.48,0.99,0.44,0.54,0.0
+mule.csv,0.03,0.78,0.86,0.48,0.59,0.71
+springside.csv,0.57,0.0,0.84,0.44,0.59,0.76
+swtfox.csv,0.79,0.86,0.03,0.94,0.76,0.76
+twostep.csv,0.82,0.83,0.56,0.0,0.81,0.71

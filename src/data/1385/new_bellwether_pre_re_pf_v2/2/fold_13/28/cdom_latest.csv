@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+auber.csv,0.78,0.45,0.685,4
+biodwh.csv,0.335,0.565,0.17,12
+bloodycore.csv,0.345,0.45,0.19,8
+blue-c.csv,0.75,0.4,0.505,7
+etics.csv,0.34,0.735,0.08,15
+flexpay.csv,0.47,0.345,0.585,0
+flylegacy.csv,0.6,0.365,0.43,3
+ftm.csv,0.32999999999999996,0.645,0.1,14
+gzigzag.csv,0.45,0.46499999999999997,0.265,11
+img-browse-sort.csv,0.615,0.6,0.365,13
+jcache.csv,0.725,0.435,0.55,6
+jguard.csv,0.525,0.455,0.46499999999999997,5
+ppcboot.csv,0.885,0.405,0.8049999999999999,1
+qdvdauthor.csv,0.615,0.42,0.53,2
+reactos-mirror.csv,0.62,0.45999999999999996,0.41000000000000003,10
+unbvision.csv,0.395,0.48,0.25,9

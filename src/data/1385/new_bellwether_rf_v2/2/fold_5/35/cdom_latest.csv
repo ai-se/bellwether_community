@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+bloodycore.csv,0.4,0.43,0.27,3
+flylegacy.csv,0.75,0.42,0.59,2
+ftm.csv,0.44,0.6,0.41,5
+jguard.csv,0.81,0.47,0.72,1
+m-a-d-n-e-s-s.csv,0.42,0.58,0.27,8
+mob-sen-plat.csv,0.3,0.41,0.33,0
+raygina.csv,0.43,0.54,0.25,6
+upp-mirror.csv,0.63,0.47,0.37,4
+yarp.csv,0.21,0.59,0.19,7

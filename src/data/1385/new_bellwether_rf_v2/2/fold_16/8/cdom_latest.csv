@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+coot.csv,0.52,0.42,0.43,5
+emono.csv,0.31,0.38,0.32,4
+haggle.csv,0.33,0.33,0.18,7
+hannosset.csv,0.0,0.0,0.0,0
+jas.csv,0.02,0.33,0.0,8
+jgossipforum.csv,0.0,0.0,0.0,0
+madman.csv,0.02,0.07,0.02,3
+mediate.csv,0.46,0.38,0.43,2
+ngl.csv,0.52,0.52,0.35,10
+pustefix.csv,0.15,0.43,0.16,6
+synecdoche.csv,0.4,0.49,0.29,9

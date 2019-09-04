@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+ftm.csv,0.45,0.52,0.29,5
+google-gears.csv,0.66,0.54,0.5,2
+grafx2.csv,0.62,0.52,0.5,0
+kmess.csv,0.42,0.53,0.36,1
+megameknet.csv,0.46,0.59,0.45,3
+minig.csv,0.72,0.59,0.6,4
+ns-3.csv,0.7,0.58,0.51,7
+omseek.csv,0.18,0.72,0.07,10
+quickfast.csv,0.7,0.54,0.41,8
+sylpheed-claws.csv,0.57,0.67,0.32,9
+xamj.csv,0.67,0.6,0.54,6

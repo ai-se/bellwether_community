@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+doomlegacy.csv,0.65,0.69,0.44,11
+elateportal.csv,0.98,0.61,0.9299999999999999,2
+gmerlin.csv,0.31,0.78,0.2,13
+gretl.csv,0.82,0.65,0.675,8
+illumination.csv,0.44,0.5700000000000001,0.315,6
+mpgravity.csv,0.365,0.59,0.38,3
+nativeclient.csv,0.63,0.775,0.39,14
+natpad.csv,0.48,0.685,0.455,9
+ogre.csv,1.0,0.605,1.0,0
+open-ms.csv,0.5700000000000001,0.645,0.655,4
+openmsx.csv,0.66,0.75,0.63,10
+oppna-program-hsatools.csv,0.915,0.6699999999999999,0.825,7
+sandiaportals.csv,0.72,0.6000000000000001,0.62,5
+sauerbraten.csv,0.345,0.8,0.21000000000000002,15
+yarp.csv,0.22,0.73,0.165,12
+zemljanka.csv,0.995,0.625,0.985,1

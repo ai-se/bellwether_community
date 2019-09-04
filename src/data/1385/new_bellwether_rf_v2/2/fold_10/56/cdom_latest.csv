@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+fido.csv,0.0,0.0,0.0,0
+fluent-nhibernate.csv,0.07,0.32,0.04,5
+geogebra.csv,0.53,0.18,0.15,4
+hibernate.csv,0.5,0.23,0.36,3
+jasperreports.csv,0.0,0.0,0.0,0
+kvs.csv,0.5,0.32,0.16,6
+phet.csv,0.16,0.19,0.19,2

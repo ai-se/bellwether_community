@@ -1,0 +1,11 @@
+,bscwweasel.csv,japano.csv,log4net.csv,botsnscouts.csv,unbvision.csv,personalaccess.csv,joustsim.csv,fido.csv,rcp-company-uibindings.csv,cme.csv
+botsnscouts.csv,1.0,0.0,8.0,0.0,1.0,1.0,4.0,106.0,0.0,5.0
+bscwweasel.csv,0.0,0.0,133.0,1.0,2.0,0.0,70.0,4.0,0.0,56.0
+cme.csv,161.0,133.0,133.0,53.0,114.0,147.0,70.0,106.0,250.0,0.0
+fido.csv,161.0,0.0,133.0,53.0,114.0,147.0,70.0,0.0,250.0,56.0
+japano.csv,28.0,0.0,46.0,4.0,3.0,0.0,27.0,21.0,0.0,20.0
+joustsim.csv,5.0,0.0,133.0,1.0,1.0,0.0,0.0,106.0,0.0,56.0
+log4net.csv,161.0,0.0,0.0,53.0,114.0,147.0,70.0,106.0,250.0,56.0
+personalaccess.csv,18.0,0.0,15.0,4.0,16.0,1.0,9.0,32.0,0.0,14.0
+rcp-company-uibindings.csv,32.0,0.0,50.0,2.0,4.0,2.0,33.0,16.0,0.0,18.0
+unbvision.csv,48.0,0.0,133.0,4.0,0.0,1.0,31.0,20.0,0.0,17.0

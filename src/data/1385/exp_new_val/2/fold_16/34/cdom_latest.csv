@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+bloodycore.csv,0.09,0.5,0.15,0.86,183.0,4
+flylegacy.csv,0.67,0.4,0.41,0.48,98.5,3
+jguard.csv,0.63,0.5,0.45,0.45,98.5,6
+mob-sen-plat.csv,0.73,0.42,0.63,0.38,196.0,0
+raygina.csv,0.3,0.33,0.26,0.48,97.5,1
+upp-mirror.csv,0.5,0.43,0.37,0.56,98.5,5
+wishmaster.csv,0.52,0.44,0.3,0.53,196.0,2

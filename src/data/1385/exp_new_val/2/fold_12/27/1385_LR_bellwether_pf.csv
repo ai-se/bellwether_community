@@ -1,0 +1,6 @@
+,dynalloy.csv,xbplayer.csv,autat.csv,runuomondains.csv,findbugs.csv
+autat.csv,0.85,0.37,0.26,0.15,0.27
+dynalloy.csv,0.27,0.59,0.37,0.63,0.62
+findbugs.csv,0.54,0.24,0.62,0.29,0.33
+runuomondains.csv,0.52,0.48,0.4,0.15,0.36
+xbplayer.csv,0.24,0.22,0.51,0.31,0.62

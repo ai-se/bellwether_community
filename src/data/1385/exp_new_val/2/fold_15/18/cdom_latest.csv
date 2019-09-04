@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+dataobjectsdotnet.csv,0.77,0.45,0.53,0.53,379.0,2
+gstreamer.csv,0.81,0.44,0.69,0.46,388.0,1
+ifmo-game-1.csv,0.06,0.5,0.11,0.76,98.5,5
+pi-qmc.csv,0.73,0.5,0.53,0.42,99.0,4
+quarkplusplus.csv,0.38,0.59,0.22,0.63,96.5,6
+xapian.csv,0.85,0.44,0.79,0.52,99.0,3
+zemljanka.csv,0.82,0.42,0.81,0.48,388.0,0

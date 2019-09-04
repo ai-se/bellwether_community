@@ -1,0 +1,8 @@
+,recall,precision,pf,cdom,bellwether
+3,0.51,0.575,0.28,4.0,foursquared.csv
+9,0.375,0.59,0.41,9.0,netatalk.csv
+20,0.445,0.435,0.32,15.0,irplus.csv
+38,0.59,0.35,0.24,19.0,popeye-chess.csv
+1,1.0,1.0,1.0,0.0,benojt.csv
+2,1.0,1.0,1.0,0.0,emftriple.csv
+37,0.565,0.565,0.32,1.0,ivef-sdk.csv

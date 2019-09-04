@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+chipster.csv,0.13,0.36,0.07,8
+fontforge.csv,0.93,0.43,0.96,3
+gmerlin.csv,0.68,0.15,0.55,0
+hatari.csv,0.77,0.42,0.76,5
+jcl.csv,0.61,0.44,0.58,9
+ltp.csv,0.71,0.39,0.67,4
+net-snmp.csv,0.61,0.39,0.55,6
+opde.csv,0.62,0.42,0.6,7
+powerfolder-.csv,0.69,0.42,0.53,11
+qlc.csv,0.55,0.23,0.32,1
+tcl.csv,0.61,0.34,0.58,2
+wxstudio.csv,0.48,0.41,0.39,10

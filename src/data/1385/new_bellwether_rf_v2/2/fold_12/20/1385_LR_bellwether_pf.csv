@@ -1,0 +1,9 @@
+,paintown.csv,google-collections.csv,smbopensoft.csv,forester-atv.csv,thout.csv,jsecurity.csv,cleartk.csv,opensim4opencog.csv
+cleartk.csv,0.33,0.5,0.98,0.2,0.83,0.6,0.0,0.89
+forester-atv.csv,0.03,0.0,0.08,0.0,0.05,0.02,0.07,0.1
+google-collections.csv,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+jsecurity.csv,0.33,0.0,0.01,0.4,0.11,0.0,0.14,0.36
+opensim4opencog.csv,0.05,0.0,0.09,0.12,0.14,0.33,0.29,0.0
+paintown.csv,0.0,0.0,0.4,0.6,0.58,0.83,0.5,0.3
+smbopensoft.csv,0.45,0.5,0.03,0.38,0.39,0.22,0.21,0.3
+thout.csv,0.73,0.0,0.03,0.42,0.0,0.32,0.21,0.62

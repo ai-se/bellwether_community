@@ -2,6 +2,7 @@
 import pickle
 import numpy as np
 from sklearn.metrics import auc
+import math
 
 PRE, REC, SPEC, FPR, NPV, ACC, F1 = 7, 6, 5, 4, 3, 2, 1
 
@@ -59,17 +60,19 @@ def get_score(criteria, metrics):  # The smaller the better
   pre, rec, spec, fpr, npv, acc, f1 = get_performance([tp, fp, tn, fn])
   all_metrics = [tp, fp, tn, fn, pre, rec, spec, fpr, npv, acc, f1]
   if criteria == "Accuracy":
-    score = -all_metrics[-ACC]
+    score = all_metrics[-ACC]
   elif criteria == "F1":
-    score = -all_metrics[-F1]
+    score = all_metrics[-F1]
   elif criteria == "Precision":
-      score = -all_metrics[-PRE]
+      score = all_metrics[-PRE]
   elif criteria == "Dist2Heaven":
     score = all_metrics[-FPR] ** 2 + (1 - all_metrics[-REC]) ** 2
   elif criteria == "Gini":
     p1 = all_metrics[-PRE]  # target == 1 for the positive split
     p0 = 1 - all_metrics[-NPV]  # target == 1 for the negative split
     score = 1 - p0 ** 2 - p1 ** 2
+  elif criteria == 'cdom':
+    return [all_metrics[-PRE],all_metrics[-REC],all_metrics[-FPR]]
   else:  # Information Gain
     P, N = all_metrics[0] + all_metrics[3], all_metrics[1] + all_metrics[2]
     p = 1.0 * P / (P + N) if P + N > 0 else 0  # before the split

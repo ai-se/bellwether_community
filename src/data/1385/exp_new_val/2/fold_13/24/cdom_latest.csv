@@ -1,0 +1,10 @@
+,recall,precision,pf,pci_20,ifa,wins
+elateportal.csv,0.62,0.55,0.47,0.48,193.0,5
+ikvm.csv,0.47,0.25,0.48,0.56,186.0,0
+lazarus-ccr.csv,0.79,0.36,0.43,0.53,194.0,6
+les-indemodables.csv,0.57,0.47,0.38,0.53,186.0,4
+metacosm.csv,0.54,0.5,0.38,0.46,195.0,3
+micomt.csv,0.86,0.46,0.83,0.45,293.5,1
+ontomorphtab.csv,0.77,0.46,0.54,0.4,284.5,2
+tradelink.csv,0.53,0.51,0.24,0.67,98.5,8
+xuggle.csv,0.62,0.55,0.29,0.48,99.0,7

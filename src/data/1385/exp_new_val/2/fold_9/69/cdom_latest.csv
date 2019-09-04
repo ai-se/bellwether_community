@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+aubit4gl.csv,0.61,0.61,0.14,0.69,98.5,6
+glelite.csv,0.96,0.45,0.94,0.42,196.5,1
+moving-pictures.csv,0.33,0.68,0.27,0.45,98.5,4
+plearn.csv,0.5,0.32,0.48,0.55,99.0,2
+re2c.csv,0.34,0.55,0.23,0.79,99.0,5
+rebecca-aiml.csv,0.69,0.57,0.53,0.41,99.0,3
+xfce.csv,0.69,0.45,0.61,0.39,196.5,0

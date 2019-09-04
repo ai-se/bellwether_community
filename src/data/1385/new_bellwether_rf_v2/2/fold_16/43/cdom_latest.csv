@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+brlcad.csv,0.72,0.57,0.69,2
+ftm.csv,0.38,0.68,0.22,12
+google-web-toolkit.csv,0.47,0.66,0.25,11
+gzigzag.csv,0.08,0.67,0.04,10
+illumination.csv,0.16,0.56,0.13,5
+jcache.csv,0.65,0.59,0.5,4
+moast.csv,0.84,0.51,0.73,1
+nativeclient.csv,0.76,0.57,0.62,3
+ns-3-dev-def-routing.csv,0.48,0.56,0.32,6
+openfrag.csv,0.71,0.62,0.52,7
+qdvdauthor.csv,0.41,0.45,0.46,0
+sauerbraten.csv,0.4,0.6,0.24,9
+zoolib.csv,0.17,0.57,0.08,8

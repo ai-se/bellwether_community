@@ -1,0 +1,7 @@
+,moviesandbox.csv,libtorrent.csv,sigil.csv,xbg.csv,xtreemfs.csv,crux-framework.csv
+crux-framework.csv,0.86,0.79,0.8,1.0,0.79,0.1
+libtorrent.csv,0.86,0.39,0.68,0.7,0.9,1.0
+moviesandbox.csv,0.52,0.72,0.37,0.82,0.38,0.71
+sigil.csv,0.52,0.47,0.31,0.62,0.47,0.84
+xbg.csv,0.91,0.85,0.94,0.32,0.98,1.0
+xtreemfs.csv,0.66,0.52,0.29,0.67,0.27,0.62

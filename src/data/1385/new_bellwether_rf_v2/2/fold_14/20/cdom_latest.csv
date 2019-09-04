@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+alsa.csv,0.515,0.5,0.14,10
+gmerlin.csv,0.305,0.5900000000000001,0.195,7
+google-gears.csv,0.765,0.46499999999999997,0.575,3
+gstreamer.csv,0.635,0.48,0.44,5
+lportal.csv,0.355,0.41000000000000003,0.435,0
+metacosm.csv,0.28,0.595,0.135,9
+mplayer-ce.csv,0.665,0.435,0.6,1
+openmeetings.csv,0.31,0.69,0.1,11
+qgis.csv,0.485,0.47,0.33499999999999996,4
+skia.csv,0.28,0.475,0.175,6
+wxcrp.csv,0.495,0.55,0.26,8
+yafdotnet.csv,0.575,0.47,0.485,2

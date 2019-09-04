@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+awemud.csv,0.53,0.53,0.29,0.41,189.0,2
+freebios.csv,0.5,0.4,0.54,0.64,486.5,0
+k3b.csv,0.88,0.44,0.81,0.47,386.0,1
+loki-lib.csv,0.56,0.56,0.27,0.48,97.5,6
+powerfolder.csv,0.42,0.46,0.21,0.65,187.5,3
+quarkplusplus.csv,0.31,0.53,0.17,0.64,177.0,5
+tzod.csv,0.29,0.5,0.29,0.67,99.0,4

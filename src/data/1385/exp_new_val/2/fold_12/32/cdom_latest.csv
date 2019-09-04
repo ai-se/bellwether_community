@@ -1,0 +1,16 @@
+,recall,precision,pf,pci_20,ifa,wins
+acegisecurity.csv,0.86,0.39,0.69,0.45,99.0,5
+amateur-scrolls.csv,0.34,0.45,0.18,0.76,98.5,13
+biopax.csv,1.0,0.36,1.0,0.4,99.0,1
+crux-framework.csv,0.23,0.43,0.15,0.87,166.0,4
+exl.csv,0.54,0.43,0.4,0.51,99.0,8
+ikvm.csv,0.39,0.3,0.63,0.63,99.0,0
+irrlicht.csv,1.0,0.36,1.0,0.4,99.0,1
+les-indemodables.csv,0.65,0.38,0.43,0.42,99.0,3
+lportal.csv,0.12,0.5,0.06,0.83,95.5,14
+ns-3-dev-def-routing.csv,0.64,0.45,0.37,0.53,98.5,12
+qpe.csv,0.48,0.42,0.32,0.55,99.0,9
+sigil.csv,0.74,0.43,0.56,0.45,99.0,7
+ultimairis.csv,0.64,0.44,0.38,0.45,99.0,10
+unflobtactical.csv,0.79,0.38,0.5,0.45,99.0,6
+xbg.csv,0.26,0.35,0.3,0.88,99.0,11

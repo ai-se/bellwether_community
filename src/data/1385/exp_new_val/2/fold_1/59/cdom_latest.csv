@@ -1,0 +1,13 @@
+,recall,precision,pf,pci_20,ifa,wins
+avifile.csv,0.28,0.28,0.3,0.93,194.0,2
+delphilhlplib.csv,0.52,0.48,0.34,0.54,178.0,7
+esmf.csv,0.62,0.4,0.56,0.53,189.0,3
+gbif-indexingtoolkit.csv,0.58,0.32,0.41,0.59,192.0,1
+jgameai.csv,0.33,0.31,0.42,0.76,98.5,8
+jsecurity.csv,0.4,0.38,0.32,0.57,97.5,10
+libopenmetaverse.csv,1.0,0.29,1.0,0.39,99.0,4
+mptvseries.csv,0.4,0.38,0.17,0.62,98.5,11
+mule.csv,0.47,0.29,0.41,0.5,98.5,6
+piccolo2d.csv,0.32,0.37,0.27,0.57,98.5,9
+vars-redux.csv,0.68,0.33,0.54,0.44,193.0,0
+werx.csv,0.95,0.3,0.97,0.41,99.0,5

@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+fceugc.csv,0.195,0.62,0.1,9
+flexpay.csv,0.6,0.38,0.635,1
+jstock.csv,0.105,0.565,0.04,7
+keyczar.csv,0.095,0.34,0.095,2
+modellus.csv,0.54,0.44999999999999996,0.405,6
+open-data-kit.csv,0.44,0.395,0.33,4
+phet.csv,0.305,0.28500000000000003,0.43,0
+qtractor.csv,0.265,0.575,0.135,8
+sumatrapdf.csv,0.71,0.44000000000000006,0.55,5
+synergyspace.csv,0.19,0.37,0.18,3

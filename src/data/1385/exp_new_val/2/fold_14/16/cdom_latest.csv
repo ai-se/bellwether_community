@@ -1,0 +1,4 @@
+,recall,precision,pf,pci_20,ifa,wins
+freebios.csv,0.47,0.15,0.37,0.62,290.5,0
+jnode.csv,0.18,0.33,0.06,0.83,94.5,2
+tradelink.csv,0.68,0.32,0.35,0.68,372.0,1

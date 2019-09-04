@@ -1,0 +1,11 @@
+,psycle.csv,ildjit.csv,jfreereport.csv,enlightenment.csv,empserver.csv,wxjs.csv,cortex-vfx.csv,ffigo.csv,mplayer-ce.csv,wikipediardware.csv
+cortex-vfx.csv,0.04,0.34,0.36,0.24,0.18,0.21,0.22,0.25,0.37,0.07
+empserver.csv,0.26,0.62,0.9,0.14,0.27,0.83,0.86,0.66,0.42,0.0
+enlightenment.csv,1.0,1.0,1.0,0.31,1.0,1.0,1.0,1.0,1.0,1.0
+ffigo.csv,0.3,0.2,0.42,0.0,0.03,0.07,0.19,0.36,0.2,0.14
+ildjit.csv,0.24,0.12,0.27,0.22,0.3,0.23,0.94,0.14,0.81,0.14
+jfreereport.csv,0.03,0.2,0.19,0.11,0.09,0.08,0.09,0.07,0.05,0.0
+mplayer-ce.csv,0.27,0.55,0.97,0.38,0.94,0.86,0.89,0.48,0.35,0.43
+psycle.csv,0.33,0.69,0.61,0.72,0.52,0.7,0.77,0.36,0.83,0.43
+wikipediardware.csv,0.37,0.73,1.0,0.61,0.97,0.92,0.84,0.68,0.68,0.14
+wxjs.csv,0.02,0.01,0.12,0.0,0.0,0.18,0.0,0.0,0.0,0.0

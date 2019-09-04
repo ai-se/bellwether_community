@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+applet2app.csv,0.63,0.5,0.39,5
+firebird.csv,0.845,0.42,0.66,3
+fmri-dmt.csv,0.605,0.305,0.585,0
+htmlunit.csv,0.665,0.475,0.345,6
+monetdb.csv,0.435,0.56,0.20500000000000002,9
+ontomorphtab.csv,0.845,0.4,0.655,1
+smarttag.csv,0.62,0.38,0.475,2
+taokgame.csv,0.28500000000000003,0.555,0.10500000000000001,7
+webdriver.csv,0.69,0.425,0.4,4
+xbplayer.csv,0.64,0.5349999999999999,0.305,8

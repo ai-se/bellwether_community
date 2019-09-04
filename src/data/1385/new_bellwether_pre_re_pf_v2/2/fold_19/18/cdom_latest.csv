@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+alsa.csv,0.655,0.44499999999999995,0.44,7
+arcallians.csv,0.6699999999999999,0.485,0.38,12
+arianne.csv,0.955,0.38,0.945,1
+aztec.csv,0.5800000000000001,0.525,0.37,14
+bl-toolkit.csv,0.845,0.365,0.94,0
+clamav.csv,0.63,0.505,0.52,10
+gnupdate.csv,0.56,0.455,0.395,9
+les-indemodables.csv,0.585,0.48,0.48,8
+mbse.csv,0.6950000000000001,0.44,0.705,2
+ns-3-dev-def-routing.csv,0.68,0.44499999999999995,0.525,4
+openxava.csv,0.35,0.47,0.315,6
+phonon-vlc-mplayer.csv,0.675,0.53,0.355,15
+qgis.csv,0.535,0.495,0.39,11
+vars-redux.csv,0.63,0.505,0.375,13
+xapian.csv,0.745,0.44,0.55,5
+yafdotnet.csv,0.585,0.425,0.41500000000000004,3

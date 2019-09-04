@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+benojt.csv,1.0,0.45,0.98,0
+chrysalis.csv,0.2,0.57,0.15,4
+jahshaka.csv,0.43,0.5,0.19,2
+jam-daq.csv,0.4,0.55,0.08,6
+jatlas.csv,0.02,0.57,0.0,5
+jedit.csv,0.69,0.51,0.44,1
+open-media-library.csv,0.62,0.5,0.14,3

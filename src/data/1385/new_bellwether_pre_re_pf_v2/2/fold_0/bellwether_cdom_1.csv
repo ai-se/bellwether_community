@@ -1,0 +1,8 @@
+,recall,precision,pf,cdom,bellwether
+3,0.83,0.47,0.375,4.0,qse.csv
+9,0.64,0.64,0.51,9.0,ftm.csv
+20,0.76,0.31,0.3,15.0,codesmith.csv
+38,0.435,0.42,0.35,19.0,monetdb.csv
+1,0.99,0.995,0.99,0.0,benojt.csv
+2,0.91,0.635,0.36,0.0,emftriple.csv
+37,0.585,0.665,0.41500000000000004,1.0,ivef-sdk.csv

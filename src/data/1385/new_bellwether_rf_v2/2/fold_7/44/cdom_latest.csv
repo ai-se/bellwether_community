@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+kmess.csv,0.615,0.33499999999999996,0.365,1
+minig.csv,0.5349999999999999,0.5,0.385,2
+ossbuild.csv,0.39,0.615,0.215,3
+rezilla.csv,0.505,0.385,0.455,0
+rocrail.csv,0.185,0.81,0.045,5
+webdriver.csv,0.52,0.475,0.14,4

@@ -1,0 +1,6 @@
+,sqlpower-library.csv,smartgwt.csv,bzbyte.csv,mediaportal.csv,poormans.csv
+bzbyte.csv,0.74,0.77,1.0,0.86,0.62
+mediaportal.csv,0.5,0.21,0.51,0.92,0.24
+poormans.csv,0.37,0.43,0.32,0.55,1.0
+smartgwt.csv,0.61,0.95,0.63,0.69,0.74
+sqlpower-library.csv,1.0,0.88,0.95,0.83,0.94

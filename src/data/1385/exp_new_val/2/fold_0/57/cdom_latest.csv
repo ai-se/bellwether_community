@@ -1,0 +1,14 @@
+,recall,precision,pf,pci_20,ifa,wins
+alleg.csv,0.46,0.38,0.38,0.54,467.0,0
+freewrl.csv,0.8,0.42,0.72,0.39,292.5,2
+fulguro.csv,0.39,0.26,0.29,0.51,188.0,4
+google-web-toolkit.csv,0.54,0.47,0.34,0.47,352.0,5
+jcache.csv,0.85,0.53,0.7,0.41,494.0,1
+jstock.csv,0.55,0.61,0.27,0.47,346.0,11
+mimosa.csv,0.82,0.55,0.79,0.44,292.5,6
+miranda.csv,0.19,0.4,0.12,0.58,183.0,8
+ns-3-dev-def-routing.csv,0.57,0.4,0.62,0.57,326.0,3
+ossbuild.csv,0.56,0.58,0.37,0.63,99.0,12
+qtractor.csv,0.68,0.51,0.46,0.47,229.5,10
+quarkplayer.csv,0.18,0.28,0.23,0.89,192.5,9
+synergyspace.csv,0.46,0.36,0.48,0.67,196.5,7

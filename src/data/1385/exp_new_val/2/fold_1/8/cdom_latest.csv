@@ -1,0 +1,6 @@
+,recall,precision,pf,pci_20,ifa,wins
+bdbbasic.csv,0.79,0.62,0.24,0.42,97.5,3
+google-gears.csv,0.68,0.31,0.39,0.48,99.0,0
+httpcontentparser.csv,0.32,0.32,0.05,0.63,92.5,4
+qse.csv,0.74,0.28,0.19,0.46,99.0,1
+xmemcached.csv,0.78,0.39,0.8,0.56,98.5,2

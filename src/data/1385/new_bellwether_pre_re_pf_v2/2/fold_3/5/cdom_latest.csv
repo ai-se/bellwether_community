@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+array4j.csv,0.425,0.28,0.555,0
+calcubetimer.csv,0.575,0.41500000000000004,0.48,8
+chaosrts.csv,0.33,0.295,0.375,2
+chaperon.csv,0.41000000000000003,0.48,0.365,9
+dxengine.csv,0.64,0.5,0.54,10
+emono.csv,0.73,0.39,0.76,4
+factor.csv,0.15500000000000003,0.245,0.09,5
+jas.csv,0.43,0.43,0.43,7
+jmoney.csv,0.56,0.515,0.345,12
+jmonkeyengine.csv,0.725,0.35,0.775,1
+matrex.csv,0.25,0.61,0.1,13
+primefaces.csv,0.835,0.365,0.6699999999999999,6
+roolo.csv,0.8,0.375,0.805,3
+sblim.csv,0.5,0.475,0.33499999999999996,11

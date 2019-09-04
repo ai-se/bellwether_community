@@ -1,0 +1,3 @@
+,recall,precision,pf,pci_20,ifa,wins
+jnode.csv,0.6499999999999999,0.16499999999999998,0.245,0.7,907.0,0
+openmeetings.csv,0.8,0.265,0.245,0.53,669.5,1

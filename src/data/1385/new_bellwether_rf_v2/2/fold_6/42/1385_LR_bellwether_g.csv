@@ -1,0 +1,7 @@
+,adaptagrams.csv,olsrd.csv,electric-core.csv,badtrinitycore.csv,aime.csv,geochat.csv
+adaptagrams.csv,0.99,0.2,0.57,0.64,0.47,0.27
+aime.csv,0.0,0.43,0.3,0.23,0.75,0.04
+badtrinitycore.csv,0.0,0.0,0.18,0.88,0.24,0.51
+electric-core.csv,0.61,0.56,0.94,0.56,0.55,0.52
+geochat.csv,0.59,0.42,0.33,0.2,0.62,0.94
+olsrd.csv,0.6,0.97,0.64,0.57,0.61,0.5

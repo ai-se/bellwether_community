@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+doomlegacy.csv,0.735,0.45,0.64,6
+gamestone.csv,0.21500000000000002,0.395,0.195,7
+gbif-providertoolkit.csv,0.38,0.425,0.44999999999999996,3
+heekscad.csv,0.695,0.44,0.47,8
+igarden.csv,0.345,0.485,0.185,10
+levent.csv,0.0,0.0,0.0,0
+libmesh.csv,0.275,0.355,0.365,1
+openmsx.csv,0.625,0.45999999999999996,0.6399999999999999,4
+pnotepad.csv,0.87,0.4,0.685,5
+quark.csv,0.16999999999999998,0.5,0.06,11
+tango-cs.csv,0.86,0.48,0.84,2
+xcsoar.csv,0.51,0.435,0.325,9

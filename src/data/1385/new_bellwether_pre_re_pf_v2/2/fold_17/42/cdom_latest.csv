@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+genoviz.csv,0.12,0.925,0.02,5
+irrlicht.csv,1.0,0.39,1.0,0
+qedo.csv,0.115,0.26,0.195,1
+qse.csv,0.5449999999999999,0.65,0.33,3
+toped.csv,0.71,0.345,0.61,2
+truevision.csv,0.59,0.72,0.425,4

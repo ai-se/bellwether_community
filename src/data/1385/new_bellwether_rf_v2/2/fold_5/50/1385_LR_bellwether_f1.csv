@@ -1,0 +1,7 @@
+,reactos-mirror.csv,critterding.csv,autat.csv,alpine.csv,open-data-kit.csv,fmri-dmt.csv
+alpine.csv,0.19,0.29,0.35,0.86,0.25,0.13
+autat.csv,0.32,0.42,0.9,0.15,0.3,0.07
+critterding.csv,0.41,0.95,0.41,0.21,0.5,0.06
+fmri-dmt.csv,0.0,0.0,0.0,0.0,0.05,1.0
+open-data-kit.csv,0.45,0.61,0.27,0.18,1.0,0.11
+reactos-mirror.csv,0.97,0.66,0.33,0.11,0.74,0.18

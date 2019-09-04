@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+gnupdate.csv,0.43,0.6,0.21,6
+linux-ntfs.csv,0.42,0.56,0.31,4
+olap-navigator.csv,0.81,0.43,0.53,0
+phonon-vlc-mplayer.csv,0.74,0.58,0.33,7
+qgis.csv,0.65,0.45,0.4,1
+qse.csv,0.52,0.52,0.2,5
+rebecca-aiml.csv,0.49,0.44,0.25,3
+roller.csv,0.41,0.45,0.22,2
+xapian.csv,0.45,0.7,0.19,9
+zoolib.csv,0.24,0.62,0.06,8

@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+autat.csv,0.08,0.65,0.14,11
+biodwh.csv,0.37,0.54,0.25,6
+brlcad.csv,0.87,0.55,0.89,2
+delphilhlplib.csv,0.34,0.73,0.1,14
+exordium.csv,0.38,0.6,0.33,8
+fltk.csv,0.38,0.64,0.19,12
+gzigzag.csv,0.27,0.59,0.17,9
+jcache.csv,0.45,0.56,0.5,3
+mimosa.csv,0.71,0.65,0.58,10
+moast.csv,1.0,0.48,0.98,1
+mptvseries.csv,0.38,0.73,0.18,13
+ogre.csv,1.0,0.48,1.0,0
+qdvdauthor.csv,0.26,0.56,0.16,7
+sauerbraten.csv,0.44,0.56,0.4,5
+zxing.csv,0.51,0.58,0.54,4

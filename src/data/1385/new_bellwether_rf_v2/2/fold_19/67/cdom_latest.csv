@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+adobe-source.csv,0.14,0.39,0.03,11
+atlc.csv,0.71,0.3,0.54,4
+ipfilter.csv,0.8,0.27,0.78,2
+liferea.csv,0.39,0.43,0.21,13
+miranda-icq.csv,0.27,0.4,0.12,12
+opensim4opencog.csv,0.22,0.33,0.14,8
+pclasses.csv,0.0,0.0,0.0,0
+pfaedit.csv,0.51,0.33,0.3,9
+psrchive.csv,0.1,0.3,0.08,6
+theresa.csv,0.04,0.25,0.0,5
+thrust.csv,0.34,0.2,0.43,1
+tktoolkit.csv,0.24,0.33,0.19,7
+tzod.csv,0.63,0.38,0.34,10
+yaprm.csv,0.3,0.23,0.29,3

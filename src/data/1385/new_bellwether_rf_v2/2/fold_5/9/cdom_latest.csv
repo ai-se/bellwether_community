@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+ambulant.csv,0.72,0.43,0.56,1
+ingex.csv,0.12,0.6,0.06,4
+jgnash.csv,0.1,0.44,0.08,2
+openefm.csv,0.41,0.5,0.18,3
+synecdoche.csv,0.82,0.34,0.66,0

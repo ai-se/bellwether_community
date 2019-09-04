@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+badtrinity-zero.csv,0.5800000000000001,0.425,0.435,4
+exordium.csv,0.26,0.695,0.065,13
+google-caja.csv,0.8,0.45999999999999996,0.585,5
+hydrogen.csv,0.29500000000000004,0.565,0.15,10
+kmess.csv,0.615,0.495,0.39,7
+kvs.csv,0.185,0.5,0.11,8
+megameknet.csv,0.475,0.45,0.25,6
+ns-3-dev-def-routing.csv,0.26,0.55,0.12,9
+open-ms.csv,0.38,0.38,0.415,1
+openmsx.csv,0.5700000000000001,0.4,0.475,3
+rezilla.csv,0.685,0.4,0.63,0
+sauerbraten.csv,0.29000000000000004,0.5900000000000001,0.09,12
+webdriver.csv,0.445,0.505,0.14500000000000002,11
+yafdotnet.csv,0.835,0.39,0.665,2

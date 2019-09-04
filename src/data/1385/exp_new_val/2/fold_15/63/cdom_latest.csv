@@ -1,0 +1,8 @@
+,recall,precision,pf,pci_20,ifa,wins
+betoffice.csv,0.64,0.51,0.66,0.53,616.5,3
+elvishrayrenderer.csv,0.58,0.51,0.36,0.46,454.5,6
+graphmak.csv,0.65,0.48,0.75,0.5,665.0,0
+hazelcast.csv,0.62,0.51,0.58,0.33,731.0,1
+jrdf.csv,0.37,0.48,0.24,0.67,292.5,5
+pdfedit.csv,0.65,0.45,0.57,0.51,524.0,2
+tart.csv,0.63,0.48,0.43,0.48,366.0,4

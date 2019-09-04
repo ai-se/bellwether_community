@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+dxengine.csv,0.25,0.75,0.07,10
+freedom-erp.csv,0.03,0.5,0.02,4
+haggle.csv,0.3,0.52,0.15,6
+jchassis.csv,0.0,0.0,0.0,1
+jmoney.csv,0.12,0.65,0.08,8
+jsidplay2.csv,0.48,0.54,0.4,3
+madman.csv,0.02,0.6,0.0,7
+matrex.csv,0.12,0.62,0.08,5
+mediate.csv,0.4,0.62,0.22,9
+primefaces.csv,0.45,0.43,0.57,0
+tmva.csv,0.56,0.58,0.48,2

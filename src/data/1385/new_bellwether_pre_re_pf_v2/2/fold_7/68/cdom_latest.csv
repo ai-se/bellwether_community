@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+anaxagora.csv,0.6,0.36,0.43,5
+carabiner.csv,0.82,0.33,0.77,2
+continuum-ide.csv,0.17,0.48,0.18,8
+gtad.csv,0.33,0.32,0.13,7
+htmlunit.csv,0.57,0.33,0.35,6
+jsr308-langtools.csv,0.93,0.17,0.83,0
+kaffeine.csv,0.82,0.33,0.6,4
+stemkit.csv,0.36,0.17,0.26,1
+taokgame.csv,0.18,0.3,0.18,3

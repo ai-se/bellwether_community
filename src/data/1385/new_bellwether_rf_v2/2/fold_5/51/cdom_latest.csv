@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+emeraldemu.csv,0.33,0.7,0.15,10
+grafx2.csv,0.69,0.47,0.36,7
+jahshakafx.csv,0.35,0.67,0.09,11
+kftpgrabber.csv,0.42,0.46,0.2,6
+kindb.csv,0.67,0.49,0.32,8
+maya-work-in-progress.csv,0.76,0.41,0.42,5
+netatalk.csv,0.33,0.73,0.06,12
+nullc.csv,0.93,0.33,0.94,1
+plee-the-bear.csv,0.33,0.32,0.61,0
+reaper-ecad.csv,0.74,0.35,0.57,3
+unimrcp.csv,0.19,0.67,0.05,9
+unladen-swallow.csv,0.38,0.4,0.42,2
+xmoto.csv,0.72,0.39,0.57,4

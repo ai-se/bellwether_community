@@ -1,0 +1,7 @@
+,n2cms.csv,nug.csv,codeblocks.csv,bulmages.csv,uclmda.csv,dataobjectsdotnet.csv
+bulmages.csv,0.92,0.9,0.98,0.05,1.01,0.95
+codeblocks.csv,0.73,0.96,0.0,0.94,0.39,0.71
+dataobjectsdotnet.csv,0.87,0.73,0.76,0.87,0.71,0.03
+n2cms.csv,0.02,0.82,0.82,0.85,1.05,0.75
+nug.csv,0.77,0.0,0.87,0.84,0.76,0.64
+uclmda.csv,0.79,0.95,0.97,0.83,0.0,0.81

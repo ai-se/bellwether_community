@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+ardour.csv,0.59,0.67,0.19,14
+bl-toolkit.csv,0.71,0.4,0.88,0
+bochs.csv,0.8,0.56,0.53,4
+emeraldemu.csv,0.48,0.69,0.17,12
+fbmanager.csv,1.0,0.55,1.0,1
+modellus.csv,0.58,0.68,0.21,13
+openmalaria.csv,0.79,0.57,0.42,9
+pi-qmc.csv,0.67,0.5,0.59,2
+plplot.csv,0.66,0.56,0.41,3
+powerfolder.csv,0.59,0.61,0.18,11
+psycle.csv,0.88,0.57,0.55,8
+qgis.csv,0.63,0.55,0.3,6
+sbml.csv,0.79,0.56,0.5,5
+unimrcp.csv,0.38,0.59,0.14,7
+wow-qrsk.csv,0.45,0.62,0.14,10

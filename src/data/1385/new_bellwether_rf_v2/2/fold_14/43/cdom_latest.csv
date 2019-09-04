@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+badtrinity-zero.csv,0.52,0.44,0.3,6
+bibletime.csv,0.72,0.45,0.44,5
+boost.csv,0.69,0.47,0.51,4
+codepurge.csv,0.37,0.51,0.21,8
+etics.csv,0.81,0.5,0.67,3
+gusanos.csv,0.69,0.4,0.52,1
+kvs.csv,0.21,0.52,0.12,9
+mcore3d.csv,0.55,0.39,0.46,0
+modellus.csv,0.54,0.54,0.22,11
+monetdb.csv,0.42,0.51,0.45,2
+projecteqemu.csv,0.37,0.64,0.17,12
+pydev.csv,0.41,0.44,0.22,7
+xbplayer.csv,0.29,0.57,0.19,10

@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.66,0.55,0.39,6.0,springside.csv
+9,0.73,0.575,0.385,1.0,atunes.csv
+12,0.48,0.385,0.3,9.0,voms.csv
+26,0.885,0.52,0.41000000000000003,4.0,bzbyte.csv
+32,0.665,0.45,0.34,17.0,jstock.csv
+51,0.13,0.425,0.315,16.0,mvdsv.csv
+23,0.81,0.585,0.585,1.0,magicwars.csv
+24,0.45,0.55,0.41,4.0,codesmith.csv
+25,0.78,0.7250000000000001,0.67,0.0,xmemcached.csv

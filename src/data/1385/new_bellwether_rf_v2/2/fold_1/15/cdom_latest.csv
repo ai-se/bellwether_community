@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+codeblocks.csv,0.74,0.435,0.485,3
+extprosys.csv,0.64,0.36,0.6499999999999999,0
+fluidium.csv,0.37,0.395,0.265,1
+haphazard.csv,0.13999999999999999,0.5900000000000001,0.08,5
+qcad2.csv,0.26,0.52,0.2,4
+silvertree.csv,0.29000000000000004,0.405,0.21,2

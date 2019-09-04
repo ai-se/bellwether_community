@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+amateur-scrolls.csv,0.26,0.71,0.11,14
+arianne.csv,0.38,0.42,0.4,1
+auber.csv,0.56,0.58,0.33,10
+bl-toolkit.csv,0.58,0.56,0.46,5
+growl-for-windows.csv,0.49,0.46,0.35,3
+keyczar.csv,0.52,0.55,0.46,4
+kml.csv,0.51,0.64,0.27,12
+knowledge.csv,0.9,0.54,0.72,2
+les-indemodables.csv,0.25,0.62,0.15,11
+lportal.csv,0.22,0.48,0.49,0
+lufa-lib.csv,0.56,0.58,0.37,8
+micomt.csv,0.4,0.73,0.24,13
+sigil.csv,0.59,0.61,0.4,9
+ultimairis.csv,0.64,0.57,0.5,6
+voms.csv,0.03,0.5,0.0,7

@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+avifile.csv,0.1,0.22,0.16,3
+fluidium.csv,0.27,0.23,0.28,2
+gogoego.csv,0.27,0.53,0.2,6
+httpcontentparser.csv,0.17,0.38,0.15,5
+patterntesting.csv,0.61,0.31,0.39,4
+pokeglobal.csv,0.83,0.27,0.77,0
+qtwin.csv,0.0,0.0,0.0,1

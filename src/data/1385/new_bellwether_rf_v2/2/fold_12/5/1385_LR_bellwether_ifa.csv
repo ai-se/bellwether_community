@@ -1,0 +1,12 @@
+,jmoney.csv,sqlpower-library.csv,neodatis-odb.csv,cuberok.csv,gabel.csv,mycila.csv,tmva.csv,unicase.csv,servicestack.csv,synecdoche.csv,javaprofiler.csv
+cuberok.csv,2.0,0.0,2.0,0.0,4.0,0.0,0.0,0.0,1.0,0.0,1.0
+gabel.csv,0.0,0.0,106.0,0.0,0.0,51.0,225.0,0.0,62.0,71.0,110.0
+javaprofiler.csv,11.0,0.0,0.0,3.0,33.0,3.0,0.0,0.0,3.0,2.0,0.0
+jmoney.csv,0.0,0.0,1.0,0.0,7.0,51.0,0.0,0.0,3.0,1.0,2.0
+mycila.csv,7.0,0.0,0.0,2.0,99.0,0.0,0.0,1.0,2.0,0.0,3.0
+neodatis-odb.csv,10.0,0.0,0.0,4.0,99.0,51.0,0.0,0.0,0.0,0.0,1.0
+servicestack.csv,15.0,0.0,0.0,4.0,7.0,11.0,2.0,1.0,0.0,3.0,0.0
+sqlpower-library.csv,14.0,0.0,0.0,2.0,16.0,7.0,1.0,0.0,0.0,0.0,0.0
+synecdoche.csv,3.0,0.0,4.0,3.0,34.0,2.0,0.0,0.0,0.0,0.0,1.0
+tmva.csv,10.0,0.0,0.0,3.0,1.0,1.0,0.0,0.0,2.0,2.0,0.0
+unicase.csv,12.0,1.0,0.0,1.0,8.0,2.0,1.0,0.0,4.0,0.0,0.0

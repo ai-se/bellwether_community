@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+bochs.csv,0.66,0.495,0.535,2
+encog-java.csv,0.135,0.53,0.055,4
+h2database.csv,0.38,0.595,0.155,5
+jaql.csv,0.415,0.525,0.22499999999999998,3
+raven-monitoring.csv,0.41000000000000003,0.35,0.37,1
+v8.csv,0.6699999999999999,0.35,0.55,0

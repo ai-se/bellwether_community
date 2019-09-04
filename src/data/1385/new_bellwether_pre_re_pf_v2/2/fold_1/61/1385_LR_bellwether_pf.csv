@@ -1,0 +1,8 @@
+,knowledge.csv,pentahoanalysistool.csv,betoffice.csv,ifmo-game-1.csv,voms.csv,sumatrapdf.csv,projecteqemu.csv
+betoffice.csv,0.8,0.41,0.53,0.81,0.83,0.84,0.64
+ifmo-game-1.csv,0.0,0.14,0.04,0.23,0.08,0.53,0.0
+knowledge.csv,0.0,0.63,0.93,0.84,0.64,0.8,0.71
+pentahoanalysistool.csv,0.2,0.32,0.27,0.21,0.62,0.27,0.44
+projecteqemu.csv,0.4,0.42,0.07,0.26,0.08,0.16,0.36
+sumatrapdf.csv,0.6,0.86,0.78,0.82,0.52,0.15,0.87
+voms.csv,0.2,0.63,0.22,0.36,0.21,0.11,0.38

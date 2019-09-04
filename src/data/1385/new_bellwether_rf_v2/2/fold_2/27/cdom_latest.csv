@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+autat.csv,0.57,0.43,0.18,3
+dynalloy.csv,0.74,0.38,0.33,1
+findbugs.csv,0.5,0.31,0.25,0
+runuomondains.csv,0.23,1.0,0.0,4
+xbplayer.csv,0.12,0.5,0.06,2

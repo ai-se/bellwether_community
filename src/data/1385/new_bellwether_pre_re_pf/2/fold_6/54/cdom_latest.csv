@@ -1,0 +1,4 @@
+,recall,precision,pf,wins
+graphmak.csv,0.68,0.61,0.24,2
+pdfedit.csv,0.66,0.69,0.59,1
+rectracker.csv,0.84,0.53,0.7,0

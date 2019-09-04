@@ -1,0 +1,4 @@
+,recall,precision,pf,pci_20,ifa,wins
+openintents.csv,0.66,0.6,0.75,0.35,94.5,0
+rectracker.csv,1.0,0.79,0.92,0.34,98.5,2
+x4x.csv,0.76,0.67,0.44,0.39,185.0,1

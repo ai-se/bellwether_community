@@ -1,0 +1,7 @@
+,recall,precision,pf,cdom,bellwether
+2,0.68,0.42,0.3,19.0,dataobjectsdotnet.csv
+23,0.2,0.405,0.35,6.0,jmoney.csv
+31,0.185,0.39,0.29500000000000004,3.0,novembre.csv
+36,0.46499999999999997,0.4,0.225,11.0,snakeyaml.csv
+49,0.37,0.33,0.25,13.0,projecteqemu.csv
+1,0.86,0.9299999999999999,0.86,0.0,atunes.csv

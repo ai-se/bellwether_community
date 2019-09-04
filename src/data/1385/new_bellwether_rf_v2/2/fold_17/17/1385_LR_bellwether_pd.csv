@@ -1,0 +1,4 @@
+,mbse.csv,clamav.csv,yafdotnet.csv
+clamav.csv,0.29,1.0,0.21
+mbse.csv,0.92,0.5,0.42
+yafdotnet.csv,0.97,0.95,0.96

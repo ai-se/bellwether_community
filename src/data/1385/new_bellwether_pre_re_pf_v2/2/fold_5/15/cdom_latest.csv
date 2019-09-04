@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+archive-crawler.csv,0.41,0.46,0.24,11
+avifile.csv,0.22,0.33,0.28,7
+baadengine.csv,0.89,0.3,0.82,3
+gdis.csv,0.73,0.37,0.62,8
+gogoego.csv,0.62,0.33,0.55,6
+impala.csv,0.49,0.21,0.4,2
+jgameai.csv,0.23,0.4,0.26,9
+jhotdraw.csv,0.69,0.3,0.6,4
+patterntesting.csv,0.93,0.29,0.96,0
+pokeglobal.csv,0.77,0.31,0.64,5
+werx.csv,0.98,0.29,0.99,1
+zealos.csv,0.4,0.36,0.27,10
