@@ -1,0 +1,8 @@
+,recall,precision,pf,cdom,bellwether
+3,0.21,0.325,0.25,4.0,pentahoanalysistool.csv
+9,0.765,0.48,0.365,9.0,sylpheed-claws.csv
+20,0.405,0.32,0.26,15.0,gmerlin.csv
+38,0.555,0.33,0.22,19.0,qtractor.csv
+1,1.0,1.0,1.0,0.0,benojt.csv
+2,1.0,1.0,1.0,0.0,emftriple.csv
+37,0.575,0.94,0.26,1.0,ivef-sdk.csv

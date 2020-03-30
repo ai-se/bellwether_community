@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+capcode.csv,0.5,0.61,0.18,3
+nh3d.csv,0.08,1.0,0.0,4
+projectts.csv,1.0,0.25,0.82,0
+sqlpower-library.csv,1.0,0.25,0.7,1
+vxl.csv,0.37,0.59,0.17,2

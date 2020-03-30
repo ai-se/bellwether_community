@@ -1,0 +1,5 @@
+,jlinalg.csv,arcallians.csv,yale.csv,qmmp.csv
+arcallians.csv,0.76,0.73,0.17,0.65
+jlinalg.csv,0.98,0.55,0.17,0.65
+qmmp.csv,0.92,0.52,0.24,0.8
+yale.csv,0.92,0.53,0.24,0.4

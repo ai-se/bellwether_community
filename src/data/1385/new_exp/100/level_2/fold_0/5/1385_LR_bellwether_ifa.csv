@@ -1,0 +1,10 @@
+,vapor.csv,zscreen.csv,autoopencas.csv,mbse.csv,avisynth2.csv,lportal.csv,les-indemodables.csv,simplewebservices.csv,mplayer-ce.csv
+autoopencas.csv,95.0,72.0,1.0,262.0,64.0,171.0,101.0,240.0,0.0
+avisynth2.csv,95.0,0.0,166.0,262.0,0.0,3583.0,0.0,240.0,627.0
+les-indemodables.csv,95.0,72.0,166.0,262.0,35.0,3583.0,0.0,240.0,627.0
+lportal.csv,95.0,72.0,166.0,262.0,64.0,3583.0,101.0,240.0,627.0
+mbse.csv,4.0,0.0,166.0,0.0,35.0,3583.0,0.0,0.0,627.0
+mplayer-ce.csv,95.0,72.0,166.0,262.0,64.0,3583.0,101.0,240.0,627.0
+simplewebservices.csv,95.0,0.0,166.0,262.0,35.0,3583.0,0.0,1.0,627.0
+vapor.csv,0.0,0.0,166.0,262.0,35.0,3583.0,0.0,0.0,627.0
+zscreen.csv,95.0,0.0,166.0,262.0,35.0,3583.0,0.0,0.0,627.0

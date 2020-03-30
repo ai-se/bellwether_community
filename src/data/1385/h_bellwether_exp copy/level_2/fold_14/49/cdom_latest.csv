@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+illumination.csv,0.44,0.29,0.16,3
+kftpgrabber.csv,0.29,0.65,0.15,5
+kindb.csv,0.43,0.77,0.12,6
+m-a-d-n-e-s-s.csv,0.22,0.6,0.06,4
+netatalk.csv,0.76,0.38,0.62,1
+quickfast.csv,0.86,0.3,0.72,0
+wow-qrsk.csv,0.37,0.38,0.25,2

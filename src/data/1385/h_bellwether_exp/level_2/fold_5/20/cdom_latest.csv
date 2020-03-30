@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+foursquared.csv,0.04,0.32,0.01,3
+repositorium.csv,0.29000000000000004,0.255,0.29500000000000004,1
+simplewebservices.csv,0.75,0.275,0.545,2
+xbg.csv,0.21,0.17,0.22000000000000003,0

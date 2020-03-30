@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+awemud.csv,0.61,0.5,0.36,7
+clamav.csv,0.535,0.495,0.33,5
+dvd-create.csv,0.76,0.43000000000000005,0.675,0
+gbif-indexingtoolkit.csv,0.345,0.52,0.245,8
+go.csv,0.665,0.51,0.405,9
+kwave.csv,0.7649999999999999,0.41500000000000004,0.53,1
+libarchive.csv,0.59,0.52,0.44,6
+liferea.csv,0.24,0.5,0.17,4
+linux-ntfs.csv,0.495,0.44,0.405,2
+mpgravity.csv,0.765,0.52,0.635,3

@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+applet2app.csv,0.865,0.52,0.755,2
+autowikibrowser.csv,0.585,0.69,0.255,13
+cities3d.csv,0.435,0.405,0.5549999999999999,0
+kmatplot.csv,0.27,0.5700000000000001,0.245,9
+libarchive.csv,0.635,0.5800000000000001,0.375,11
+lphant.csv,0.72,0.53,0.47,8
+mob-sen-plat.csv,0.33,0.41500000000000004,0.37,1
+mscore.csv,0.65,0.5349999999999999,0.45999999999999996,6
+pidgin.csv,0.665,0.55,0.46499999999999997,7
+quickfast.csv,0.735,0.48,0.61,4
+raygina.csv,0.525,0.52,0.4,5
+riff-evolve.csv,0.66,0.66,0.41,12
+upp-mirror.csv,0.435,0.56,0.245,10
+wishmaster.csv,0.18,0.33999999999999997,0.19,3

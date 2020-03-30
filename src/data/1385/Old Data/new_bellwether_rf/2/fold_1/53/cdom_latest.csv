@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+fityk.csv,0.5,0.595,0.24,0
+k3b.csv,0.5249999999999999,0.615,0.23,1
+mp-rechnungs-und-kundenverwaltung.csv,0.325,0.73,0.18,2
+thrust.csv,0.47000000000000003,0.77,0.195,3

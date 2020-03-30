@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+abbot.csv,0.77,0.32,0.71,1
+aufs.csv,0.33,0.5,0.26,9
+bulmages.csv,0.18,0.5,0.15,10
+coot.csv,0.27,0.33,0.19,7
+emono.csv,0.66,0.29,0.65,0
+extprosys.csv,0.77,0.48,0.74,6
+freelords.csv,0.95,0.4,0.76,2
+jnode.csv,0.07,0.5,0.05,12
+jruby.csv,0.59,0.31,0.34,4
+jsecurity.csv,0.55,0.5,0.32,11
+matrex.csv,0.16,0.52,0.07,13
+officefloor.csv,0.12,0.41,0.06,8
+projectfactory.csv,0.52,0.38,0.43,5
+taverna.csv,0.24,0.54,0.15,14
+vxl.csv,0.34,0.39,0.36,3

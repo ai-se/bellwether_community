@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+autofac.csv,0.48,0.77,0.35,4
+buddata-ebxml-registry.csv,1.0,0.48,1.0,1
+fluidium.csv,0.47,0.64,0.38,3
+illumination.csv,0.4,0.73,0.1,8
+jsr308-langtools.csv,0.55,0.67,0.2,6
+olsrd.csv,0.53,0.41,0.35,2
+reaper-ecad.csv,0.66,0.45,0.81,0
+rtb-team.csv,0.47,0.73,0.18,7
+sidekar.csv,0.53,0.73,0.32,5

@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.66,0.45,0.4,6.0,synecdoche.csv
+9,0.85,0.3,0.295,1.0,atunes.csv
+12,0.53,0.42,0.31,9.0,wow-qrsk.csv
+26,0.74,0.525,0.45499999999999996,3.0,fbmanager.csv
+31,0.63,0.56,0.4,18.0,delphilhlplib.csv
+51,0.8,0.37,0.33,17.0,nug.csv
+23,0.8300000000000001,0.605,0.605,1.0,magicwars.csv
+24,0.59,0.495,0.41,2.0,esmf.csv
+25,0.7,0.635,0.57,0.0,xmemcached.csv

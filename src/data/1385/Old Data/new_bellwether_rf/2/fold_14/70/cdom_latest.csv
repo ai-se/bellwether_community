@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+crisscross.csv,0.11,0.4,0.16,5
+l2j.csv,0.93,0.29,0.54,3
+libmesh.csv,0.08,0.14,0.14,1
+mvdsv.csv,0.0,0.0,0.0,0
+nova.csv,0.86,0.3,0.68,2
+proftp.csv,0.29,0.29,0.22,4

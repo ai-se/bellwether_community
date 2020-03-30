@@ -1,0 +1,10 @@
+,openwbem.csv,nova.csv,crisscross.csv,mb-unit.csv,mvdsv.csv,ivataopenportal.csv,iaml.csv,cubefs.csv,elynx.csv,xcmetadataservicestoolkit.csv
+crisscross.csv,0.14,0.62,0.9,0.36,0.0,0.11,0.57,0.65,0.0,0.22
+cubefs.csv,0.32,0.31,1.0,0.53,0.0,0.56,0.52,0.97,1.0,0.52
+iaml.csv,0.59,0.38,0.67,0.78,1.0,0.3,0.97,0.4,0.0,0.57
+ivataopenportal.csv,0.68,0.69,0.1,0.77,0.0,0.97,0.47,0.47,0.0,0.55
+mb-unit.csv,0.93,0.23,0.67,1.0,1.0,0.92,0.36,0.74,0.0,0.65
+mvdsv.csv,0.0,0.0,0.0,0.0,1.0,0.0,0.01,0.0,0.0,0.0
+nova.csv,0.37,1.0,0.57,0.28,0.0,0.16,0.36,0.52,0.0,0.48
+openwbem.csv,0.94,0.69,0.43,0.75,0.67,0.66,0.47,0.94,0.0,0.82
+xcmetadataservicestoolkit.csv,0.52,0.54,0.67,0.5,0.33,0.59,0.58,0.27,1.0,1.0

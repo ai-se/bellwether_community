@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+atomsite.csv,0.365,0.55,0.20500000000000002,3
+bullet.csv,0.87,0.385,0.69,0
+openintents.csv,0.335,0.59,0.185,4
+pokenetonline.csv,0.435,0.48,0.135,2
+tktoolkit.csv,0.885,0.5,0.885,1
+zealos.csv,0.6499999999999999,0.6,0.42500000000000004,5

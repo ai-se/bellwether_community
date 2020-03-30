@@ -1,0 +1,3 @@
+,recall,precision,pf,wins
+bloodycore.csv,0.44,0.375,0.22,1
+raygina.csv,0.625,0.375,0.42000000000000004,0

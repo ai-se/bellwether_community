@@ -1,0 +1,8 @@
+,adaptagrams.csv,go.csv,bibedt.csv,moving-pictures.csv,libmesh.csv,glelite.csv,fulguro.csv
+adaptagrams.csv,1.0,0.78,0.0,0.44,0.5,1.0,0.0
+bibedt.csv,0.67,0.94,1.0,0.52,0.33,1.0,0.13
+fulguro.csv,0.67,1.0,0.28,0.83,0.36,0.97,1.0
+glelite.csv,0.52,0.65,0.2,0.47,0.36,1.0,0.13
+go.csv,0.58,0.99,0.26,0.58,0.42,0.99,0.14
+libmesh.csv,0.82,0.56,0.5,0.36,0.8,0.85,0.14
+moving-pictures.csv,0.42,0.76,0.29,1.0,0.38,1.0,0.18

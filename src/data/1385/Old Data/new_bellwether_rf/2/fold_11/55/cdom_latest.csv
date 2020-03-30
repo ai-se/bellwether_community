@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+amygdala.csv,0.425,0.47,0.38,4
+awemud.csv,0.59,0.505,0.41000000000000003,7
+buddata-ebxml-registry.csv,1.0,0.41,1.0,0
+cornerstone.csv,0.39,0.545,0.29000000000000004,10
+firebreath.csv,0.67,0.44,0.495,3
+lsb.csv,0.8300000000000001,0.495,0.735,5
+maya-work-in-progress.csv,0.755,0.485,0.58,6
+mia.csv,0.28,0.445,0.23500000000000001,1
+open-beos.csv,0.455,0.51,0.27,9
+qgis.csv,0.5,0.5249999999999999,0.36,8
+rocrail.csv,0.215,0.65,0.08,13
+rtb-team.csv,0.39,0.635,0.18,12
+tradelink.csv,0.18,0.45,0.16,2
+upp-mirror.csv,0.28500000000000003,0.535,0.15500000000000003,11

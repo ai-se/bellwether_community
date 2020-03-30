@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+chipster.csv,0.33,0.29,0.11,8
+codepurge.csv,0.64,0.4,0.47,11
+fontforge.csv,0.94,0.36,0.98,3
+gmerlin.csv,0.9,0.14,0.88,0
+hatari.csv,0.76,0.41,0.69,6
+jaolt.csv,0.5,0.34,0.38,7
+jcl.csv,0.41,0.39,0.34,9
+ltp.csv,0.71,0.45,0.6,12
+mia.csv,0.4,0.46,0.23,15
+net-snmp.csv,0.81,0.36,0.71,5
+opde.csv,0.72,0.45,0.55,13
+oppna-program-hsatools.csv,0.82,0.42,0.54,14
+powerfolder-.csv,0.72,0.4,0.54,10
+qlc.csv,0.37,0.23,0.25,4
+quantlib.csv,0.06,0.19,0.22,1
+tcl.csv,0.65,0.29,0.67,2

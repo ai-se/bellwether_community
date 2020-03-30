@@ -1,0 +1,7 @@
+,lazarus-ccr.csv,migen.csv,mvnforum.csv,plplot.csv,lcfizvtop.csv,buddata-ebxml-registry.csv
+buddata-ebxml-registry.csv,0.0,0.27,0.21,0.0,0.24,1.0
+lazarus-ccr.csv,0.93,0.54,0.7,0.33,0.46,0.47
+lcfizvtop.csv,0.33,0.3,0.26,0.22,0.93,0.12
+migen.csv,0.41,0.93,0.49,0.55,0.3,0.28
+mvnforum.csv,0.0,0.3,0.95,0.28,0.11,0.24
+plplot.csv,0.44,0.71,0.52,0.88,0.31,0.44

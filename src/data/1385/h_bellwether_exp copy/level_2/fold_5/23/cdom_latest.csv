@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+arcallians.csv,0.735,0.5800000000000001,0.39,4
+aztec.csv,0.715,0.54,0.195,5
+mplayer-ce.csv,0.77,0.56,0.6499999999999999,1
+qmmp.csv,0.74,0.475,0.65,0
+synergyspace.csv,0.15,0.565,0.125,3
+xtreemfs.csv,0.875,0.5,0.365,2

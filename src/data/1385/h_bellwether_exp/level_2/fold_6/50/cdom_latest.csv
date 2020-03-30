@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+biodwh.csv,0.43000000000000005,0.635,0.22,7
+delphilhlplib.csv,0.26,0.795,0.225,9
+factor.csv,0.27,0.515,0.195,5
+fceugc.csv,0.46,0.5,0.47,2
+fltk.csv,0.55,0.665,0.29000000000000004,8
+jstock.csv,0.385,0.73,0.2,10
+lportal.csv,0.04,0.745,0.0,11
+natpad.csv,0.775,0.595,0.68,4
+ogre.csv,0.61,0.33999999999999997,0.71,0
+phet.csv,0.415,0.275,0.49,1
+sandiaportals.csv,0.625,0.63,0.39,6
+sumatrapdf.csv,0.925,0.59,0.8200000000000001,3

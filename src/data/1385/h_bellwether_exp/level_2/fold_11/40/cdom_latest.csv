@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+freenet.csv,0.885,0.485,0.86,0
+javagroups.csv,0.535,0.5349999999999999,0.35,6
+jrefactory.csv,0.815,0.52,0.625,3
+logicmail.csv,0.99,0.485,0.9299999999999999,1
+nodal.csv,0.405,0.53,0.255,5
+soar.csv,0.915,0.53,0.9,2
+taverna.csv,0.48,0.515,0.26,4
+web-cat.csv,0.755,0.5700000000000001,0.56,7

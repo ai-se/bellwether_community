@@ -1,0 +1,9 @@
+,alembik.csv,emisview.csv,mediate.csv,botsnscouts.csv,anaxagora.csv,matrex.csv,ontopia.csv,mediaportal.csv
+alembik.csv,1.0,0.67,0.78,0.88,0.26,0.69,0.7,0.34
+anaxagora.csv,0.38,0.18,0.58,0.5,1.0,0.66,0.96,0.23
+botsnscouts.csv,0.58,0.38,0.5,1.0,0.14,0.62,0.73,0.25
+emisview.csv,0.59,1.0,0.5,0.46,0.25,0.58,0.81,0.22
+matrex.csv,0.25,0.22,0.63,0.69,0.2,1.0,0.8,0.26
+mediaportal.csv,0.33,0.18,0.54,0.48,0.16,0.42,0.84,0.91
+mediate.csv,0.61,0.42,1.0,0.64,0.18,0.58,0.78,0.32
+ontopia.csv,0.25,0.25,0.54,0.54,0.14,0.71,1.0,0.23

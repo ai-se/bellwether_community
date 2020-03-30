@@ -1,0 +1,8 @@
+,recall,precision,pf,cdom,bellwether
+3,0.31,0.4,0.19,4.0,vars-redux.csv
+9,0.61,0.575,0.4,9.0,grafx2.csv
+20,0.28500000000000003,0.355,0.26,15.0,gmerlin.csv
+38,0.83,0.31,0.26,19.0,micomt.csv
+1,1.0,1.0,1.0,0.0,benojt.csv
+2,1.0,1.0,1.0,0.0,emftriple.csv
+37,0.565,0.765,0.49,1.0,ivef-sdk.csv

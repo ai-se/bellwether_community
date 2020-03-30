@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+bwapi.csv,0.965,0.625,0.835,1
+cities3d.csv,0.505,0.7050000000000001,0.54,3
+img-browse-sort.csv,0.485,0.81,0.25,7
+levent.csv,0.74,0.675,0.5,5
+pnotepad.csv,0.925,0.6599999999999999,0.835,2
+selenium.csv,0.5549999999999999,0.675,0.37,4
+somap.csv,0.995,0.615,1.0,0
+xemeiah.csv,0.33499999999999996,0.82,0.26,6

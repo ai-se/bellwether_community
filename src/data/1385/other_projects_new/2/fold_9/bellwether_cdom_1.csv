@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.39,0.47,0.37,7.0,mp-rechnungs-und-kundenverwaltung.csv
+10,0.79,0.79,0.485,1.0,gpsmid.csv
+13,0.54,0.38,0.31,8.0,voms.csv
+26,0.65,0.62,0.47,4.0,myfaces.csv
+32,0.69,0.35,0.31,16.0,img-browse-sort.csv
+50,0.68,0.34,0.32,18.0,silvertree.csv
+23,0.8200000000000001,0.585,0.585,1.0,magicwars.csv
+24,0.48,0.45999999999999996,0.385,3.0,personalaccess.csv
+25,0.78,0.67,0.56,0.0,xmemcached.csv

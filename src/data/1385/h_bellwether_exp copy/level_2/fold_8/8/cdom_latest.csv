@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+array4j.csv,0.5,0.25,0.5,2
+emono.csv,0.8,0.22,0.77,0
+freedom-erp.csv,0.17,0.21,0.14,4
+haggle.csv,0.25,0.36,0.12,11
+jbpm.csv,0.03,0.17,0.02,3
+jgossipforum.csv,0.36,0.38,0.2,12
+joustsim.csv,0.65,0.34,0.46,9
+log4net.csv,0.25,0.32,0.17,8
+madman.csv,0.24,0.42,0.26,10
+mediate.csv,0.45,0.27,0.39,5
+pustefix.csv,0.31,0.26,0.23,6
+synecdoche.csv,0.63,0.29,0.48,7
+tmva.csv,0.8,0.22,0.69,1

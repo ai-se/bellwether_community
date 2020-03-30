@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+cleartk.csv,0.835,0.43,0.8,1
+forester-atv.csv,0.21000000000000002,0.56,0.095,5
+google-collections.csv,1.0,0.435,1.0,0
+jsecurity.csv,0.22,0.535,0.21,3
+opensim4opencog.csv,0.33,0.515,0.215,4
+paintown.csv,0.485,0.595,0.22999999999999998,7
+smbopensoft.csv,0.505,0.565,0.26,6
+thout.csv,0.585,0.47,0.44,2

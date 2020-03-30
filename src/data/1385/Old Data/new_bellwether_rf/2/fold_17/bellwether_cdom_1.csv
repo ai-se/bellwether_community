@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.5,0.41000000000000003,0.27,6.0,synecdoche.csv
+9,0.495,0.52,0.09,1.0,fluent-nhibernate.csv
+12,0.52,0.33,0.25,9.0,rsyslog.csv
+26,0.145,0.445,0.24,3.0,lamp.csv
+31,0.54,0.33,0.23,18.0,ktc.csv
+51,0.5,0.25,0.19,17.0,mevenide.csv
+23,0.895,0.895,0.7749999999999999,1.0,magicwars.csv
+24,0.39,0.64,0.46499999999999997,2.0,pentahoanalysistool.csv
+25,0.96,0.98,0.96,0.0,xmemcached.csv

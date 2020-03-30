@@ -1,0 +1,8 @@
+,encog-java.csv,h2database.csv,raven-monitoring.csv,jaql.csv,bochs.csv,haphazard.csv,v8.csv
+bochs.csv,0.22,0.22,0.53,0.53,0.66,0.33,0.82
+encog-java.csv,0.39,0.12,0.05,0.38,0.32,0.17,0.07
+h2database.csv,0.32,0.38,0.18,0.62,0.4,0.27,0.22
+haphazard.csv,0.23,0.17,0.59,0.34,0.3,0.38,0.28
+jaql.csv,0.27,0.31,0.36,0.63,0.46,0.23,0.22
+raven-monitoring.csv,0.25,0.16,0.62,0.42,0.11,0.39,0.51
+v8.csv,0.07,0.26,0.5,0.42,0.51,0.26,0.91

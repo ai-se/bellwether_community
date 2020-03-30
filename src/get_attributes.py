@@ -82,14 +82,18 @@ class attribute(object):
         X = X.values
         selected_cols = CFS.cfs(X,y)
         fss = []
+        imp_fss = []
         cols = df.columns[[selected_cols]].tolist()
         cols.append('Buggy')
         for col in _cols:
+            _pos = cols.index(col) if col in cols else 0
             if col in cols:
                 fss.append(1)
+                imp_fss.append(_pos)
             else:
                 fss.append(0)
-        return df[cols],cols,fss
+                imp_fss.append(0)
+        return df[cols],cols,fss,imp_fss
         
     def apply_smote(self,df):
         cols = df.columns
@@ -101,9 +105,11 @@ class attribute(object):
     def get_attributes(self,projects):
         count = 0
         project_selection = {}
+        imp_project_selection = {}
         for project in projects:
             try:
                 project_attr = []
+                imp_project_attr = []
                 path = self._dir + project
                 print(project)
                 df = self.prepare_data(path)
@@ -112,20 +118,24 @@ class attribute(object):
                 else:
                     count+=1
                 for _ in range(10):
-                    _,_,fss = self.apply_cfs(df)
+                    _,_,fss,imp_fss = self.apply_cfs(df)
                     project_attr.append(fss)
+                    imp_project_attr.append(imp_fss)
                 project_attr = np.array(list(map(sum,zip(*project_attr))))/len(project_attr)
-                print(project_attr)
+                imp_project_attr = np.array(list(map(sum,zip(*imp_project_attr))))/len(imp_project_attr)
                 project_attr = [round(x) for x in project_attr]
-                project_selection[project] = project_attr      
+                imp_project_attr = [round(x) for x in imp_project_attr]
+                project_selection[project] = project_attr   
+                imp_project_selection[project] = imp_project_attr
             except Exception as e:
                 print(e)
                 continue
-        return project_selection
+        return project_selection,imp_project_selection
 
     def run_attributes_selector(self):
         threads = []
         results = {}
+        imp_results = {}
         split_projects = np.array_split(self.projects, self.cores)
         for i in range(self.cores):
             print("starting thread ",i)
@@ -134,15 +144,19 @@ class attribute(object):
         for th in threads:
             th.start()
         for th in threads:
-            response = th.join()
-            results.update(response)
-        return results
+            response1,response2 = th.join()
+            results.update(response1)
+            imp_results.update(response2)
+        return results,imp_results
 
 
 if __name__ == "__main__":
-    #path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
-    path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
+    path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
+    #path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
     attr = attribute(path)
-    project_selection = attr.run_attributes_selector()
-    with open('data/1385/projects/other_selected_attr.pkl', 'wb') as handle:
+    project_selection,imp_results = attr.run_attributes_selector()
+    print(imp_results)
+    with open('data/1385/projects/new_selected_attr.pkl', 'wb') as handle:
             pickle.dump(project_selection, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    with open('data/1385/projects/imp_selected_attr.pkl', 'wb') as handle:
+            pickle.dump(imp_results, handle, protocol=pickle.HIGHEST_PROTOCOL)

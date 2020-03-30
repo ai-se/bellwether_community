@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+fritzing.csv,0.6799999999999999,0.55,0.275,5
+jlinalg.csv,0.86,0.495,0.6799999999999999,2
+jmule.csv,0.645,0.655,0.19,6
+knowledge.csv,1.0,0.435,0.96,1
+massiv.csv,0.0,0.0,0.0,0
+ng4j.csv,0.69,0.675,0.395,4
+playerstage.csv,0.385,0.73,0.085,7
+superwaba.csv,0.605,0.595,0.365,3

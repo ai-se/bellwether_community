@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+dataobjectsdotnet.csv,0.39999999999999997,0.55,0.33,1
+img-browse-sort.csv,0.48,0.635,0.2,3
+pcsx2.csv,0.755,0.55,0.505,2
+xstore.csv,0.695,0.54,0.525,0

@@ -1,0 +1,8 @@
+,wgs-assembler.csv,nh3d.csv,jvcl.csv,blogentis.csv,m-m-m.csv,htmlunit.csv,emulemorph.csv
+blogentis.csv,0.38,0.01,0.12,1.0,0.87,0.43,0.06
+emulemorph.csv,0.0,0.0,0.0,0.16,0.88,0.11,1.0
+htmlunit.csv,0.41,0.01,0.13,0.36,0.9,1.0,0.04
+jvcl.csv,0.35,0.03,1.0,0.67,0.0,0.48,0.0
+m-m-m.csv,0.35,0.01,0.1,0.25,1.0,0.31,0.06
+nh3d.csv,0.0,1.0,0.13,0.3,0.0,0.72,0.18
+wgs-assembler.csv,1.0,0.03,0.13,0.31,0.0,0.24,0.0

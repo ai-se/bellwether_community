@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+aztec.csv,0.025,0.41500000000000004,0.065,2
+nsis.csv,0.785,0.34,0.8200000000000001,0
+papertoolkit.csv,0.03,0.365,0.01,1
+plearn.csv,0.575,0.53,0.515,4
+qdvdauthor.csv,0.575,0.405,0.275,3
+tango-cs.csv,0.64,0.51,0.26,5

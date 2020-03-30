@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+echongl.csv,0.235,0.30000000000000004,0.155,3
+emite.csv,0.33999999999999997,0.255,0.33,1
+geogebra.csv,0.41,0.36,0.2,8
+hibernate.csv,0.3,0.365,0.19,6
+httpcontentparser.csv,0.28,0.355,0.22,5
+megameknet.csv,0.605,0.3,0.435,2
+myfaces.csv,0.83,0.24,0.88,0
+ns-3.csv,0.69,0.29000000000000004,0.47,4
+ondex.csv,0.055,0.405,0.03,7
+pixel-commandos.csv,0.16999999999999998,0.595,0.04,11
+rsyslog.csv,0.62,0.385,0.275,10
+wow-qrsk.csv,0.41500000000000004,0.4,0.16499999999999998,9

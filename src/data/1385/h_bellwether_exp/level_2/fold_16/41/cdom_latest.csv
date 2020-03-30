@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+applet2app.csv,0.66,0.5,0.32,14
+autowikibrowser.csv,0.67,0.39,0.36,10
+blue-c.csv,0.73,0.38,0.63,4
+dynalloy.csv,0.67,0.36,0.56,5
+hydrogen.csv,1.0,0.36,1.0,1
+jcae.csv,0.36,0.51,0.14,13
+lphant.csv,0.73,0.41,0.36,11
+nosleepsoftware.csv,0.09,0.31,0.06,6
+qgo.csv,0.81,0.32,0.66,3
+quickfast.csv,0.75,0.38,0.57,7
+rhex.csv,0.33,0.44,0.23,9
+rocrail.csv,0.74,0.43,0.37,12
+virtuoso.csv,0.92,0.37,0.91,2
+xined.csv,0.0,0.0,0.0,0
+yield.csv,0.86,0.37,0.56,8

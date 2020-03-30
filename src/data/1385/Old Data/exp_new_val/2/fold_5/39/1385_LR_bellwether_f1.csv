@@ -1,0 +1,7 @@
+,olap-navigator.csv,ikvm.csv,sepgsql.csv,mcmc-jags.csv,pidgin.csv,salasaga.csv
+ikvm.csv,0.47,0.83,0.06,0.21,0.57,0.26
+mcmc-jags.csv,0.58,0.55,0.1,0.82,0.78,0.36
+olap-navigator.csv,0.9,0.43,0.24,0.5,0.7,0.31
+pidgin.csv,0.66,0.5,0.11,0.38,0.79,0.31
+salasaga.csv,0.42,0.59,0.09,0.43,0.79,0.42
+sepgsql.csv,0.78,0.55,0.19,0.38,0.78,0.33

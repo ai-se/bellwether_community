@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+lazarus-ccr.csv,0.67,0.4,0.6,1
+lcfizvtop.csv,0.76,0.41,0.58,2
+migen.csv,0.19,0.4,0.19,3
+mvnforum.csv,0.32,0.2,0.34,0
+plplot.csv,0.53,0.56,0.29,4

@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+fm-classic.csv,0.0,0.0,0.0,1
+foursquared.csv,0.145,0.02,0.065,2
+ifmo-game-1.csv,0.0,0.0,0.045,0
+micomt.csv,0.78,0.105,0.615,4
+voms.csv,0.06,0.06,0.10500000000000001,3

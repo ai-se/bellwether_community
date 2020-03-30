@@ -1,0 +1,12 @@
+,openwbem.csv,nova.csv,crisscross.csv,mb-unit.csv,mvdsv.csv,ivataopenportal.csv,iaml.csv,cubefs.csv,xcmetadataservicestoolkit.csv,arm-webradio.csv,gisgraphy.csv
+arm-webradio.csv,0.62,0.3,0.56,0.38,0.29,0.1,0.11,0.41,0.33,0.16,0.29
+crisscross.csv,0.98,1.0,0.28,0.89,1.0,0.7,0.68,0.0,1.0,1.0,0.88
+cubefs.csv,0.2,1.0,1.0,0.39,0.71,0.52,0.62,0.38,0.4,1.0,0.54
+gisgraphy.csv,0.09,0.0,0.06,0.08,0.03,0.02,0.02,0.82,0.13,0.1,0.17
+iaml.csv,0.07,0.16,0.49,0.07,0.22,0.31,0.33,0.03,0.47,0.16,0.5
+ivataopenportal.csv,0.67,1.0,0.8,0.9,0.9,0.3,0.9,1.0,0.87,1.0,0.92
+mb-unit.csv,0.93,0.27,0.53,0.44,1.0,0.92,0.59,0.03,0.73,0.99,0.9
+mvdsv.csv,0.03,0.32,0.0,0.14,0.06,0.01,0.08,0.12,0.0,0.02,0.04
+nova.csv,0.26,0.2,0.49,0.31,0.54,0.24,0.5,0.44,0.2,0.88,0.52
+openwbem.csv,0.27,0.07,0.18,0.37,0.3,0.77,0.13,0.56,0.27,0.13,0.46
+xcmetadataservicestoolkit.csv,0.5,1.0,0.77,0.42,0.71,0.72,0.89,0.06,0.2,1.0,0.9

@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+baadengine.csv,0.96,0.47,0.8,1
+barracudamvc.csv,0.99,0.44,0.92,0
+ingex.csv,0.27,0.57,0.28,5
+jgnash.csv,0.21,0.8,0.05,8
+jsr308-langtools.csv,0.7,0.58,0.5,6
+owlapi.csv,0.09,0.43,0.08,3
+owlib.csv,0.72,0.57,0.66,4
+sidekar.csv,0.78,0.43,0.54,2
+springside.csv,0.77,0.71,0.34,7

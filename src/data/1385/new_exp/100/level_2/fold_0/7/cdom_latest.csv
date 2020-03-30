@@ -1,0 +1,4 @@
+,recall,precision,pf,wins
+benojt.csv,1.0,0.47,1.0,0
+open-media-library.csv,0.81,0.97,0.61,1
+powerfolder-.csv,0.2,1.0,0.0,2

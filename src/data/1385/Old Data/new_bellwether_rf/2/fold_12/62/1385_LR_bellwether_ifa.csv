@@ -1,0 +1,10 @@
+,owlib.csv,baadengine.csv,barracudamvc.csv,sidekar.csv,springside.csv,jgnash.csv,jsr308-langtools.csv,owlapi.csv,ingex.csv
+baadengine.csv,4.0,0.0,0.0,0.0,11.0,55.0,8.0,36.0,1.0
+barracudamvc.csv,0.0,1.0,0.0,1.0,0.0,47.0,6.0,22.0,3.0
+ingex.csv,9.0,0.0,0.0,0.0,1.0,22.0,1.0,11.0,0.0
+jgnash.csv,0.0,11.0,0.0,0.0,1.0,0.0,0.0,13.0,4.0
+jsr308-langtools.csv,2.0,0.0,1.0,2.0,0.0,7.0,0.0,24.0,3.0
+owlapi.csv,0.0,0.0,0.0,4.0,40.0,28.0,6.0,0.0,3.0
+owlib.csv,0.0,0.0,0.0,5.0,32.0,31.0,4.0,14.0,3.0
+sidekar.csv,5.0,1.0,0.0,0.0,3.0,18.0,2.0,8.0,0.0
+springside.csv,6.0,0.0,0.0,2.0,0.0,25.0,1.0,15.0,2.0

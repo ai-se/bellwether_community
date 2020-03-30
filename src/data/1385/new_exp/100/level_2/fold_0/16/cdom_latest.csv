@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+m-m-m.csv,0.83,0.6,0.68,1
+nova.csv,0.6,0.78,0.6,2
+taverna.csv,0.17,0.96,0.0,4
+wpdev.csv,1.0,0.6,0.96,0
+x-ray-mule.csv,0.48,0.87,0.4,3

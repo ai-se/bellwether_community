@@ -1,0 +1,10 @@
+,jmoney.csv,dxengine.csv,jsidplay2.csv,sblim.csv,piccolo2d.csv,jmonkeyengine.csv,e-bio-flow.csv,matrex.csv,reaper3d.csv
+dxengine.csv,1.0,0.0,2.0,0.0,8.0,0.0,0.0,0.0,11.0
+e-bio-flow.csv,8.0,1.0,0.0,0.0,8.0,2.0,0.0,1.0,20.0
+jmoney.csv,0.0,0.0,0.0,3.0,3.0,6.0,0.0,0.0,7.0
+jmonkeyengine.csv,3.0,3.0,2.0,1.0,20.0,0.0,2.0,1.0,12.0
+jsidplay2.csv,6.0,4.0,0.0,47.0,28.0,4.0,4.0,0.0,18.0
+matrex.csv,9.0,1.0,0.0,5.0,3.0,0.0,9.0,0.0,6.0
+piccolo2d.csv,0.0,77.0,78.0,105.0,0.0,67.0,5.0,147.0,0.0
+reaper3d.csv,18.0,77.0,2.0,0.0,7.0,0.0,2.0,2.0,0.0
+sblim.csv,60.0,77.0,78.0,0.0,0.0,2.0,0.0,2.0,107.0

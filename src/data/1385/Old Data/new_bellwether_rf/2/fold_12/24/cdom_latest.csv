@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+bdbbasic.csv,0.645,0.585,0.35,7
+critterding.csv,0.41000000000000003,0.545,0.355,4
+enlightenment.csv,0.485,0.505,0.37,2
+exordium.csv,0.425,0.585,0.195,8
+google-caja.csv,0.605,0.46499999999999997,0.38,3
+itext.csv,0.515,0.595,0.28,6
+lockss.csv,0.16999999999999998,0.73,0.060000000000000005,9
+modplug.csv,0.86,0.475,0.76,0
+reactos-mirror.csv,0.665,0.53,0.47,5
+yafdotnet.csv,0.615,0.505,0.61,1

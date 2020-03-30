@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+calcubetimer.csv,0.48,0.45,0.345,4
+chaperon.csv,0.335,0.515,0.245,7
+geotools.csv,0.72,0.495,0.595,3
+l2j.csv,0.7,0.485,0.495,5
+mule.csv,0.435,0.575,0.255,8
+nunit.csv,0.38,0.485,0.295,6
+primefaces.csv,0.7949999999999999,0.37,0.625,0
+springside.csv,0.725,0.62,0.37,9
+swtfox.csv,0.355,0.475,0.365,2
+twostep.csv,0.755,0.5,0.665,1

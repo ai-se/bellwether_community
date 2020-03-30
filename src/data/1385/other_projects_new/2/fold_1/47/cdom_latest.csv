@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+alembik.csv,0.41000000000000003,0.635,0.25,7
+anaxagora.csv,0.795,0.435,0.655,0
+botsnscouts.csv,0.715,0.625,0.44,6
+emisview.csv,0.48,0.53,0.36,3
+matrex.csv,0.185,0.56,0.11,4
+mediaportal.csv,0.175,0.57,0.1,5
+mediate.csv,0.47000000000000003,0.535,0.43,2
+ontopia.csv,0.58,0.475,0.4,1

@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+customsagetv.csv,0.13,0.6,0.07,2
+k3b.csv,0.65,0.56,0.36,1
+myfaces.csv,0.92,0.59,0.82,0
+robocode.csv,0.71,0.69,0.39,4
+zildo.csv,0.48,0.65,0.27,3

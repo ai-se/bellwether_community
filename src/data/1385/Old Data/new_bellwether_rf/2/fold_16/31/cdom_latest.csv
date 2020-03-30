@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+bzbyte.csv,0.93,0.44,0.53,2
+mediaportal.csv,0.56,0.7,0.65,1
+poormans.csv,0.83,0.82,0.17,4
+smartgwt.csv,0.46,0.78,0.18,3
+sqlpower-library.csv,0.58,0.24,0.59,0

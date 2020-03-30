@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+avifile.csv,0.08,0.23,0.14,1
+baadengine.csv,0.87,0.28,0.75,3
+bibedt.csv,0.38,0.61,0.18,15
+exl.csv,0.6,0.38,0.36,14
+gdis.csv,0.9,0.32,0.7,8
+gogoego.csv,0.37,0.33,0.28,13
+httpcontentparser.csv,0.13,0.29,0.25,4
+jaxlib.csv,0.01,0.25,0.0,5
+jgameai.csv,0.32,0.32,0.33,6
+jhotdraw.csv,0.19,0.36,0.24,9
+loki-lib.csv,0.72,0.31,0.49,12
+patterntesting.csv,0.53,0.27,0.31,10
+pokeglobal.csv,0.5,0.27,0.49,2
+werx.csv,1.0,0.29,1.0,0
+xbg.csv,0.1,0.33,0.12,11
+zealos.csv,0.55,0.3,0.44,7

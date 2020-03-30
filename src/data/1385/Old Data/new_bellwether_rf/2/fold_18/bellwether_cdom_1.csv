@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.21,0.57,0.22,6.0,jmoney.csv
+9,0.515,0.57,0.1,1.0,fluent-nhibernate.csv
+12,0.08,0.28,0.18,8.0,xbg.csv
+25,0.53,0.35,0.185,3.0,geogebra.csv
+30,0.655,0.43,0.265,17.0,ftm.csv
+49,0.5549999999999999,0.29,0.2,19.0,pfaedit.csv
+22,0.895,0.895,0.815,1.0,magicwars.csv
+23,0.435,0.66,0.45999999999999996,3.0,turbotrader-bos.csv
+24,0.96,0.98,0.96,0.0,xmemcached.csv

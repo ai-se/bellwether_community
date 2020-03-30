@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+ng4j.csv,0.73,0.52,0.51,2
+open-data-kit.csv,0.85,0.36,0.64,0
+qtractor.csv,0.7,0.59,0.25,4
+quarkplayer.csv,0.28,0.37,0.29,1
+turbotrader-bos.csv,0.35,0.59,0.12,3

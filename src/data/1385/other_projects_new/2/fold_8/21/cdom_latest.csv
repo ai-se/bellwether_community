@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+acegisecurity.csv,0.53,0.45,0.24,8
+gdis.csv,0.68,0.47,0.46,5
+kml.csv,0.75,0.33,0.79,0
+ppcboot.csv,0.93,0.36,0.69,2
+repositorium.csv,0.06,0.27,0.15,1
+rsyslog.csv,0.65,0.42,0.32,6
+ultimairis.csv,0.96,0.54,0.8,4
+wow-qrsk.csv,0.12,0.44,0.04,7
+xbg.csv,0.25,0.38,0.27,3

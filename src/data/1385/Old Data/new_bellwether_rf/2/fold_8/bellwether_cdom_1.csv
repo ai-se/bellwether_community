@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.4,0.46,0.3,6.0,jmoney.csv
+9,0.475,0.44,0.0,1.0,atunes.csv
+12,0.8,0.45,0.37,8.0,jmule.csv
+25,0.36,0.74,0.3,3.0,lamp.csv
+30,0.5449999999999999,0.47,0.31,17.0,ossbuild.csv
+49,0.6950000000000001,0.27,0.22,19.0,freewrl.csv
+22,0.89,0.89,0.735,1.0,magicwars.csv
+23,0.47,0.72,0.45499999999999996,3.0,turbotrader-bos.csv
+24,0.91,0.9299999999999999,0.91,0.0,xmemcached.csv

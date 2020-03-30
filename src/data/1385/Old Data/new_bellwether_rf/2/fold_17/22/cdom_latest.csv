@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+acegisecurity.csv,0.645,0.41500000000000004,0.525,1
+ppcboot.csv,0.69,0.38,0.365,4
+simplewebservices.csv,0.415,0.36,0.51,0
+uwom.csv,0.73,0.46,0.575,2
+wow-qrsk.csv,0.675,0.495,0.34,5
+wxstudio.csv,0.345,0.4,0.225,3

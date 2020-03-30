@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+arm-webradio.csv,0.33,0.47000000000000003,0.235,11
+aztec.csv,0.245,0.5,0.185,12
+bl-toolkit.csv,0.64,0.375,0.73,0
+co-ode-owl-plugins.csv,0.53,0.6,0.405,15
+gbif-indexingtoolkit.csv,0.8049999999999999,0.375,0.825,1
+gnukeda.csv,0.665,0.55,0.665,9
+motu.csv,0.62,0.455,0.64,5
+oscarmcmaster.csv,0.45,0.525,0.265,14
+pamguard.csv,0.5700000000000001,0.365,0.56,3
+prelude.csv,0.92,0.41000000000000003,0.895,2
+qdvdauthor.csv,0.615,0.48,0.565,7
+qlc.csv,0.34,0.54,0.275,13
+scite-ru.csv,0.77,0.47,0.655,6
+tencompetence.csv,0.175,0.51,0.25,10
+trackit.csv,0.29000000000000004,0.31999999999999995,0.24,4
+yaprm.csv,0.445,0.46499999999999997,0.39,8

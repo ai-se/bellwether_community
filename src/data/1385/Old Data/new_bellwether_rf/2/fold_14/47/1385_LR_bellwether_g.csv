@@ -1,0 +1,9 @@
+,rhex.csv,jcae.csv,popeye-chess.csv,openmalaria.csv,archive-crawler.csv,acdk.csv,truevision.csv,rocrail.csv
+acdk.csv,0.46,0.66,0.48,0.23,0.3,0.96,0.51,0.69
+archive-crawler.csv,0.36,0.59,0.68,0.61,0.97,0.71,0.65,0.78
+jcae.csv,0.0,0.91,0.04,0.12,0.11,0.06,0.19,0.41
+openmalaria.csv,0.64,0.59,0.68,0.96,0.52,0.74,0.7,0.75
+popeye-chess.csv,0.45,0.68,0.99,0.64,0.58,0.65,0.73,0.82
+rhex.csv,0.93,0.13,0.45,0.06,0.2,0.18,0.38,0.41
+rocrail.csv,0.1,0.13,0.34,0.15,0.3,0.58,0.46,0.93
+truevision.csv,0.54,0.53,0.74,0.68,0.65,0.33,0.96,0.65

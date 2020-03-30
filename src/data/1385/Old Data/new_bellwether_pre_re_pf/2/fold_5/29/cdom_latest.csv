@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+fityk.csv,0.73,0.3,0.405,2
+hibernate.csv,0.585,0.385,0.425,3
+lamp.csv,0.565,0.305,0.395,1
+thout.csv,0.72,0.33499999999999996,0.845,0

@@ -1,0 +1,9 @@
+,playerstage.csv,aubit4gl.csv,massiv.csv,bibedt.csv,customwars.csv,quarkplusplus.csv,impala.csv,xinity.csv
+aubit4gl.csv,0.24,0.94,0.0,0.13,0.11,0.26,0.14,0.61
+bibedt.csv,0.68,0.31,0.02,1.0,0.19,0.64,0.11,0.62
+customwars.csv,0.25,0.53,0.01,0.11,1.0,0.5,0.15,0.58
+impala.csv,0.27,0.57,0.01,0.1,0.24,0.35,1.0,0.42
+massiv.csv,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+playerstage.csv,0.98,0.54,0.01,0.43,0.18,0.62,0.08,0.66
+quarkplusplus.csv,0.57,0.11,0.02,0.31,0.33,1.0,0.19,0.62
+xinity.csv,0.43,0.59,0.01,0.15,0.18,0.43,0.11,1.0

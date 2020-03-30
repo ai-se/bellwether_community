@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+betoffice.csv,0.15,0.32,0.18,6
+codepurge.csv,0.29,0.6,0.12,12
+crisscross.csv,0.29,0.45,0.27,9
+elvishrayrenderer.csv,0.7,0.36,0.53,5
+gwanted.csv,0.08,0.29,0.01,10
+jitterbit.csv,0.43,0.33,0.41,3
+ldview.csv,0.44,0.32,0.29,8
+libopenmetaverse.csv,0.65,0.38,0.6,1
+mb-unit.csv,0.57,0.36,0.48,4
+mvdsv.csv,0.0,0.0,0.0,0
+nova.csv,0.4,0.39,0.24,11
+olex2.csv,0.47,0.38,0.37,7
+tolven.csv,0.62,0.38,0.57,2

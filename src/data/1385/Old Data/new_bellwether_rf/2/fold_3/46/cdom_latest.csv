@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+graphmak.csv,0.16999999999999998,0.915,0.035,5
+jruby.csv,0.645,0.7,0.48,1
+pdfedit.csv,0.305,0.875,0.22,4
+rectracker.csv,0.885,0.85,0.73,2
+wxlua.csv,0.78,0.74,0.6950000000000001,0
+x4x.csv,0.66,0.83,0.485,3

@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+gwanted.csv,0.33,0.83,0.03,6
+java-gnome.csv,0.75,0.82,0.41,5
+mb-unit.csv,0.77,0.76,0.44,2
+mecat.csv,0.02,0.5,0.0,0
+rodin-b-sharp.csv,0.33,0.88,0.25,4
+unicase.csv,0.75,0.84,0.5,3
+wpdev.csv,1.0,0.74,0.92,1

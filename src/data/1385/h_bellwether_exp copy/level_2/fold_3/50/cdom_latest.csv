@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+adaptagrams.csv,0.52,0.53,0.25,9
+badtrinitycore.csv,0.15,0.33,0.19,2
+boost.csv,0.68,0.33,0.47,3
+electric-core.csv,0.69,0.43,0.51,5
+java-gnome.csv,0.35,0.33,0.26,4
+miranda-icq.csv,0.65,0.4,0.39,6
+ofbiz.csv,0.75,0.41,0.69,1
+olsrd.csv,0.57,0.56,0.3,10
+opensim4opencog.csv,0.55,0.5,0.4,7
+t-2.csv,0.51,0.37,0.55,0
+xcf.csv,0.64,0.5,0.34,8

@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+dvt.csv,0.14,0.12,0.21,0
+empserver.csv,0.52,0.34,0.47,5
+emulemorph.csv,0.06,0.12,0.15,1
+google-web-toolkit.csv,0.45,0.39,0.38,7
+htmlunit.csv,0.43,0.33,0.26,9
+jaxen.csv,0.14,0.5,0.08,11
+jguard.csv,0.74,0.29,0.72,3
+kowari.csv,0.16,0.33,0.11,6
+maidsafe-dht.csv,0.29,0.33,0.18,8
+mimosa.csv,0.62,0.37,0.36,10
+vdsf.csv,0.78,0.3,0.83,2
+xbrlapi.csv,0.56,0.22,0.39,4

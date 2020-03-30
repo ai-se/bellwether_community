@@ -1,0 +1,3 @@
+,recall,precision,pf,wins
+agilitybook.csv,0.78,0.645,0.41,1
+ambulant.csv,0.735,0.5549999999999999,0.25,0

@@ -4,6 +4,7 @@ import math
 from sklearn import metrics
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 class measures(object):
 
@@ -18,7 +19,6 @@ class measures(object):
         self.dframe = self.dframe.astype({'Actual': int, 'Predicted': int})
         self.dframe_unchanged = copy.deepcopy(self.dframe)
         self.dframe.sort_values(by = ['Predicted','LOC'],inplace=True,ascending=[False,True])
-        #print(self.dframe)
         self.dframe['InspectedLOC'] = self.dframe.LOC.cumsum()
         self.dframe_unchanged['InspectedLOC'] = self.dframe_unchanged.LOC.cumsum()
         self.tn, self.fp, self.fn, self.tp = metrics.confusion_matrix(
@@ -55,11 +55,18 @@ class measures(object):
         return round(pci_20,2)
 
     
+    # def get_ifa(self):
+    #     for i in range(len(self.dframe)):
+    #         if self.dframe['Actual'].iloc[i] == self.dframe['Predicted'].iloc[i] == 1:
+    #             break
+    #     pred_vals = self.dframe['Predicted'].values[:i]
+    #     ifa = int(sum(pred_vals) / (i + 1) * 100)
+    #     return i
+
     def get_ifa(self):
         for i in range(len(self.dframe)):
             if self.dframe['Actual'].iloc[i] == self.dframe['Predicted'].iloc[i] == 1:
                 break
-
         pred_vals = self.dframe['Predicted'].values[:i]
         ifa = int(sum(pred_vals) / (i + 1) * 100)
         return i
@@ -76,6 +83,8 @@ class measures(object):
                 if self.dframe_unchanged['Predicted'].iloc[i] == 0:
                     continue
                 count += 1 
+                #if perc == 100:
+                #    print(count,self.dframe_unchanged[self.dframe_unchanged['Predicted'] == 1].shape[0])
                 if self.dframe_unchanged['Actual'].iloc[i] == self.dframe_unchanged['Predicted'].iloc[i] == 1:
                     break
             ifa_x.append(perc)

@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+algebsql.csv,0.53,0.71,0.66,9
+ivef-sdk.csv,0.52,0.65,0.63,4
+jmri.csv,0.46,0.52,0.24,12
+jython.csv,0.8,0.58,0.67,7
+kdenlive.csv,0.61,0.49,0.51,3
+opentibia.csv,0.36,0.51,0.25,6
+projectfactory.csv,0.54,0.56,0.4,11
+runuomondains.csv,0.39,0.5,0.2,10
+somap.csv,0.92,0.49,0.92,0
+taverna.csv,0.17,0.5,0.11,5
+tigermud.csv,0.34,0.38,0.31,1
+unbvision.csv,0.42,0.52,0.29,8
+x-ray-mule.csv,0.57,0.51,0.57,2

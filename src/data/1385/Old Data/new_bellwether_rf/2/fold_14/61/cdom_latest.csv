@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+alleg.csv,0.42,0.37,0.375,2
+chaosrts.csv,0.98,0.46499999999999997,0.94,1
+lazarus-ccr.csv,0.665,0.55,0.395,8
+linuxsh.csv,0.195,0.585,0.11,9
+migen.csv,0.46,0.5,0.25,5
+moviesandbox.csv,0.305,0.55,0.225,6
+sauerbraten.csv,0.64,0.54,0.37,7
+scite-ru.csv,0.29500000000000004,0.44,0.31,4
+vrjuggler.csv,0.115,0.32,0.13,0
+xuggle.csv,0.56,0.5,0.655,3

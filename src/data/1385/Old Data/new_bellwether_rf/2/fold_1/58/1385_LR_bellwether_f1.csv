@@ -1,0 +1,6 @@
+,opennms.csv,phet.csv,e-bio-flow.csv,aten.csv,runuomondains.csv,exl.csv
+e-bio-flow.csv,0.1,0.15,0.93,0.02,0.14,0.0
+exl.csv,0.31,0.28,0.57,0.55,0.31,0.98
+opennms.csv,0.97,0.21,0.31,0.41,0.32,0.26
+phet.csv,0.46,0.95,0.21,0.72,0.0,0.26
+runuomondains.csv,0.0,0.13,0.39,0.06,1.0,0.43

@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+bacula.csv,0.645,0.445,0.46499999999999997,1
+jajuk.csv,0.815,0.525,0.56,2
+vapor.csv,0.7150000000000001,0.405,0.625,0
+zorannt.csv,0.395,0.56,0.18,3

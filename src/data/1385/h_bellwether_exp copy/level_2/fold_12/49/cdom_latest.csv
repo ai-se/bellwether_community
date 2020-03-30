@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+enzo.csv,0.86,0.39,0.76,0
+gstreamer.csv,0.77,0.44,0.58,3
+ktc.csv,0.6,0.53,0.21,10
+mbse.csv,0.6,0.47,0.35,8
+nebuladevice.csv,0.39,0.39,0.33,1
+neoengine.csv,0.7,0.53,0.63,7
+openmalaria.csv,0.74,0.44,0.47,5
+rtrt-on-gpu.csv,0.67,0.47,0.56,4
+salasaga.csv,0.52,0.48,0.38,6
+skia.csv,0.48,0.54,0.26,9
+xemeiah.csv,0.75,0.43,0.56,2

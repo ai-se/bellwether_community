@@ -1,0 +1,8 @@
+,brlcad.csv,ogre.csv,autat.csv,mimosa.csv,google-web-toolkit.csv,ftm.csv,jcache.csv
+autat.csv,1.0,0.95,0.88,0.79,0.89,0.69,0.9
+brlcad.csv,0.88,0.51,0.52,0.69,0.58,0.55,0.91
+ftm.csv,0.9,0.95,0.9,0.66,0.73,0.54,0.62
+google-web-toolkit.csv,0.71,0.96,0.86,0.69,0.5,0.51,0.4
+jcache.csv,0.44,0.45,0.37,0.47,0.43,0.94,0.44
+mimosa.csv,0.62,0.46,0.39,0.53,0.41,0.44,0.42
+ogre.csv,0.45,0.43,0.35,0.36,0.4,0.45,0.52

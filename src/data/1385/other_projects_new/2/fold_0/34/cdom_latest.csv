@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+igarden.csv,0.41,0.42,0.28,6
+ingex.csv,0.68,0.35,0.48,3
+megasquirtavr.csv,0.65,0.3,0.74,1
+owlapi.csv,0.38,0.41,0.39,4
+piccolo2d.csv,0.41,0.42,0.22,7
+servicestack.csv,0.01,0.18,0.02,2
+tolven.csv,0.42,0.45,0.13,8
+twostep.csv,0.76,0.37,0.54,5
+wxlua.csv,0.52,0.26,0.68,0

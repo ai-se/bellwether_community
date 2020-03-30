@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+alembik.csv,0.18,0.5,0.12,11
+chaperon.csv,0.11,0.36,0.12,7
+co-ode-owl-plugins.csv,0.43,0.38,0.18,10
+e-bio-flow.csv,0.16,0.31,0.15,5
+free-evolution.csv,0.14,0.58,0.1,12
+jaxlib.csv,0.03,0.45,0.02,9
+jmonkeyengine.csv,0.25,0.38,0.25,6
+jmule.csv,0.7,0.33,0.67,2
+kaffeine.csv,0.67,0.29,0.68,0
+nodal.csv,0.43,0.43,0.27,8
+ogrehg.csv,0.53,0.43,0.51,4
+onotoa.csv,0.76,0.25,0.67,1
+papertoolkit.csv,0.0,0.0,0.0,3

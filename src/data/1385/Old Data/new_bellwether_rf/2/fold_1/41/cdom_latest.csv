@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+algebsql.csv,0.22,0.305,0.19,3
+autoopencas.csv,0.265,0.28500000000000003,0.22499999999999998,2
+gogoego.csv,0.20500000000000002,0.365,0.14,8
+jam-daq.csv,0.31,0.37,0.22,7
+jhotdraw.csv,0.255,0.315,0.29000000000000004,1
+pokeglobal.csv,0.64,0.39,0.485,5
+robocode.csv,0.35,0.34,0.26,4
+springside.csv,0.655,0.305,0.51,0
+trinitycore.csv,0.375,0.45999999999999996,0.22999999999999998,9
+uwom-server.csv,0.375,0.36,0.245,6

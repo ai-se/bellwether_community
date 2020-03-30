@@ -1,0 +1,7 @@
+,rezilla.csv,webdriver.csv,minig.csv,ossbuild.csv,jparsec.csv,kmess.csv
+jparsec.csv,0.45,0.47,0.48,0.23,0.65,0.57
+kmess.csv,0.44,0.53,0.04,0.14,0.15,0.71
+minig.csv,0.49,0.53,0.67,0.23,0.16,0.62
+ossbuild.csv,0.21,0.64,0.43,0.49,0.39,0.6
+rezilla.csv,0.62,0.38,0.29,0.04,0.0,0.7
+webdriver.csv,0.21,0.74,0.45,0.0,0.49,0.65

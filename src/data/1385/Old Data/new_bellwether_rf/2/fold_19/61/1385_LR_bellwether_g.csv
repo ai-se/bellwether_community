@@ -1,0 +1,6 @@
+,lazarus-ccr.csv,migen.csv,mvnforum.csv,plplot.csv,lcfizvtop.csv
+lazarus-ccr.csv,0.97,0.29,0.62,0.33,0.4
+lcfizvtop.csv,0.2,0.33,0.13,0.0,1.0
+migen.csv,0.31,0.97,0.2,0.28,0.11
+mvnforum.csv,0.29,0.4,0.95,0.23,0.11
+plplot.csv,0.27,0.2,0.27,0.88,0.56

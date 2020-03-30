@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+ikvm.csv,0.43,0.59,0.57,0
+libtorrent.csv,0.83,0.58,0.66,1
+mcmc-jags.csv,0.82,0.68,0.63,3
+olap-navigator.csv,0.61,0.58,0.3,2
+pidgin.csv,0.56,0.69,0.37,4
+sepgsql.csv,0.57,0.67,0.32,5
+xstore.csv,0.51,0.69,0.32,6

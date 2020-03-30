@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+applet2app.csv,0.65,0.525,0.345,13
+biodwh.csv,0.37,0.51,0.175,12
+blue-c.csv,0.72,0.445,0.605,2
+cities3d.csv,0.5700000000000001,0.45499999999999996,0.30500000000000005,10
+firebird.csv,0.79,0.445,0.59,4
+jcache.csv,0.865,0.44,0.74,1
+jparsec.csv,0.64,0.435,0.52,3
+mscore.csv,0.78,0.46499999999999997,0.585,5
+nabu-library.csv,0.355,0.41000000000000003,0.28,7
+ns-3-dev-def-routing.csv,0.565,0.505,0.31,11
+open-ms.csv,0.525,0.58,0.265,15
+popeye-chess.csv,0.575,0.52,0.27,14
+qgo.csv,0.855,0.525,0.675,6
+webdriver.csv,0.69,0.505,0.44,9
+xined.csv,0.0,0.0,0.0,0
+yafdotnet.csv,0.725,0.515,0.515,8

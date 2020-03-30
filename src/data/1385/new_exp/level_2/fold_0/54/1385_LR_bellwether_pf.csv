@@ -1,0 +1,11 @@
+,fritzing.csv,aubit4gl.csv,firebreath.csv,patterntesting.csv,mpgravity.csv,httpcontentparser.csv,bibedt.csv,roller.csv,cascading.csv,xfce.csv
+aubit4gl.csv,0.75,0.06,0.53,0.81,0.71,0.57,0.59,0.78,0.61,0.47
+bibedt.csv,0.22,0.31,0.18,0.0,0.02,0.58,0.0,0.24,0.15,0.4
+cascading.csv,0.13,0.31,0.39,0.34,0.02,0.18,0.71,0.43,0.0,0.17
+firebreath.csv,0.68,0.98,0.02,0.28,0.54,0.44,0.61,0.47,0.55,0.83
+fritzing.csv,0.0,0.58,0.23,0.09,0.02,0.65,0.17,0.39,0.39,0.57
+httpcontentparser.csv,0.36,0.65,0.02,0.0,0.46,0.01,0.29,0.0,0.03,0.38
+mpgravity.csv,0.44,0.73,0.2,0.21,0.0,0.33,0.41,0.35,0.33,0.57
+patterntesting.csv,0.42,0.6,0.3,0.02,0.1,0.51,0.29,0.39,0.39,0.29
+roller.csv,0.51,0.5,0.41,0.17,0.37,0.67,0.29,0.0,0.36,0.65
+xfce.csv,0.65,0.73,0.61,0.77,0.88,0.86,0.73,0.86,0.7,0.04

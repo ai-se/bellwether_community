@@ -1,0 +1,4 @@
+,recall,precision,pf,wins
+bacnet.csv,0.42,0.7,0.16,2
+exordium.csv,0.65,0.81,0.42,1
+google-caja.csv,0.42,0.46,0.2,0

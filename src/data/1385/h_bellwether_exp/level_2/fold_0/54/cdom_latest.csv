@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+aubit4gl.csv,0.14,0.43,0.16,3
+bibedt.csv,0.39,0.63,0.18,9
+cascading.csv,0.56,0.6,0.28,7
+firebreath.csv,0.56,0.605,0.4,6
+fritzing.csv,0.51,0.65,0.29000000000000004,8
+httpcontentparser.csv,0.29500000000000004,0.43,0.245,2
+mpgravity.csv,0.91,0.495,0.76,0
+patterntesting.csv,0.885,0.56,0.79,4
+roller.csv,0.815,0.51,0.635,5
+xfce.csv,0.69,0.475,0.595,1

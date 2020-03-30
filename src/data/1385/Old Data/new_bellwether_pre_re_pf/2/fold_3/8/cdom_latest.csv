@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+forester-atv.csv,0.125,0.65,0.09,7
+geotools.csv,0.665,0.5,0.665,1
+google-collections.csv,1.0,0.5249999999999999,1.0,0
+l2j.csv,0.58,0.52,0.38,5
+mediate.csv,0.435,0.555,0.5,4
+projectfactory.csv,0.79,0.565,0.56,6
+st-filteredstatistics.csv,0.79,0.52,0.725,2
+thedata.csv,0.7749999999999999,0.53,0.72,3

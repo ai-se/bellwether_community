@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+gnupdate.csv,0.33,0.8,0.24,8
+ikvm.csv,0.26,0.68,0.29,2
+libtorrent.csv,0.89,0.68,0.76,5
+mcmc-jags.csv,0.55,0.73,0.41,6
+moast.csv,0.17,0.5,0.02,3
+olap-navigator.csv,0.89,0.71,0.54,9
+pidgin.csv,0.73,0.63,0.59,4
+salasaga.csv,0.79,0.51,0.92,1
+sepgsql.csv,0.18,0.25,0.33,0
+sigil.csv,0.36,0.83,0.09,10
+xtreemfs.csv,0.68,0.63,0.36,7

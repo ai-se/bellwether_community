@@ -1,0 +1,13 @@
+,dsworkbench.csv,gogoego.csv,cleartk.csv,jpaul.csv,scenemonitor.csv,yarp0.csv,motu.csv,rtrt-on-gpu.csv,mp-rechnungs-und-kundenverwaltung.csv,xstore.csv,loki-lib.csv,zemljanka.csv
+cleartk.csv,2.0,5.0,0.0,1.0,0.0,3.0,4.0,3.0,1.0,5.0,3.0,0.0
+dsworkbench.csv,0.0,2.0,1.0,7.0,1.0,2.0,7.0,57.0,4.0,1.0,0.0,0.0
+gogoego.csv,0.0,0.0,0.0,1.0,0.0,4.0,7.0,5.0,0.0,0.0,2.0,0.0
+jpaul.csv,0.0,1.0,0.0,0.0,0.0,5.0,3.0,57.0,2.0,0.0,74.0,1.0
+loki-lib.csv,1.0,1.0,1.0,5.0,0.0,2.0,5.0,2.0,4.0,3.0,0.0,0.0
+motu.csv,0.0,0.0,1.0,1.0,51.0,2.0,0.0,1.0,12.0,1.0,0.0,1.0
+mp-rechnungs-und-kundenverwaltung.csv,2.0,4.0,1.0,4.0,1.0,4.0,3.0,57.0,0.0,1.0,4.0,0.0
+rtrt-on-gpu.csv,1.0,7.0,1.0,4.0,3.0,1.0,17.0,0.0,0.0,3.0,1.0,0.0
+scenemonitor.csv,2.0,1.0,1.0,4.0,0.0,2.0,12.0,17.0,2.0,3.0,3.0,0.0
+xstore.csv,1.0,4.0,0.0,0.0,1.0,9.0,4.0,2.0,8.0,0.0,3.0,0.0
+yarp0.csv,2.0,6.0,2.0,7.0,0.0,0.0,8.0,3.0,4.0,4.0,3.0,0.0
+zemljanka.csv,1.0,7.0,1.0,1.0,0.0,4.0,11.0,3.0,0.0,5.0,2.0,0.0

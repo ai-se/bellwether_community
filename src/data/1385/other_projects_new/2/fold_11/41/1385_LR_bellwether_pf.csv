@@ -1,0 +1,11 @@
+,pokeglobal.csv,robocode.csv,gogoego.csv,uwom-server.csv,algebsql.csv,jhotdraw.csv,autoopencas.csv,springside.csv,jam-daq.csv,trinitycore.csv
+algebsql.csv,0.07,0.25,0.02,0.71,0.09,0.62,0.54,0.21,0.33,0.66
+autoopencas.csv,0.76,0.54,0.35,0.44,0.63,0.38,0.22,0.67,0.11,0.47
+gogoego.csv,0.21,0.14,0.28,0.34,0.54,0.48,0.1,0.48,0.28,0.37
+jam-daq.csv,0.14,0.18,0.17,0.23,0.26,0.37,0.11,0.08,0.28,0.22
+jhotdraw.csv,0.93,0.29,0.91,0.28,0.8,0.17,0.5,0.95,0.15,0.27
+pokeglobal.csv,0.28,0.54,0.41,0.93,0.57,0.95,0.97,0.6,0.63,0.92
+robocode.csv,0.45,0.29,0.5,0.33,0.51,0.4,0.46,0.54,0.8,0.33
+springside.csv,0.28,0.5,0.89,0.79,0.57,0.86,0.65,0.27,0.52,0.78
+trinitycore.csv,0.07,0.5,0.36,0.38,0.03,0.44,0.29,0.1,0.35,0.37
+uwom-server.csv,0.14,0.36,0.19,0.39,0.06,0.23,0.36,0.11,0.22,0.39

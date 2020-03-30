@@ -58,7 +58,8 @@ class birch(object):
             cluster_size = sub_cluster['cluster_size']
             node.set_size(cluster_size)
             data_points = sub_cluster['document_id_accumulated']
-            node.set_data_points(data_points)
+            data_points_names = self.data.iloc[data_points].index.values.tolist()
+            node.set_data_points(data_points_names)
             centroid = self.data.iloc[sub_cluster['document_id_accumulated'], :].mean(axis=0).values
             node.set_centroid(centroid)
             d1,d1_v = self.calculate_d1(centroid,data_points)

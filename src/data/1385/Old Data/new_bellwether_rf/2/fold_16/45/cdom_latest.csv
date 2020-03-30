@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+autoopencas.csv,0.14,0.22000000000000003,0.355,0
+pcgen.csv,0.33999999999999997,0.54,0.145,2
+selenium.csv,0.595,0.51,0.25,1
+tolven.csv,0.28,0.655,0.10500000000000001,3

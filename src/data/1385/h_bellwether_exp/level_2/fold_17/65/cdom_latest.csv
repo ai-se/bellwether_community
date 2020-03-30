@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+dvt.csv,0.67,0.36,0.38,9
+flylinkdc.csv,0.76,0.39,0.56,7
+fw4spl.csv,0.48,0.33,0.38,4
+grisbi.csv,0.9,0.34,0.76,1
+mesa3d.csv,0.58,0.37,0.45,6
+nuttx.csv,0.42,0.44,0.27,11
+panda3d.csv,0.56,0.35,0.45,5
+proftp.csv,0.2,0.43,0.1,12
+qmmp.csv,0.6,0.33,0.57,2
+skia.csv,0.49,0.44,0.31,10
+tart.csv,0.65,0.36,0.53,3
+tcvp.csv,0.01,0.08,0.03,0
+utgb.csv,0.4,0.34,0.29,8

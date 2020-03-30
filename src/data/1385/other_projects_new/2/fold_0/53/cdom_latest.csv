@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+apolloplayer.csv,0.62,0.4,0.35,7
+azureus.csv,0.83,0.35,0.75,3
+columba.csv,0.67,0.37,0.59,4
+continuum-ide.csv,0.17,0.27,0.22,2
+emulemorph.csv,0.06,0.2,0.01,1
+factor.csv,0.06,0.33,0.03,5
+pcgen.csv,0.94,0.32,0.94,0
+stemkit.csv,0.34,0.45,0.24,8
+utgb.csv,0.33,0.38,0.26,6

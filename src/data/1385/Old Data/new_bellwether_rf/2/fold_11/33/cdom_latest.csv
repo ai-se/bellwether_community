@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+cme.csv,0.0,0.0,0.0,0
+columba.csv,0.5549999999999999,0.255,0.44,7
+encog-cs.csv,0.77,0.23500000000000001,0.73,2
+fido.csv,0.0,0.0,0.0,0
+flexpay.csv,0.365,0.28,0.38,6
+fluent-nhibernate.csv,0.025,0.43,0.02,13
+geochat.csv,0.265,0.36,0.265,10
+gpsmid.csv,0.54,0.345,0.33999999999999997,12
+k3d.csv,0.04,0.25,0.035,8
+m-a-d-n-e-s-s.csv,0.195,0.255,0.1,9
+mob-sen-plat.csv,0.325,0.22,0.435,3
+ninject.csv,0.155,0.33,0.095,11
+uface.csv,0.855,0.275,0.71,5
+v8.csv,0.975,0.27,0.88,4

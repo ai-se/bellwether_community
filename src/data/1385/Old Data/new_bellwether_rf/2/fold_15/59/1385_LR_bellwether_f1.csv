@@ -1,0 +1,6 @@
+,cleartk.csv,intact.csv,miranda-icq.csv,roolo.csv,ofbiz.csv
+cleartk.csv,1.0,0.41,0.45,0.46,0.7
+intact.csv,0.68,1.0,0.0,0.19,0.58
+miranda-icq.csv,0.45,0.45,0.96,0.52,0.48
+ofbiz.csv,0.61,0.37,0.16,0.0,1.0
+roolo.csv,0.19,0.15,0.09,0.97,0.31

@@ -1,0 +1,8 @@
+,plearn.csv,re2c.csv,aubit4gl.csv,moving-pictures.csv,xfce.csv,rebecca-aiml.csv,glelite.csv
+aubit4gl.csv,0.87,0.34,0.47,0.75,0.98,0.41,0.67
+glelite.csv,0.97,1.0,0.94,0.98,0.89,0.97,0.03
+moving-pictures.csv,0.55,0.75,0.72,0.45,0.89,0.78,0.69
+plearn.csv,0.48,0.51,0.89,0.72,0.64,1.0,0.78
+re2c.csv,0.72,0.02,0.67,0.69,0.71,0.53,0.68
+rebecca-aiml.csv,0.59,0.61,0.7,0.81,0.6,0.22,0.47
+xfce.csv,0.58,0.88,0.83,0.74,0.52,0.61,0.75

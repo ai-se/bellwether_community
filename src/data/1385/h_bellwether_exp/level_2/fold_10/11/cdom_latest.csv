@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+aime.csv,0.36,0.34,0.28,5
+bloodycore.csv,0.28,0.22,0.26,1
+dvd-create.csv,0.74,0.39,0.45,6
+dvt.csv,0.48,0.44,0.32,8
+gbif-indexingtoolkit.csv,0.7,0.32,0.5,3
+mumble.csv,0.84,0.31,0.64,0
+planeshift.csv,0.78,0.35,0.59,2
+truevision.csv,0.52,0.39,0.33,7
+zorannt.csv,0.47,0.32,0.34,4

@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+acegisecurity.csv,0.73,0.39,0.59,5
+biopax.csv,0.955,0.35,0.855,3
+gnupdate.csv,0.59,0.44,0.545,6
+les-indemodables.csv,0.43000000000000005,0.455,0.215,10
+openxava.csv,0.375,0.345,0.295,8
+ppcboot.csv,0.705,0.385,0.5449999999999999,7
+repositorium.csv,0.305,0.37,0.27,9
+rsyslog.csv,0.38,0.48,0.165,11
+simplewebservices.csv,0.78,0.365,0.77,2
+ultimairis.csv,0.825,0.345,0.815,1
+vars-redux.csv,0.235,0.52,0.095,13
+wow-qrsk.csv,0.39,0.475,0.16,12
+wxstudio.csv,0.435,0.36,0.41500000000000004,4
+xqilla.csv,0.0,0.0,0.0,0

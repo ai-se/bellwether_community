@@ -1,0 +1,9 @@
+,ns-3.csv,novembre.csv,open-beos.csv,cornerstone.csv,planeshift.csv,sbml.csv,frogatto.csv,ardour.csv
+ardour.csv,0.38,0.44,0.53,0.57,0.73,0.7,0.58,0.73
+cornerstone.csv,0.36,0.09,0.04,0.73,0.42,0.1,0.71,0.52
+frogatto.csv,0.64,0.48,0.58,0.63,0.86,0.83,0.69,0.73
+novembre.csv,0.49,0.59,0.51,0.49,0.29,0.49,0.44,0.67
+ns-3.csv,0.75,0.44,0.6,0.56,0.83,0.78,0.74,0.73
+open-beos.csv,0.54,0.42,0.63,0.46,0.75,0.79,0.6,0.72
+planeshift.csv,0.64,0.48,0.55,0.63,0.77,0.82,0.64,0.71
+sbml.csv,0.68,0.44,0.6,0.7,0.83,0.83,0.62,0.69

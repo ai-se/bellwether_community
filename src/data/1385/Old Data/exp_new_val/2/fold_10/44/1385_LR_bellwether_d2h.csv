@@ -1,0 +1,10 @@
+,olsrd.csv,reaper-ecad.csv,rtb-team.csv,autofac.csv,sidekar.csv,fluidium.csv,jsr308-langtools.csv,illumination.csv,buddata-ebxml-registry.csv
+autofac.csv,0.5,0.46,0.47,0.28,0.73,0.65,0.51,0.69,0.66
+buddata-ebxml-registry.csv,1.0,0.45,0.89,0.91,0.92,1.0,0.9,0.98,0.07
+fluidium.csv,0.79,1.0,1.0,0.86,1.0,0.51,1.02,0.94,0.79
+illumination.csv,0.9,1.0,1.0,1.0,1.0,1.0,0.87,0.22,1.0
+jsr308-langtools.csv,0.45,1.0,1.0,1.0,1.0,1.0,0.12,0.6,0.75
+olsrd.csv,0.34,0.71,0.63,0.77,0.51,0.79,0.54,0.74,1.05
+reaper-ecad.csv,0.97,0.4,1.0,0.73,0.92,0.95,0.9,1.0,0.84
+rtb-team.csv,0.51,1.0,0.3,0.84,0.95,0.86,1.01,0.94,1.15
+sidekar.csv,1.0,1.0,1.0,0.69,0.31,1.0,1.0,1.0,0.52

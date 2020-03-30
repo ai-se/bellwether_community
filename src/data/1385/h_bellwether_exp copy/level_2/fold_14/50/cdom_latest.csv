@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+applet2app.csv,0.74,0.51,0.41,14
+autowikibrowser.csv,0.65,0.44,0.51,9
+biodwh.csv,0.53,0.49,0.27,13
+cities3d.csv,0.13,0.25,0.11,6
+dynalloy.csv,0.76,0.36,0.71,5
+enzo.csv,0.89,0.37,0.87,3
+genecys.csv,0.83,0.36,0.85,2
+kmatplot.csv,0.35,0.42,0.16,12
+modplug.csv,0.88,0.39,0.86,4
+nabu-library.csv,0.44,0.34,0.33,7
+natpad.csv,0.8,0.4,0.58,8
+nebuladevice.csv,0.16,0.24,0.3,1
+ossbuild.csv,0.66,0.42,0.47,11
+xemeiah.csv,0.78,0.42,0.56,10
+xined.csv,0.0,0.0,0.0,0

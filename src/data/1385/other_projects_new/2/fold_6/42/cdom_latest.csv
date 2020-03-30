@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+adaptagrams.csv,0.635,0.3,0.28,4
+aime.csv,0.325,0.32,0.275,3
+badtrinitycore.csv,0.37,0.33999999999999997,0.18,5
+electric-core.csv,0.69,0.32,0.5549999999999999,1
+geochat.csv,0.315,0.32,0.305,1
+olsrd.csv,0.65,0.28500000000000003,0.38,0

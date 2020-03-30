@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+dxengine.csv,0.62,0.31,0.45,1
+e-bio-flow.csv,0.44,0.33,0.25,3
+jmoney.csv,0.64,0.43,0.33,7
+jmonkeyengine.csv,0.53,0.32,0.51,0
+jsidplay2.csv,0.6,0.26,0.38,2
+matrex.csv,0.36,0.5,0.17,6
+piccolo2d.csv,0.5,0.41,0.26,5
+reaper3d.csv,0.37,0.45,0.24,4
+sblim.csv,0.45,0.5,0.17,8

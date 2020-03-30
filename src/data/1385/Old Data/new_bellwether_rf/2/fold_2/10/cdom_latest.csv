@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+anaxagora.csv,0.255,0.33499999999999996,0.245,3
+array4j.csv,0.195,0.36,0.16,7
+beast-mcmc.csv,0.46499999999999997,0.325,0.31,2
+continuum-ide.csv,0.16,0.28,0.21,1
+jam-daq.csv,0.24,0.355,0.195,6
+l2j.csv,0.815,0.305,0.515,0
+nodal.csv,0.30000000000000004,0.345,0.26,4
+projectfactory.csv,0.39,0.4,0.275,8
+roolo.csv,0.295,0.365,0.235,5

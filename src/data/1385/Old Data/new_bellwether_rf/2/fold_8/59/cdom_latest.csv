@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+ctrlr.csv,0.06,0.33,0.01,6
+dvt.csv,0.19,0.325,0.235,3
+flylinkdc.csv,0.355,0.47,0.32,10
+fulguro.csv,0.18,0.54,0.125,11
+fw4spl.csv,0.43,0.32,0.53,0
+ipfire-wall.csv,0.275,0.43999999999999995,0.255,9
+jruby.csv,0.63,0.345,0.38,7
+ldview.csv,0.56,0.38,0.515,5
+nuttx.csv,0.755,0.4,0.51,8
+oorexx.csv,0.385,0.31,0.41,2
+uclmda.csv,0.185,0.27,0.085,4
+vdsf.csv,0.865,0.345,0.835,1

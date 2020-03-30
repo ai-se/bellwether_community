@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+all-plasm.csv,0.49,0.5,0.39,6
+archive-crawler.csv,0.38,0.405,0.235,4
+blue-c.csv,0.5900000000000001,0.45999999999999996,0.4,7
+dynalloy.csv,0.585,0.54,0.33999999999999997,10
+jcae.csv,0.135,0.79,0.03,11
+kmatplot.csv,0.27,0.485,0.175,8
+mscore.csv,0.58,0.37,0.41000000000000003,1
+nosleepsoftware.csv,0.195,0.42,0.19,2
+openmalaria.csv,0.6799999999999999,0.39,0.49,3
+popeye-chess.csv,0.62,0.43,0.425,5
+riff-evolve.csv,0.61,0.475,0.36,9
+virtuoso.csv,0.97,0.46,0.915,0

@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+boost.csv,0.59,0.46,0.39,2
+etics.csv,0.255,0.565,0.16,3
+genecys.csv,0.975,0.385,0.89,0
+kftpgrabber.csv,0.44,0.575,0.175,4
+kvs.csv,0.405,0.61,0.20500000000000002,5
+mcore3d.csv,0.76,0.425,0.535,1
+ogrehg.csv,0.55,0.635,0.32,6
+projecteqemu.csv,0.36,0.615,0.13,7

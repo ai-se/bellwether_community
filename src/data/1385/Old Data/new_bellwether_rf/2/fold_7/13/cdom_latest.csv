@@ -1,0 +1,4 @@
+,recall,precision,pf,wins
+amanda.csv,0.51,0.69,0.17,2
+empyrean.csv,0.63,0.53,0.26,0
+nutz.csv,0.59,0.71,0.25,1

@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+archive-crawler.csv,0.475,0.35,0.325,10
+gamestone.csv,0.275,0.375,0.195,11
+geochat.csv,0.305,0.28,0.215,6
+igarden.csv,0.41,0.375,0.345,9
+ingex.csv,0.515,0.28500000000000003,0.51,1
+lphant.csv,0.715,0.315,0.515,7
+nabu-library.csv,0.275,0.22999999999999998,0.275,0
+nebuladevice.csv,0.33,0.27,0.29500000000000004,3
+owlapi.csv,0.43,0.315,0.325,8
+pi-qmc.csv,0.7050000000000001,0.305,0.56,5
+trinitycore.csv,0.27,0.28,0.335,2
+twostep.csv,0.81,0.32499999999999996,0.665,4

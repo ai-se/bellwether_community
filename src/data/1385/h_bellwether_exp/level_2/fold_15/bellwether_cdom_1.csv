@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.5,0.64,0.47,7.0,openefm.csv
+10,0.745,0.6000000000000001,0.395,1.0,atunes.csv
+13,0.775,0.485,0.395,9.0,arcallians.csv
+27,0.45,0.43999999999999995,0.3,4.0,h2database.csv
+33,0.625,0.47,0.37,17.0,ardour.csv
+52,0.61,0.33999999999999997,0.27,13.0,opensim4opencog.csv
+24,0.8049999999999999,0.65,0.615,1.0,magicwars.csv
+25,0.69,0.41000000000000003,0.39,2.0,turbotrader-bos.csv
+26,0.83,0.665,0.5,0.0,xmemcached.csv

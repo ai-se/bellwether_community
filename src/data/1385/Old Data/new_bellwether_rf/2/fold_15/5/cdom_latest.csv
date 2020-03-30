@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+geotools.csv,0.315,0.66,0.095,5
+l2j.csv,0.75,0.45,0.5349999999999999,1
+mule.csv,0.265,0.68,0.115,4
+springside.csv,0.665,0.615,0.37,3
+swtfox.csv,0.575,0.44999999999999996,0.525,0
+twostep.csv,0.5,0.545,0.4,2

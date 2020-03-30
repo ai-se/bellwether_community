@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+atomsite.csv,0.485,0.685,0.265,14
+betoffice.csv,0.38,0.635,0.33,9
+bionote.csv,0.055,0.79,0.005,15
+bnetd.csv,0.645,0.625,0.42,10
+elvishrayrenderer.csv,0.62,0.6499999999999999,0.45999999999999996,11
+emisview.csv,0.095,0.51,0.08,4
+hazelcast.csv,0.8400000000000001,0.61,0.64,8
+jitterbit.csv,0.29000000000000004,0.685,0.235,13
+jppf-project.csv,0.81,0.5900000000000001,0.77,3
+l2j.csv,0.62,0.61,0.53,7
+megasquirtavr.csv,1.0,0.645,1.0,6
+stajistics.csv,0.46499999999999997,0.7,0.395,12
+trackit.csv,0.6,0.54,0.71,0
+wxlua.csv,0.765,0.5700000000000001,0.81,2
+x4x.csv,0.76,0.585,0.705,5
+xharbour.csv,0.885,0.56,0.875,1

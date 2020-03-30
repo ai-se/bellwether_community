@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+aufs.csv,0.43,0.4,0.25,9
+bscwweasel.csv,0.06,0.5,0.02,11
+capcode.csv,0.22,0.23,0.15,5
+emite.csv,0.34,0.25,0.28,4
+extprosys.csv,0.85,0.27,0.84,1
+lamp.csv,0.15,0.42,0.07,10
+retromenu.csv,0.38,0.5,0.11,12
+smbopensoft.csv,0.48,0.39,0.3,8
+snakeyaml.csv,0.41,0.27,0.3,6
+stuproa-cims.csv,0.64,0.28,0.6,3
+ta3d.csv,0.76,0.29,0.78,2
+thout.csv,0.76,0.26,0.87,0
+vrjuggler.csv,0.07,0.29,0.03,7

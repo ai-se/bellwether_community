@@ -1,0 +1,10 @@
+,apolloplayer.csv,utgb.csv,pcgen.csv,emulemorph.csv,continuum-ide.csv,azureus.csv,stemkit.csv,factor.csv,columba.csv
+apolloplayer.csv,0.97,0.2,0.32,0.66,0.48,0.56,0.57,0.31,0.38
+azureus.csv,0.43,0.35,0.43,0.37,0.28,0.94,0.2,0.32,0.55
+columba.csv,0.5,0.44,0.63,0.0,0.71,0.71,0.68,0.68,0.93
+continuum-ide.csv,0.14,0.2,0.41,0.2,0.95,0.29,0.0,0.02,0.25
+emulemorph.csv,0.0,0.0,0.0,1.0,0.0,0.0,0.38,0.2,0.13
+factor.csv,0.0,0.04,0.05,0.0,0.07,0.17,0.49,0.98,0.05
+pcgen.csv,0.33,0.3,0.98,0.2,0.39,0.58,0.0,0.42,0.27
+stemkit.csv,0.25,0.04,0.0,0.0,0.0,0.0,1.0,0.14,0.01
+utgb.csv,0.37,0.93,0.05,0.2,0.14,0.06,0.2,0.33,0.29

@@ -1,0 +1,4 @@
+,recall,precision,pf,wins
+nuttx.csv,0.68,0.75,0.44,1
+pfaedit.csv,0.74,0.83,0.23,2
+powerfolder-.csv,0.23,0.54,0.22,0

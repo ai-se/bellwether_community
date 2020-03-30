@@ -1,0 +1,8 @@
+,ontomorphtab.csv,delphilhlplib.csv,flexpay.csv,gabel.csv,img-browse-sort.csv,passwordsafe.csv,genoviz.csv
+delphilhlplib.csv,0.64,0.02,0.73,0.76,0.7,0.78,0.57
+flexpay.csv,0.97,0.72,0.12,0.5,0.89,0.83,1.0
+gabel.csv,0.8,0.92,0.89,0.0,1.0,1.0,0.8
+genoviz.csv,0.94,0.8,0.87,0.88,0.92,0.98,0.0
+img-browse-sort.csv,0.6,0.46,0.56,0.34,0.15,0.7,0.36
+ontomorphtab.csv,0.06,0.53,0.73,0.61,0.73,0.58,0.82
+passwordsafe.csv,0.67,0.69,0.68,0.74,0.77,0.05,0.73

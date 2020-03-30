@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+inkscape.csv,0.83,0.44,0.93,0
+ivef-sdk.csv,0.67,0.47,0.32,8
+jaolt.csv,0.56,0.64,0.42,9
+jmule.csv,0.73,0.44,0.55,3
+jstock.csv,0.55,0.57,0.45,7
+lphant.csv,0.69,0.53,0.55,5
+novembre.csv,0.32,0.5,0.24,6
+oorexx.csv,0.46,0.46,0.27,4
+pi-qmc.csv,0.81,0.43,0.64,2
+qedo.csv,0.14,0.38,0.22,1
+yaprm.csv,0.67,0.63,0.38,10

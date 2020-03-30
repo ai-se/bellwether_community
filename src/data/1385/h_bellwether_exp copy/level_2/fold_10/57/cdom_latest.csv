@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+alleg.csv,0.51,0.43,0.43,6
+freewrl.csv,0.71,0.44,0.65,3
+fulguro.csv,0.55,0.38,0.5,1
+google-web-toolkit.csv,0.39,0.47,0.31,9
+jcache.csv,0.82,0.51,0.65,8
+jstock.csv,0.61,0.59,0.27,12
+mimosa.csv,0.78,0.55,0.75,5
+miranda.csv,0.19,0.4,0.15,7
+ns-3-dev-def-routing.csv,0.66,0.46,0.64,4
+ossbuild.csv,0.53,0.57,0.31,11
+qtractor.csv,0.71,0.56,0.45,10
+quarkplayer.csv,0.25,0.26,0.29,0
+synergyspace.csv,0.53,0.38,0.47,2

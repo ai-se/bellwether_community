@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+bwapi.csv,0.97,0.565,0.9299999999999999,0
+cubefs.csv,0.605,0.5800000000000001,0.575,3
+gisgraphy.csv,0.16,0.575,0.215,4
+iaml.csv,0.29000000000000004,0.61,0.275,8
+ivatamasks.csv,0.8049999999999999,0.5349999999999999,0.62,1
+kolmafia.csv,0.84,0.605,0.72,5
+ogrehg.csv,0.65,0.635,0.605,10
+olex2.csv,0.625,0.655,0.405,13
+openwbem.csv,0.685,0.585,0.5,6
+oppna-program-hsatools.csv,0.755,0.655,0.66,11
+orc.csv,0.365,0.575,0.19,7
+ta3d.csv,0.19,0.64,0.105,12
+umber.csv,0.785,0.635,0.7050000000000001,9
+xcmetadataservicestoolkit.csv,0.665,0.535,0.52,2

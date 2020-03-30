@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+calcubetimer.csv,0.435,0.33,0.24,2
+chaperon.csv,0.37,0.445,0.36,0
+mule.csv,0.5,0.36,0.235,4
+nunit.csv,0.45999999999999996,0.455,0.25,5
+springside.csv,0.5,0.51,0.32,3
+swtfox.csv,0.245,0.45499999999999996,0.24,1

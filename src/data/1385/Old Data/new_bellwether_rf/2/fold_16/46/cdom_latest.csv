@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+jparsec.csv,0.96,0.48,0.61,2
+kmess.csv,0.42,0.37,0.38,1
+minig.csv,0.64,0.74,0.25,4
+rezilla.csv,0.84,0.42,0.84,0
+webdriver.csv,0.41,0.62,0.12,3

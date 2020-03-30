@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+atomsite.csv,0.675,0.55,0.54,8
+baadengine.csv,0.935,0.385,0.7849999999999999,2
+chaosrts.csv,0.5,0.505,0.28500000000000003,11
+chaperon.csv,0.485,0.44999999999999996,0.45,4
+empyrean.csv,0.0,0.0,0.0,0
+hydrate.csv,0.525,0.31,0.315,6
+jaxlib.csv,0.31,0.5,0.255,9
+joustsim.csv,0.72,0.495,0.63,3
+loki-lib.csv,0.525,0.485,0.36,10
+owlapi.csv,0.43,0.435,0.4,5
+pamguard.csv,0.33999999999999997,0.325,0.455,1
+poormans.csv,0.435,0.41500000000000004,0.3,7

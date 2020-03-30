@@ -1,0 +1,10 @@
+,psycle.csv,ildjit.csv,jfreereport.csv,enlightenment.csv,pcsx2.csv,xqilla.csv,wxjs.csv,ffigo.csv,wikipediardware.csv
+enlightenment.csv,0.42,0.61,0.61,0.01,0.37,0.62,0.14,0.16,0.21
+ffigo.csv,0.34,0.37,0.55,0.4,0.39,0.49,0.19,0.0,0.5
+ildjit.csv,0.08,0.02,0.1,0.06,0.04,0.1,0.06,0.05,0.29
+jfreereport.csv,0.82,0.63,0.0,0.66,0.83,0.02,0.64,0.66,0.86
+pcsx2.csv,0.12,0.82,0.5,0.62,0.01,0.57,0.2,0.25,0.71
+psycle.csv,0.01,0.75,0.93,0.74,0.73,0.97,0.66,0.75,0.79
+wikipediardware.csv,0.51,0.48,0.63,0.75,0.69,0.7,0.92,0.77,0.0
+wxjs.csv,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+xqilla.csv,0.0,0.04,0.01,0.01,0.0,0.0,0.03,0.0,0.07

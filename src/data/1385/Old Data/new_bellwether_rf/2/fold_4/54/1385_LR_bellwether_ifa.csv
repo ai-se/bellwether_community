@@ -1,0 +1,10 @@
+,net-snmp.csv,powerfolder-.csv,hatari.csv,opde.csv,ltp.csv,chipster.csv,cataclysmos.csv,fontforge.csv,jcl.csv,quantlib.csv
+chipster.csv,0.0,0.0,1.0,0.0,0.0,0.0,33.0,3.0,2.0,118.0
+fontforge.csv,0.0,0.0,0.0,3.0,1.0,4.0,14.0,0.0,5.0,13.0
+hatari.csv,0.0,1.0,0.0,0.0,0.0,2.0,22.0,12.0,8.0,4.0
+jcl.csv,1.0,5.0,64.0,0.0,1.0,1.0,52.0,54.0,0.0,1.0
+ltp.csv,3.0,0.0,3.0,0.0,0.0,5.0,24.0,7.0,9.0,5.0
+net-snmp.csv,0.0,2.0,0.0,2.0,0.0,0.0,9.0,6.0,4.0,2.0
+opde.csv,2.0,1.0,1.0,0.0,1.0,2.0,28.0,0.0,7.0,4.0
+powerfolder-.csv,0.0,0.0,0.0,0.0,0.0,8.0,4.0,4.0,5.0,4.0
+quantlib.csv,0.0,5.0,1.0,2.0,0.0,14.0,10.0,5.0,6.0,0.0

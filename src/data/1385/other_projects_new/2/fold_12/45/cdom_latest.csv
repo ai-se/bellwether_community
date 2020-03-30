@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+biodwh.csv,0.52,0.42,0.21,8
+gdis.csv,0.69,0.21,0.51,3
+genoviz.csv,0.09,0.62,0.03,10
+kml.csv,0.82,0.26,0.83,0
+omseek.csv,0.09,0.33,0.02,6
+ossbuild.csv,0.65,0.4,0.26,9
+popeye-chess.csv,0.5,0.29,0.33,4
+quarkplayer.csv,0.35,0.15,0.32,1
+turbotrader-bos.csv,0.33,0.31,0.18,5
+virtuoso.csv,0.91,0.35,0.89,2
+zscreen.csv,0.69,0.29,0.26,7

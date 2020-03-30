@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+chipster.csv,0.61,0.52,0.47,6
+decidr.csv,0.53,0.44,0.46,0
+glas.csv,0.54,0.52,0.46,5
+hatari.csv,0.68,0.49,0.41,7
+ltp.csv,0.39,0.52,0.33,8
+net-snmp.csv,0.42,0.48,0.4,2
+opde.csv,0.61,0.5,0.44,4
+powerfolder-.csv,0.12,0.43,0.05,3
+tcl.csv,0.2,0.43,0.24,1

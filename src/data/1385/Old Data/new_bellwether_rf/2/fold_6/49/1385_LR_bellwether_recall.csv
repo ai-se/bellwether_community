@@ -1,0 +1,8 @@
+,kmatplot.csv,firebird.csv,popeye-chess.csv,cities3d.csv,mscore.csv,openmalaria.csv,riff-evolve.csv
+cities3d.csv,0.86,0.66,0.63,0.95,0.43,0.38,0.51
+firebird.csv,0.66,0.97,0.71,0.59,0.46,0.45,0.56
+kmatplot.csv,1.0,0.28,0.2,0.46,0.25,0.1,0.37
+mscore.csv,0.59,0.44,0.74,0.65,0.98,0.55,0.75
+openmalaria.csv,0.83,0.69,0.66,0.73,0.78,0.98,0.59
+popeye-chess.csv,0.86,0.63,0.91,0.68,0.5,0.69,0.71
+riff-evolve.csv,0.9,0.58,0.46,0.76,0.52,0.55,0.97

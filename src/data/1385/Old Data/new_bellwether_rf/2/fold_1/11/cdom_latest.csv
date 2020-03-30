@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+arcallians.csv,0.54,0.65,0.34,3
+biopax.csv,0.94,0.58,0.77,2
+crux-framework.csv,0.0,0.0,0.0,1
+kml.csv,0.73,0.73,0.42,4
+les-indemodables.csv,0.48,0.69,0.24,5
+metacosm.csv,0.33,0.72,0.15,6
+moviesandbox.csv,0.48,0.77,0.18,8
+sigil.csv,0.69,0.8,0.23,10
+unflobtactical.csv,0.65,0.76,0.25,9
+xtreemfs.csv,0.71,0.72,0.32,7
+yale.csv,0.41,0.42,0.62,0

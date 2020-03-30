@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+barracudamvc.csv,1.0,0.5549999999999999,1.0,2
+calcubetimer.csv,0.83,0.62,0.67,9
+chaosrts.csv,0.87,0.5900000000000001,0.865,6
+dxengine.csv,0.22,0.765,0.11,15
+freedom-erp.csv,0.0,0.0,0.015,0
+joustsim.csv,0.55,0.665,0.445,12
+jsidplay2.csv,0.5449999999999999,0.46499999999999997,0.685,1
+madman.csv,0.08499999999999999,0.585,0.05,13
+mclient-mume.csv,0.26,0.565,0.14,14
+primefaces.csv,0.615,0.48,0.6699999999999999,3
+reaper3d.csv,0.16,0.495,0.175,8
+sblim.csv,0.02,0.55,0.015,11
+sevenupdate.csv,0.995,0.565,0.965,5
+springside.csv,0.765,0.685,0.63,10
+swtfox.csv,0.35,0.485,0.48,4
+tmva.csv,0.79,0.5349999999999999,0.74,7

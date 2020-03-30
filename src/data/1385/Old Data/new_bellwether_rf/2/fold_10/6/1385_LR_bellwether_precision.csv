@@ -1,0 +1,8 @@
+,jfreereport.csv,arcallians.csv,acegisecurity.csv,gebr.csv,amateur-scrolls.csv,kml.csv,multitude.csv
+acegisecurity.csv,0.2,0.53,1.0,0.72,0.33,0.48,0.48
+amateur-scrolls.csv,0.18,0.62,0.3,1.0,1.0,0.7,0.89
+arcallians.csv,0.16,1.0,0.35,0.86,0.44,0.63,0.59
+gebr.csv,0.14,0.55,0.28,0.99,0.34,0.6,0.58
+jfreereport.csv,0.99,0.38,0.27,0.6,0.21,0.31,0.45
+kml.csv,0.21,0.81,0.42,0.87,0.41,1.0,0.61
+multitude.csv,0.17,0.57,0.42,0.71,0.4,0.64,1.0

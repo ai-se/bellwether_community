@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+acdk.csv,0.45,0.57,0.24,5
+clamav.csv,0.64,0.4,0.5,0
+k3b.csv,0.76,0.37,0.44,3
+kindb.csv,0.66,0.42,0.3,4
+pclasses.csv,0.12,0.33,0.18,2
+re2c.csv,0.19,0.65,0.14,6
+thrust.csv,0.41,0.36,0.33,1

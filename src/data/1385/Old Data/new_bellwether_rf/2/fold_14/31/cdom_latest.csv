@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+algebsql.csv,0.31,0.63,0.13,15
+amygdala.csv,0.455,0.515,0.39,7
+cme.csv,0.0,0.0,0.0,0
+dspace-gsoc.csv,0.19,0.455,0.14500000000000002,9
+hydrate.csv,0.10500000000000001,0.585,0.11,13
+ivef-sdk.csv,0.615,0.43999999999999995,0.56,2
+jmri.csv,0.675,0.505,0.5449999999999999,5
+kdenlive.csv,0.5,0.51,0.435,6
+motu.csv,0.135,0.515,0.11,11
+plplot.csv,0.655,0.505,0.63,3
+projectfactory.csv,0.35,0.52,0.24,12
+runuomondains.csv,0.07,0.435,0.05,8
+somap.csv,1.0,0.5,0.98,1
+taverna.csv,0.22,0.645,0.14,14
+tigermud.csv,0.42000000000000004,0.5,0.395,4
+wishmaster.csv,0.055,0.5,0.045,10

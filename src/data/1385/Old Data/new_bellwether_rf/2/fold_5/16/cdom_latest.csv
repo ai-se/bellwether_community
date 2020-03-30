@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+aufs.csv,0.41,0.47,0.16,9
+bdbbasic.csv,0.65,0.44,0.39,8
+bibletime.csv,0.85,0.32,0.71,2
+crux-framework.csv,0.0,0.0,0.0,1
+etherboot.csv,0.38,0.31,0.29,5
+gnukeda.csv,0.69,0.33,0.57,3
+google-gears.csv,0.73,0.31,0.66,0
+jnode.csv,0.03,0.2,0.03,4
+openmeetings.csv,0.55,0.4,0.38,7
+pgui.csv,0.22,0.32,0.16,6
+wxcrp.csv,0.45,0.56,0.16,10

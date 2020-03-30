@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+aubit4gl.csv,0.61,0.45,0.35,2
+glelite.csv,1.0,0.48,0.99,1
+moving-pictures.csv,0.59,0.55,0.44,5
+plearn.csv,0.73,0.52,0.43,4
+re2c.csv,0.48,0.55,0.34,3
+rebecca-aiml.csv,0.48,0.53,0.12,6
+xfce.csv,0.59,0.49,0.6,0

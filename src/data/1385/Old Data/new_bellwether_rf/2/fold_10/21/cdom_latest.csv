@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+adonthell.csv,0.635,0.605,0.515,1
+decidr.csv,0.56,0.5700000000000001,0.38,2
+exist.csv,0.465,0.675,0.215,6
+ivatamasks.csv,0.53,0.61,0.39,4
+libopenmetaverse.csv,0.385,0.54,0.375,0
+mule.csv,0.435,0.63,0.225,5
+runuomondains.csv,0.14500000000000002,0.575,0.12,3

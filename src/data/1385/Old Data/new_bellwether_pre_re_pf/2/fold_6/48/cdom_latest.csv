@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+elateportal.csv,0.68,0.46,0.48,5
+exordium.csv,0.36,0.57,0.19,8
+flexpay.csv,0.35,0.32,0.51,0
+mptvseries.csv,0.22,0.5,0.11,7
+openmsx.csv,0.5,0.45,0.55,2
+qtractor.csv,0.53,0.46,0.33,6
+synergyspace.csv,0.46,0.39,0.27,4
+tango-cs.csv,0.6,0.41,0.46,3
+toped.csv,0.86,0.39,0.83,1

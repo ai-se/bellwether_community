@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+ikvm.csv,0.39,0.40499999999999997,0.5349999999999999,0
+mcmc-jags.csv,0.7150000000000001,0.555,0.52,2
+olap-navigator.csv,0.595,0.455,0.3,3
+pidgin.csv,0.625,0.55,0.385,5
+salasaga.csv,0.725,0.4,0.46499999999999997,1
+sepgsql.csv,0.53,0.475,0.28,4

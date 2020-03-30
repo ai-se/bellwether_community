@@ -1,0 +1,8 @@
+,scen-connect.csv,bwapi.csv,ontopia.csv,smartgwt.csv,adobe-source.csv,lite.csv,gisgraphy.csv
+adobe-source.csv,61.0,1.0,0.0,1.0,1.0,8.0,1.0
+bwapi.csv,61.0,1.0,0.0,387.0,161.0,8.0,1.0
+gisgraphy.csv,61.0,1.0,0.0,2.0,16.0,2.0,0.0
+lite.csv,8.0,159.0,89.0,387.0,161.0,0.0,69.0
+ontopia.csv,42.0,0.0,0.0,2.0,15.0,3.0,0.0
+scen-connect.csv,0.0,159.0,89.0,387.0,161.0,55.0,69.0
+smartgwt.csv,61.0,1.0,2.0,0.0,161.0,8.0,1.0

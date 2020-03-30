@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+abbot.csv,0.455,0.28500000000000003,0.395,1
+jicarilla.csv,0.07,0.195,0.035,4
+optalgtoolkit.csv,0.57,0.37,0.52,2
+ossim.csv,0.0,0.0,0.0,0
+projectts.csv,0.74,0.42500000000000004,0.645,3
+sabbu.csv,0.24,0.38,0.28,5
+vxl.csv,0.67,0.455,0.545,6
+zact.csv,0.18,0.45999999999999996,0.04,7

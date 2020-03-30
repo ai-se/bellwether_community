@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+ambulant.csv,0.57,0.54,0.7,4
+autofac.csv,0.57,0.62,0.46,10
+coot.csv,0.59,0.51,0.59,5
+dsworkbench.csv,0.22,0.43,0.12,8
+emono.csv,0.71,0.44,0.7,3
+exist.csv,0.88,0.47,0.89,2
+freelords.csv,0.71,0.55,0.48,9
+google-collections.csv,1.0,0.47,1.0,1
+jchassis.csv,0.0,0.0,0.0,0
+jpaul.csv,0.34,0.54,0.21,11
+neodatis-odb.csv,0.43,0.57,0.27,12
+octet.csv,0.58,0.45,0.44,6
+thedata.csv,0.61,0.57,0.57,7

@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+freebios.csv,0.44,0.38,0.4,0
+jnode.csv,0.07,0.33,0.11,2
+mcmc-jags.csv,0.88,0.48,0.77,1
+metacosm.csv,0.33,0.62,0.15,6
+miranda-icq.csv,0.56,0.47,0.51,3
+quarkplusplus.csv,0.58,0.5,0.28,5
+selenium.csv,0.58,0.54,0.35,4

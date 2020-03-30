@@ -1,0 +1,9 @@
+,gotjava.csv,empserver.csv,ctrlr.csv,anaxagora.csv,gmerlin.csv,ffigo.csv,skia.csv,zemljanka.csv,wikipediardware.csv
+anaxagora.csv,1.0,0.95,0.86,0.1,0.67,0.88,0.68,0.84,1.0
+ctrlr.csv,1.0,0.96,0.19,1.0,0.97,0.97,1.01,0.96,0.98
+empserver.csv,1.25,0.14,0.86,0.81,0.56,0.7,0.6,0.78,0.57
+ffigo.csv,1.08,0.89,0.64,0.58,0.7,0.01,0.82,0.77,0.9
+gmerlin.csv,1.08,0.87,0.84,0.84,0.06,0.87,0.65,0.7,0.88
+skia.csv,0.15,0.86,0.81,0.56,0.88,0.94,0.04,0.74,0.91
+wikipediardware.csv,0.99,0.9,0.82,0.8,0.74,0.74,0.96,0.68,0.03
+zemljanka.csv,0.98,0.93,0.97,0.97,0.94,1.01,0.93,0.11,0.79

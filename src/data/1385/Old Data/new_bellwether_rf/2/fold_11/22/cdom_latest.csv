@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+doomlegacy.csv,0.705,0.65,0.37,0
+neoengine.csv,0.8,0.7150000000000001,0.65,1
+omseek.csv,0.09,0.74,0.05,3
+pcsx2.csv,0.32499999999999996,0.71,0.16,2

@@ -1,0 +1,7 @@
+,plearn.csv,nsis.csv,aztec.csv,papertoolkit.csv,qdvdauthor.csv,tango-cs.csv
+aztec.csv,0.07,0.04,0.94,0.0,0.09,0.36
+nsis.csv,0.42,1.0,0.13,0.11,0.79,0.32
+papertoolkit.csv,0.09,0.0,0.04,1.0,0.05,0.04
+plearn.csv,0.9,0.71,0.17,0.09,0.62,0.43
+qdvdauthor.csv,0.44,0.53,0.21,0.09,1.0,0.5
+tango-cs.csv,0.35,0.27,0.13,0.22,0.26,0.97

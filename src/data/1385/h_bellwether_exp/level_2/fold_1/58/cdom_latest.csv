@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+e-bio-flow.csv,0.425,0.42,0.15,4
+exl.csv,0.665,0.29500000000000004,0.39,0
+opennms.csv,0.13,0.45,0.18,3
+phet.csv,0.31,0.42,0.315,2
+runuomondains.csv,0.51,0.47,0.455,1

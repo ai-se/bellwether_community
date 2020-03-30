@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+aufs.csv,0.42,0.69,0.42,7
+calcubetimer.csv,0.81,0.61,0.52,10
+chaosrts.csv,0.84,0.66,0.74,3
+emono.csv,0.78,0.73,0.76,2
+freelords.csv,0.81,0.67,0.76,1
+jmonkeyengine.csv,0.38,0.67,0.42,5
+jython.csv,0.72,0.72,0.55,8
+mclient-mume.csv,0.29,0.67,0.14,13
+papertoolkit.csv,0.0,0.0,0.0,0
+primefaces.csv,0.67,0.63,0.54,6
+st-filteredstatistics.csv,0.7,0.64,0.62,4
+toped.csv,0.68,0.6,0.38,12
+triplea.csv,0.62,0.71,0.48,9
+web-cat.csv,0.33,0.66,0.26,11

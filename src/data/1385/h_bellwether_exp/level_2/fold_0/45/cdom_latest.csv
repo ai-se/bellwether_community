@@ -1,0 +1,14 @@
+,recall,precision,pf,wins
+apertium.csv,0.2,0.33,0.26,5
+badtrinity-zero.csv,0.68,0.29,0.67,3
+betoffice.csv,0.75,0.33,0.82,2
+exordium.csv,0.75,0.38,0.55,8
+fltk.csv,0.67,0.36,0.38,9
+gabel.csv,0.42,0.5,0.24,11
+genoviz.csv,0.2,0.71,0.05,12
+irrlicht.csv,1.0,0.3,1.0,1
+nug.csv,0.47,0.33,0.39,6
+rezilla.csv,0.38,0.31,0.53,0
+toped.csv,0.84,0.3,0.75,4
+xmemcached.csv,0.78,0.44,0.76,7
+zoolib.csv,0.67,0.38,0.39,10

@@ -1,0 +1,10 @@
+,lazarus-ccr.csv,ikvm.csv,ontomorphtab.csv,xuggle.csv,micomt.csv,les-indemodables.csv,tradelink.csv,elateportal.csv,metacosm.csv
+elateportal.csv,0.72,0.83,0.59,0.63,0.95,0.55,0.71,0.0,0.96
+ikvm.csv,0.74,0.03,0.77,0.76,0.85,0.98,0.8,0.2,0.74
+lazarus-ccr.csv,0.0,0.73,0.62,0.87,0.7,0.85,0.73,0.7,0.72
+les-indemodables.csv,0.78,0.75,0.74,0.77,0.8,0.03,0.69,0.95,0.86
+metacosm.csv,0.76,0.8,0.77,0.63,0.5,0.55,0.59,0.16,0.04
+micomt.csv,0.82,0.7,0.83,0.59,0.08,0.45,0.63,1.01,0.76
+ontomorphtab.csv,0.62,0.82,0.03,0.59,0.48,0.65,0.93,0.68,0.8
+tradelink.csv,0.89,0.89,0.69,0.73,0.47,0.58,0.0,0.97,0.68
+xuggle.csv,0.91,0.61,0.84,0.15,0.56,0.95,0.65,0.52,0.74

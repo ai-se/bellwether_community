@@ -1,0 +1,9 @@
+,recall,precision,pf,cdom,bellwether
+1,0.88,0.47,0.4,8.0,triplea.csv
+12,0.69,0.665,0.5900000000000001,1.0,pi-qmc.csv
+15,0.77,0.48,0.44,12.0,mobicents.csv
+29,0.61,0.49,0.43,19.0,ktc.csv
+50,0.86,0.57,0.45499999999999996,4.0,olsrd.csv
+56,0.77,0.62,0.49,2.0,modellus.csv
+60,0.56,0.405,0.33,8.0,co-ode-owl-plugins.csv
+11,0.73,0.42,0.23,0.0,atunes.csv

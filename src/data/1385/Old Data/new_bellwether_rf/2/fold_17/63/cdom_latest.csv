@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+codesmith.csv,0.8,0.6,0.76,7
+cubefs.csv,0.69,0.59,0.62,10
+gwanted.csv,0.15,0.66,0.04,15
+iaml.csv,0.66,0.5,0.69,5
+java-gnome.csv,0.5,0.57,0.24,14
+mecat.csv,0.0,0.0,0.0,0
+mvdsv.csv,0.0,0.0,0.0,0
+openwbem.csv,0.72,0.65,0.67,11
+orc.csv,0.23,0.5,0.32,6
+plato.csv,0.79,0.53,0.85,2
+rodin-b-sharp.csv,0.28,0.44,0.15,12
+ta3d.csv,0.67,0.58,0.62,8
+tycho.csv,0.54,0.57,0.5,9
+umber.csv,0.29,0.6,0.18,13
+vienna-add-in.csv,0.94,0.53,0.93,3
+wpdev.csv,1.0,0.56,1.0,4

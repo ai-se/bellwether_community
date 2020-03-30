@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+amanda.csv,0.62,0.36,0.32,3
+bdbbasic.csv,0.42,0.56,0.53,2
+empyrean.csv,0.0,0.0,0.0,0
+gnome-jabber.csv,0.52,0.55,0.37,4
+nutz.csv,0.58,0.58,0.68,1

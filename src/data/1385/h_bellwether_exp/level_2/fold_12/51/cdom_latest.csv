@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+gamestone.csv,0.4,0.3,0.2,5
+gbif-providertoolkit.csv,0.6,0.31,0.65,1
+geochat.csv,0.21,0.22,0.33,0
+heekscad.csv,0.57,0.38,0.35,6
+igarden.csv,0.57,0.43,0.3,9
+jstock.csv,0.53,0.45,0.24,10
+levent.csv,0.12,0.19,0.02,3
+piccolo2d.csv,0.3,0.38,0.13,8
+pnotepad.csv,0.86,0.31,0.7,2
+trinitycore.csv,0.39,0.34,0.33,4
+xcsoar.csv,0.51,0.35,0.25,7

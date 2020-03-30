@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+codesmith.csv,0.79,0.6699999999999999,0.8,7
+echongl.csv,0.605,0.6,0.545,8
+findbugs.csv,0.275,0.63,0.275,11
+google-web-toolkit.csv,0.375,0.58,0.31,9
+gwanted.csv,0.375,0.73,0.095,14
+ivatamasks.csv,0.81,0.63,0.69,10
+onotoa.csv,0.66,0.5800000000000001,0.65,4
+orc.csv,0.16,0.61,0.375,3
+plato.csv,0.8,0.515,0.825,0
+proftp.csv,0.245,0.8,0.165,13
+rodin-b-sharp.csv,0.18,0.535,0.19,6
+uclmda.csv,0.09,0.48,0.125,2
+umber.csv,0.36,0.6,0.235,12
+unicase.csv,0.76,0.535,0.62,5
+wpdev.csv,1.0,0.615,1.0,1

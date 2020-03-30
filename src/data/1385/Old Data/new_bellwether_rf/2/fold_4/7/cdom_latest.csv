@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+dxengine.csv,0.27,0.6200000000000001,0.185,9
+freedom-erp.csv,0.0,0.0,0.0,0
+javaprofiler.csv,0.575,0.36,0.515,2
+jmoney.csv,0.22999999999999998,0.62,0.09,11
+jsidplay2.csv,0.595,0.49,0.415,5
+reaper3d.csv,0.27,0.55,0.20500000000000002,7
+servicestack.csv,0.355,0.555,0.235,8
+springside.csv,0.645,0.43,0.59,4
+swtfox.csv,0.36,0.37,0.385,3
+synecdoche.csv,0.345,0.515,0.23500000000000001,6
+tmva.csv,0.665,0.425,0.615,1
+wsmt.csv,0.04,0.655,0.03,10

@@ -1,0 +1,7 @@
+,mule.csv,springside.csv,swtfox.csv,chaperon.csv,calcubetimer.csv,nunit.csv
+calcubetimer.csv,1.0,0.67,0.65,0.5,1.0,0.78
+chaperon.csv,0.12,0.08,0.15,1.0,0.12,0.2
+mule.csv,0.95,0.22,0.22,0.0,0.29,0.48
+nunit.csv,0.32,0.53,0.3,0.0,0.68,0.95
+springside.csv,0.77,1.0,0.45,0.75,0.46,0.7
+swtfox.csv,0.07,0.22,0.98,0.5,0.16,0.15

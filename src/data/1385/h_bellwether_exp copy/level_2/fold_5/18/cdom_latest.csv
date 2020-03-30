@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+dataobjectsdotnet.csv,0.62,0.5,0.29,6
+gstreamer.csv,0.73,0.45,0.66,2
+ifmo-game-1.csv,0.18,0.33,0.14,1
+pi-qmc.csv,0.58,0.45,0.49,3
+quarkplusplus.csv,0.35,0.56,0.22,5
+xapian.csv,0.65,0.47,0.54,4
+zemljanka.csv,0.8,0.43,0.77,0

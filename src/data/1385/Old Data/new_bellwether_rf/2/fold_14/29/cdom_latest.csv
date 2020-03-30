@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+fido.csv,0.0,0.0,0.0,2
+fityk.csv,0.495,0.31,0.345,3
+freenet.csv,0.62,0.305,0.555,0
+geogebra.csv,0.525,0.51,0.20500000000000002,8
+hibernate.csv,0.435,0.555,0.275,7
+itext.csv,0.56,0.435,0.295,6
+k3b.csv,0.74,0.38,0.39,4
+lamp.csv,0.345,0.655,0.1,9
+megameknet.csv,0.515,0.475,0.33,5
+thout.csv,0.5,0.42000000000000004,0.535,1

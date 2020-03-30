@@ -1,0 +1,11 @@
+,recall,precision,pf,wins
+botsnscouts.csv,0.665,0.28500000000000003,0.46499999999999997,5
+bscwweasel.csv,0.475,0.28,0.195,7
+cme.csv,0.01,0.1,0.0,2
+fido.csv,0.075,0.04,0.025,1
+japano.csv,0.685,0.2,0.8,0
+joustsim.csv,0.66,0.41,0.51,8
+log4net.csv,0.315,0.24,0.20500000000000002,3
+personalaccess.csv,0.515,0.27,0.355,4
+rcp-company-uibindings.csv,0.5,0.275,0.22,6
+unbvision.csv,0.46,0.385,0.255,9

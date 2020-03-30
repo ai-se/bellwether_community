@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+calcubetimer.csv,0.915,0.155,0.72,0
+freedom-erp.csv,0.01,0.045,0.03,1
+jahshaka.csv,0.355,0.325,0.14,7
+jmoney.csv,0.235,0.27,0.1,6
+reaper3d.csv,0.21000000000000002,0.20500000000000002,0.13,4
+sblim.csv,0.055,0.26,0.08,5
+swtfox.csv,0.525,0.25,0.52,2
+tart.csv,0.035,0.20500000000000002,0.13,3

@@ -1,0 +1,7 @@
+,selenium.csv,pcgen.csv,lockss.csv,webdriver.csv,tolven.csv,personalaccess.csv
+lockss.csv,0.34,0.6,0.44,0.41,0.5,0.76
+pcgen.csv,0.67,0.67,0.35,0.62,0.46,0.41
+personalaccess.csv,0.41,0.67,0.32,0.51,0.57,0.86
+selenium.csv,0.67,0.59,0.37,0.69,0.56,0.66
+tolven.csv,0.44,0.63,0.28,0.39,0.69,0.19
+webdriver.csv,0.66,0.0,0.22,0.73,0.34,0.68

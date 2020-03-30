@@ -1,0 +1,3 @@
+,recall,precision,pf,wins
+logicmail.csv,0.75,0.755,0.265,0
+mclient-mume.csv,0.53,1.0,0.0,1

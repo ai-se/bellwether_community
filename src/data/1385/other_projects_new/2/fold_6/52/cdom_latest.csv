@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+arm-webradio.csv,0.41,0.48,0.27,8
+crisscross.csv,0.84,0.35,0.9,1
+cubefs.csv,0.71,0.37,0.63,4
+gisgraphy.csv,0.13,0.49,0.1,7
+iaml.csv,0.35,0.47,0.27,6
+ivataopenportal.csv,0.91,0.4,0.87,3
+mb-unit.csv,0.88,0.36,0.96,0
+mvdsv.csv,0.06,0.58,0.02,9
+nova.csv,0.68,0.47,0.73,5
+openwbem.csv,0.51,0.55,0.27,10
+xcmetadataservicestoolkit.csv,0.63,0.35,0.66,2

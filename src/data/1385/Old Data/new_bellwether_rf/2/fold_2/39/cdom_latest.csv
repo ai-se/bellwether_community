@@ -1,0 +1,4 @@
+,recall,precision,pf,wins
+archive-crawler.csv,0.43,0.59,0.26,0
+ardour.csv,0.43,0.37,0.13,1
+zorannt.csv,0.7,0.69,0.2,2

@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+lockss.csv,0.19,0.655,0.05500000000000001,4
+pcgen.csv,0.435,0.64,0.195,3
+personalaccess.csv,0.845,0.495,0.635,0
+selenium.csv,0.6499999999999999,0.5599999999999999,0.365,1
+tolven.csv,0.29,0.88,0.04,5
+webdriver.csv,0.53,0.625,0.255,2

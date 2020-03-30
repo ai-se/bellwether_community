@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+ambulant.csv,0.7050000000000001,0.305,0.685,0
+ingex.csv,0.59,0.385,0.43500000000000005,3
+jgnash.csv,0.5449999999999999,0.385,0.4,2
+mp-rechnungs-und-kundenverwaltung.csv,0.44,0.49,0.21000000000000002,5
+openefm.csv,0.5,0.325,0.32,1
+yarp0.csv,0.625,0.4,0.45,4

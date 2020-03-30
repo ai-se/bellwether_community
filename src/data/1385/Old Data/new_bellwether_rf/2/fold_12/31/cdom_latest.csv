@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+boost-sandbox.csv,0.42,0.28,0.31,4
+foursquared.csv,0.12,0.31,0.0,8
+jasperreports.csv,0.05,0.25,0.0,6
+kdenlive.csv,0.74,0.33,0.57,2
+optalgtoolkit.csv,0.77,0.4,0.49,5
+sabbu.csv,0.59,0.33,0.44,3
+tokratan.csv,0.21,0.44,0.2,7
+vxl.csv,0.25,0.16,0.39,0
+zact.csv,0.0,0.0,0.0,1

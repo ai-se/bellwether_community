@@ -1,0 +1,11 @@
+,firebird.csv,ontomorphtab.csv,taokgame.csv,applet2app.csv,xbplayer.csv,htmlunit.csv,webdriver.csv,smarttag.csv,monetdb.csv,fmri-dmt.csv
+applet2app.csv,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+firebird.csv,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+fmri-dmt.csv,0.0,0.86,0.11,0.0,0.08,0.0,0.13,1.0,0.0,0.02
+htmlunit.csv,0.0,1.0,1.0,0.0,1.0,0.08,1.0,1.0,0.34,1.0
+monetdb.csv,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ontomorphtab.csv,0.0,0.14,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+smarttag.csv,0.0,0.19,0.0,0.0,0.0,0.0,0.02,0.15,0.0,0.0
+taokgame.csv,0.0,0.29,0.01,0.0,0.0,0.0,0.26,0.72,0.0,0.03
+webdriver.csv,0.0,1.0,0.0,0.0,0.0,0.0,0.17,1.0,0.0,0.02
+xbplayer.csv,0.0,1.0,0.34,0.0,0.18,0.0,0.94,1.0,0.0,0.85

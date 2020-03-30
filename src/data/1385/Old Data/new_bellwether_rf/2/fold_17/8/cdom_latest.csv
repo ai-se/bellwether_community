@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+adonthell.csv,0.29,0.52,0.27,5
+avisynth2.csv,0.0,0.0,0.0,0
+coot.csv,0.59,0.53,0.39,7
+dsworkbench.csv,0.3,0.44,0.24,4
+freelords.csv,0.76,0.5,0.65,1
+gephex.csv,0.75,0.52,0.6,2
+jas.csv,0.08,0.5,0.06,8
+jpaul.csv,0.2,0.55,0.11,9
+ngl.csv,0.5,0.56,0.39,6
+scenemonitor.csv,0.68,0.6,0.58,3
+synecdoche.csv,0.25,0.64,0.16,10

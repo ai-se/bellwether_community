@@ -1,0 +1,17 @@
+,recall,precision,pf,wins
+apertium.csv,0.5,0.61,0.35,9
+bionote.csv,0.16,0.67,0.05,13
+bullet.csv,0.74,0.51,0.56,5
+dxengine.csv,0.31,0.65,0.19,12
+emono.csv,0.75,0.41,0.74,0
+findbugs.csv,0.36,0.57,0.3,7
+hazelcast.csv,0.91,0.42,0.85,1
+jedit.csv,0.47,0.61,0.29,11
+jmonkeyengine.csv,0.36,0.67,0.31,10
+kolmafia.csv,0.65,0.47,0.52,4
+lamp.csv,0.33,0.75,0.1,15
+lcfizvtop.csv,0.34,0.57,0.21,8
+onotoa.csv,0.67,0.45,0.67,2
+openintents.csv,0.46,0.39,0.41,3
+qlc.csv,0.22,0.7,0.11,14
+triplea.csv,0.74,0.47,0.45,6

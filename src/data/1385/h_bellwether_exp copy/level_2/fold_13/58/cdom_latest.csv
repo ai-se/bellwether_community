@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+codeblocks.csv,0.69,0.47,0.505,6
+emulemorph.csv,0.025,0.625,0.0,11
+fulguro.csv,0.42500000000000004,0.475,0.46,3
+fw4spl.csv,0.33499999999999996,0.38,0.25,2
+gnome-jabber.csv,0.6950000000000001,0.485,0.62,4
+ipfilter.csv,0.84,0.515,0.755,5
+ipfire-wall.csv,0.48,0.51,0.315,9
+libmesh.csv,0.27,0.36,0.31,1
+rockbox.csv,0.30500000000000005,0.5,0.215,8
+soar.csv,0.965,0.43,1.0,0
+tencompetence.csv,0.385,0.505,0.28500000000000003,7
+xbrlapi.csv,0.4,0.58,0.255,10

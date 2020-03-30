@@ -1,0 +1,8 @@
+,orc.csv,magicwars.csv,haggle.csv,java-gnome.csv,archive-crawler.csv,servicestack.csv,gisgraphy.csv
+archive-crawler.csv,0.22,0.25,0.54,0.68,0.97,0.27,0.43
+gisgraphy.csv,0.22,0.09,0.5,0.38,0.25,0.37,1.0
+haggle.csv,0.48,0.45,0.97,0.25,0.4,0.34,0.17
+java-gnome.csv,0.75,0.19,0.35,0.99,0.64,0.28,0.44
+magicwars.csv,0.2,0.9,0.0,0.24,0.33,0.0,0.0
+orc.csv,1.0,0.21,0.0,0.11,0.3,0.35,0.6
+servicestack.csv,0.36,0.26,0.46,0.02,0.51,0.85,0.17

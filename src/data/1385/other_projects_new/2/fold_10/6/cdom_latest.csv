@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+acegisecurity.csv,0.59,0.56,0.38,3
+amateur-scrolls.csv,0.3,0.4,0.03,2
+arcallians.csv,0.77,0.57,0.44,5
+gebr.csv,1.0,0.52,0.96,0
+jfreereport.csv,0.22,0.8,0.04,6
+kml.csv,0.98,0.52,0.83,1
+multitude.csv,0.75,0.59,0.49,4

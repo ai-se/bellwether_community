@@ -1,0 +1,8 @@
+,recall,precision,pf,cdom,bellwether
+3,0.81,0.5,0.41,4.0,qse.csv
+9,0.51,0.63,0.52,9.0,kftpgrabber.csv
+20,0.445,0.33,0.29,15.0,tolven.csv
+38,0.52,0.38,0.33,19.0,jstock.csv
+1,0.99,0.995,0.99,0.0,benojt.csv
+2,0.91,0.635,0.36,0.0,emftriple.csv
+37,0.585,0.665,0.41500000000000004,1.0,ivef-sdk.csv

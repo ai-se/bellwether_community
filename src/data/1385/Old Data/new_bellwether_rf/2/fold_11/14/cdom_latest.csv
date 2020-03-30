@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+aubit4gl.csv,0.485,0.245,0.56,0
+bibedt.csv,0.48,0.425,0.315,6
+customwars.csv,0.22,0.17,0.18,3
+impala.csv,0.405,0.32,0.535,2
+massiv.csv,0.0,0.0,0.0,1
+playerstage.csv,0.485,0.46499999999999997,0.295,7
+quarkplusplus.csv,0.48,0.37,0.275,5
+xinity.csv,0.28500000000000003,0.245,0.18,4

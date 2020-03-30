@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+cubefs.csv,0.52,0.405,0.26,13
+fleet-simulator.csv,0.9199999999999999,0.345,0.775,2
+geogebra.csv,0.395,0.44,0.26,11
+gtad.csv,0.355,0.565,0.165,14
+hibernate.csv,0.475,0.405,0.31,7
+ipfire-wall.csv,0.385,0.42500000000000004,0.24,12
+irplus.csv,0.585,0.41,0.355,9
+mumble.csv,0.485,0.46499999999999997,0.385,6
+ondex.csv,0.385,0.4,0.255,8
+powerfolder.csv,0.405,0.39,0.235,10
+projectts.csv,0.4,0.365,0.32999999999999996,5
+quantlib.csv,0.095,0.14500000000000002,0.165,3
+smartgwt.csv,0.725,0.345,0.545,4
+tweetsharp.csv,0.5549999999999999,0.275,0.62,0
+wxlua.csv,0.43,0.27,0.525,1

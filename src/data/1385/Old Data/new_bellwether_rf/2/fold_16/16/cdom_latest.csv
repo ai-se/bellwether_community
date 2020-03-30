@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+empserver.csv,0.65,0.69,0.45999999999999996,7
+enlightenment.csv,0.62,0.6399999999999999,0.435,6
+ffigo.csv,0.595,0.63,0.44999999999999996,5
+ildjit.csv,0.06,0.47,0.065,4
+jfreereport.csv,0.5900000000000001,0.54,0.62,1
+psycle.csv,0.77,0.585,0.635,3
+wikipediardware.csv,0.765,0.55,0.71,2
+wxjs.csv,0.0,0.0,0.0,0

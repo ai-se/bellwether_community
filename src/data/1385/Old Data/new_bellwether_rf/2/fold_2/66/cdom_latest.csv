@@ -1,0 +1,15 @@
+,recall,precision,pf,wins
+amygdala.csv,0.37,0.455,0.31000000000000005,6
+avifile.csv,0.0,0.0,0.0,0
+delphilhlplib.csv,0.635,0.445,0.47,7
+fluidium.csv,0.27,0.45,0.22,8
+gnome-jabber.csv,0.6799999999999999,0.395,0.675,2
+ipfilter.csv,0.81,0.395,0.735,3
+jparsec.csv,0.965,0.43,0.97,1
+loki-lib.csv,0.52,0.48,0.44,5
+mumble.csv,0.12,0.61,0.08,12
+opengs.csv,0.305,0.5349999999999999,0.11499999999999999,13
+owfs.csv,0.18,0.52,0.14,10
+rectracker.csv,0.975,0.44,0.835,4
+rockbox.csv,0.28500000000000003,0.5,0.22,9
+zealos.csv,0.495,0.58,0.395,11

@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+alsa.csv,0.715,0.6,0.405,5
+arcallians.csv,0.6399999999999999,0.54,0.29500000000000004,4
+arianne.csv,0.95,0.505,0.9299999999999999,1
+cortex-vfx.csv,0.4,0.64,0.19,6
+mbse.csv,0.635,0.475,0.63,0
+multitude.csv,0.79,0.585,0.555,3
+phonon-vlc-mplayer.csv,0.51,0.66,0.245,7
+qgis.csv,0.495,0.47000000000000003,0.315,2

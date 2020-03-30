@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+jajuk.csv,0.56,0.55,0.43,4
+massiv.csv,0.0,0.0,0.0,2
+mesa3d.csv,0.38,0.55,0.36,3
+ngl.csv,0.63,0.66,0.41,6
+nutz.csv,0.5,0.66,0.23,7
+ossim.csv,0.01,1.0,0.0,8
+qmmp.csv,0.69,0.6,0.51,5
+rcp-company-uibindings.csv,0.94,0.48,0.85,1
+v8.csv,0.88,0.47,0.88,0

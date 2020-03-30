@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+iaml.csv,0.72,0.46,0.44999999999999996,1
+jrdf.csv,0.24,0.515,0.185,2
+mpqc.csv,0.245,0.64,0.2,3
+tigermud.csv,0.715,0.345,0.585,0

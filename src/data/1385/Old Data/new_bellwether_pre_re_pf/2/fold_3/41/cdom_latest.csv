@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+crux-framework.csv,0.21,0.595,0.10500000000000001,2
+libtorrent.csv,0.9450000000000001,0.625,0.77,1
+moviesandbox.csv,0.71,0.7250000000000001,0.405,3
+sigil.csv,0.815,0.75,0.41000000000000003,4
+xbg.csv,0.13,0.385,0.245,0
+xtreemfs.csv,0.875,0.725,0.26,5

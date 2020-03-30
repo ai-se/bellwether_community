@@ -1,0 +1,13 @@
+,recall,precision,pf,wins
+acegisecurity.csv,0.7,0.48,0.43,10
+echongl.csv,0.66,0.41,0.61,4
+les-indemodables.csv,0.6,0.54,0.35,11
+mbse.csv,0.55,0.47,0.41,9
+ns-3-dev-def-routing.csv,0.66,0.41,0.4,7
+psycle.csv,0.82,0.44,0.62,6
+qpe.csv,0.38,0.43,0.23,8
+simplewebservices.csv,0.92,0.38,0.9,0
+v8.csv,0.72,0.38,0.73,1
+wikipediardware.csv,0.88,0.4,0.81,2
+wxstudio.csv,0.25,0.43,0.32,5
+xamj.csv,0.67,0.41,0.62,3

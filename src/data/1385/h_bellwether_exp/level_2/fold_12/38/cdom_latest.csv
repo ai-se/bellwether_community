@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+fontforge.csv,0.9,0.16,0.94,0
+k3d.csv,0.02,0.03,0.13,1
+massiv.csv,0.1,0.04,0.05,4
+net-snmp.csv,0.75,0.32,0.44,6
+patterntesting.csv,1.0,0.16,0.94,2
+t-2.csv,0.29,0.15,0.48,3
+xreal.csv,0.12,0.12,0.19,5

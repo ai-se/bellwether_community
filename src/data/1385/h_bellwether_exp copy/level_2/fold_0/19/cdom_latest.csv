@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+bacnet.csv,0.53,0.55,0.28,10
+bibletime.csv,0.79,0.46,0.73,1
+boost.csv,0.57,0.56,0.35,9
+doomlegacy.csv,0.32,0.66,0.14,13
+gpac.csv,0.71,0.44,0.62,2
+kftpgrabber.csv,0.09,0.73,0.04,14
+nativeclient.csv,0.6,0.55,0.3,12
+netatalk.csv,0.67,0.48,0.53,4
+open-ms.csv,0.47,0.54,0.27,8
+openmsx.csv,0.33,0.36,0.33,0
+rosegarden.csv,0.71,0.55,0.39,11
+rsyslog.csv,0.73,0.5,0.4,7
+sandiaportals.csv,0.64,0.5,0.43,5
+xmoto.csv,0.66,0.52,0.46,6
+xqilla.csv,0.25,0.4,0.24,3

@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+bdbbasic.csv,0.79,0.62,0.24,4
+google-gears.csv,0.68,0.31,0.39,2
+httpcontentparser.csv,0.32,0.32,0.05,1
+qse.csv,0.74,0.28,0.19,3
+xmemcached.csv,0.78,0.39,0.8,0

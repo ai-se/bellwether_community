@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+cascading.csv,0.74,0.7,0.48,8
+graphmak.csv,0.56,0.64,0.42,5
+guineu.csv,0.27,0.62,0.17,6
+jhotdraw.csv,0.47,0.54,0.5,0
+ofbiz.csv,0.72,0.51,0.5,1
+pdfedit.csv,0.6,0.59,0.53,3
+pokeglobal.csv,0.68,0.58,0.52,4
+red5.csv,0.81,0.6,0.74,2
+twostep.csv,0.8,0.68,0.55,7

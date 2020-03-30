@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+aime.csv,0.89,0.38,0.75,1
+elateportal.csv,0.23,0.3,0.24,0
+etics.csv,0.18,0.42,0.22,7
+lockss.csv,0.12,0.5,0.07,9
+pcgen.csv,0.45,0.35,0.34,6
+personalaccess.csv,0.64,0.43,0.33,8
+pydev.csv,0.62,0.36,0.47,4
+rhex.csv,0.47,0.53,0.31,10
+stuproa-cims.csv,0.86,0.36,0.64,3
+uclmda.csv,0.07,0.3,0.12,2
+wgs-assembler.csv,0.28,0.33,0.21,5

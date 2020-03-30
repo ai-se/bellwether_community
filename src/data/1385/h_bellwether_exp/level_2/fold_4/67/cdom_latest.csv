@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+alembik.csv,0.24,0.67,0.17,10
+arsenal-1.csv,0.1,0.5,0.19,5
+barracudamvc.csv,0.91,0.45,0.91,0
+cascading.csv,0.59,0.58,0.5,7
+emisview.csv,0.2,0.64,0.14,9
+jitterbit.csv,0.7,0.56,0.64,6
+jppf-project.csv,0.54,0.45,0.55,1
+mevenide.csv,0.18,0.59,0.14,8
+mycila.csv,0.71,0.48,0.64,3
+ontopia.csv,0.59,0.47,0.55,2
+trackit.csv,0.15,0.4,0.1,4

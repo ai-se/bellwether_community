@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+brlcad.csv,0.475,0.525,0.54,0
+fceugc.csv,0.385,0.725,0.22999999999999998,6
+ftm.csv,0.425,0.725,0.245,7
+google-gears.csv,0.745,0.53,0.575,1
+jaolt.csv,0.565,0.635,0.335,5
+jcache.csv,0.535,0.645,0.4,4
+kmess.csv,0.605,0.48000000000000004,0.41,2
+xmemcached.csv,0.58,0.625,0.43,3

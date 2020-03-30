@@ -1,0 +1,6 @@
+,selenium.csv,pcgen.csv,autoopencas.csv,tolven.csv,nabu-library.csv
+autoopencas.csv,0.29,0.45,0.66,0.11,0.52
+nabu-library.csv,0.23,0.28,0.44,0.29,0.82
+pcgen.csv,0.69,0.72,0.42,0.45,0.67
+selenium.csv,0.72,0.61,0.38,0.58,0.41
+tolven.csv,0.54,0.57,0.0,0.65,0.02

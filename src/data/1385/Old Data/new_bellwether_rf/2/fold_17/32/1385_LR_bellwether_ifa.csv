@@ -1,0 +1,11 @@
+,heekscad.csv,gamestone.csv,xcsoar.csv,igarden.csv,gbif-providertoolkit.csv,levent.csv,bacnet.csv,owlapi.csv,quark.csv,pnotepad.csv
+bacnet.csv,2.0,3.0,9.0,9.0,1.0,0.0,0.0,5.0,10.0,1.0
+gamestone.csv,2.0,0.0,3.0,1.0,4.0,5.0,111.0,13.0,64.0,0.0
+gbif-providertoolkit.csv,1.0,1.0,0.0,5.0,0.0,0.0,5.0,9.0,64.0,1.0
+heekscad.csv,0.0,15.0,8.0,1.0,2.0,0.0,0.0,1.0,6.0,0.0
+igarden.csv,0.0,59.0,0.0,0.0,2.0,0.0,111.0,5.0,1.0,0.0
+levent.csv,5.0,20.0,1.0,6.0,2.0,0.0,1.0,22.0,11.0,0.0
+owlapi.csv,1.0,11.0,0.0,2.0,2.0,0.0,1.0,0.0,1.0,0.0
+pnotepad.csv,2.0,12.0,1.0,2.0,1.0,2.0,2.0,24.0,17.0,0.0
+quark.csv,1.0,0.0,0.0,2.0,3.0,71.0,111.0,5.0,0.0,0.0
+xcsoar.csv,0.0,16.0,0.0,0.0,14.0,3.0,0.0,27.0,10.0,0.0

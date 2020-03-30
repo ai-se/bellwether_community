@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+autoopencas.csv,0.45,0.39,0.5,0
+nabu-library.csv,0.24,0.33,0.25,1
+pcgen.csv,0.98,0.52,0.94,2
+selenium.csv,0.61,0.44,0.39,3
+tolven.csv,0.48,0.69,0.19,4

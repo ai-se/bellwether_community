@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+autat.csv,0.12,0.72,0.05,6
+brlcad.csv,0.48,0.6,0.36,3
+ftm.csv,0.54,0.66,0.34,5
+google-web-toolkit.csv,0.39,0.42,0.15,1
+jcache.csv,0.56,0.62,0.31,4
+mimosa.csv,0.74,0.57,0.63,2
+ogre.csv,1.0,0.46,1.0,0

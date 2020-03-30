@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+arsenal-1.csv,0.195,0.36,0.125,4
+aztec.csv,0.395,0.39,0.385,3
+jbpm.csv,0.425,0.355,0.355,2
+mediate.csv,0.655,0.37,0.555,1
+mycila.csv,0.09,0.45999999999999996,0.035,7
+neodatis-odb.csv,0.515,0.46499999999999997,0.445,6
+nsis.csv,0.78,0.36,0.64,0
+rodin-b-sharp.csv,0.05500000000000001,0.405,0.05,5

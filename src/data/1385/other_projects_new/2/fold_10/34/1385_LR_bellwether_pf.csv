@@ -1,0 +1,10 @@
+,igarden.csv,megasquirtavr.csv,piccolo2d.csv,wxlua.csv,tolven.csv,owlapi.csv,ingex.csv,twostep.csv,servicestack.csv
+igarden.csv,0.43,0.66,0.56,0.0,0.43,0.49,0.48,0.18,0.04
+ingex.csv,0.36,0.18,0.46,0.0,0.34,0.37,0.18,0.04,0.61
+megasquirtavr.csv,0.44,0.18,0.74,0.0,0.51,0.69,0.5,0.87,0.74
+owlapi.csv,0.18,0.42,0.39,0.62,0.26,0.22,0.54,0.02,0.85
+piccolo2d.csv,0.11,0.11,0.28,0.0,0.31,0.21,0.24,0.11,0.11
+servicestack.csv,0.03,0.04,0.13,0.0,0.36,0.42,0.06,0.04,0.17
+tolven.csv,0.42,0.14,0.35,0.0,0.22,0.19,0.46,0.0,0.02
+twostep.csv,0.6,0.7,0.98,0.5,0.77,0.95,0.74,0.16,0.61
+wxlua.csv,0.64,0.41,0.45,0.62,0.41,0.74,0.58,0.47,0.87

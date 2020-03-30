@@ -1,0 +1,6 @@
+,recall,precision,pf,wins
+decidr.csv,0.95,0.43,0.93,0
+elmo.csv,0.6,0.52,0.26,2
+mscore.csv,0.84,0.4,0.54,1
+tolven.csv,0.6,0.56,0.24,4
+xbplayer.csv,0.58,0.53,0.23,3

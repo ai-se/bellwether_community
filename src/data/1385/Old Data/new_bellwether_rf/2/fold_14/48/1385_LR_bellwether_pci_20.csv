@@ -1,0 +1,7 @@
+,qtractor.csv,quarkplayer.csv,open-data-kit.csv,zoolib.csv,google-web-toolkit.csv,fmri-dmt.csv
+fmri-dmt.csv,0.0,0.91,0.5,0.98,0.8,0.8
+google-web-toolkit.csv,0.8,0.69,0.68,0.79,0.5,0.6
+open-data-kit.csv,0.44,0.42,0.45,0.7,0.6,0.45
+qtractor.csv,0.48,0.54,0.57,0.98,0.58,0.44
+quarkplayer.csv,0.88,0.9,0.93,0.7,0.92,0.89
+zoolib.csv,0.86,0.94,0.93,0.95,0.97,0.88

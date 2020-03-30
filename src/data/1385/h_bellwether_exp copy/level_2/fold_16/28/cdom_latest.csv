@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+boost-sandbox.csv,0.69,0.28,0.52,4
+bscwweasel.csv,0.5,0.33,0.25,10
+capcode.csv,0.55,0.38,0.35,9
+cme.csv,0.0,0.0,0.0,1
+emite.csv,0.33,0.38,0.25,8
+fluent-nhibernate.csv,0.42,0.35,0.19,11
+lamp.csv,0.7,0.33,0.56,5
+mecat.csv,0.07,0.21,0.04,6
+nodal.csv,0.58,0.4,0.22,14
+pydev.csv,0.64,0.29,0.4,7
+retromenu.csv,0.3,0.42,0.2,12
+smbopensoft.csv,0.5,0.2,0.62,0
+stuproa-cims.csv,0.42,0.41,0.18,13
+thout.csv,0.7,0.28,0.6,2
+uface.csv,0.92,0.26,0.68,3

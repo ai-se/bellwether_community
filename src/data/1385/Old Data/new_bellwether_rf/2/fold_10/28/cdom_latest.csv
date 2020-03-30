@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+dataobjectsdotnet.csv,0.4,0.40499999999999997,0.34,1
+miranda-icq.csv,0.495,0.55,0.425,1
+red5.csv,0.765,0.345,0.405,1
+thrust.csv,0.445,0.5549999999999999,0.29000000000000004,3

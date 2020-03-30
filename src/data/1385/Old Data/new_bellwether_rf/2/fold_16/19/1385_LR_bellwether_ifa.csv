@@ -1,0 +1,9 @@
+,jlinalg.csv,superwaba.csv,fritzing.csv,playerstage.csv,knowledge.csv,massiv.csv,ng4j.csv,jmule.csv
+fritzing.csv,0.0,5.0,0.0,2.0,0.0,87.0,4.0,1.0
+jlinalg.csv,0.0,15.0,0.0,1.0,0.0,255.0,14.0,5.0
+jmule.csv,0.0,5.0,0.0,0.0,0.0,102.0,2.0,0.0
+knowledge.csv,0.0,23.0,1.0,1.0,0.0,269.0,1.0,7.0
+massiv.csv,0.0,141.0,0.0,140.0,66.0,0.0,78.0,52.0
+ng4j.csv,0.0,4.0,0.0,1.0,0.0,148.0,0.0,0.0
+playerstage.csv,0.0,1.0,0.0,0.0,0.0,124.0,1.0,0.0
+superwaba.csv,0.0,0.0,1.0,0.0,0.0,72.0,4.0,3.0

@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+blogentis.csv,0.5,0.38,0.31,4
+emulemorph.csv,0.01,0.11,0.04,0
+htmlunit.csv,0.5,0.36,0.26,5
+jvcl.csv,0.13,0.35,0.01,6
+m-m-m.csv,1.0,0.25,0.92,2
+nh3d.csv,0.26,0.18,0.05,3
+wgs-assembler.csv,0.12,0.13,0.13,1

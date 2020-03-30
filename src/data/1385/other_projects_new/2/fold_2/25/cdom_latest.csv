@@ -1,0 +1,10 @@
+,recall,precision,pf,wins
+bnetd.csv,0.8,0.77,0.77,5
+carabiner.csv,0.74,0.76,0.42,8
+grisbi.csv,0.98,0.55,0.9,1
+jmol.csv,0.78,0.73,0.87,3
+minig.csv,0.65,0.75,0.35,7
+mobicents.csv,0.77,0.68,0.35,6
+x4x.csv,0.76,0.54,0.74,0
+zabbix.csv,0.54,0.6,0.46,4
+zxing.csv,0.66,0.59,0.57,2

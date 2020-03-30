@@ -1,0 +1,16 @@
+,recall,precision,pf,wins
+checker-framework.csv,0.21,0.46,0.24,7
+fluidium.csv,0.27,0.44,0.32,4
+guineu.csv,0.38,0.5,0.42,9
+inkscape.csv,0.4,0.56,0.28,13
+mpqc.csv,0.21,0.43,0.25,5
+nsis.csv,0.9,0.42,0.93,0
+octave.csv,0.39,0.46,0.39,6
+owfs.csv,0.32,0.49,0.17,12
+owlib.csv,0.61,0.6,0.48,14
+pamguard.csv,0.73,0.41,0.67,2
+prelude.csv,0.82,0.41,0.71,3
+robocode.csv,0.55,0.49,0.52,8
+uwom-server.csv,0.12,0.5,0.21,11
+zengine.csv,0.82,0.4,0.76,1
+zildo.csv,0.38,0.46,0.29,10

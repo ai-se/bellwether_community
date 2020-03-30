@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+arianne.csv,0.5249999999999999,0.705,0.385,4
+jlinalg.csv,0.8200000000000001,0.485,0.7,3
+knowledge.csv,1.0,0.485,0.95,1
+massiv.csv,0.0,0.0,0.0,0
+playerstage.csv,0.475,0.7549999999999999,0.14500000000000002,5
+ultimairis.csv,0.885,0.645,0.89,2

@@ -1,0 +1,7 @@
+,recall,precision,pf,wins
+buddata-ebxml-registry.csv,1.0,0.37,0.945,0
+lazarus-ccr.csv,0.495,0.48,0.38,1
+lcfizvtop.csv,0.24,0.54,0.135,4
+migen.csv,0.41000000000000003,0.49,0.275,2
+mvnforum.csv,0.22499999999999998,0.59,0.08499999999999999,5
+plplot.csv,0.71,0.515,0.55,3

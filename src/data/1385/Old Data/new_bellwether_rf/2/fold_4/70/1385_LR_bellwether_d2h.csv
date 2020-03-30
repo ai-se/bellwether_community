@@ -1,0 +1,7 @@
+,nova.csv,crisscross.csv,mvdsv.csv,proftp.csv,libmesh.csv,l2j.csv,jfreechart.csv
+crisscross.csv,0.96,0.19,1.02,0.91,0.87,0.71,1.16
+l2j.csv,0.63,0.9,0.86,0.68,1.0,0.01,0.69
+libmesh.csv,0.33,0.75,1.0,0.99,0.13,0.79,1.0
+mvdsv.csv,1.0,1.0,0.0,0.8,0.96,1.0,1.0
+nova.csv,0.0,0.65,1.2,0.68,0.79,0.68,0.45
+proftp.csv,0.89,0.73,0.48,0.03,0.85,0.72,1.08

@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+adonthell.csv,0.595,0.6799999999999999,0.32,6
+chaperon.csv,0.135,0.565,0.175,2
+forester-atv.csv,0.13,0.595,0.1,3
+gephex.csv,0.46,0.64,0.305,5
+pokenetonline.csv,0.33,0.73,0.175,7
+primefaces.csv,0.8999999999999999,0.595,0.845,1
+rcp-company-uibindings.csv,0.975,0.595,0.95,0
+yarp0.csv,0.275,0.65,0.31,4

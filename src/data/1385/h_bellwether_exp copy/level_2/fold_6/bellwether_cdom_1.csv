@@ -1,0 +1,10 @@
+,recall,precision,pf,cdom,bellwether
+1,0.66,0.6,0.41,6.0,springside.csv
+9,0.45499999999999996,0.14,0.14,1.0,emftriple.csv
+12,0.8,0.48,0.36,9.0,mplayer-ce.csv
+26,0.905,0.52,0.41000000000000003,4.0,bzbyte.csv
+32,0.65,0.43,0.34,17.0,riff-evolve.csv
+51,0.33499999999999996,0.38,0.36,16.0,jrdf.csv
+23,0.8200000000000001,0.595,0.575,1.0,magicwars.csv
+24,0.63,0.56,0.43,4.0,codesmith.csv
+25,0.7,0.645,0.59,0.0,xmemcached.csv

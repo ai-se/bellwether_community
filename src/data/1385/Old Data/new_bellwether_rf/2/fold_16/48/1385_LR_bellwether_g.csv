@@ -1,0 +1,10 @@
+,exordium.csv,mptvseries.csv,toped.csv,qtractor.csv,flexpay.csv,openmsx.csv,synergyspace.csv,elateportal.csv,tango-cs.csv
+elateportal.csv,0.24,0.22,0.45,0.46,0.44,0.36,0.52,1.0,0.33
+exordium.csv,1.0,0.25,0.44,0.33,0.56,0.18,0.54,0.17,0.49
+flexpay.csv,0.38,0.53,0.24,0.47,0.92,0.51,0.18,0.0,0.31
+mptvseries.csv,0.66,0.96,0.54,0.55,0.51,0.13,0.27,0.0,0.35
+openmsx.csv,0.61,0.64,0.61,0.37,0.33,0.93,0.49,0.45,0.55
+qtractor.csv,0.65,0.61,0.76,1.0,0.56,0.44,0.3,0.13,0.5
+synergyspace.csv,0.19,0.0,0.15,0.05,0.26,0.04,0.93,0.0,0.19
+tango-cs.csv,0.36,0.0,0.43,0.21,0.44,0.23,0.52,0.06,0.93
+toped.csv,0.32,0.64,1.0,0.61,0.57,0.57,0.66,0.82,0.44

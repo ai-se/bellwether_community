@@ -29,7 +29,6 @@ import matplotlib.pyplot as plt
 
 import SMOTE
 import feature_selector
-import DE
 import CFS
 import birch
 import metrics.abcd
@@ -299,7 +298,7 @@ if __name__ == "__main__":
     #path = '/gpfs_common/share02/tjmenzie/smajumd3/AI4SE/bellwether_community/data/1385/converted'
     path = '/Users/suvodeepmajumder/Documents/AI4SE/bellwether_comminity/data/1385/converted'
     meta_path = 'data/1385/projects/selected_attr.pkl'
-    _data_store_path = 'data/1385/exp_new_val/2/'
+    _data_store_path = 'data/1385/h_bellwether_exp/level_2/'
     attr_dict = pd.read_pickle(meta_path)
     attr_df = pd.DataFrame.from_dict(attr_dict,orient='index')
     attr_df_index = list(attr_df.index)

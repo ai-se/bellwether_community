@@ -1,0 +1,4 @@
+,recall,precision,pf,wins
+columba.csv,0.64,0.53,0.4,2
+emftriple.csv,0.13,0.4,0.11,1
+gpsmid.csv,0.8,0.32,0.67,0

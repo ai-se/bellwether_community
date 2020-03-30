@@ -1,0 +1,8 @@
+,recall,precision,pf,wins
+crisscross.csv,0.33,0.57,0.23,2
+ivatamasks.csv,0.53,0.68,0.31,5
+ivataopenportal.csv,0.81,0.54,0.82,0
+kolmafia.csv,0.67,0.57,0.47,3
+mb-unit.csv,0.62,0.59,0.46,4
+nova.csv,0.53,0.55,0.45,1
+olex2.csv,0.51,0.67,0.25,6

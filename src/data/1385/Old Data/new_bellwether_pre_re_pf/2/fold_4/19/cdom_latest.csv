@@ -1,0 +1,5 @@
+,recall,precision,pf,wins
+multitude.csv,0.72,0.635,0.44000000000000006,3
+ngl.csv,0.745,0.53,0.67,0
+qmmp.csv,0.59,0.655,0.355,2
+quarkplusplus.csv,0.5700000000000001,0.615,0.29500000000000004,1

@@ -1,0 +1,9 @@
+,recall,precision,pf,wins
+cleartk.csv,0.65,0.46499999999999997,0.5449999999999999,2
+ibatisdb.csv,0.38,0.495,0.37,3
+log4net.csv,0.24,0.475,0.20500000000000002,5
+ofbiz.csv,0.715,0.56,0.57,7
+opensim4opencog.csv,0.45999999999999996,0.53,0.38,6
+openwbem.csv,0.43,0.45,0.51,0
+power-architect.csv,0.81,0.45499999999999996,0.71,1
+x-ray-mule.csv,0.22,0.505,0.295,4

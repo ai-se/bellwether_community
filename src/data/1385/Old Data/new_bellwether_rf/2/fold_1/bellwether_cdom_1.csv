@@ -1,0 +1,7 @@
+,recall,precision,pf,cdom,bellwether
+2,0.445,0.42,0.31,19.0,dataobjectsdotnet.csv
+23,0.04,0.48,0.3,6.0,foursquared.csv
+31,0.315,0.515,0.14500000000000002,3.0,fluent-nhibernate.csv
+36,0.7949999999999999,0.44,0.26,11.0,autofac.csv
+49,0.54,0.23,0.19,13.0,sepgsql.csv
+1,0.86,0.9299999999999999,0.86,0.0,atunes.csv

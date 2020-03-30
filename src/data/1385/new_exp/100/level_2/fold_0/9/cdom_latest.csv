@@ -1,0 +1,12 @@
+,recall,precision,pf,wins
+arianne.csv,0.8,0.64,0.74,3
+emftriple.csv,0.0,0.0,0.0,0
+empyrean.csv,0.47,0.53,0.37,5
+knowledge.csv,1.0,0.51,0.95,1
+lmms.csv,0.74,0.61,0.52,6
+novembre.csv,0.26,0.6,0.2,7
+olap-navigator.csv,0.86,0.63,0.78,2
+opde.csv,0.71,0.61,0.62,4
+psrchive.csv,0.22,0.64,0.08,10
+sauerbraten.csv,0.32,0.65,0.16,9
+zorannt.csv,0.47,0.58,0.25,8

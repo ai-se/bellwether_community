@@ -1,0 +1,6 @@
+,xmemcached.csv,httpcontentparser.csv,bdbbasic.csv,qse.csv,google-gears.csv
+bdbbasic.csv,0.42,0.2,1.0,0.76,0.83
+google-gears.csv,0.35,0.11,0.29,0.45,1.0
+httpcontentparser.csv,0.0,1.0,0.16,0.36,0.68
+qse.csv,0.45,0.21,0.56,1.0,0.94
+xmemcached.csv,1.0,0.14,0.19,0.44,0.73
